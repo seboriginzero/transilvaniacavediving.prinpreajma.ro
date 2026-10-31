@@ -215,6 +215,35 @@ test.describe('Transilvania Cave Diving — End-to-End & Visual Fidelity Verific
     await allTab.click();
     await expect(page.locator('#brand-bauer-kompressoren')).toBeVisible();
 
+    // Verify zero duplicate product model cards (h5) and zero duplicate product gallery photos on /magazin
+    const duplicationAudit = await page.evaluate(() => {
+      const modelHeadings = Array.from(document.querySelectorAll('main h5')).map((el) =>
+        (el.textContent || '').trim()
+      );
+      const duplicateModels = modelHeadings.filter(
+        (m, idx) => modelHeadings.indexOf(m) !== idx
+      );
+
+      const galleryImgs = Array.from(
+        document.querySelectorAll('main .wp-block-jetpack-tiled-gallery img')
+      ).map((img) => (img as HTMLImageElement).getAttribute('src') || '');
+      const duplicateGalleryImgs = galleryImgs.filter(
+        (src, idx) => galleryImgs.indexOf(src) !== idx
+      );
+
+      return {
+        modelCount: modelHeadings.length,
+        duplicateModels,
+        galleryImgCount: galleryImgs.length,
+        duplicateGalleryImgs,
+      };
+    });
+
+    expect(duplicationAudit.modelCount).toBeGreaterThanOrEqual(26);
+    expect(duplicationAudit.duplicateModels).toEqual([]);
+    expect(duplicationAudit.galleryImgCount).toBe(38);
+    expect(duplicationAudit.duplicateGalleryImgs).toEqual([]);
+
     // Verify every single "Fișa tehnică completă" and internal link on /magazin resolves with HTTP 200 (0 dead links)
     const internalHrefs = await page.evaluate(() => {
       const anchors = Array.from(document.querySelectorAll('a[href^="/"]')) as HTMLAnchorElement[];

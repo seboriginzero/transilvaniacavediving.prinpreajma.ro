@@ -80,16 +80,28 @@ export const EQUIPMENT_CATALOG: EquipmentBrandCatalog[] = [
         articlePath: '/2021/04/03/fenix-hp16r-1700-lumens-high-performance-rechargeable-outdoor-headlamp',
       },
       {
-        model: 'Fenix HM65R & HM65R-T',
-        badge: '1400–1500 Lumeni · Magneziu',
-        specs: 'Greutate redusă cu 30% datorită carcasei din magneziu · Sistem rapid de strângere BOA pe cască',
+        model: 'Fenix HM65R',
+        badge: '1400 Lumeni · Magneziu',
+        specs: 'Greutate redusă cu 30% datorită carcasei din magneziu · Spotlight + Floodlight · IP68 submersibilă 2 m',
         articlePath: '/2023/10/21/fenix-hm65r-lanterna-frontala-1400-lumeni-163-metri',
+      },
+      {
+        model: 'Fenix HM65R-T & HM65R-DT',
+        badge: '1500 Lumeni · Sistem BOA',
+        specs: 'Sistem rapid de ajustare pe cască cu o singură mână · Dublu fascicul alb rece + cald pentru ceață/umiditate',
+        articlePath: '/2023/10/21/fenix-hm65r-dt-lanterna-frontala-1500-lumeni-170-metri-dark-purple',
       },
       {
         model: 'Fenix HM61R & HM60R',
         badge: '1200 Lumeni · Multifuncțională',
         specs: 'Detecție a frecvenței pașilor (HM60R) sau corp detașabil în unghi drept cu bază magnetică (HM61R)',
         articlePath: '/2021/04/29/lanterna-frontala-fenix-hm61r-1200-lumeni',
+      },
+      {
+        model: 'Fenix HL32R',
+        badge: '600 Lumeni · Ultraușoară',
+        specs: 'Lanternă frontală compactă cu acumulator Li-Polymer 2000 mAh integrat · Lumină albă + roșie · IP66',
+        articlePath: '/2021/03/31/lanterna-frontala-reincarcabila-fenix-hl32r-600-lumeni',
       },
     ],
     gallery: [

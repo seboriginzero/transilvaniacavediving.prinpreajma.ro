@@ -6,18 +6,13 @@ import {
   Truck,
   RotateCcw,
   Phone,
-  ArrowRight,
   ShieldCheck,
 } from 'lucide-react';
-import {
-  getPageByPath,
-  getEquipmentArticles,
-} from '@/lib/content';
+import { getPageByPath } from '@/lib/content';
 import { buildPageMetadata } from '@/lib/seo';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { MarkdownContent } from '@/components/MarkdownContent';
 import { EquipmentShowcase } from '@/components/EquipmentShowcase';
-import { CardMediaThumb } from '@/components/CardMediaThumb';
 
 export const metadata = (() => {
   const page = getPageByPath('/magazin');
@@ -26,11 +21,48 @@ export const metadata = (() => {
     : { title: 'Magazin Echipamente Scufundări și Speologie' };
 })();
 
+/**
+ * Extracts only the commercial, ordering, delivery, and OUG 34/2014 return policy blocks
+ * from /magazin bodyMarkdown so the 9 brand logos and 38 product photos already shown
+ * in <EquipmentShowcase /> are never rendered a second time on the page.
+ */
+function extractCommercialTermsMarkdown(bodyMarkdown: string): string {
+  const blocks = bodyMarkdown
+    .replace(/\r\n/g, '\n')
+    .split(/\n{2,}/)
+    .map((b) => b.trim())
+    .filter(Boolean);
+
+  const kept: string[] = [];
+  let inBrandGalleries = false;
+
+  for (const block of blocks) {
+    // Skip the intro brand links line since all 9 brands are in EquipmentShowcase
+    if (block.startsWith('### Transilvania Cave Diving distribuie echipamente')) {
+      continue;
+    }
+    // Start of brand logos/galleries inside bodyMarkdown
+    if (block.includes('/media/logos/fenix_logo-e.jpg')) {
+      inBrandGalleries = true;
+      continue;
+    }
+    // Resume at "### Livrare și plată"
+    if (/^###\s+Livrare/i.test(block)) {
+      inBrandGalleries = false;
+    }
+    if (!inBrandGalleries && !block.startsWith('![')) {
+      kept.push(block);
+    }
+  }
+
+  return kept.join('\n\n');
+}
+
 export default function MagazinPage() {
   const page = getPageByPath('/magazin');
   if (!page) notFound();
 
-  const productArticles = getEquipmentArticles();
+  const termsMarkdown = extractCommercialTermsMarkdown(page.bodyMarkdown);
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8 space-y-16">
@@ -111,56 +143,12 @@ export default function MagazinPage() {
       {/* Professional Showcase of All 9 Brands, Models, Technical Specs & Tiled Product Galleries */}
       <EquipmentShowcase />
 
-      {/* Detailed Product Technical Sheets from Archive */}
-      {productArticles.length > 0 && (
-        <section className="space-y-6">
-          <div className="flex flex-wrap items-end justify-between gap-4 border-b border-cavern-700 pb-4">
-            <div>
-              <p className="text-xs font-bold uppercase tracking-wider text-karst-400">
-                Specificații detaliate, autonomie și teste de teren
-              </p>
-              <h2 className="mt-1 font-serif text-2xl font-bold text-limestone-50 sm:text-3xl">
-                Fișe Tehnice de Produse și Prezentări Echipamente ({productArticles.length} Articole)
-              </h2>
-            </div>
-          </div>
-
-          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {productArticles.map((art) => (
-              <Link
-                key={art.path}
-                href={art.path}
-                className="group flex flex-col overflow-hidden rounded-2xl border border-cavern-700 bg-cavern-800/90 shadow-md transition-all duration-300 hover:-translate-y-1 hover:border-karst-500"
-              >
-                <CardMediaThumb src={art.heroImage} alt={art.cleanTitle} />
-                <div className="flex flex-1 flex-col justify-between p-5">
-                  <div>
-                    <span className="font-mono text-xs text-karst-400">
-                      {art.publicationDate?.slice(0, 10)}
-                    </span>
-                    <h3 className="mt-1 font-serif text-lg font-bold text-limestone-100 group-hover:text-karst-400">
-                      {art.cleanTitle}
-                    </h3>
-                    <p className="mt-2 line-clamp-2 text-xs leading-relaxed text-limestone-300">
-                      {art.metaDescription}
-                    </p>
-                  </div>
-                  <span className="mt-4 inline-flex items-center gap-1 text-xs font-semibold text-karst-400">
-                    Vezi specificațiile tehnice <ArrowRight className="h-3.5 w-3.5 transition group-hover:translate-x-0.5" />
-                  </span>
-                </div>
-              </Link>
-            ))}
-          </div>
-        </section>
-      )}
-
-      {/* Complete Original Terms & Conditions from /magazin/ */}
+      {/* Complete Original Terms & Conditions from /magazin/ (without repeating brand galleries) */}
       <section className="rounded-2xl border border-cavern-700 bg-cavern-800/60 p-6 sm:p-8 shadow-xl">
         <h2 className="mb-6 border-b border-cavern-700 pb-3 font-serif text-2xl font-bold text-limestone-50">
-          Condiții Complete de Comandă, Livrare și Returnare (Text Oficial Integral)
+          Condiții Complete de Comandă, Livrare și Returnare
         </h2>
-        <MarkdownContent markdown={page.bodyMarkdown} />
+        <MarkdownContent markdown={termsMarkdown} />
       </section>
     </div>
   );
