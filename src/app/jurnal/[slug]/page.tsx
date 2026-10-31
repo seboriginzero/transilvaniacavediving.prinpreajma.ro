@@ -13,9 +13,15 @@ interface RouteParams {
 
 export function generateStaticParams() {
   const posts = getAllPosts();
-  return posts.map((post) => ({
-    slug: post.slug,
-  }));
+  const params: { slug: string }[] = [];
+  for (const post of posts) {
+    const decoded = decodeURIComponent(post.slug);
+    params.push({ slug: decoded });
+    if (post.slug !== decoded) {
+      params.push({ slug: post.slug });
+    }
+  }
+  return params;
 }
 
 export function generateMetadata({ params }: RouteParams): Metadata {

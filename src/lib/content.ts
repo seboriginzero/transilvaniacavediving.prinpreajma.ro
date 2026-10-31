@@ -137,18 +137,43 @@ export function getPageByPath(routePath: string): PageRecord | undefined {
   return db.pages.find((p) => p.path === normalized);
 }
 
+const LEGACY_SLUG_ALIASES: Record<string, string> = {
+  'lanterna-frontala-fenix-hm75r-1600-lumeni': 'fenix-hm75r-lanterna-frontala-1600-lumeni-223-metri',
+  'lanterna-frontala-fenix-hp30r-v2-0-3000-lumeni': 'fenix-hp30r-v2-0-lanterna-frontala-3000-lumeni-270-metri',
+  'lanterna-frontala-fenix-hm70r-1600-lumeni': 'nou-lanterna-frontala-fenix-hm70r-1600-lumeni',
+  'lanterna-frontala-fenix-hp16r-1700-lumeni': 'fenix-hp16r-1700-lumens-high-performance-rechargeable-outdoor-headlamp',
+  'set-sidemount-tecline': 'oferta-set-sidemount-tecline-15-discount',
+  'led-teclight-standard-3900-lumeni': 'led-teclight-standard-3900-lm-military-line',
+  'compresor-bauer-junior-ii-30th-anniversary': 'junior-ii-30th-anniversary-%f0%9f%8e%89',
+  'junior-ii-30th-anniversary': 'junior-ii-30th-anniversary-%f0%9f%8e%89',
+};
+
 export function getAllPosts(): PageRecord[] {
   return db.posts;
 }
 
 export function getPostBySlug(slug: string): PageRecord | undefined {
-  const decoded = decodeURIComponent(slug).toLowerCase();
-  return db.posts.find(
-    (p) =>
-      p.slug.toLowerCase() === decoded ||
-      decodeURIComponent(p.slug).toLowerCase() === decoded ||
+  let decoded = slug.toLowerCase();
+  try {
+    decoded = decodeURIComponent(slug).toLowerCase();
+  } catch {
+    // keep raw slug if malformed URI component
+  }
+  const canonicalSlug =
+    LEGACY_SLUG_ALIASES[decoded] || LEGACY_SLUG_ALIASES[slug.toLowerCase()] || decoded;
+
+  return db.posts.find((p) => {
+    const pSlugLower = p.slug.toLowerCase();
+    const pSlugDecoded = decodeURIComponent(p.slug).toLowerCase();
+    return (
+      pSlugLower === canonicalSlug ||
+      pSlugDecoded === canonicalSlug ||
+      pSlugLower === decoded ||
+      pSlugDecoded === decoded ||
+      p.path.toLowerCase().endsWith(`/${canonicalSlug}`) ||
       p.path.toLowerCase().endsWith(`/${decoded}`)
-  );
+    );
+  });
 }
 
 export function getPostByDateAndSlug(
@@ -157,11 +182,29 @@ export function getPostByDateAndSlug(
   day: string,
   slug: string
 ): PageRecord | undefined {
-  const decodedSlug = decodeURIComponent(slug).toLowerCase();
-  const targetPath = `/${year}/${month}/${day}/${decodedSlug}`;
+  let decodedSlug = slug.toLowerCase();
+  try {
+    decodedSlug = decodeURIComponent(slug).toLowerCase();
+  } catch {
+    // keep raw slug if malformed URI component
+  }
+  const canonicalSlug =
+    LEGACY_SLUG_ALIASES[decodedSlug] || LEGACY_SLUG_ALIASES[slug.toLowerCase()] || decodedSlug;
+  const targetPath = `/${year}/${month}/${day}/${canonicalSlug}`;
+
   return db.posts.find((p) => {
+    const pPathLower = p.path.toLowerCase();
     const pDecoded = decodeURIComponent(p.path).toLowerCase();
-    return p.path.toLowerCase() === targetPath || pDecoded === targetPath || p.slug.toLowerCase() === decodedSlug;
+    const pSlugLower = p.slug.toLowerCase();
+    const pSlugDecoded = decodeURIComponent(p.slug).toLowerCase();
+    return (
+      pPathLower === targetPath ||
+      pDecoded === targetPath ||
+      pSlugLower === canonicalSlug ||
+      pSlugDecoded === canonicalSlug ||
+      pSlugLower === decodedSlug ||
+      pSlugDecoded === decodedSlug
+    );
   });
 }
 

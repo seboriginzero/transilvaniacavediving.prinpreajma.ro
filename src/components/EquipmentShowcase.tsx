@@ -59,37 +59,37 @@ export const EQUIPMENT_CATALOG: EquipmentBrandCatalog[] = [
         model: 'Fenix HM75R',
         badge: '1600 Lumeni · Power Bank',
         specs: 'Corp din aliaj de magneziu · Spot + Flood + Lumină Roșie · Power Bank extern inclus · IP68',
-        articlePath: '/2024/10/11/lanterna-frontala-fenix-hm75r-1600-lumeni',
+        articlePath: '/2025/01/26/fenix-hm75r-lanterna-frontala-1600-lumeni-223-metri',
       },
       {
         model: 'Fenix HP30R V2.0',
         badge: '3000 Lumeni · Expediție',
         specs: '2× acumulatori 21700 (5000 mAh) în carcasă pe curea/cască · Autonomie până la 120 ore',
-        articlePath: '/2022/04/12/lanterna-frontala-fenix-hp30r-v2-0-3000-lumeni',
+        articlePath: '/2023/05/09/fenix-hp30r-v2-0-lanterna-frontala-3000-lumeni-270-metri',
       },
       {
         model: 'Fenix HM70R',
         badge: '1600 Lumeni · 21700',
         specs: 'Acumulator 21700 de mare capacitate · Port USB Type-C ascuns și impermeabil · 100 ore autonomie',
-        articlePath: '/2022/04/05/lanterna-frontala-fenix-hm70r-1600-lumeni',
+        articlePath: '/2021/12/14/nou-lanterna-frontala-fenix-hm70r-1600-lumeni',
       },
       {
         model: 'Fenix HP16R',
         badge: '1700 Lumeni · Dual Beam',
         specs: 'Reflector dublu (distanță 260 m + difuz de apropiere) · Acumulator Li-Polymer 3000 mAh + compatibil 4×AA',
-        articlePath: '/2022/03/28/lanterna-frontala-fenix-hp16r-1700-lumeni',
+        articlePath: '/2021/04/03/fenix-hp16r-1700-lumens-high-performance-rechargeable-outdoor-headlamp',
       },
       {
         model: 'Fenix HM65R & HM65R-T',
         badge: '1400–1500 Lumeni · Magneziu',
         specs: 'Greutate redusă cu 30% datorită carcasei din magneziu · Sistem rapid de strângere BOA pe cască',
-        articlePath: '/2024/10/11/lanterna-frontala-fenix-hm65r-1400-lumeni',
+        articlePath: '/2023/10/21/fenix-hm65r-lanterna-frontala-1400-lumeni-163-metri',
       },
       {
         model: 'Fenix HM61R & HM60R',
         badge: '1200 Lumeni · Multifuncțională',
         specs: 'Detecție a frecvenței pașilor (HM60R) sau corp detașabil în unghi drept cu bază magnetică (HM61R)',
-        articlePath: '/2022/04/05/lanterna-frontala-fenix-hm61r-1200-lumeni',
+        articlePath: '/2021/04/29/lanterna-frontala-fenix-hm61r-1200-lumeni',
       },
     ],
     gallery: [
@@ -132,7 +132,7 @@ export const EQUIPMENT_CATALOG: EquipmentBrandCatalog[] = [
     categoryGroup: 'diving',
     categoryLabel: 'Scufundări Tehnice & Sidemount',
     logo: '/media/shop/tecline-1.jpg',
-    officialWebsite: 'https://tecline.com.pl',
+    officialWebsite: 'https://teclinediving.eu/',
     summary:
       'Gama completă de echipamente tehnice de scufundare proiectate pentru explorarea sifoanelor, epavelor și scufundări la mare adâncime în ape reci. Configurații modulare DIR, Sidemount și Military Line.',
     productLines: [
@@ -147,24 +147,25 @@ export const EQUIPMENT_CATALOG: EquipmentBrandCatalog[] = [
         model: 'Set Sidemount TecLine',
         badge: 'Configurație Sifoane & Restricții',
         specs: 'Harnașament complet + aripă compensatorie dedicată pasajelor înguste și peșterilor scufundate',
-        articlePath: '/2019/03/17/set-sidemount-tecline',
+        articlePath: '/2021/09/14/oferta-set-sidemount-tecline-15-discount',
       },
       {
         model: 'LED TecLight Standard',
         badge: '3900 Lumeni · Canistră 150 m',
         specs: 'Triplu LED Cree XPL · Unghi fascicul 6° · Autonomie 4h 30min · Canistră Delrin cu mâner Goodman',
-        articlePath: '/2019/03/17/led-teclight-standard-3900-lumeni',
+        articlePath: '/2021/08/06/led-teclight-standard-3900-lm-military-line',
       },
       {
         model: 'Military Line Special Forces',
         badge: 'Tactic & Intervenție',
         specs: 'Echipamente cu finisaj mat anti-reflex și materiale armate Kevlar pentru scafandri militari și salvare',
-        articlePath: '/2021/10/08/military-line-tecline',
+        articlePath: '/2022/05/20/military-line-tecline',
       },
       {
         model: 'Detentoare V2 ICE & R2 TEC',
         badge: 'Certificare EN250A Ape Reci',
         specs: 'Traseu optimizat al furtunurilor pentru configurații Sidemount și Twinset în ape de 4–8°C',
+        articlePath: '/2023/11/07/hose-holders-for-111-7-liter-aluminum-cylinders-and-other-cylinders-with-a-diameter-of-182-152-mm',
       },
     ],
     gallery: [
@@ -222,6 +223,7 @@ export const EQUIPMENT_CATALOG: EquipmentBrandCatalog[] = [
         model: 'LED Stingray Video Set',
         badge: 'Iluminare Foto-Video Sifoane',
         specs: 'Set dublu de proiectoare video subacvatice cu unghi larg (120°) pentru documentare în galerii inundate',
+        articlePath: '/2020/11/07/ammonite-system-dive-lights-and-heating-systems',
       },
     ],
     gallery: [
@@ -249,7 +251,7 @@ export const EQUIPMENT_CATALOG: EquipmentBrandCatalog[] = [
     categoryGroup: 'thermal',
     categoryLabel: 'Costume Uscate & Protecție Termică',
     logo: '/media/logos/kwark_logo_male.png',
-    officialWebsite: 'https://kwark.eu',
+    officialWebsite: '/contact',
     summary:
       'Protecție termică de înaltă performanță concepută special pentru scafandri de peșteră și speologi. Materialele Polartec® Power Stretch® Pro și Windbloc® mențin confortul termic în ape de 4–7°C fără a adăuga flotabilitate excesivă.',
     productLines: [
@@ -263,11 +265,13 @@ export const EQUIPMENT_CATALOG: EquipmentBrandCatalog[] = [
         model: 'Kwark Navy Undersuit',
         badge: 'Polartec® Power Stretch® Pro',
         specs: 'Elasticitate pe 4 direcții · Evacuare rapidă a transpirației · Păstrează izolația chiar și umed · Fermoar dublu și orificii pentru P-Valve/încălzire',
+        articlePath: '/2021/12/27/discount-10-pentru-persoanele-legitimate-la-frs-corsa-si-ansmr-la-toate-produsele-comercializate-de-transilvania-cave-diving',
       },
       {
         model: 'Kwark Aquashell & Straturi Termice',
         badge: 'Speologie & Scufundări Tehnice',
         specs: 'Protecție hidrofobă și rezistență la vânt, ideală atât sub costumul uscat cât și în explorări speologice',
+        articlePath: '/2021/11/21/reduceri-de-pana-la-50-pentru-urmatoarea-gama-de-produse',
       },
     ],
     gallery: [
@@ -310,7 +314,7 @@ export const EQUIPMENT_CATALOG: EquipmentBrandCatalog[] = [
     categoryGroup: 'diving',
     categoryLabel: 'Scufundări Tehnice & Sidemount',
     logo: '/media/shop/ur-flex-1.jpg',
-    officialWebsite: 'https://transilvaniacavediving.com/magazin/',
+    officialWebsite: 'http://ur-flex.com/',
     summary:
       'Furtunuri de scufundare extrem de flexibile și rezistente la abraziune, disponibile într-o gamă completă de lungimi (de la 15 cm la 210 cm long-hose) pentru configurarea curată a echipamentelor Sidemount, Twinset și Stage.',
     productLines: [
@@ -323,11 +327,13 @@ export const EQUIPMENT_CATALOG: EquipmentBrandCatalog[] = [
         model: 'Furtunuri LP Braided & Cauciuc (15–210 cm)',
         badge: 'Joasă Presiune · Rutare Sidemount/DIR',
         specs: 'Rezistență la îndoire (kink-resistant) și flexibilitate superioară în apă rece',
+        articlePath: '/2023/11/07/hose-holders-for-111-7-liter-aluminum-cylinders-and-other-cylinders-with-a-diameter-of-182-152-mm',
       },
       {
         model: 'Furtunuri HP Kevlar / Cauciuc pentru SPG',
         badge: 'Înaltă Presiune · 300+ Bar',
         specs: 'Diametru redus sau profil clasic din cauciuc cu protecție ridicată la frecarea de calcar',
+        articlePath: '/2021/11/21/reduceri-de-pana-la-50-pentru-urmatoarea-gama-de-produse',
       },
     ],
     gallery: [
@@ -364,17 +370,19 @@ export const EQUIPMENT_CATALOG: EquipmentBrandCatalog[] = [
         model: 'Bauer Junior II (Benzină / Electric)',
         badge: '100 l/min · 225 / 330 Bar',
         specs: 'Compresorul portabil etalon pentru expediții de cave diving · Filtrare B-Timer și șasiu anticoroziv',
-        articlePath: '/2020/07/22/compresor-bauer-junior-ii-30th-anniversary',
+        articlePath: '/2025/01/25/junior-ii-30th-anniversary-%f0%9f%8e%89',
       },
       {
         model: 'Bauer Mariner 250 / 320',
         badge: '250–320 l/min · Profi-Line',
         specs: 'Bloc compresor în 3 sau 4 trepte cu răcire intensivă pentru utilizare continuă pe teren',
+        articlePath: '/2025/01/25/junior-ii-30th-anniversary-%f0%9f%8e%89',
       },
       {
         model: 'Sisteme OX-Blending & Verticus',
         badge: 'Nitrox / Trimix & Stații Umplere',
         specs: 'Stații complete de preparare amestecuri respiratorii, stocare și panouri de distribuție multiplă',
+        articlePath: '/2021/12/27/discount-10-pentru-persoanele-legitimate-la-frs-corsa-si-ansmr-la-toate-produsele-comercializate-de-transilvania-cave-diving',
       },
     ],
     gallery: [
@@ -425,11 +433,13 @@ export const EQUIPMENT_CATALOG: EquipmentBrandCatalog[] = [
         model: 'Ursuit Heavy Light 2.0',
         badge: 'Trilaminat Cave & Tech Diving',
         specs: 'Fermoar frontal cu clapetă de protecție · Torso telescopic · Buzunare tehnice mari pe coapse și genunchiere Kevlar®',
+        articlePath: '/2021/12/27/discount-10-pentru-persoanele-legitimate-la-frs-corsa-si-ansmr-la-toate-produsele-comercializate-de-transilvania-cave-diving',
       },
       {
         model: 'Ursuit Rescue 2.0 & Pursuit X3',
         badge: 'Salvare Acvatică & Speologie Activă',
         specs: 'Material Gore-Tex® / 4-Tex® respirabil și impermeabil pentru echipe de salvare montană, speologică și acvatică',
+        articlePath: '/2021/12/27/discount-10-pentru-persoanele-legitimate-la-frs-corsa-si-ansmr-la-toate-produsele-comercializate-de-transilvania-cave-diving',
       },
     ],
     gallery: [
@@ -471,16 +481,19 @@ export const EQUIPMENT_CATALOG: EquipmentBrandCatalog[] = [
         model: 'Quick Cuff / QCP Oval & Antares',
         badge: 'Mănuși Uscate & Manșete Silicon',
         specs: 'Inele ovale sau rotunde pentru montarea mănușilor uscate și schimbarea manșetelor în câteva minute',
+        articlePath: '/2021/12/27/discount-10-pentru-persoanele-legitimate-la-frs-corsa-si-ansmr-la-toate-produsele-comercializate-de-transilvania-cave-diving',
       },
       {
         model: 'Neck Tite & Quick Neck',
         badge: 'Guler Silicon Interschimbabil',
         specs: 'Etanșare confortabilă din silicon hipoalergenic, rezistent la rupere, raze UV și ozon',
+        articlePath: '/2021/12/27/discount-10-pentru-persoanele-legitimate-la-frs-corsa-si-ansmr-la-toate-produsele-comercializate-de-transilvania-cave-diving',
       },
       {
         model: 'Supape Inflare / Purjare & Argo P-Valve',
         badge: 'Control Flotabilitate & Decompresie',
         specs: 'Debit precis de aer și supapă de echilibrare fiziologică pentru scufundări tehnice de lungă durată',
+        articlePath: '/2021/12/27/discount-10-pentru-persoanele-legitimate-la-frs-corsa-si-ansmr-la-toate-produsele-comercializate-de-transilvania-cave-diving',
       },
     ],
     gallery: [
@@ -532,16 +545,19 @@ export const EQUIPMENT_CATALOG: EquipmentBrandCatalog[] = [
         model: 'Shearwater Perdix AI',
         badge: 'Standardul în Cave Diving',
         specs: 'OC Rec, OC Tec (5 gaze Nitrox/Trimix), CCR și Gauge · Baterie AA schimbabilă de utilizator · Până la 4 transmițătoare AI (ideal pentru Sidemount)',
+        articlePath: '/2021/12/27/discount-10-pentru-persoanele-legitimate-la-frs-corsa-si-ansmr-la-toate-produsele-comercializate-de-transilvania-cave-diving',
       },
       {
         model: 'Shearwater Teric',
         badge: 'OLED Safir · Multi-Gaz & AI',
         specs: 'Ecran AMOLED full-color · Carcasă din oțel inoxidabil 316 și sticlă de safir · Alarme cu vibrații și busolă digitală compensată 3D',
+        articlePath: '/2021/11/21/reduceri-de-pana-la-50-pentru-urmatoarea-gama-de-produse',
       },
       {
         model: 'Shearwater NERD 2',
         badge: 'Near-Eye Remote Display',
         specs: 'Micro-display optic montat pe detentor — toți parametrii vitali rămân permanent în câmpul vizual',
+        articlePath: '/2021/12/27/discount-10-pentru-persoanele-legitimate-la-frs-corsa-si-ansmr-la-toate-produsele-comercializate-de-transilvania-cave-diving',
       },
     ],
     gallery: [
@@ -828,15 +844,25 @@ export function EquipmentShowcase({ compact = false }: EquipmentShowcaseProps) {
                     <Phone className="h-3.5 w-3.5" aria-hidden="true" />
                     <span>Comandă / Stoc: +40 770 846 001</span>
                   </a>
-                  <a
-                    href={brand.officialWebsite}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1.5 rounded-xl border border-cavern-600 bg-cavern-800 px-4 py-2.5 text-xs font-medium text-limestone-100 transition hover:border-karst-400 hover:text-karst-400"
-                  >
-                    <span>Catalog Oficial Producător</span>
-                    <ExternalLink className="h-3.5 w-3.5" aria-hidden="true" />
-                  </a>
+                  {brand.officialWebsite.startsWith('/') ? (
+                    <Link
+                      href={brand.officialWebsite}
+                      className="inline-flex items-center gap-1.5 rounded-xl border border-cavern-600 bg-cavern-800 px-4 py-2.5 text-xs font-medium text-limestone-100 transition hover:border-karst-400 hover:text-karst-400"
+                    >
+                      <span>Solicită Catalog &amp; Mărimi</span>
+                      <ArrowRight className="h-3.5 w-3.5" aria-hidden="true" />
+                    </Link>
+                  ) : (
+                    <a
+                      href={brand.officialWebsite}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1.5 rounded-xl border border-cavern-600 bg-cavern-800 px-4 py-2.5 text-xs font-medium text-limestone-100 transition hover:border-karst-400 hover:text-karst-400"
+                    >
+                      <span>Catalog Oficial Producător</span>
+                      <ExternalLink className="h-3.5 w-3.5" aria-hidden="true" />
+                    </a>
+                  )}
                 </div>
               </div>
             </div>

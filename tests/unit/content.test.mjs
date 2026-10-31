@@ -79,4 +79,48 @@ describe('Site Database, Visual Fidelity & Content Migration Unit Tests', () => 
       assert.ok(stat.size > 0, `Report ${r} is empty`);
     }
   });
+
+  test('Zero dead internal links across EquipmentShowcase.tsx and site-database.json', async () => {
+    const dbPath = path.join(PROJECT_ROOT, 'src/content/site-database.json');
+    const db = JSON.parse(await fs.readFile(dbPath, 'utf8'));
+
+    const validRoutes = new Set([
+      '/',
+      '/descopera',
+      '/aventuri',
+      '/servicii',
+      '/istorie-si-patrimoniu',
+      '/jurnal',
+      '/blog',
+      '/magazin',
+      '/contact',
+      '/cave-diving',
+    ]);
+    for (const p of db.pages) validRoutes.add(p.path);
+    for (const p of db.posts) {
+      validRoutes.add(p.path);
+      validRoutes.add(decodeURIComponent(p.path));
+      validRoutes.add(`/jurnal/${p.slug}`);
+      validRoutes.add(`/jurnal/${decodeURIComponent(p.slug)}`);
+    }
+    for (const a of db.archives) {
+      validRoutes.add(a.path);
+      validRoutes.add(decodeURIComponent(a.path));
+    }
+
+    const showcasePath = path.join(PROJECT_ROOT, 'src/components/EquipmentShowcase.tsx');
+    const showcaseContent = await fs.readFile(showcasePath, 'utf8');
+    const articleRegex = /articlePath:\s*['"]([^'"]+)['"]/g;
+    let match;
+    let checkedCount = 0;
+    while ((match = articleRegex.exec(showcaseContent)) !== null) {
+      const target = match[1].split('#')[0];
+      checkedCount++;
+      assert.ok(
+        validRoutes.has(target) || validRoutes.has(decodeURIComponent(target)),
+        `Dead articlePath in EquipmentShowcase.tsx: ${target}`
+      );
+    }
+    assert.ok(checkedCount >= 20, `Expected at least 20 articlePath links, checked ${checkedCount}`);
+  });
 });

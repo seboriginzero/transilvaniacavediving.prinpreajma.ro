@@ -214,6 +214,24 @@ test.describe('Transilvania Cave Diving — End-to-End & Visual Fidelity Verific
     const allTab = page.locator('button', { hasText: 'Toate Echipamentele (9 Branduri)' });
     await allTab.click();
     await expect(page.locator('#brand-bauer-kompressoren')).toBeVisible();
+
+    // Verify every single "Fișa tehnică completă" and internal link on /magazin resolves with HTTP 200 (0 dead links)
+    const internalHrefs = await page.evaluate(() => {
+      const anchors = Array.from(document.querySelectorAll('a[href^="/"]')) as HTMLAnchorElement[];
+      return Array.from(new Set(anchors.map((a) => a.getAttribute('href') || '').filter(Boolean)));
+    });
+
+    expect(internalHrefs.length).toBeGreaterThan(25);
+
+    for (const href of internalHrefs) {
+      const cleanPath = href.split('#')[0];
+      if (!cleanPath) continue;
+      const res = await page.request.get(cleanPath);
+      expect(res.status(), `Internal link ${href} on /magazin returned ${res.status()}`).toBe(200);
+      const body = await res.text();
+      expect(body).not.toContain('Pagină negăsită în arhiva speologică');
+      expect(body).not.toContain('Articol negăsit');
+    }
   });
 
   test('Language selector buttons (RO / EN / HU) are visible in Header and switch multilingual pages', async ({

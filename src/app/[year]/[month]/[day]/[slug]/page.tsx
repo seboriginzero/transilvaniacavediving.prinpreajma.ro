@@ -16,15 +16,27 @@ interface ChronologicalRouteProps {
 
 export function generateStaticParams() {
   const posts = getAllPosts();
-  return posts.map((post) => {
+  const params: { year: string; month: string; day: string; slug: string }[] = [];
+  for (const post of posts) {
     const parts = post.path.split('/').filter(Boolean);
-    return {
+    const rawSlug = parts[3];
+    const decodedSlug = decodeURIComponent(rawSlug);
+    params.push({
       year: parts[0],
       month: parts[1],
       day: parts[2],
-      slug: decodeURIComponent(parts[3]),
-    };
-  });
+      slug: decodedSlug,
+    });
+    if (rawSlug !== decodedSlug) {
+      params.push({
+        year: parts[0],
+        month: parts[1],
+        day: parts[2],
+        slug: rawSlug,
+      });
+    }
+  }
+  return params;
 }
 
 export function generateMetadata({ params }: ChronologicalRouteProps): Metadata {

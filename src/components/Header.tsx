@@ -142,23 +142,23 @@ export function Header({ navigation, phonePrimary }: HeaderProps) {
         Sari la conținutul principal
       </a>
 
-      <div className="mx-auto flex max-w-7xl items-center justify-between gap-2 px-4 py-3.5 sm:px-6 lg:px-8">
+      <div className="mx-auto flex max-w-7xl items-center justify-between gap-2 px-4 py-3.5 sm:px-6 lg:px-6 xl:px-8">
         <Link
           href="/"
-          className="group flex shrink-0 items-center gap-3 rounded-lg focus:outline-none focus-visible:ring-2 focus-visible:ring-karst-400"
+          className="group flex shrink-0 items-center gap-2 rounded-lg focus:outline-none focus-visible:ring-2 focus-visible:ring-karst-400"
           aria-label="Transilvania Cave Diving — Acasă"
         >
           <img
             src="/media/logos/tcd-logo.svg"
             alt="Transilvania Cave Diving Logo"
-            className="h-10 w-auto sm:h-11"
+            className="h-9 w-auto sm:h-10 lg:h-9 xl:h-11"
             width={185}
             height={44}
           />
         </Link>
 
         {/* Desktop Nav */}
-        <nav aria-label="Navigare principală" className="hidden lg:flex lg:items-center lg:gap-1">
+        <nav aria-label="Navigare principală" className="hidden lg:flex lg:items-center lg:gap-0.5 xl:gap-1">
           {navigation.map((item) => {
             const isActive =
               item.href === '/'
@@ -181,7 +181,7 @@ export function Header({ navigation, phonePrimary }: HeaderProps) {
                   <div className="flex items-center">
                     <Link
                       href={item.href}
-                      className={`inline-flex items-center gap-1 rounded-l-md px-2.5 py-2 text-sm font-medium transition ${
+                      className={`inline-flex items-center gap-1 whitespace-nowrap rounded-l-md px-1.5 py-2 text-xs font-medium transition xl:px-2.5 xl:text-sm ${
                         isActive
                           ? 'font-semibold text-karst-400'
                           : 'text-limestone-100 hover:text-karst-400'
@@ -194,14 +194,14 @@ export function Header({ navigation, phonePrimary }: HeaderProps) {
                       aria-expanded={isOpen}
                       aria-label={`Submeniu ${displayLabel}`}
                       onClick={() => setOpenDropdown(isOpen ? null : item.href)}
-                      className={`inline-flex items-center rounded-r-md px-1 py-2 text-sm transition ${
+                      className={`inline-flex items-center rounded-r-md px-0.5 py-2 text-xs transition xl:px-1 xl:text-sm ${
                         isActive
                           ? 'text-karst-400'
                           : 'text-limestone-300 hover:text-karst-400'
                       }`}
                     >
                       <ChevronDown
-                        className={`h-4 w-4 transition-transform ${isOpen ? 'rotate-180' : ''}`}
+                        className={`h-3.5 w-3.5 transition-transform xl:h-4 xl:w-4 ${isOpen ? 'rotate-180' : ''}`}
                         aria-hidden="true"
                       />
                     </button>
@@ -239,11 +239,11 @@ export function Header({ navigation, phonePrimary }: HeaderProps) {
               <Link
                 key={item.href}
                 href={item.href}
-                className={`rounded-md px-2.5 py-2 text-sm font-medium transition ${
+                className={`whitespace-nowrap rounded-md px-1.5 py-2 text-xs font-medium transition xl:px-2.5 xl:text-sm ${
                   isActive
                     ? 'font-semibold text-karst-400'
                     : item.href === '/contact'
-                    ? 'ml-1.5 rounded-lg bg-karst-600 px-3.5 py-2 font-semibold text-limestone-50 hover:bg-karst-500'
+                    ? 'ml-1 rounded-lg bg-karst-600 px-2.5 py-1.5 font-semibold text-limestone-50 hover:bg-karst-500 xl:ml-1.5 xl:px-3.5 xl:py-2'
                     : 'text-limestone-100 hover:text-karst-400'
                 }`}
               >
@@ -254,15 +254,15 @@ export function Header({ navigation, phonePrimary }: HeaderProps) {
         </nav>
 
         {/* Right Actions on Desktop: Phone Icon + RO / EN / HU Language Selector Buttons */}
-        <div className="hidden lg:flex lg:items-center lg:gap-2.5">
+        <div className="hidden shrink-0 lg:flex lg:items-center lg:gap-1.5 xl:gap-2.5">
           {/* Phone Icon Only (number hidden as requested) */}
           <a
             href={`tel:${phonePrimary.replace(/\s+/g, '')}`}
             title={`Apelează ${phonePrimary}`}
             aria-label={`Apelează ${phonePrimary}`}
-            className="inline-flex h-9 w-9 items-center justify-center rounded-lg border border-cavern-700 bg-cavern-800/80 text-karst-400 transition hover:border-karst-400 hover:bg-cavern-700 hover:text-limestone-50"
+            className="inline-flex h-8 w-8 items-center justify-center rounded-lg border border-cavern-700 bg-cavern-800/80 text-karst-400 transition hover:border-karst-400 hover:bg-cavern-700 hover:text-limestone-50 xl:h-9 xl:w-9"
           >
-            <Phone className="h-4 w-4" aria-hidden="true" />
+            <Phone className="h-3.5 w-3.5 xl:h-4 xl:w-4" aria-hidden="true" />
             <span className="sr-only">{phonePrimary}</span>
           </a>
 
@@ -288,7 +288,7 @@ export function Header({ navigation, phonePrimary }: HeaderProps) {
                       ? 'English (EN)'
                       : 'Magyar (HU)'
                   }
-                  className={`rounded-md px-2.5 py-1 font-mono text-xs font-bold uppercase transition ${
+                  className={`rounded-md px-1.5 py-1 font-mono text-[11px] font-bold uppercase transition xl:px-2.5 xl:text-xs ${
                     isCurrent
                       ? 'bg-karst-600 text-limestone-50 shadow-sm'
                       : 'text-limestone-300 hover:bg-cavern-700 hover:text-limestone-50'
