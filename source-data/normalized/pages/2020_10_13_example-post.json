@@ -11,22 +11,14 @@
     {
       "level": 3,
       "text": "”Transilvania” is a project that aims to promote diving, cave exploration and cave tours in Romania’s caves and as a distributor of high quality diving equipment, indented for both recreational and technical divers."
-    },
-    {
-      "level": 3,
-      "text": "Related"
     }
   ],
   "sections": [
     {
       "heading": "”Transilvania” is a project that aims to promote diving, cave exploration and cave tours in Romania’s caves and as a distributor of high quality diving equipment, indented for both recreational and technical divers.",
       "level": 3,
-      "content_markdown": "![](https://transilvaniacavediving.com/wp-content/uploads/2020/10/p6280326.jpg)\n\n![](https://transilvaniacavediving.com/wp-content/uploads/2020/10/p6280148-1.jpg)\n\n![](https://transilvaniacavediving.com/wp-content/uploads/2020/10/19060087_10207626426538313_4865154815753541778_n.jpg)\n\n![](https://transilvaniacavediving.com/wp-content/uploads/2020/10/img_20191215_114008.jpg)\n\n![](https://transilvaniacavediving.com/wp-content/uploads/2020/10/img_20191215_134844.jpg)\n\n![](https://transilvaniacavediving.com/wp-content/uploads/2020/10/ammonite-system-lifestyle_photos-4.jpg)\n\n![](https://transilvaniacavediving.com/wp-content/uploads/2020/10/p6270036.jpg)\n\n![](https://transilvaniacavediving.com/wp-content/uploads/2020/10/tr-1.jpg)"
-    },
-    {
-      "heading": "Related",
-      "level": 3,
-      "content_markdown": "Posted by[transilvaniacavediving](https://transilvaniacavediving.com/author/transilvaniacavediving/)[October 13, 2020 October 17, 2020](https://transilvaniacavediving.com/2020/10/13/example-post/)Posted in[Uncategorized](https://transilvaniacavediving.com/category/uncategorized/)"
+      "content_markdown": "![](https://transilvaniacavediving.com/wp-content/uploads/2020/10/p6280326.jpg)\n\n![](https://transilvaniacavediving.com/wp-content/uploads/2020/10/p6280148-1.jpg)\n\n![](https://transilvaniacavediving.com/wp-content/uploads/2020/10/19060087_10207626426538313_4865154815753541778_n.jpg)\n\n![](https://transilvaniacavediving.com/wp-content/uploads/2020/10/img_20191215_114008.jpg)\n\n![](https://transilvaniacavediving.com/wp-content/uploads/2020/10/img_20191215_134844.jpg)\n\n![](https://transilvaniacavediving.com/wp-content/uploads/2020/10/ammonite-system-lifestyle_photos-4.jpg)\n\n![](https://transilvaniacavediving.com/wp-content/uploads/2020/10/p6270036.jpg)\n\n![](https://transilvaniacavediving.com/wp-content/uploads/2020/10/tr-1.jpg)",
+      "contentMarkdown": ""
     }
   ],
   "body_markdown": "### ”Transilvania” is a project that aims to promote diving, cave exploration and cave tours in Romania’s caves and as a distributor of high quality diving equipment, indented for both recreational and technical divers.\n\n![](https://transilvaniacavediving.com/wp-content/uploads/2020/10/p6280326.jpg)\n\n![](https://transilvaniacavediving.com/wp-content/uploads/2020/10/p6280148-1.jpg)\n\n![](https://transilvaniacavediving.com/wp-content/uploads/2020/10/19060087_10207626426538313_4865154815753541778_n.jpg)\n\n![](https://transilvaniacavediving.com/wp-content/uploads/2020/10/img_20191215_114008.jpg)\n\n![](https://transilvaniacavediving.com/wp-content/uploads/2020/10/img_20191215_134844.jpg)\n\n![](https://transilvaniacavediving.com/wp-content/uploads/2020/10/ammonite-system-lifestyle_photos-4.jpg)\n\n![](https://transilvaniacavediving.com/wp-content/uploads/2020/10/p6270036.jpg)\n\n![](https://transilvaniacavediving.com/wp-content/uploads/2020/10/tr-1.jpg)\n\n### Related\n\nPosted by[transilvaniacavediving](https://transilvaniacavediving.com/author/transilvaniacavediving/)[October 13, 2020 October 17, 2020](https://transilvaniacavediving.com/2020/10/13/example-post/)Posted in[Uncategorized](https://transilvaniacavediving.com/category/uncategorized/)",
@@ -52,7 +44,7 @@
     {
       "url": "https://transilvaniacavediving.com/wp-content/uploads/2020/10/19060087_10207626426538313_4865154815753541778_n.jpg",
       "raw_url": "https://transilvaniacavediving.com/wp-content/uploads/2020/10/19060087_10207626426538313_4865154815753541778_n.jpg",
-      "alt": "",
+      "alt": "Transilvania Cave Diving",
       "caption": "",
       "credit": "",
       "width": 960,
@@ -106,7 +98,7 @@
     {
       "url": "https://s-ssl.wordpress.com/i/logo/wpcom-gray-white.png?m=1479929237i",
       "raw_url": "https://s-ssl.wordpress.com/i/logo/wpcom-gray-white.png?m=1479929237i",
-      "alt": "",
+      "alt": "Transilvania Cave Diving",
       "caption": "",
       "credit": "",
       "width": 50,
@@ -174,5 +166,6 @@
   "wp_type": "post",
   "wp_slug": "example-post",
   "wp_title": "Transilvania Cave Diving",
-  "content_sha256": "3157c5fd920d63a039df8c060b107886f5342dd3aa22ae9fa295f831a02ba392"
+  "content_sha256": "3157c5fd920d63a039df8c060b107886f5342dd3aa22ae9fa295f831a02ba392",
+  "bodyMarkdown": ""
 }

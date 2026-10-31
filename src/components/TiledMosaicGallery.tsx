@@ -187,7 +187,7 @@ function isMeaningfulCaption(text?: string): boolean {
   const trimmed = text.trim();
   if (!trimmed) return false;
   if (
-    /^(whatsapp|img|dsc|p10|20\d\d|[0-9_-]+|imagine|fotografie|csm_|kw\d+|00\d+|grota|visit|graphic)/i.test(
+    /^(whatsapp|img|dsc|p10|20\d\d|[0-9_-]+|imagine|fotografie|csm_|kw\d+|00\d+|grota|visit|graphic|transilvania cave diving)/i.test(
       trimmed
     )
   ) {
@@ -241,11 +241,20 @@ export function TiledMosaicGallery({
   const rows = buildProportionalRows(enriched);
   const activeItem = activeIndex !== null ? enriched[activeIndex] : null;
 
+  // Detect repeated alt texts across multiple images in the same gallery so we don't repeat them as captions
+  const altCounts = new Map<string, number>();
+  for (const v of validImages) {
+    if (v.alt) {
+      altCounts.set(v.alt, (altCounts.get(v.alt) || 0) + 1);
+    }
+  }
+
   const renderFigure = (item: EnrichedMosaicItem, delayMs: number, isStandalone = false) => {
     const { img, index, dims, isSmallLogo } = item;
+    const hasUniqueAlt = Boolean(img.alt && (altCounts.get(img.alt) || 0) === 1);
     const displayCaption = isMeaningfulCaption(img.caption)
       ? img.caption
-      : isMeaningfulCaption(img.alt)
+      : hasUniqueAlt && isMeaningfulCaption(img.alt)
       ? img.alt
       : undefined;
 
@@ -433,12 +442,11 @@ export function TiledMosaicGallery({
             {/* Caption & Filmstrip */}
             <div className="mt-2.5 w-full space-y-2.5">
               {(isMeaningfulCaption(activeItem.img.caption) ||
-                isMeaningfulCaption(activeItem.img.alt) ||
                 activeItem.img.credit) && (
                 <div className="w-full rounded-xl border border-cavern-800 bg-cavern-900/90 px-4 py-2.5 text-center text-sm text-limestone-100">
-                  <p className="font-medium">
-                    {activeItem.img.caption || activeItem.img.alt}
-                  </p>
+                  {isMeaningfulCaption(activeItem.img.caption) && (
+                    <p className="font-medium">{activeItem.img.caption}</p>
+                  )}
                   {activeItem.img.credit && (
                     <p className="mt-0.5 font-mono text-xs text-karst-400">
                       Credit foto: {activeItem.img.credit}

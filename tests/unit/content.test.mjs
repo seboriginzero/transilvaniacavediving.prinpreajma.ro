@@ -123,4 +123,33 @@ describe('Site Database, Visual Fidelity & Content Migration Unit Tests', () => 
     }
     assert.ok(checkedCount >= 20, `Expected at least 20 articlePath links, checked ${checkedCount}`);
   });
+
+  test('Zero repetitive placeholder text or WordPress footer boilerplate in site-database.json', async () => {
+    const dbPath = path.join(PROJECT_ROOT, 'src/content/site-database.json');
+    const db = JSON.parse(await fs.readFile(dbPath, 'utf8'));
+
+    for (const rec of [...db.pages, ...db.posts]) {
+      const md = rec.bodyMarkdown || '';
+      assert.ok(
+        !md.includes('Imagine arhivă Transilvania Cave Diving'),
+        `Repetitive placeholder alt text found in ${rec.path}`
+      );
+      assert.ok(
+        !/^[ \t]*[-*]\s*!\[/m.test(md),
+        `List-wrapped markdown image found in ${rec.path}`
+      );
+      assert.ok(
+        !/like loading/i.test(md),
+        `WordPress Like Loading boilerplate found in ${rec.path}`
+      );
+      assert.ok(
+        !/^#{1,6}\s*related\s*$/im.test(md),
+        `Empty Related heading found in ${rec.path}`
+      );
+      assert.ok(
+        !/(posted|published)\s+by\s*\[transilvaniacavediving\]/i.test(md),
+        `WordPress Posted by footer boilerplate found in ${rec.path}`
+      );
+    }
+  });
 });

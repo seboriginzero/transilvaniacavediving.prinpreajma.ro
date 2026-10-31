@@ -18,7 +18,7 @@ export function slugifyHeading(text: string): string {
 
 function renderInlineFormatting(text: string): React.ReactNode[] {
   const result: React.ReactNode[] = [];
-  const tokenRegex = /(\[([^\]]+)\]\(([^)]+)\)|\*\*\*([^*]+)\*\*\*|\*\*([^*]+)\*\*|\*([^*]+)\*)/g;
+  const tokenRegex = /(!?\[([^\]]+)\]\(([^)]+)\)|\*\*\*([^*]+)\*\*\*|\*\*([^*]+)\*\*|\*([^*]+)\*)/g;
   let lastIndex = 0;
   let match: RegExpExecArray | null;
   let keyCounter = 0;
@@ -29,31 +29,48 @@ function renderInlineFormatting(text: string): React.ReactNode[] {
     }
 
     if (match[2] !== undefined && match[3] !== undefined) {
+      const fullToken = match[1];
       const label = match[2];
       const href = match[3].trim();
-      const isInternal = href.startsWith('/');
-      if (isInternal) {
-        result.push(
-          <Link
-            key={`link-${keyCounter++}`}
-            href={href}
-            className="font-semibold text-karst-400 underline decoration-karst-500/50 underline-offset-4 transition hover:text-karst-300"
-          >
-            {label}
-          </Link>
-        );
+
+      // If an inline image token ![alt](src) ever appears inside text, render an inline <img> instead of "!alt" link
+      if (fullToken.startsWith('![')) {
+        if (!href.includes('placeholder-cavern.svg')) {
+          result.push(
+            <img
+              key={`inline-img-${keyCounter++}`}
+              src={href}
+              alt={label}
+              loading="lazy"
+              className="my-3 block h-auto max-w-full rounded-xl border border-cavern-700"
+            />
+          );
+        }
       } else {
-        result.push(
-          <a
-            key={`ext-${keyCounter++}`}
-            href={href}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="font-semibold text-karst-400 underline decoration-karst-500/50 underline-offset-4 transition hover:text-karst-300 break-words"
-          >
-            {label}
-          </a>
-        );
+        const isInternal = href.startsWith('/');
+        if (isInternal) {
+          result.push(
+            <Link
+              key={`link-${keyCounter++}`}
+              href={href}
+              className="font-semibold text-karst-400 underline decoration-karst-500/50 underline-offset-4 transition hover:text-karst-300"
+            >
+              {label}
+            </Link>
+          );
+        } else {
+          result.push(
+            <a
+              key={`ext-${keyCounter++}`}
+              href={href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold text-karst-400 underline decoration-karst-500/50 underline-offset-4 transition hover:text-karst-300 break-words"
+            >
+              {label}
+            </a>
+          );
+        }
       }
     } else if (match[4] !== undefined) {
       result.push(
@@ -89,28 +106,84 @@ type ParsedBlock =
   | { kind: 'gallery'; images: MosaicImageItem[]; creditNote?: string }
   | { kind: 'text'; raw: string };
 
+function isBoilerplateBlock(block: string): boolean {
+  const trimmed = block.trim();
+  if (!trimmed) return true;
+  if (/^like loading/i.test(trimmed)) return true;
+  if (/^#{1,6}\s*related\s*$/i.test(trimmed)) return true;
+  if (/^#{1,6}\s*$/.test(trimmed)) return true;
+  if (/^(posted|published)\s+by\s*\[transilvaniacavediving\]/i.test(trimmed)) return true;
+  return false;
+}
+
+function extractGalleryImagesFromBlock(block: string): MosaicImageItem[] | null {
+  const lines = block
+    .split('\n')
+    .map((l) => l.trim())
+    .filter(Boolean);
+  if (lines.length === 0) return null;
+
+  const extracted: MosaicImageItem[] = [];
+  for (const line of lines) {
+    const m = line.match(/^(?:[-*]\s*)?!\[([^\]]*)\]\(([^)]+)\)$/);
+    if (!m) return null;
+    const alt = m[1] || 'Imagine documentară';
+    const src = m[2].trim();
+    if (!src.includes('placeholder-cavern.svg')) {
+      extracted.push({ src, alt });
+    }
+  }
+  return extracted;
+}
+
+function isUnorderedListBlock(block: string): boolean {
+  const lines = block
+    .split('\n')
+    .map((l) => l.trim())
+    .filter(Boolean);
+  return (
+    lines.length > 0 &&
+    lines.every(
+      (l) =>
+        (l.startsWith('- ') || l.startsWith('* ') || l.startsWith('■')) &&
+        !/^(?:[-*]\s*)?!\[([^\]]*)\]\(([^)]+)\)$/.test(l)
+    )
+  );
+}
+
+function isOrderedListBlock(block: string): boolean {
+  const lines = block
+    .split('\n')
+    .map((l) => l.trim())
+    .filter(Boolean);
+  return lines.length > 0 && lines.every((l) => /^\d+\.\s+/.test(l));
+}
+
 function groupMarkdownBlocks(rawBlocks: string[]): ParsedBlock[] {
   const grouped: ParsedBlock[] = [];
   let i = 0;
 
   while (i < rawBlocks.length) {
     const block = rawBlocks[i];
-    if (/^like loading/i.test(block)) {
+    if (isBoilerplateBlock(block)) {
       i++;
       continue;
     }
 
-    const imgMatch = block.match(/^!\[([^\]]*)\]\(([^)]+)\)$/);
-    if (imgMatch) {
+    const firstImages = extractGalleryImagesFromBlock(block);
+    if (firstImages) {
       const images: MosaicImageItem[] = [];
+      const seenInGallery = new Set<string>();
+
       while (i < rawBlocks.length) {
         const current = rawBlocks[i];
-        const m = current.match(/^!\[([^\]]*)\]\(([^)]+)\)$/);
-        if (!m) break;
-        const alt = m[1] || 'Imagine documentară';
-        const src = m[2].trim();
-        if (!src.includes('placeholder-cavern.svg')) {
-          images.push({ src, alt });
+        const imgs = extractGalleryImagesFromBlock(current);
+        if (!imgs) break;
+        for (const item of imgs) {
+          if (!seenInGallery.has(item.src)) {
+            seenInGallery.add(item.src);
+            images.push(item);
+          }
         }
         i++;
       }
@@ -128,6 +201,38 @@ function groupMarkdownBlocks(rawBlocks: string[]): ParsedBlock[] {
       if (images.length > 0) {
         grouped.push({ kind: 'gallery', images, creditNote });
       }
+      continue;
+    }
+
+    // Merge consecutive unordered list blocks so items separated by blank lines form a single <ul>
+    if (isUnorderedListBlock(block)) {
+      const mergedLines: string[] = [];
+      while (i < rawBlocks.length && isUnorderedListBlock(rawBlocks[i])) {
+        mergedLines.push(
+          ...rawBlocks[i]
+            .split('\n')
+            .map((l) => l.trim())
+            .filter(Boolean)
+        );
+        i++;
+      }
+      grouped.push({ kind: 'text', raw: mergedLines.join('\n') });
+      continue;
+    }
+
+    // Merge consecutive ordered list blocks so items separated by blank lines form a single <ol>
+    if (isOrderedListBlock(block)) {
+      const mergedLines: string[] = [];
+      while (i < rawBlocks.length && isOrderedListBlock(rawBlocks[i])) {
+        mergedLines.push(
+          ...rawBlocks[i]
+            .split('\n')
+            .map((l) => l.trim())
+            .filter(Boolean)
+        );
+        i++;
+      }
+      grouped.push({ kind: 'text', raw: mergedLines.join('\n') });
       continue;
     }
 
@@ -221,9 +326,69 @@ export function MarkdownContent({ markdown }: MarkdownContentProps) {
           );
         }
 
-        // Unordered list block
-        const lines = block.split('\n').map((l) => l.trim());
-        if (lines.every((l) => l.startsWith('- ') || l.startsWith('* '))) {
+        const lines = block.split('\n').map((l) => l.trim()).filter(Boolean);
+
+        // Markdown Pipe Table block (| Col 1 | Col 2 |)
+        if (lines.length >= 2 && lines.every((l) => l.startsWith('|') && l.endsWith('|'))) {
+          const parsedRows = lines
+            .filter((l) => !/^\|[\s\-:|]+\|$/.test(l))
+            .map((l) =>
+              l
+                .slice(1, -1)
+                .split('|')
+                .map((cell) => cell.trim())
+            );
+
+          if (parsedRows.length > 0) {
+            const [headerRow, ...bodyRows] = parsedRows;
+            const hasHeaderText = headerRow.some((cell) => cell.length > 0);
+            return (
+              <div
+                key={idx}
+                className="my-6 overflow-x-auto rounded-xl border border-cavern-700 bg-cavern-900/70 shadow-md"
+              >
+                <table className="w-full border-collapse text-left text-sm">
+                  {hasHeaderText && (
+                    <thead className="border-b border-cavern-700 bg-cavern-950/80 text-xs uppercase tracking-wider text-karst-400">
+                      <tr>
+                        {headerRow.map((cell, cIdx) => (
+                          <th key={cIdx} className="px-4 py-3 font-bold">
+                            {renderInlineFormatting(cell)}
+                          </th>
+                        ))}
+                      </tr>
+                    </thead>
+                  )}
+                  <tbody className="divide-y divide-cavern-800">
+                    {bodyRows.map((row, rIdx) => (
+                      <tr key={rIdx} className="transition hover:bg-cavern-800/40">
+                        {row.map((cell, cIdx) => (
+                          <td
+                            key={cIdx}
+                            className={`px-4 py-2.5 align-top ${
+                              cIdx === 0
+                                ? 'font-medium text-limestone-200 sm:w-2/5'
+                                : 'text-limestone-100'
+                            }`}
+                          >
+                            {renderInlineFormatting(cell)}
+                          </td>
+                        ))}
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            );
+          }
+        }
+
+        // Unordered list block (- , * , or ■)
+        if (
+          lines.every(
+            (l) => l.startsWith('- ') || l.startsWith('* ') || l.startsWith('■')
+          )
+        ) {
           return (
             <ul
               key={idx}
@@ -231,7 +396,7 @@ export function MarkdownContent({ markdown }: MarkdownContentProps) {
             >
               {lines.map((line, lIdx) => (
                 <li key={lIdx} className="leading-relaxed">
-                  {renderInlineFormatting(line.replace(/^[-*]\s+/, ''))}
+                  {renderInlineFormatting(line.replace(/^(?:[-*]|■)\s*/, ''))}
                 </li>
               ))}
             </ul>

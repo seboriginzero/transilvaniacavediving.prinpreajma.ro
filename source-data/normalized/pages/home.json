@@ -17,7 +17,8 @@
     {
       "heading": "“Transilvania” este un proiect dedicat promovării activităților de turism speologic, a scufundărilor, precum și pentru amenajarea și promovarea altor destinații turistice.",
       "level": 2,
-      "content_markdown": "![](https://transilvaniacavediving.com/wp-content/uploads/2024/02/1aad0880-ab73-43ec-86ed-cad42bd95771.jpg)\n\n![](https://transilvaniacavediving.com/wp-content/uploads/2020/11/visit-isverna-cm5-resize.jpg)\n\n![](https://transilvaniacavediving.com/wp-content/uploads/2024/02/335522871_190078843742195_6510426867527800716_n.jpg)\n\n![](https://transilvaniacavediving.com/wp-content/uploads/2024/02/188098413_136636951838060_3227459871193502756_n.jpg)\n\n![](https://transilvaniacavediving.com/wp-content/uploads/2020/10/tr-1.jpg)"
+      "content_markdown": "![](https://transilvaniacavediving.com/wp-content/uploads/2024/02/1aad0880-ab73-43ec-86ed-cad42bd95771.jpg)\n\n![](https://transilvaniacavediving.com/wp-content/uploads/2020/11/visit-isverna-cm5-resize.jpg)\n\n![](https://transilvaniacavediving.com/wp-content/uploads/2024/02/335522871_190078843742195_6510426867527800716_n.jpg)\n\n![](https://transilvaniacavediving.com/wp-content/uploads/2024/02/188098413_136636951838060_3227459871193502756_n.jpg)\n\n![](https://transilvaniacavediving.com/wp-content/uploads/2020/10/tr-1.jpg)",
+      "contentMarkdown": ""
     }
   ],
   "body_markdown": "## “Transilvania” este un proiect dedicat promovării activităților de turism speologic, a scufundărilor, precum și pentru amenajarea și promovarea altor destinații turistice.\n\n![](https://transilvaniacavediving.com/wp-content/uploads/2024/02/1aad0880-ab73-43ec-86ed-cad42bd95771.jpg)\n\n![](https://transilvaniacavediving.com/wp-content/uploads/2020/11/visit-isverna-cm5-resize.jpg)\n\n![](https://transilvaniacavediving.com/wp-content/uploads/2024/02/335522871_190078843742195_6510426867527800716_n.jpg)\n\n![](https://transilvaniacavediving.com/wp-content/uploads/2024/02/188098413_136636951838060_3227459871193502756_n.jpg)\n\n![](https://transilvaniacavediving.com/wp-content/uploads/2020/10/tr-1.jpg)",
@@ -70,7 +71,7 @@
     {
       "url": "https://s-ssl.wordpress.com/i/logo/wpcom-gray-white.png?m=1479929237i",
       "raw_url": "https://s-ssl.wordpress.com/i/logo/wpcom-gray-white.png?m=1479929237i",
-      "alt": "",
+      "alt": "Transilvania Cave Diving",
       "caption": "",
       "credit": "",
       "width": 50,
@@ -266,5 +267,6 @@
   "wp_id": 79,
   "wp_type": "page",
   "wp_slug": "home-2",
-  "content_sha256": "220dd80d55934a427770fa6577e78c080389d89d6bf8848705089640386177d9"
+  "content_sha256": "220dd80d55934a427770fa6577e78c080389d89d6bf8848705089640386177d9",
+  "bodyMarkdown": ""
 }

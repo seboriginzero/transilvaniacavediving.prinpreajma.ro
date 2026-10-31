@@ -11,27 +11,20 @@
     {
       "level": 3,
       "text": "Share this:"
-    },
-    {
-      "level": 3,
-      "text": "Related"
     }
   ],
   "sections": [
     {
       "heading": "Introducere",
       "level": 1,
-      "content_markdown": "![](https://transilvaniacavediving.com/wp-content/uploads/2020/11/ammonite-system_products-2019-2.jpg)\n\nÎntreaga gamă de sisteme de iluminare și încălzire „Ammonite System” este disponibilă prin Transilvania Cave Diving.\nDescoperiți „Ammonite System” pe [https://ammonitesystem.com/](https://ammonitesystem.com/)\n\nPentru mai multe informații sau pentru a comanda sistemul dvs. Ammonite\n\nMihai Besesek\nAmbasador al Ammonite System\n+40 745369626\ncavedivingromania@gmail.com"
+      "content_markdown": "![](https://transilvaniacavediving.com/wp-content/uploads/2020/11/ammonite-system_products-2019-2.jpg)\n\nÎntreaga gamă de sisteme de iluminare și încălzire „Ammonite System” este disponibilă prin Transilvania Cave Diving.\nDescoperiți „Ammonite System” pe [https://ammonitesystem.com/](https://ammonitesystem.com/)\n\nPentru mai multe informații sau pentru a comanda sistemul dvs. Ammonite\n\nMihai Besesek\nAmbasador al Ammonite System\n+40 745369626\ncavedivingromania@gmail.com",
+      "contentMarkdown": ""
     },
     {
       "heading": "Share this:",
       "level": 3,
-      "content_markdown": "- [Share on X (Opens in new window)\nX](https://transilvaniacavediving.com/2020/11/07/ammonite-system-dive-lights-and-heating-systems/?share=twitter)\n- [Share on Facebook (Opens in new window)\nFacebook](https://transilvaniacavediving.com/2020/11/07/ammonite-system-dive-lights-and-heating-systems/?share=facebook)\n-\n\nLike Loading..."
-    },
-    {
-      "heading": "Related",
-      "level": 3,
-      "content_markdown": "Posted by[transilvaniacavediving](https://transilvaniacavediving.com/author/transilvaniacavediving/)[November 7, 2020](https://transilvaniacavediving.com/2020/11/07/ammonite-system-dive-lights-and-heating-systems/)Posted in[Uncategorized](https://transilvaniacavediving.com/category/uncategorized/)"
+      "content_markdown": "- [Share on X (Opens in new window)\nX](https://transilvaniacavediving.com/2020/11/07/ammonite-system-dive-lights-and-heating-systems/?share=twitter)\n- [Share on Facebook (Opens in new window)\nFacebook](https://transilvaniacavediving.com/2020/11/07/ammonite-system-dive-lights-and-heating-systems/?share=facebook)\n-\n\nLike Loading...",
+      "contentMarkdown": ""
     }
   ],
   "body_markdown": "![](https://transilvaniacavediving.com/wp-content/uploads/2020/11/ammonite-system_products-2019-2.jpg)\n\nÎntreaga gamă de sisteme de iluminare și încălzire „Ammonite System” este disponibilă prin Transilvania Cave Diving.\nDescoperiți „Ammonite System” pe [https://ammonitesystem.com/](https://ammonitesystem.com/)\n\nPentru mai multe informații sau pentru a comanda sistemul dvs. Ammonite\n\nMihai Besesek\nAmbasador al Ammonite System\n+40 745369626\ncavedivingromania@gmail.com\n\nLike Loading...\n\n### Related\n\nPosted by[transilvaniacavediving](https://transilvaniacavediving.com/author/transilvaniacavediving/)[November 7, 2020](https://transilvaniacavediving.com/2020/11/07/ammonite-system-dive-lights-and-heating-systems/)Posted in[Uncategorized](https://transilvaniacavediving.com/category/uncategorized/)",
@@ -48,7 +41,7 @@
     {
       "url": "https://s-ssl.wordpress.com/i/logo/wpcom-gray-white.png?m=1479929237i",
       "raw_url": "https://s-ssl.wordpress.com/i/logo/wpcom-gray-white.png?m=1479929237i",
-      "alt": "",
+      "alt": "Transilvania Cave Diving",
       "caption": "",
       "credit": "",
       "width": 50,
@@ -112,5 +105,6 @@
   "wp_type": "post",
   "wp_slug": "ammonite-system-dive-lights-and-heating-systems",
   "wp_title": "Ammonite System – dive lights and heating systems",
-  "content_sha256": "28b0a0afbbae3158025ca809cc9c0a0c86e8068fc929a5d43475f3ba56f97304"
+  "content_sha256": "28b0a0afbbae3158025ca809cc9c0a0c86e8068fc929a5d43475f3ba56f97304",
+  "bodyMarkdown": ""
 }

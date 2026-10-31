@@ -301,13 +301,13 @@ test.describe('Transilvania Cave Diving — End-to-End & Visual Fidelity Verific
     }
   });
 
-  test('Interactive MediaGallery lightbox opens and closes via keyboard on /grota-ursului', async ({
+  test('Interactive TiledMosaicGallery lightbox opens and closes via keyboard on /grota-ursului', async ({
     page,
   }) => {
     await page.setViewportSize({ width: 1440, height: 900 });
     await page.goto('/grota-ursului');
 
-    const firstGalleryBtn = page.locator('section[aria-label*="Galerie"] figure button').first();
+    const firstGalleryBtn = page.locator('.wp-block-jetpack-tiled-gallery figure button').first();
     await expect(firstGalleryBtn).toBeVisible();
     await firstGalleryBtn.click();
 
@@ -316,6 +316,29 @@ test.describe('Transilvania Cave Diving — End-to-End & Visual Fidelity Verific
 
     await page.keyboard.press('Escape');
     await expect(dialog).toBeHidden();
+  });
+
+  test('Article /2025/01/26/fenix-hm75r-lanterna-frontala-1600-lumeni-223-metri renders gallery images and specs table with zero repetitive text', async ({
+    page,
+  }) => {
+    await page.setViewportSize({ width: 1440, height: 900 });
+    await page.goto('/2025/01/26/fenix-hm75r-lanterna-frontala-1600-lumeni-223-metri');
+
+    const bodyText = await page.locator('main').innerText();
+    expect(bodyText).not.toContain('!Imagine arhivă Transilvania Cave Diving');
+    expect(bodyText).not.toContain('Imagine arhivă Transilvania Cave Diving');
+    expect(bodyText).not.toContain('Like Loading');
+    expect(bodyText).not.toContain('Posted by');
+
+    // Verify the 19 gallery photos at the top of the article render as real images
+    const galleryImages = page.locator('.wp-block-jetpack-tiled-gallery img');
+    expect(await galleryImages.count()).toBeGreaterThanOrEqual(19);
+
+    // Verify the specification table renders as a proper HTML <table>
+    const specTable = page.locator('main table');
+    await expect(specTable).toBeVisible();
+    await expect(specTable).toContainText('HM75R');
+    await expect(specTable).toContainText('1600 lumeni');
   });
 
   test('Contact form validates inputs and submits cleanly to /api/contact', async ({ page }) => {

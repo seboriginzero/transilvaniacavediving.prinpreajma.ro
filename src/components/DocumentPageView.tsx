@@ -8,7 +8,6 @@ import { LanguageSwitcher } from './LanguageSwitcher';
 import { SafetyWarningBanner } from './SafetyWarningBanner';
 import { TechnicalSpecsCard } from './TechnicalSpecsCard';
 import { MarkdownContent, slugifyHeading } from './MarkdownContent';
-import { MediaGallery } from './MediaGallery';
 import { CardMediaThumb } from './CardMediaThumb';
 
 interface DocumentPageViewProps {
@@ -28,16 +27,12 @@ export function DocumentPageView({
 
   // Extract TOC headings (level 1-3) that are short enough to be navigation items
   const tocHeadings = (page.headings || []).filter(
-    (h) => h.level <= 3 && h.text.length > 2 && h.text.length < 95
+    (h) =>
+      h.level <= 3 &&
+      h.text.length > 2 &&
+      h.text.length < 95 &&
+      !/^related$/i.test(h.text.trim())
   );
-
-  // Filter out images from the bottom MediaGallery if they are already rendered inline in bodyMarkdown
-  const markdownText = page.bodyMarkdown || '';
-  const nonDuplicateGalleryImages = (page.images || []).filter(
-    (img) => img.localPath && !markdownText.includes(img.localPath)
-  );
-  const bottomGalleryImages =
-    nonDuplicateGalleryImages.length > 0 ? nonDuplicateGalleryImages : page.images.slice(0, 6);
 
   return (
     <article className="pb-16">
@@ -203,9 +198,6 @@ export function DocumentPageView({
             )}
           </aside>
         </div>
-
-        {/* Full Interactive Media Gallery (additional archive photos) */}
-        <MediaGallery images={bottomGalleryImages} />
 
         {/* Related Pages / Articles */}
         {relatedPages.length > 0 && (
