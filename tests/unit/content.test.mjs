@@ -152,4 +152,41 @@ describe('Site Database, Visual Fidelity & Content Migration Unit Tests', () => 
       );
     }
   });
+
+  test('All Romanian text across site-database.json uses "și" instead of "&" or "&amp;"', async () => {
+    const dbPath = path.join(PROJECT_ROOT, 'src/content/site-database.json');
+    const db = JSON.parse(await fs.readFile(dbPath, 'utf8'));
+
+    const nonRoSlugs = new Set([
+      'bat-cave',
+      'the-mill-karst-system',
+      'denever-barlang',
+      'a-malom-karsztrendszere',
+      'hose-holders-for-111-7-liter-aluminum-cylinders-and-other-cylinders-with-a-diameter-of-140-mm',
+    ]);
+
+    for (const rec of [...db.pages, ...db.posts]) {
+      if (nonRoSlugs.has(rec.slug)) continue;
+      assert.ok(
+        !rec.categoryLabel.includes(' & ') && !rec.categoryLabel.includes('&amp;'),
+        `Found & in categoryLabel of ${rec.path}: ${rec.categoryLabel}`
+      );
+      assert.ok(
+        !rec.bodyMarkdown.includes(' & ') && !rec.bodyMarkdown.includes('&amp;'),
+        `Found & in bodyMarkdown of ${rec.path}`
+      );
+    }
+
+    for (const nav of db.navigation) {
+      assert.ok(!nav.label.includes(' & '), `Found & in nav label: ${nav.label}`);
+      if (nav.children) {
+        for (const child of nav.children) {
+          assert.ok(!child.label.includes(' & '), `Found & in child nav label: ${child.label}`);
+          if (child.badge) {
+            assert.ok(!child.badge.includes(' & '), `Found & in child nav badge: ${child.badge}`);
+          }
+        }
+      }
+    }
+  });
 });

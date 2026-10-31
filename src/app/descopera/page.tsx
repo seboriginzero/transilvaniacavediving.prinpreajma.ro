@@ -35,7 +35,7 @@ export default function DescoperaHubPage() {
       <div>
         <Breadcrumbs items={[{ name: 'Descoperă', path: '/descopera' }]} />
         <span className="text-xs font-bold uppercase tracking-wider text-karst-400">
-          Patrimoniu Carstic Natural · Munții Codru-Moma &amp; Munții Mehedinți
+          Patrimoniu Carstic Natural · Munții Codru-Moma și Munții Mehedinți
         </span>
         <h1 className="mt-2 text-3xl font-extrabold text-limestone-50 sm:text-5xl">
           Descoperă Peșterile, Avenele și Traseele Montane

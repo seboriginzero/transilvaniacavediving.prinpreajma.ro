@@ -73,7 +73,7 @@ export default function MagazinPage() {
           <div className="max-w-3xl">
             <span className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-karst-400">
               <ShieldCheck className="h-4 w-4" aria-hidden="true" />
-              Distribuție Oficială Echipamente Scufundări, Speologie &amp; Salvare
+              Distribuție Oficială Echipamente Scufundări, Speologie și Salvare
             </span>
             <h1 className="mt-2 font-serif text-3xl font-bold text-limestone-50 sm:text-5xl">
               Magazin Echipamente Tehnice și Accesorii
@@ -89,7 +89,7 @@ export default function MagazinPage() {
               className="inline-flex items-center justify-center gap-2 rounded-xl bg-karst-600 px-5 py-3 text-sm font-semibold text-limestone-50 shadow-md transition hover:bg-karst-500"
             >
               <Phone className="h-4 w-4" aria-hidden="true" />
-              <span>Comenzi &amp; Consultanță: +40 770 846 001</span>
+              <span>Comenzi și Consultanță: +40 770 846 001</span>
             </a>
             <Link
               href="/contact"

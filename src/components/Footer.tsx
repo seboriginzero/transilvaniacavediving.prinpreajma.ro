@@ -102,7 +102,7 @@ export function Footer({ company }: FooterProps) {
               </li>
               <li>
                 <Link href="/belvedere-moneasa" className="hover:text-karst-400 transition">
-                  Belvedere Moneasa &amp; Cariera de Marmură
+                  Belvedere Moneasa și Cariera de Marmură
                 </Link>
               </li>
               <li>
@@ -133,22 +133,22 @@ export function Footer({ company }: FooterProps) {
           {/* Column 3: Aventuri, Servicii & Patrimoniu */}
           <div>
             <h2 className="text-sm font-bold uppercase tracking-wider text-limestone-100">
-              Experiențe, Servicii &amp; Istorie
+              Experiențe, Servicii și Istorie
             </h2>
             <ul className="mt-4 space-y-2.5 text-sm">
               <li>
                 <Link href="/cave-diving" className="hover:text-karst-400 transition">
-                  Cave Diving &amp; Cursuri Scufundări IANTD
+                  Cave Diving și Cursuri Scufundări IANTD
                 </Link>
               </li>
               <li>
                 <Link href="/aventuri" className="hover:text-karst-400 transition">
-                  Speoturism, Canyoning &amp; Aventură Subterană
+                  Speoturism, Canyoning și Aventură Subterană
                 </Link>
               </li>
               <li>
                 <Link href="/moneasa-adventure" className="hover:text-karst-400 transition">
-                  Moneasa Adventure (Școala Altfel &amp; Săptămâna Verde)
+                  Moneasa Adventure (Școala Altfel și Săptămâna Verde)
                 </Link>
               </li>
               <li>
@@ -168,7 +168,7 @@ export function Footer({ company }: FooterProps) {
               </li>
               <li>
                 <Link href="/jurnal" className="hover:text-karst-400 transition">
-                  Jurnal de Explorare &amp; Arhivă (36 Articole)
+                  Jurnal de Explorare și Arhivă (36 Articole)
                 </Link>
               </li>
             </ul>
@@ -177,12 +177,12 @@ export function Footer({ company }: FooterProps) {
           {/* Column 4: Magazin & Contact */}
           <div>
             <h2 className="text-sm font-bold uppercase tracking-wider text-limestone-100">
-              Magazin Echipamente &amp; Contact
+              Magazin Echipamente și Contact
             </h2>
             <ul className="mt-4 space-y-2.5 text-sm">
               <li>
                 <Link href="/magazin" className="font-semibold text-karst-400 hover:underline">
-                  Catalog Echipamente &amp; Condiții Comandă
+                  Catalog Echipamente și Condiții Comandă
                 </Link>
               </li>
               <li className="text-xs leading-relaxed text-limestone-400">

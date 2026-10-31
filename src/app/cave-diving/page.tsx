@@ -16,7 +16,7 @@ import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { SafetyWarningBanner } from '@/components/SafetyWarningBanner';
 
 export const metadata: Metadata = {
-  title: 'Cave Diving & Cursuri Tehnice IANTD — Peștera Isverna, Șura Mare și Mine Inundate',
+  title: 'Cave Diving și Cursuri Tehnice IANTD — Peștera Isverna, Șura Mare și Mine Inundate',
   description:
     'Prezentare tehnică completă Cave Diving: destinații de scufundări în peșteri (Peștera Isverna, Șura Mare, Peștera cu Apă de la Moară), cursuri IANTD (Side Mount, Cavern, Intro to Cave), echipamente redundante și cerințe de eligibilitate.',
   alternates: {
@@ -43,11 +43,11 @@ export default function CaveDivingTechnicalPage() {
         <Breadcrumbs
           items={[
             { name: 'Aventuri și experiențe', path: '/aventuri' },
-            { name: 'Cave Diving & Cursuri IANTD', path: '/cave-diving' },
+            { name: 'Cave Diving și Cursuri IANTD', path: '/cave-diving' },
           ]}
         />
         <span className="text-xs font-bold uppercase tracking-wider text-karst-400">
-          Scufundări Tehnice în Medii Overhead · România &amp; Internațional
+          Scufundări Tehnice în Medii Overhead · România și Internațional
         </span>
         <h1 className="mt-2 text-3xl font-extrabold text-limestone-50 sm:text-5xl">
           Cave Diving: Destinații, Cursuri IANTD, Echipamente și Eligibilitate
@@ -72,7 +72,7 @@ export default function CaveDivingTechnicalPage() {
         <div className="flex items-center gap-2.5 border-b border-cavern-700 pb-3">
           <Compass className="h-6 w-6 text-karst-400" aria-hidden="true" />
           <h2 className="text-2xl font-bold text-limestone-50">
-            1. Destinații de Cave Diving &amp; Profilul Sifoanelor din Peștera Isverna
+            1. Destinații de Cave Diving și Profilul Sifoanelor din Peștera Isverna
           </h2>
         </div>
 
@@ -90,7 +90,7 @@ export default function CaveDivingTechnicalPage() {
               href="/visit-isverna"
               className="inline-flex items-center gap-2 rounded-xl bg-karst-600 px-4 py-2.5 text-xs font-bold text-cavern-950 transition hover:bg-karst-500"
             >
-              Deschide Pagina Visit Isverna &amp; Galeria Cristi Mitrofan <ArrowRight className="h-4 w-4" />
+              Deschide Pagina Visit Isverna și Galeria Cristi Mitrofan <ArrowRight className="h-4 w-4" />
             </Link>
           </div>
 
@@ -124,7 +124,7 @@ export default function CaveDivingTechnicalPage() {
         <div className="flex items-center gap-2.5 border-b border-cavern-700 pb-3">
           <Award className="h-6 w-6 text-karst-400" aria-hidden="true" />
           <h2 className="text-2xl font-bold text-limestone-50">
-            2. Programe de Instruire și Cursuri IANTD (Arhivă &amp; Organizare la Cerere)
+            2. Programe de Instruire și Cursuri IANTD (Arhivă și Organizare la Cerere)
           </h2>
         </div>
 

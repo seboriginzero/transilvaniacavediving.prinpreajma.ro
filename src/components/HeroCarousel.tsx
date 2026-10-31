@@ -125,7 +125,7 @@ export function HeroCarousel() {
         <div className="max-w-2xl space-y-4 sm:space-y-5">
           <div className="inline-flex items-center gap-2 rounded-full border border-limestone-100/20 bg-cavern-950/45 px-3.5 py-1.5 text-xs font-medium tracking-wide text-limestone-100 backdrop-blur-md">
             <MapPin className="h-3.5 w-3.5 text-karst-400 shrink-0" aria-hidden="true" />
-            <span>Speoturism · Cave Diving · Munții Codru-Moma &amp; Carpații Românești</span>
+            <span>Speoturism · Cave Diving · Munții Codru-Moma și Carpații Românești</span>
           </div>
 
           <h1 className="font-serif text-3xl font-bold tracking-tight text-limestone-50 drop-shadow-[0_3px_14px_rgba(0,0,0,0.85)] sm:text-5xl lg:text-6xl">

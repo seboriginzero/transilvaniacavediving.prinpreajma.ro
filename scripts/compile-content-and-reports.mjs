@@ -30,7 +30,7 @@ function getPathFromUrl(urlStr) {
 }
 
 async function main() {
-  console.log('=== COMPILING UNIFIED SITE DATABASE & GENERATING REPORTS ===');
+  console.log('=== COMPILING UNIFIED SITE DATABASE și GENERATING REPORTS ===');
 
   const pagesManifestPath = path.join(PROJECT_ROOT, 'source-data/manifests/pages-manifest.json');
   const crawlStatePath = path.join(PROJECT_ROOT, 'source-data/manifests/crawl-state.json');
@@ -166,7 +166,7 @@ async function main() {
   const destinationEnrichments = {
     '/grota-ursului': {
       iaSection: 'Descoperă',
-      categoryLabel: 'Peșteră Turistică & Speoturism',
+      categoryLabel: 'Peșteră Turistică și Speoturism',
       region: 'Stațiunea Moneasa, Munții Codru-Moma, Jud. Arad',
       language: 'ro',
       validationStatus: 'verified_source_and_historical',
@@ -180,7 +180,7 @@ async function main() {
         { label: 'Lungime trasee speoturism', value: '250 m – 1.500 m (durată 1 – 6 ore, echipament complet asigurat)' },
         { label: 'Temperatură subterană', value: '10 – 12 °C (umiditate ridicată)' },
         { label: 'Mineralogie rară', value: 'Cristale de aragonit, calcit, stalactite, stalagmite, domuri, gururi' },
-        { label: 'Paleontologie & Expoziții', value: 'Fosile de Ursus spelaeus (descoperite în 1989) & Expoziția Peștera Coliboaia (cca. 36.000 ani)' },
+        { label: 'Paleontologie și Expoziții', value: 'Fosile de Ursus spelaeus (descoperite în 1989) și Expoziția Peștera Coliboaia (cca. 36.000 ani)' },
       ],
       safetyWarnings: [
         'Traseul turistic de 200 m se parcurge exclusiv în grupuri organizate, conduse de ghizi specializați.',
@@ -190,7 +190,7 @@ async function main() {
     },
     '/pestera-liliecilor': {
       iaSection: 'Descoperă',
-      categoryLabel: 'Patrimoniu Speologic & Arheologic',
+      categoryLabel: 'Patrimoniu Speologic și Arheologic',
       region: 'Valea Lungă, Moneasa, Munții Codru-Moma, Jud. Arad',
       language: 'ro',
       translations: [
@@ -206,7 +206,7 @@ async function main() {
         { label: 'Dezvoltare topografiată', value: '103 m (Gábor Halasi, 1974) / ~150 m (recartare A.S. Speowest Arad, 2011)' },
         { label: 'Morfologie intrare', value: '3 deschideri naturale + portal principal (4 m lățime × 3,5 m înălțime), galerie descendentă -6 m' },
         { label: 'Faună cavernicolă', value: 'Liliacul mare cu potcoavă (Rhinolophus ferrumequinum), Myotis myotis, coleoptere Duvalius redtenbacheri' },
-        { label: 'Paleontologie & Arheologie', value: 'Ursus spelaeus (ursul de cavernă), ceramică neolitică (cultura Tisa), epoca bronzului și epoca fierului' },
+        { label: 'Paleontologie și Arheologie', value: 'Ursus spelaeus (ursul de cavernă), ceramică neolitică (cultura Tisa), epoca bronzului și epoca fierului' },
       ],
       safetyWarnings: [
         'Traseul nu este recomandat pe timp de iarnă sau în condiții meteorologice nefavorabile.',
@@ -257,7 +257,7 @@ async function main() {
     },
     '/pestera-uscata-de-la-moara': {
       iaSection: 'Descoperă',
-      categoryLabel: 'Rezervație Speologică Clasa A & Sit Natura 2000',
+      categoryLabel: 'Rezervație Speologică Clasa A și Sit Natura 2000',
       region: 'Platoul Carstic Tinoasa, Moneasa, Munții Codru-Moma',
       language: 'ro',
       translations: [
@@ -272,7 +272,7 @@ async function main() {
         { label: 'Peștera cu Apă de la Moară', value: '1.750 m lungime totală (853 m galerie principală activă) — Peșteră de Clasa A (valoare excepțională)' },
         { label: 'Ponorul Peștera de la Merezărie', value: '538 m dezvoltare, denivelare -64 m (-55 m / +9 m), afluent subteran activ' },
         { label: 'Peștera Uscată de la Moară', value: '45 m lungime, +6 m denivelare, cavitate fosilă ascendentă la baza peretelui de marmură neagră' },
-        { label: 'Atestare istorică', value: 'Conscripția din 1746 (moara de apă cu două roți) & harta carierei de marmură neagră din 1863' },
+        { label: 'Atestare istorică', value: 'Conscripția din 1746 (moara de apă cu două roți) și harta carierei de marmură neagră din 1863' },
       ],
       safetyWarnings: [
         'ATENȚIE! Conform legislației din România, Peștera cu Apă de la Moară este încadrată în Clasa A (cavitate de valoare excepțională).',
@@ -324,7 +324,7 @@ async function main() {
     },
     '/via-ferrata-cetate-dezna': {
       iaSection: 'Aventuri și experiențe',
-      categoryLabel: 'Via Ferrata & Monument Medieval',
+      categoryLabel: 'Via Ferrata și Monument Medieval',
       region: 'Dealul Osoiu (390 m), Localitatea Dezna, Jud. Arad',
       language: 'ro',
       validationStatus: 'verified_source_and_historical',
@@ -348,12 +348,12 @@ async function main() {
     },
     '/belvedere-moneasa': {
       iaSection: 'Descoperă',
-      categoryLabel: 'Traseu Montan & Geologie Industrială',
+      categoryLabel: 'Traseu Montan și Geologie Industrială',
       region: 'Stațiunea Moneasa, Munții Codru-Moma, Jud. Arad',
       language: 'ro',
       validationStatus: 'verified_source_and_historical',
       technicalSpecs: [
-        { label: 'Obiective pe traseu', value: 'Punctul de Belvedere Moneasa & Cariera de Marmură Roșie și Neagră' },
+        { label: 'Obiective pe traseu', value: 'Punctul de Belvedere Moneasa și Cariera de Marmură Roșie și Neagră' },
         { label: 'Marcaj turistic', value: 'Punct Roșu (plecare de lângă Cuptorul de Topit Fier din Moneasa)' },
         { label: 'Lungime traseu', value: '2,7 km (timp mediu de parcurgere: ~1,5 ore)' },
         { label: 'Grad de dificultate', value: 'Mic – Mediu (nerecomandat iarna sau pe vreme nefavorabilă)' },
@@ -366,7 +366,7 @@ async function main() {
     },
     '/moneasa-adventure': {
       iaSection: 'Aventuri și experiențe',
-      categoryLabel: 'Excursii Educative — Școala Altfel & Săptămâna Verde',
+      categoryLabel: 'Excursii Educative — Școala Altfel și Săptămâna Verde',
       region: 'Stațiunea Moneasa, Jud. Arad',
       language: 'ro',
       validationStatus: 'requires_owner_confirmation',
@@ -374,7 +374,7 @@ async function main() {
         { label: 'Programe educaționale', value: 'Școala Altfel, Săptămâna Verde, tabere și excursii școlare de 1 zi' },
         { label: 'Grupuri țintă', value: 'Grădinițe (preșcolari), Ciclul Primar, Ciclul Gimnazial și Liceu' },
         { label: 'Activități incluse', value: 'Vizită ghidată în Peștera Grota Ursului, atelier de speologie, drumeție tematică, tiroliană / speoturism' },
-        { label: 'Coordonare & Rezervări', value: 'S.C. Transilvania Cave Diving S.R.L. — +40 770 846 001' },
+        { label: 'Coordonare și Rezervări', value: 'S.C. Transilvania Cave Diving S.R.L. — +40 770 846 001' },
       ],
       safetyWarnings: [
         'Ofertele și pachetele educaționale se configurează pe bază de programare prealabilă în funcție de vârsta elevilor și mărimea grupului.',
@@ -382,12 +382,12 @@ async function main() {
     },
     '/statiunea-moneasa': {
       iaSection: 'Istorie și patrimoniu',
-      categoryLabel: 'Monografie Istorică & Balneoclimaterică',
+      categoryLabel: 'Monografie Istorică și Balneoclimaterică',
       region: 'Stațiunea Moneasa („Perla Munților Apuseni”), Jud. Arad',
       language: 'ro',
       validationStatus: 'verified_historical_monograph',
       technicalSpecs: [
-        { label: 'Altitudine & Climat', value: '280 m altitudine, depresionar adăpostit, bioclimat sedativ-indiferent cu ioni negativi' },
+        { label: 'Altitudine și Climat', value: '280 m altitudine, depresionar adăpostit, bioclimat sedativ-indiferent cu ioni negativi' },
         { label: 'Ape minerale', value: 'Izvoare mezotermale (24 – 32 °C) bicarbonatate, calcice, magneziene, sodice, hipotone (forate 1891–1893)' },
         { label: 'Primă atestare documentară', value: '15 aprilie 1597 (donația principelui Sigismund Báthory către Kornis Gáspár)' },
         { label: 'Statut oficial de stațiune balneară', value: '13 mai 1896 (Ministerul de Interne Regal Maghiar, sub patronajul contelui Fridrich Wenckheim)' },
@@ -398,14 +398,14 @@ async function main() {
     '/czaran-gyula': {
       iaSection: 'Istorie și patrimoniu',
       categoryLabel: 'Biografie Istorică — Pionierul Turismului în Apuseni',
-      region: 'Sepreuș / Moneasa, Jud. Arad & Munții Apuseni',
+      region: 'Sepreuș / Moneasa, Jud. Arad și Munții Apuseni',
       language: 'ro',
       validationStatus: 'verified_historical_monograph',
       technicalSpecs: [
         { label: 'Nume complet', value: 'Czárán Gyula (24 august 1847, Sepreuș – 6 ianuarie 1906, Moneasa)' },
         { label: 'Contribuții majore', value: 'Amenajarea traseelor din Moneasa (1891–1893), Peștera Meziad, Cetățile Ponorului, Stâna de Vale, Scărișoara' },
         { label: 'Lucrare de referință', value: '„Kalauz a bihari kirándulásokra” (Ghid pentru excursiile în Bihor, Beiuș, 1903)' },
-        { label: 'Monumente & Memorie', value: 'Placa comemorativă din Moneasa (dezvelită 19 august 1906) & mormântul din cimitirul romano-catolic Moneasa' },
+        { label: 'Monumente și Memorie', value: 'Placa comemorativă din Moneasa (dezvelită 19 august 1906) și mormântul din cimitirul romano-catolic Moneasa' },
       ],
       safetyWarnings: [],
     },
@@ -425,7 +425,7 @@ async function main() {
         { label: 'Sifonul cu Pietriș (Gravel Sump)', value: 'Lungime 195 m | Adâncime maximă -18,5 m' },
         { label: 'Sifonul cu Nisip (Sand Sump)', value: 'Lungime 100 m | Adâncime maximă -39 m' },
         { label: 'Sifonul Final (Final Sump)', value: 'Lungime 30 m | Adâncime maximă -5 m' },
-        { label: 'Suport tehnic disponibil', value: 'Circuit Deschis (OC) & Rebreather (CCR), transport echipament prin galeria uscată' },
+        { label: 'Suport tehnic disponibil', value: 'Circuit Deschis (OC) și Rebreather (CCR), transport echipament prin galeria uscată' },
         { label: 'Credite fotografice', value: 'Cristi Mitrofan' },
       ],
       safetyWarnings: [
@@ -435,15 +435,15 @@ async function main() {
     },
     '/blog': {
       iaSection: 'Servicii',
-      categoryLabel: 'Portofoliu Servicii Speologice, Cave Diving & Lucrări Subacvatice',
-      region: 'România & Internațional',
+      categoryLabel: 'Portofoliu Servicii Speologice, Cave Diving și Lucrări Subacvatice',
+      region: 'România și Internațional',
       language: 'ro',
       validationStatus: 'verified_source_and_historical',
       technicalSpecs: [
-        { label: 'Speoturism & Ghidaj', value: 'Organizare ture speologice, obținere autorizații, asigurare echipament individual și colectiv' },
+        { label: 'Speoturism și Ghidaj', value: 'Organizare ture speologice, obținere autorizații, asigurare echipament individual și colectiv' },
         { label: 'Cave Diving', value: 'Scufundări ghidate în peșteri și galerii de mină inundate din România și străinătate (pentru scafandri brevetați)' },
         { label: 'Distribuție Echipamente', value: 'TecLine, Ammonite System, Kwark, UR-Flex, Bauer, Si Tech, Shearwater, Fenix, Ursuit' },
-        { label: 'Lucrări Comerciale & Industriale', value: 'Lucrări subacvatice (baraje, hidrocentrale, stații de pompare, recuperări) și lucrări la înălțime / spații înguste' },
+        { label: 'Lucrări Comerciale și Industriale', value: 'Lucrări subacvatice (baraje, hidrocentrale, stații de pompare, recuperări) și lucrări la înălțime / spații înguste' },
       ],
       safetyWarnings: [
         'Turele de scufundări în peșteri și mine inundate sunt organizate exclusiv pentru scafandri brevetați.',
@@ -451,7 +451,7 @@ async function main() {
     },
     '/magazin': {
       iaSection: 'Magazin',
-      categoryLabel: 'Echipamente Scufundări, Speologie & Lucrări Tehnice',
+      categoryLabel: 'Echipamente Scufundări, Speologie și Lucrări Tehnice',
       region: 'Livrare prin curier în toată România',
       language: 'ro',
       validationStatus: 'verified_source_and_historical',
@@ -468,7 +468,7 @@ async function main() {
     },
     '/contact': {
       iaSection: 'Contact',
-      categoryLabel: 'Date Oficiale de Contact & Identificare Fiscală',
+      categoryLabel: 'Date Oficiale de Contact și Identificare Fiscală',
       region: 'Arad / Moneasa, Județul Arad, România',
       language: 'ro',
       validationStatus: 'verified_official_company_data',
@@ -564,17 +564,17 @@ async function main() {
     }
 
     // Determine article category for blog posts
-    let postCategory = 'Jurnal & Arhivă';
+    let postCategory = 'Jurnal și Arhivă';
     const titleLower = (rawPage.source_title || '').toLowerCase();
     const bodyLower = rewrittenBody.toLowerCase();
     if (titleLower.includes('fenix') || titleLower.includes('tecline') || titleLower.includes('ammonite') || titleLower.includes('kwark') || titleLower.includes('bauer') || titleLower.includes('shearwater') || titleLower.includes('echipament')) {
-      postCategory = 'Echipamente & Tehnică';
+      postCategory = 'Echipamente și Tehnică';
     } else if (titleLower.includes('iantd') || titleLower.includes('cave') || titleLower.includes('scufund') || titleLower.includes('isverna') || titleLower.includes('sura mare') || titleLower.includes('șura mare') || titleLower.includes('side mount')) {
-      postCategory = 'Cave Diving & Cursuri';
+      postCategory = 'Cave Diving și Cursuri';
     } else if (titleLower.includes('grota ursului') || titleLower.includes('speoturism') || titleLower.includes('canyoning') || titleLower.includes('scoala altfel') || titleLower.includes('școala altfel')) {
-      postCategory = 'Speoturism & Aventură';
+      postCategory = 'Speoturism și Aventură';
     } else if (titleLower.includes('moneasa') || titleLower.includes('czaran') || titleLower.includes('czárán') || titleLower.includes('istorie') || titleLower.includes('1905') || titleLower.includes('dezna')) {
-      postCategory = 'Istorie & Patrimoniu';
+      postCategory = 'Istorie și Patrimoniu';
     }
 
     const record = {
@@ -634,42 +634,42 @@ async function main() {
     {
       name: 'Fenix',
       slug: 'fenix',
-      category: 'Lanterne Frontale, Subacvatice & Industriale',
+      category: 'Lanterne Frontale, Subacvatice și Industriale',
       description: 'Sisteme profesionale de iluminat cu LED de înaltă performanță pentru speologie, căutare-salvare, drumeție montană și aplicații tactice/industriale (seriile HM65R, HM65R-DT, HM60R, HM70R, HP30R, WH23R).',
       image: resolveLocalMediaPath('https://transilvaniacavediving.com/wp-content/uploads/2020/10/18-2.png'),
     },
     {
       name: 'TecLine',
       slug: 'tecline',
-      category: 'Echipamente Scufundări Tehnice & Cave Diving',
-      description: 'Detentoare (R2 TEC2, V2 ICE), aripi compensatoare (BCD Backmount & Sidemount Avenger), instrumente, măști frameless, labe și accesorii configurate pentru scufundări tehnice și în peșteri.',
+      category: 'Echipamente Scufundări Tehnice și Cave Diving',
+      description: 'Detentoare (R2 TEC2, V2 ICE), aripi compensatoare (BCD Backmount și Sidemount Avenger), instrumente, măști frameless, labe și accesorii configurate pentru scufundări tehnice și în peșteri.',
       image: resolveLocalMediaPath('https://transilvaniacavediving.com/wp-content/uploads/2020/10/41613734_2191457734450778_4376036792281858048_n.jpg'),
     },
     {
       name: 'Ammonite System',
       slug: 'ammonite-system',
-      category: 'Lanterne Umbilicale & Sisteme Încălzire Subacvatică',
+      category: 'Lanterne Umbilicale și Sisteme Încălzire Subacvatică',
       description: 'Lanterne primare și de backup din aluminiu anodizat și delrin, acumulatori Li-Ion și sisteme de încălzire electrică (Accu Thermo) proiectate pentru scufundări în ape reci și peșteri.',
       image: resolveLocalMediaPath('https://transilvaniacavediving.com/wp-content/uploads/2020/10/ammonite-system_products-2019-1.jpg'),
     },
     {
       name: 'Shearwater Research',
       slug: 'shearwater',
-      category: 'Computere de Scufundare Tehnice & CCR',
+      category: 'Computere de Scufundare Tehnice și CCR',
       description: 'Computere de scufundare de referință mondială (Perdix, Petrel, Teric, Peregrine) pentru scufundări tehnice cu amestecuri Trimix/Nitrox în circuit deschis (OC) și circuit închis (CCR).',
       image: resolveLocalMediaPath('https://transilvaniacavediving.com/wp-content/uploads/2020/10/ai-product-page-image-1.png'),
     },
     {
       name: 'Ursuit',
       slug: 'ursuit',
-      category: 'Costume Uscate (Drysuits) & Echipamente Salvare',
+      category: 'Costume Uscate (Drysuits) și Echipamente Salvare',
       description: 'Costume uscate trilaminate și din neopren comprimat, subcostume termice și echipamente de protecție pentru scufundări în ape reci (~8 °C în peșterile din România) și misiuni de salvare acvatică.',
       image: resolveLocalMediaPath('https://transilvaniacavediving.com/wp-content/uploads/2020/10/009640_rescue2.0_l1.png'),
     },
     {
       name: 'Bauer Kompressoren',
       slug: 'bauer-kompressoren',
-      category: 'Compresoare de Înaltă Presiune Aer & Nitrox',
+      category: 'Compresoare de Înaltă Presiune Aer și Nitrox',
       description: 'Compresoare portabile și staționare de înaltă presiune (seria Junior II, Oceanus, Capitano) și sisteme de filtrare aer respirabil conform standardului EN 12021.',
       image: resolveLocalMediaPath('https://transilvaniacavediving.com/wp-content/uploads/2020/10/csm_junior-2-b-back_646810c7c8.jpg'),
     },
@@ -690,7 +690,7 @@ async function main() {
     {
       name: 'Si Tech',
       slug: 'si-tech',
-      category: 'Supape, Manșoane & Mănuși Uscate pentru Drysuit',
+      category: 'Supape, Manșoane și Mănuși Uscate pentru Drysuit',
       description: 'Sisteme modulare de etanșare pentru gât și încheieturi (Quick Neck, QCP, Antares), supape de inflare/evacuare și sisteme P-Valve pentru costume uscate.',
       image: resolveLocalMediaPath('https://transilvaniacavediving.com/wp-content/uploads/2020/10/1.jpg'),
     },
@@ -722,10 +722,10 @@ async function main() {
         href: '/descopera',
         description: 'Peșteri, rezervații carstice și trasee montane în Munții Codru-Moma',
         children: [
-          { label: 'Peștera Grota Ursului', href: '/grota-ursului', badge: 'Amenajată & Speoturism' },
+          { label: 'Peștera Grota Ursului', href: '/grota-ursului', badge: 'Amenajată și Speoturism' },
           { label: 'Peștera Liliecilor – Moneasa', href: '/pestera-liliecilor', badge: 'Traseu 1,3 km · RO/EN/HU' },
           { label: 'Sistemul Carstic de la Moară', href: '/pestera-uscata-de-la-moara', badge: 'Natura 2000 · RO/EN/HU' },
-          { label: 'Belvedere Moneasa & Cariera de Marmură', href: '/belvedere-moneasa', badge: 'Traseu 2,7 km' },
+          { label: 'Belvedere Moneasa și Cariera de Marmură', href: '/belvedere-moneasa', badge: 'Traseu 2,7 km' },
         ],
       },
       {
@@ -733,10 +733,10 @@ async function main() {
         href: '/aventuri',
         description: 'Cave diving, speoturism, via ferrata, canyoning și excursii educative',
         children: [
-          { label: 'Cave Diving & Cursuri IANTD', href: '/cave-diving', badge: 'Scafandri Brevetați' },
+          { label: 'Cave Diving și Cursuri IANTD', href: '/cave-diving', badge: 'Scafandri Brevetați' },
           { label: 'Peștera Isverna — Ghid Tehnic', href: '/visit-isverna', badge: 'Mehedinți · >4 km' },
           { label: 'Via Ferrata – Cetatea Dezna', href: '/via-ferrata-cetate-dezna', badge: 'Grad B · 600 m' },
-          { label: 'Moneasa Adventure (Școala Altfel & Săptămâna Verde)', href: '/moneasa-adventure', badge: 'Educațional' },
+          { label: 'Moneasa Adventure (Școala Altfel și Săptămâna Verde)', href: '/moneasa-adventure', badge: 'Educațional' },
         ],
       },
       {
@@ -907,7 +907,7 @@ async function main() {
     '"/the-mill-karst-system/","/the-mill-karst-system","200","direct_preserve","The Mill Karst System (EN QR trail page)"',
     '"/a-malom-karsztrendszere/","/a-malom-karsztrendszere","200","direct_preserve","A Malom-karsztrendszere (HU QR trail page)"',
     '"/via-ferrata-cetate-dezna/","/via-ferrata-cetate-dezna","200","direct_preserve","Via Ferrata – Cetatea Dezna"',
-    '"/belvedere-moneasa/","/belvedere-moneasa","200","direct_preserve","Belvedere Moneasa & Cariera de Marmură"',
+    '"/belvedere-moneasa/","/belvedere-moneasa","200","direct_preserve","Belvedere Moneasa și Cariera de Marmură"',
     '"/moneasa-adventure/","/moneasa-adventure","200","direct_preserve","Moneasa Adventure educational programs"',
     '"/statiunea-moneasa/","/statiunea-moneasa","200","direct_preserve","Stațiunea Balneoclimaterică Moneasa monograph"',
     '"/czaran-gyula/","/czaran-gyula","200","direct_preserve","Czárán Gyula biography"',
@@ -1003,7 +1003,7 @@ async function main() {
 1. \`/robots.txt\` — verificat și respectat integral.
 2. \`/sitemap.xml\` și \`/news-sitemap.xml\` — extrase și arhivate în \`source-data/raw/sitemaps/\`.
 3. \`/feed/\` (RSS 2.0) — extras și arhivat în \`source-data/raw/sitemaps/feed.xml\`.
-4. **WordPress Public REST API (v2 & v1.1)**:
+4. **WordPress Public REST API (v2 și v1.1)**:
    - \`https://public-api.wordpress.com/wp/v2/sites/transilvaniacavedivingcom.wordpress.com/pages?per_page=100\` (17 pagini)
    - \`https://public-api.wordpress.com/wp/v2/sites/transilvaniacavedivingcom.wordpress.com/posts?per_page=100\` (36 articole)
    - \`https://public-api.wordpress.com/wp/v2/sites/transilvaniacavedivingcom.wordpress.com/categories?per_page=100\` (6 categorii)
@@ -1050,7 +1050,7 @@ Conform regulilor stricte de fidelitate și validare (Secțiunile 4 și 5):
 - Toate articolele din perioada **2019–2025** sunt marcate vizibil cu data publicării originale și cu un banner de context istoric atunci când conțin tarife sau oferte datate:
   - *Peștera Grota Ursului (\`/grota-ursului\`)*: Tarife afișate pe sursă (**20 lei** adulți / copii >14 ani, **10 lei** copii <14 ani, gratuit sub 5 ani / speologi / salvamont) și program weekend (**Sâmbătă–Duminică 11:00–16:00**). Marcat cu notă de confirmare pentru vizite în afara programului.
   - *Ture de Speoturism în Grota Ursului (articol 2021)*: Preț istoric de arhivă menționat în articolul din 2021 (**100 lei/persoană**, minim 5 persoane) — păstrat în articolul de arhivă cu etichetă clară de **Arhivă 2021**.
-  - *Excursii Școala Altfel & Săptămâna Verde (articole 2023 și pagina \`/moneasa-adventure\`)*: Pachetele pentru grădinițe, primar, gimnaziu și liceu sunt păstrate integral, iar prețurile din articolul din aprilie 2023 (**75 lei/elev** cu tiroliană, **125 lei/elev** cu speoturism) sunt încadrate drept referință istorică (2023), necesitând ofertă actualizată la rezervare.
+  - *Excursii Școala Altfel și Săptămâna Verde (articole 2023 și pagina \`/moneasa-adventure\`)*: Pachetele pentru grădinițe, primar, gimnaziu și liceu sunt păstrate integral, iar prețurile din articolul din aprilie 2023 (**75 lei/elev** cu tiroliană, **125 lei/elev** cu speoturism) sunt încadrate drept referință istorică (2023), necesitând ofertă actualizată la rezervare.
   - *Canyoning la Moneasa (articol 2021)*: Păstrat integral în arhiva Jurnal cu detalii despre cascada Boroaia și echipamentul de neopren.
   - *Cursuri de scufundări IANTD — Side Mount, Cavern, Intro to Cave (articole 2020–2021)*: Păstrate integral cu mențiunea că sesiunile de instruire se organizează la cerere.
 `;
@@ -1069,9 +1069,9 @@ Acest document clasifică informațiile extrase conform celor 5 categorii obliga
 
 | Domeniu / Entitate | Informație Validată | Sursă de Verificare |
 |---|---|---|
-| **Identitate Juridică** | **S.C. Transilvania Cave Diving S.R.L.**, CIF **39749631**, Reg. Com. **J02/1309/2018**, sediu în Arad | Pagina oficială Contact & date de înregistrare fiscală ONRC |
+| **Identitate Juridică** | **S.C. Transilvania Cave Diving S.R.L.**, CIF **39749631**, Reg. Com. **J02/1309/2018**, sediu în Arad | Pagina oficială Contact și date de înregistrare fiscală ONRC |
 | **Peștera Liliecilor (Hoanca Coului)** | Cod RAN **11487.01** (Situl arheologic de la Moneasa – Hoanca Coului: paleolitic, neolitic cultura Tisa, epoca bronzului, epoca fierului) | Repertoriul Arheologic Național (RAN) – Ministerul Culturii |
-| **Sistemul Carstic de la Moară** | Sit Natura 2000 **ROSCI0042 Codru-Moma**; **Peștera cu Apă de la Moară** încadrată în **Clasa A** (valoare excepțională) conform Legii 49/2011 și OUG 57/2007 | Agenția Națională pentru Mediu și Arii Protejate (ANMAP) & Comisia Patrimoniului Speologic |
+| **Sistemul Carstic de la Moară** | Sit Natura 2000 **ROSCI0042 Codru-Moma**; **Peștera cu Apă de la Moară** încadrată în **Clasa A** (valoare excepțională) conform Legii 49/2011 și OUG 57/2007 | Agenția Națională pentru Mediu și Arii Protejate (ANMAP) și Comisia Patrimoniului Speologic |
 | **Dreptul de Retur (Magazin)** | Termen legal de retragere de **14 zile calendaristice** pentru contractele la distanță | O.U.G. nr. 34/2014 privind drepturile consumatorilor |
 | **Urgențe Montane și Speologice** | Apel de urgență **112** și Dispeceratul Național Salvamont **0-SALVAMONT (0725 826 668)** | Serviciul Județean Salvamont-Salvaspeo Arad |
 
@@ -1128,7 +1128,7 @@ Acest document clasifică informațiile extrase conform celor 5 categorii obliga
 
 ## 2. Conformitate Accesibilitate (WCAG 2.2 AA)
 
-- **Contrast Cromatic**: Tema *„Transilvania Underground & Adventure”* folosește text \`#F6F4EE\` pe fundal \`#0B1116\` (raport **17.4 : 1**, depășind cerința AAA de 7:1).
+- **Contrast Cromatic**: Tema *„Transilvania Underground și Adventure”* folosește text \`#F6F4EE\` pe fundal \`#0B1116\` (raport **17.4 : 1**, depășind cerința AAA de 7:1).
 - **Navigare de la Tastatură**: Link \`Skip to main content\` („Sari la conținutul principal”), meniu mobil accesibil cu tasta \`Escape\`, lightbox galerie foto controlabil din tastatură (\`ArrowLeft\`, \`ArrowRight\`, \`Escape\`).
 - **Semantică HTML5**: Landmark-uri \`<header>\`, \`<nav>\`, \`<main id="main-content">\`, \`<article>\`, \`<aside>\`, \`<footer>\` și ierarhie strictă de titluri (\`h1\` unic pe fiecare pagină).
 `;
@@ -1196,7 +1196,7 @@ ${compiledPages
 
 ## 2. Verificarea Arhivei Editoriale și Istorice (Toate cele ${compiledPosts.length} Articole)
 
-| Data Publicării | Titlu Articol | Rută Cronologică & Jurnal | Secțiuni | Imagini | Status |
+| Data Publicării | Titlu Articol | Rută Cronologică și Jurnal | Secțiuni | Imagini | Status |
 |---|---|---|---|---|---|
 ${compiledPosts
   .map(

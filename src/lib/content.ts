@@ -213,13 +213,13 @@ export function getEquipmentBrands(): EquipmentBrand[] {
 }
 
 export function getEquipmentArticles(): PageRecord[] {
-  return db.posts.filter((p) => p.categoryLabel === 'Echipamente & Tehnică');
+  return db.posts.filter((p) => p.categoryLabel === 'Echipamente și Tehnică');
 }
 
 export function getCaveDivingArticles(): PageRecord[] {
   return db.posts.filter(
     (p) =>
-      p.categoryLabel === 'Cave Diving & Cursuri' ||
+      p.categoryLabel === 'Cave Diving și Cursuri' ||
       p.cleanTitle.toLowerCase().includes('isverna') ||
       p.cleanTitle.toLowerCase().includes('cave') ||
       p.cleanTitle.toLowerCase().includes('iantd') ||

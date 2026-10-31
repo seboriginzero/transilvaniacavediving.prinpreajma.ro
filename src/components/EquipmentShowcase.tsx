@@ -42,13 +42,13 @@ export const EQUIPMENT_CATALOG: EquipmentBrandCatalog[] = [
     name: 'Fenix Lighting',
     tagline: 'Lanterne frontale profesionale pentru speologie, lanterne subacvatice și acumulatori Li-Ion',
     categoryGroup: 'lighting',
-    categoryLabel: 'Iluminat Speo & Subacvatic',
+    categoryLabel: 'Iluminat Speo și Subacvatic',
     logo: '/media/logos/fenix_logo-e.jpg',
     officialWebsite: 'https://www.fenixlight.com',
     summary:
       'Referința în iluminatul subteran pentru speologi, salvatori montani și exploratori. Construcție din aliaj de aluminiu aviatic și magneziu, etanșeitate IP68 (submersibile la 2 m), rezistență la impact și autonomie extinsă pentru ture lungi în cavernă.',
     productLines: [
-      'Lanterne frontale speologie (Seria HM & HP)',
+      'Lanterne frontale speologie (Seria HM și HP)',
       'Lanterne de mână tactice și industriale',
       'Lanterne subacvatice (Seria SD)',
       'Lanterne pentru bicicletă și camping',
@@ -86,13 +86,13 @@ export const EQUIPMENT_CATALOG: EquipmentBrandCatalog[] = [
         articlePath: '/2023/10/21/fenix-hm65r-lanterna-frontala-1400-lumeni-163-metri',
       },
       {
-        model: 'Fenix HM65R-T & HM65R-DT',
+        model: 'Fenix HM65R-T și HM65R-DT',
         badge: '1500 Lumeni · Sistem BOA',
         specs: 'Sistem rapid de ajustare pe cască cu o singură mână · Dublu fascicul alb rece + cald pentru ceață/umiditate',
         articlePath: '/2023/10/21/fenix-hm65r-dt-lanterna-frontala-1500-lumeni-170-metri-dark-purple',
       },
       {
-        model: 'Fenix HM61R & HM60R',
+        model: 'Fenix HM61R și HM60R',
         badge: '1200 Lumeni · Multifuncțională',
         specs: 'Detecție a frecvenței pașilor (HM60R) sau corp detașabil în unghi drept cu bază magnetică (HM61R)',
         articlePath: '/2021/04/29/lanterna-frontala-fenix-hm61r-1200-lumeni',
@@ -140,9 +140,9 @@ export const EQUIPMENT_CATALOG: EquipmentBrandCatalog[] = [
   {
     slug: 'tecline',
     name: 'TecLine Scuba Equipment',
-    tagline: 'Detentoare ape reci, harnașamente Sidemount & Backmount, faruri canistră și accesorii tehnice',
+    tagline: 'Detentoare ape reci, harnașamente Sidemount și Backmount, faruri canistră și accesorii tehnice',
     categoryGroup: 'diving',
-    categoryLabel: 'Scufundări Tehnice & Sidemount',
+    categoryLabel: 'Scufundări Tehnice și Sidemount',
     logo: '/media/shop/tecline-1.jpg',
     officialWebsite: 'https://teclinediving.eu/',
     summary:
@@ -157,7 +157,7 @@ export const EQUIPMENT_CATALOG: EquipmentBrandCatalog[] = [
     featuredModels: [
       {
         model: 'Set Sidemount TecLine',
-        badge: 'Configurație Sifoane & Restricții',
+        badge: 'Configurație Sifoane și Restricții',
         specs: 'Harnașament complet + aripă compensatorie dedicată pasajelor înguste și peșterilor scufundate',
         articlePath: '/2021/09/14/oferta-set-sidemount-tecline-15-discount',
       },
@@ -169,12 +169,12 @@ export const EQUIPMENT_CATALOG: EquipmentBrandCatalog[] = [
       },
       {
         model: 'Military Line Special Forces',
-        badge: 'Tactic & Intervenție',
+        badge: 'Tactic și Intervenție',
         specs: 'Echipamente cu finisaj mat anti-reflex și materiale armate Kevlar pentru scafandri militari și salvare',
         articlePath: '/2022/05/20/military-line-tecline',
       },
       {
-        model: 'Detentoare V2 ICE & R2 TEC',
+        model: 'Detentoare V2 ICE și R2 TEC',
         badge: 'Certificare EN250A Ape Reci',
         specs: 'Traseu optimizat al furtunurilor pentru configurații Sidemount și Twinset în ape de 4–8°C',
         articlePath: '/2023/11/07/hose-holders-for-111-7-liter-aluminum-cylinders-and-other-cylinders-with-a-diameter-of-182-152-mm',
@@ -213,7 +213,7 @@ export const EQUIPMENT_CATALOG: EquipmentBrandCatalog[] = [
     name: 'Ammonite System',
     tagline: 'Lanterne subacvatice umbilicale, sisteme video și acumulatori pentru încălzire în costum uscat',
     categoryGroup: 'lighting',
-    categoryLabel: 'Iluminat Speo & Subacvatic',
+    categoryLabel: 'Iluminat Speo și Subacvatic',
     logo: '/media/shop/ammonite.jpg',
     officialWebsite: 'https://ammonitesystem.com',
     summary:
@@ -226,8 +226,8 @@ export const EQUIPMENT_CATALOG: EquipmentBrandCatalog[] = [
     ],
     featuredModels: [
       {
-        model: 'Gama Ammonite Dive Lights & Heating',
-        badge: 'Modular · Umbilical & Thermo',
+        model: 'Gama Ammonite Dive Lights și Heating',
+        badge: 'Modular · Umbilical și Thermo',
         specs: 'Cabluri interschimbabile Heavy-Duty, conectori etanși și canistre compatibile atât cu faruri cât și cu veste încălzite',
         articlePath: '/2020/11/07/ammonite-system-dive-lights-and-heating-systems',
       },
@@ -261,13 +261,13 @@ export const EQUIPMENT_CATALOG: EquipmentBrandCatalog[] = [
     name: 'Kwark Thermal Protection',
     tagline: 'Combinezoane termice Polartec® pentru costum uscat, lenjerie tehnică, cagule și șosete termice',
     categoryGroup: 'thermal',
-    categoryLabel: 'Costume Uscate & Protecție Termică',
+    categoryLabel: 'Costume Uscate și Protecție Termică',
     logo: '/media/logos/kwark_logo_male.png',
     officialWebsite: '/contact',
     summary:
       'Protecție termică de înaltă performanță concepută special pentru scafandri de peșteră și speologi. Materialele Polartec® Power Stretch® Pro și Windbloc® mențin confortul termic în ape de 4–7°C fără a adăuga flotabilitate excesivă.',
     productLines: [
-      'Combinezoane integrale (undersuits) pentru costum uscat (Seria Navy & Aquashell)',
+      'Combinezoane integrale (undersuits) pentru costum uscat (Seria Navy și Aquashell)',
       'Bluze și pantaloni termici din Polartec® Power Stretch® Pro',
       'Veste termice suplimentare pentru decompresii lungi',
       'Cagule, mănuși interioare și șosete termice anatomice',
@@ -280,8 +280,8 @@ export const EQUIPMENT_CATALOG: EquipmentBrandCatalog[] = [
         articlePath: '/2021/12/27/discount-10-pentru-persoanele-legitimate-la-frs-corsa-si-ansmr-la-toate-produsele-comercializate-de-transilvania-cave-diving',
       },
       {
-        model: 'Kwark Aquashell & Straturi Termice',
-        badge: 'Speologie & Scufundări Tehnice',
+        model: 'Kwark Aquashell și Straturi Termice',
+        badge: 'Speologie și Scufundări Tehnice',
         specs: 'Protecție hidrofobă și rezistență la vânt, ideală atât sub costumul uscat cât și în explorări speologice',
         articlePath: '/2021/11/21/reduceri-de-pana-la-50-pentru-urmatoarea-gama-de-produse',
       },
@@ -324,7 +324,7 @@ export const EQUIPMENT_CATALOG: EquipmentBrandCatalog[] = [
     name: 'UR-Flex Diving Hoses',
     tagline: 'Furtunuri profesionale de înaltă și joasă presiune pentru detentoare, manometre și costume uscate',
     categoryGroup: 'diving',
-    categoryLabel: 'Scufundări Tehnice & Sidemount',
+    categoryLabel: 'Scufundări Tehnice și Sidemount',
     logo: '/media/shop/ur-flex-1.jpg',
     officialWebsite: 'http://ur-flex.com/',
     summary:
@@ -336,7 +336,7 @@ export const EQUIPMENT_CATALOG: EquipmentBrandCatalog[] = [
     ],
     featuredModels: [
       {
-        model: 'Furtunuri LP Braided & Cauciuc (15–210 cm)',
+        model: 'Furtunuri LP Braided și Cauciuc (15–210 cm)',
         badge: 'Joasă Presiune · Rutare Sidemount/DIR',
         specs: 'Rezistență la îndoire (kink-resistant) și flexibilitate superioară în apă rece',
         articlePath: '/2023/11/07/hose-holders-for-111-7-liter-aluminum-cylinders-and-other-cylinders-with-a-diameter-of-182-152-mm',
@@ -366,11 +366,11 @@ export const EQUIPMENT_CATALOG: EquipmentBrandCatalog[] = [
     name: 'Bauer Kompressoren',
     tagline: 'Compresoare de înaltă presiune (225/330 bar), sisteme Nitrox/Trimix și rampe de stocare aer',
     categoryGroup: 'computers',
-    categoryLabel: 'Computere Tehnice & Compresoare',
+    categoryLabel: 'Computere Tehnice și Compresoare',
     logo: '/media/logos/2018-10_logo_bauer_certified_partner_rgb.jpg',
     officialWebsite: 'https://www.bauer-kompressoren.de',
     summary:
-      'Liderul mondial în compresoare de înaltă presiune pentru aer respirabil, sisteme de amestecuri gazoase (Nitrox & Trimix) și instalații de umplere pentru scafandri tehnici, baze de salvare și unități de intervenție.',
+      'Liderul mondial în compresoare de înaltă presiune pentru aer respirabil, sisteme de amestecuri gazoase (Nitrox și Trimix) și instalații de umplere pentru scafandri tehnici, baze de salvare și unități de intervenție.',
     productLines: [
       'Compresoare portabile de expediție (Junior II, Oceanus, Capitano, Mariner)',
       'Compresoare staționare insonorizate (Seria PE-VE, Mini-Verticus, Verticus)',
@@ -391,8 +391,8 @@ export const EQUIPMENT_CATALOG: EquipmentBrandCatalog[] = [
         articlePath: '/2025/01/25/junior-ii-30th-anniversary-%f0%9f%8e%89',
       },
       {
-        model: 'Sisteme OX-Blending & Verticus',
-        badge: 'Nitrox / Trimix & Stații Umplere',
+        model: 'Sisteme OX-Blending și Verticus',
+        badge: 'Nitrox / Trimix și Stații Umplere',
         specs: 'Stații complete de preparare amestecuri respiratorii, stocare și panouri de distribuție multiplă',
         articlePath: '/2021/12/27/discount-10-pentru-persoanele-legitimate-la-frs-corsa-si-ansmr-la-toate-produsele-comercializate-de-transilvania-cave-diving',
       },
@@ -430,7 +430,7 @@ export const EQUIPMENT_CATALOG: EquipmentBrandCatalog[] = [
     name: 'Ursuit Drysuits',
     tagline: 'Costume uscate trilaminate din Cordura® pentru cave diving, lucrări subacvatice și salvare',
     categoryGroup: 'thermal',
-    categoryLabel: 'Costume Uscate & Protecție Termică',
+    categoryLabel: 'Costume Uscate și Protecție Termică',
     logo: '/media/shop/ursuit.jpg',
     officialWebsite: 'https://www.ursuit.com',
     summary:
@@ -443,13 +443,13 @@ export const EQUIPMENT_CATALOG: EquipmentBrandCatalog[] = [
     featuredModels: [
       {
         model: 'Ursuit Heavy Light 2.0',
-        badge: 'Trilaminat Cave & Tech Diving',
+        badge: 'Trilaminat Cave și Tech Diving',
         specs: 'Fermoar frontal cu clapetă de protecție · Torso telescopic · Buzunare tehnice mari pe coapse și genunchiere Kevlar®',
         articlePath: '/2021/12/27/discount-10-pentru-persoanele-legitimate-la-frs-corsa-si-ansmr-la-toate-produsele-comercializate-de-transilvania-cave-diving',
       },
       {
-        model: 'Ursuit Rescue 2.0 & Pursuit X3',
-        badge: 'Salvare Acvatică & Speologie Activă',
+        model: 'Ursuit Rescue 2.0 și Pursuit X3',
+        badge: 'Salvare Acvatică și Speologie Activă',
         specs: 'Material Gore-Tex® / 4-Tex® respirabil și impermeabil pentru echipe de salvare montană, speologică și acvatică',
         articlePath: '/2021/12/27/discount-10-pentru-persoanele-legitimate-la-frs-corsa-si-ansmr-la-toate-produsele-comercializate-de-transilvania-cave-diving',
       },
@@ -477,7 +477,7 @@ export const EQUIPMENT_CATALOG: EquipmentBrandCatalog[] = [
     name: 'Si Tech Drysuit Systems',
     tagline: 'Sisteme modulare de guler și manșete din silicon, mănuși uscate și supape pentru costum uscat',
     categoryGroup: 'thermal',
-    categoryLabel: 'Costume Uscate & Protecție Termică',
+    categoryLabel: 'Costume Uscate și Protecție Termică',
     logo: '/media/shop/sitech.jpg',
     officialWebsite: 'https://www.sitech.se',
     summary:
@@ -490,20 +490,20 @@ export const EQUIPMENT_CATALOG: EquipmentBrandCatalog[] = [
     ],
     featuredModels: [
       {
-        model: 'Quick Cuff / QCP Oval & Antares',
-        badge: 'Mănuși Uscate & Manșete Silicon',
+        model: 'Quick Cuff / QCP Oval și Antares',
+        badge: 'Mănuși Uscate și Manșete Silicon',
         specs: 'Inele ovale sau rotunde pentru montarea mănușilor uscate și schimbarea manșetelor în câteva minute',
         articlePath: '/2021/12/27/discount-10-pentru-persoanele-legitimate-la-frs-corsa-si-ansmr-la-toate-produsele-comercializate-de-transilvania-cave-diving',
       },
       {
-        model: 'Neck Tite & Quick Neck',
+        model: 'Neck Tite și Quick Neck',
         badge: 'Guler Silicon Interschimbabil',
         specs: 'Etanșare confortabilă din silicon hipoalergenic, rezistent la rupere, raze UV și ozon',
         articlePath: '/2021/12/27/discount-10-pentru-persoanele-legitimate-la-frs-corsa-si-ansmr-la-toate-produsele-comercializate-de-transilvania-cave-diving',
       },
       {
-        model: 'Supape Inflare / Purjare & Argo P-Valve',
-        badge: 'Control Flotabilitate & Decompresie',
+        model: 'Supape Inflare / Purjare și Argo P-Valve',
+        badge: 'Control Flotabilitate și Decompresie',
         specs: 'Debit precis de aer și supapă de echilibrare fiziologică pentru scufundări tehnice de lungă durată',
         articlePath: '/2021/12/27/discount-10-pentru-persoanele-legitimate-la-frs-corsa-si-ansmr-la-toate-produsele-comercializate-de-transilvania-cave-diving',
       },
@@ -541,7 +541,7 @@ export const EQUIPMENT_CATALOG: EquipmentBrandCatalog[] = [
     name: 'Shearwater Research',
     tagline: 'Computere de scufundări tehnice multi-gaz (Aer, Nitrox, Trimix, CCR) cu integrare wireless AI',
     categoryGroup: 'computers',
-    categoryLabel: 'Computere Tehnice & Compresoare',
+    categoryLabel: 'Computere Tehnice și Compresoare',
     logo: '/media/logos/logo-1.png',
     officialWebsite: 'https://www.shearwater.com',
     summary:
@@ -561,7 +561,7 @@ export const EQUIPMENT_CATALOG: EquipmentBrandCatalog[] = [
       },
       {
         model: 'Shearwater Teric',
-        badge: 'OLED Safir · Multi-Gaz & AI',
+        badge: 'OLED Safir · Multi-Gaz și AI',
         specs: 'Ecran AMOLED full-color · Carcasă din oțel inoxidabil 316 și sticlă de safir · Alarme cu vibrații și busolă digitală compensată 3D',
         articlePath: '/2021/11/21/reduceri-de-pana-la-50-pentru-urmatoarea-gama-de-produse',
       },
@@ -594,10 +594,10 @@ export const EQUIPMENT_CATALOG: EquipmentBrandCatalog[] = [
 
 const CATEGORY_TABS = [
   { id: 'all', label: 'Toate Echipamentele (9 Branduri)' },
-  { id: 'lighting', label: 'Iluminat Speo & Subacvatic (Fenix, Ammonite)' },
-  { id: 'diving', label: 'Scufundări & Sidemount (TecLine, UR-Flex)' },
-  { id: 'thermal', label: 'Costume Uscate & Termice (Ursuit, Kwark, Si Tech)' },
-  { id: 'computers', label: 'Computere & Compresoare (Shearwater, Bauer)' },
+  { id: 'lighting', label: 'Iluminat Speo și Subacvatic (Fenix, Ammonite)' },
+  { id: 'diving', label: 'Scufundări și Sidemount (TecLine, UR-Flex)' },
+  { id: 'thermal', label: 'Costume Uscate și Termice (Ursuit, Kwark, Si Tech)' },
+  { id: 'computers', label: 'Computere și Compresoare (Shearwater, Bauer)' },
 ] as const;
 
 interface EquipmentShowcaseProps {
@@ -835,7 +835,7 @@ export function EquipmentShowcase({ compact = false }: EquipmentShowcaseProps) {
                       </span>
                       <span className="inline-flex items-center gap-1 text-xs text-limestone-300">
                         <ShieldCheck className="h-3.5 w-3.5 text-karst-400" />
-                        Distribuție &amp; Consultanță Tehnică
+                        Distribuție și Consultanță Tehnică
                       </span>
                     </div>
                     <h3 className="mt-2 font-serif text-2xl font-bold text-limestone-50 sm:text-3xl">
@@ -861,7 +861,7 @@ export function EquipmentShowcase({ compact = false }: EquipmentShowcaseProps) {
                       href={brand.officialWebsite}
                       className="inline-flex items-center gap-1.5 rounded-xl border border-cavern-600 bg-cavern-800 px-4 py-2.5 text-xs font-medium text-limestone-100 transition hover:border-karst-400 hover:text-karst-400"
                     >
-                      <span>Solicită Catalog &amp; Mărimi</span>
+                      <span>Solicită Catalog și Mărimi</span>
                       <ArrowRight className="h-3.5 w-3.5" aria-hidden="true" />
                     </Link>
                   ) : (

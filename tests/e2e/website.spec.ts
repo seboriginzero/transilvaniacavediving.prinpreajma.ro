@@ -204,7 +204,7 @@ test.describe('Transilvania Cave Diving — End-to-End & Visual Fidelity Verific
     }
 
     // Test interactive category filter
-    const lightingTab = page.locator('button', { hasText: 'Iluminat Speo & Subacvatic' });
+    const lightingTab = page.locator('button', { hasText: 'Iluminat Speo și Subacvatic' });
     await lightingTab.click();
     await expect(page.locator('#brand-fenix')).toBeVisible();
     await expect(page.locator('#brand-ammonite-system')).toBeVisible();

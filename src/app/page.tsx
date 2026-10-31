@@ -210,7 +210,7 @@ export default function HomePage() {
               <div>
                 <Mountain className="h-7 w-7 text-safety-400" aria-hidden="true" />
                 <h3 className="mt-4 font-serif text-xl font-bold text-limestone-50">
-                  Speoturism, Via Ferrata &amp; Școala Altfel
+                  Speoturism, Via Ferrata și Școala Altfel
                 </h3>
                 <p className="mt-2.5 text-sm leading-relaxed text-limestone-200">
                   Ture de speoturism cu echipament complet în Grota Ursului (250–1.500 m), traseul Via Ferrata Cetatea Dezna și excursii școlare Moneasa Adventure.
@@ -246,7 +246,7 @@ export default function HomePage() {
               <div>
                 <BookOpen className="h-7 w-7 text-safety-400" aria-hidden="true" />
                 <h3 className="mt-4 font-serif text-xl font-bold text-limestone-50">
-                  Istoria Moneasa &amp; Czárán Gyula
+                  Istoria Moneasa și Czárán Gyula
                 </h3>
                 <p className="mt-2.5 text-sm leading-relaxed text-limestone-200">
                   Monografia istorică a Stațiunii Moneasa (1597–prezent), viața pionierului turismului în Munții Apuseni, Czárán Gyula (1847–1906), și cărți poștale de epocă.
@@ -278,7 +278,7 @@ export default function HomePage() {
             href="/magazin"
             className="inline-flex items-center gap-1.5 rounded-xl bg-karst-600 px-4 py-2.5 text-xs font-semibold text-limestone-50 transition hover:bg-karst-500"
           >
-            Deschide Magazinul Complet &amp; Specificațiile <ArrowRight className="h-4 w-4" />
+            Deschide Magazinul Complet și Specificațiile <ArrowRight className="h-4 w-4" />
           </Link>
         </div>
 

@@ -27,7 +27,7 @@
         {
           "label": "Peștera Grota Ursului",
           "href": "/grota-ursului",
-          "badge": "Amenajată & Speoturism"
+          "badge": "Amenajată și Speoturism"
         },
         {
           "label": "Peștera Liliecilor – Moneasa",
@@ -40,7 +40,7 @@
           "badge": "Natura 2000 · RO/EN/HU"
         },
         {
-          "label": "Belvedere Moneasa & Cariera de Marmură",
+          "label": "Belvedere Moneasa și Cariera de Marmură",
           "href": "/belvedere-moneasa",
           "badge": "Traseu 2,7 km"
         }
@@ -52,7 +52,7 @@
       "description": "Cave diving, speoturism, via ferrata, canyoning și excursii educative",
       "children": [
         {
-          "label": "Cave Diving & Cursuri IANTD",
+          "label": "Cave Diving și Cursuri IANTD",
           "href": "/cave-diving",
           "badge": "Scafandri Brevetați"
         },
@@ -67,7 +67,7 @@
           "badge": "Grad B · 600 m"
         },
         {
-          "label": "Moneasa Adventure (Școala Altfel & Săptămâna Verde)",
+          "label": "Moneasa Adventure (Școala Altfel și Săptămâna Verde)",
           "href": "/moneasa-adventure",
           "badge": "Educațional"
         }
@@ -124,7 +124,7 @@
       "language": "ro",
       "pageType": "homepage",
       "iaSection": "Descoperă",
-      "categoryLabel": "Cave Diving & Cursuri",
+      "categoryLabel": "Cave Diving și Cursuri",
       "region": "România",
       "translations": [],
       "heroImage": "/media/cave-diving/1aad0880-ab73-43ec-86ed-cad42bd95771.jpg",
@@ -305,8 +305,8 @@
       "language": "ro",
       "pageType": "archive",
       "iaSection": "Servicii",
-      "categoryLabel": "Portofoliu Servicii Speologice, Cave Diving & Lucrări Subacvatice",
-      "region": "România & Internațional",
+      "categoryLabel": "Portofoliu Servicii Speologice, Cave Diving și Lucrări Subacvatice",
+      "region": "România și Internațional",
       "translations": [],
       "heroImage": "/media/cave-diving/poze-site-speowest-1.jpg",
       "images": [
@@ -574,7 +574,7 @@
       ],
       "technicalSpecs": [
         {
-          "label": "Speoturism & Ghidaj",
+          "label": "Speoturism și Ghidaj",
           "value": "Organizare ture speologice, obținere autorizații, asigurare echipament individual și colectiv"
         },
         {
@@ -586,7 +586,7 @@
           "value": "TecLine, Ammonite System, Kwark, UR-Flex, Bauer, Si Tech, Shearwater, Fenix, Ursuit"
         },
         {
-          "label": "Lucrări Comerciale & Industriale",
+          "label": "Lucrări Comerciale și Industriale",
           "value": "Lucrări subacvatice (baraje, hidrocentrale, stații de pompare, recuperări) și lucrări la înălțime / spații înguste"
         }
       ],
@@ -609,7 +609,7 @@
       "language": "ro",
       "pageType": "destination",
       "iaSection": "Descoperă",
-      "categoryLabel": "Patrimoniu Speologic & Arheologic",
+      "categoryLabel": "Patrimoniu Speologic și Arheologic",
       "region": "Valea Lungă, Moneasa, Munții Codru-Moma, Jud. Arad",
       "translations": [
         {
@@ -845,7 +845,7 @@
           "value": "Liliacul mare cu potcoavă (Rhinolophus ferrumequinum), Myotis myotis, coleoptere Duvalius redtenbacheri"
         },
         {
-          "label": "Paleontologie & Arheologie",
+          "label": "Paleontologie și Arheologie",
           "value": "Ursus spelaeus (ursul de cavernă), ceramică neolitică (cultura Tisa), epoca bronzului și epoca fierului"
         }
       ],
@@ -868,7 +868,7 @@
       "language": "ro",
       "pageType": "destination",
       "iaSection": "Descoperă",
-      "categoryLabel": "Peșteră Turistică & Speoturism",
+      "categoryLabel": "Peșteră Turistică și Speoturism",
       "region": "Stațiunea Moneasa, Munții Codru-Moma, Jud. Arad",
       "translations": [],
       "heroImage": "/media/grota-ursului/grota.jpg",
@@ -1532,8 +1532,8 @@
           "value": "Cristale de aragonit, calcit, stalactite, stalagmite, domuri, gururi"
         },
         {
-          "label": "Paleontologie & Expoziții",
-          "value": "Fosile de Ursus spelaeus (descoperite în 1989) & Expoziția Peștera Coliboaia (cca. 36.000 ani)"
+          "label": "Paleontologie și Expoziții",
+          "value": "Fosile de Ursus spelaeus (descoperite în 1989) și Expoziția Peștera Coliboaia (cca. 36.000 ani)"
         }
       ],
       "scheduleSummary": "Sâmbătă și duminică: 11:00 – 16:00 (sau în afara programului pentru grupuri organizate, pe bază de programare)",
@@ -1555,7 +1555,7 @@
       "language": "ro",
       "pageType": "destination",
       "iaSection": "Aventuri și experiențe",
-      "categoryLabel": "Via Ferrata & Monument Medieval",
+      "categoryLabel": "Via Ferrata și Monument Medieval",
       "region": "Dealul Osoiu (390 m), Localitatea Dezna, Jud. Arad",
       "translations": [],
       "heroImage": "/media/via-ferrata/graphic1.jpg",
@@ -1993,7 +1993,7 @@
       "language": "ro",
       "pageType": "destination",
       "iaSection": "Descoperă",
-      "categoryLabel": "Rezervație Speologică Clasa A & Sit Natura 2000",
+      "categoryLabel": "Rezervație Speologică Clasa A și Sit Natura 2000",
       "region": "Platoul Carstic Tinoasa, Moneasa, Munții Codru-Moma",
       "translations": [
         {
@@ -2335,7 +2335,7 @@
         },
         {
           "label": "Atestare istorică",
-          "value": "Conscripția din 1746 (moara de apă cu două roți) & harta carierei de marmură neagră din 1863"
+          "value": "Conscripția din 1746 (moara de apă cu două roți) și harta carierei de marmură neagră din 1863"
         }
       ],
       "scheduleSummary": null,
@@ -2353,11 +2353,11 @@
       "slug": "moneasa-adventure",
       "title": "Moneasa – adventure – Transilvania Cave Diving",
       "cleanTitle": "Moneasa – adventure",
-      "metaDescription": "🏔️ AVENTURI DE NEUITAT PENTRU COPII LA MONEASA! 🏔️ 🤖 Școala Altfel & Săptămâna Verde 🌿 – Experiențe Educative Unice Dragi profesori și părinți, transformați învățarea într-o aventură captivantă…",
+      "metaDescription": "🏔️ AVENTURI DE NEUITAT PENTRU COPII LA MONEASA! 🏔️ 🤖 Școala Altfel și Săptămâna Verde 🌿 – Experiențe Educative Unice Dragi profesori și părinți, transformați învățarea într-o aventură captivantă…",
       "language": "ro",
       "pageType": "destination",
       "iaSection": "Aventuri și experiențe",
-      "categoryLabel": "Excursii Educative — Școala Altfel & Săptămâna Verde",
+      "categoryLabel": "Excursii Educative — Școala Altfel și Săptămâna Verde",
       "region": "Stațiunea Moneasa, Jud. Arad",
       "translations": [],
       "heroImage": "/media/cave-diving/a4-2.jpg.jpeg",
@@ -2462,7 +2462,7 @@
         },
         {
           "level": 3,
-          "text": "🤖 Școala Altfel & Săptămâna Verde 🌿 – Experiențe Educative Unice"
+          "text": "🤖 Școala Altfel și Săptămâna Verde 🌿 – Experiențe Educative Unice"
         }
       ],
       "sections": [
@@ -2477,12 +2477,12 @@
           "contentMarkdown": ""
         },
         {
-          "heading": "🤖 Școala Altfel & Săptămâna Verde 🌿 – Experiențe Educative Unice",
+          "heading": "🤖 Școala Altfel și Săptămâna Verde 🌿 – Experiențe Educative Unice",
           "level": 3,
-          "contentMarkdown": "Dragi profesori și părinți, transformați învățarea într-o aventură captivantă în stațiunea Moneasa, județul Arad! Oferim activități corelate cu programa școlară pentru discipline precum Biologie, Geografie, Istorie, Arte Vizuale și Sport.\n\n✨ Ce am pregătit pentru micii exploratori:\n\n✅ EXPLORATORI SUBTERANI LA GROTA URSULUI 🏰\nUn laborator geologic natural unde copiii descoperă:\n\nExpoziție cu cele mai vechi desene rupestre din Europa Centrală și de Est.\n\nUrme ale urșilor de cavernă, stalactite și stalagmitte.\n\nIntroducere fascinantă în lumea speologiei.\n\n![Moneasa – adventure](/media/cave-diving/whatsapp-image-2025-09-02-at-23.25.53.jpeg)\n\n✅ ADRENALINĂ ÎN PARCUL DE AVENTURĂ 🌲\nTrasee suspendate adaptate vârstei și tiroliene palpitante, perfecte pentru dezvoltarea încrederii în sine și a motricității.\n\n![Moneasa – adventure](/media/cave-diving/img_20250705_124502_782.jpg)\n\n✅ RELAXARE ȘI PANORAMĂ LA BELVEDERE ⛰️\nLecții de geografie în aer liber, observarea florei și faunei locale și sesiuni foto memorabile într-un peisaj care îți taie respirația.\n\n![Moneasa – adventure](/media/belvedere/belvedere-moneasa-2.jpg)\n\n🌟 Moneasa și împrejurimile oferă și mai mult:\n\n🚶‍♀️ DRUMEȚII TEMATICE:\n\nCetatea Dezna: Istorie vie despre fortificații medievale și legende locale pe un traseu pitoresc.\n\n![Moneasa – adventure](/media/cave-diving/whatsapp-image-2026-03-10-at-18.20.42.jpeg)\n\nPeștera Liliecilor: Drumeție prin pădure până la adăpostul preistoric al oamenilor și urșilor.\n\n![Moneasa – adventure](/media/cave-diving/whatsapp-image-2026-03-12-at-17.29.37.jpeg)\n\nCariera de Marmură: Geologie aplicată despre renumita marmură roșie și neagră de Moneasa.\n\n![Moneasa – adventure](/media/cave-diving/cariera-de-marmura-moneasa.jpg)\n\n🧗‍♀️ VIA FERRATA CETATE DEZNA: Provocarea supremă pentru liceeni – un traseu sigur cu vedere spectaculoasă asupra întregii zone.\n\n![Moneasa – adventure](/media/cave-diving/img_20240518_183806559.jpg)\n\n🚜 PLIMBĂRI CU TRACTORAȘUL: Distracție garantată pentru cei mici! Ajungem rapid și confortabil la Belvedere sau la Cariera de Marmură.\n\n![Moneasa – adventure](/media/cave-diving/image.png)\n\n👥 PUBLIC ȚINTĂ: Grădinițe, Clasele Primare (I-IV), Gimnaziu (V-VIII) și Liceu (IX-XII).\n💰 TARIFE SPECIALE PENTRU GRUPURI ȘCOLARE!\n\n📅[REZERVAȚI ACUM](/contact) AVENTURA CLASEI DUMNEAVOASTRĂ!\nLocurile se ocupă rapid, mai ales în perioadele de vârf.\n\n📞 Telefon/WhatsApp: +40 770 846 001\n\n📱 Urmăriți-ne pe Facebook, TikTok & Instagram:\n👉 Pestera Grota Ursului – Moneasa"
+          "contentMarkdown": "Dragi profesori și părinți, transformați învățarea într-o aventură captivantă în stațiunea Moneasa, județul Arad! Oferim activități corelate cu programa școlară pentru discipline precum Biologie, Geografie, Istorie, Arte Vizuale și Sport.\n\n✨ Ce am pregătit pentru micii exploratori:\n\n✅ EXPLORATORI SUBTERANI LA GROTA URSULUI 🏰\nUn laborator geologic natural unde copiii descoperă:\n\nExpoziție cu cele mai vechi desene rupestre din Europa Centrală și de Est.\n\nUrme ale urșilor de cavernă, stalactite și stalagmitte.\n\nIntroducere fascinantă în lumea speologiei.\n\n![Moneasa – adventure](/media/cave-diving/whatsapp-image-2025-09-02-at-23.25.53.jpeg)\n\n✅ ADRENALINĂ ÎN PARCUL DE AVENTURĂ 🌲\nTrasee suspendate adaptate vârstei și tiroliene palpitante, perfecte pentru dezvoltarea încrederii în sine și a motricității.\n\n![Moneasa – adventure](/media/cave-diving/img_20250705_124502_782.jpg)\n\n✅ RELAXARE ȘI PANORAMĂ LA BELVEDERE ⛰️\nLecții de geografie în aer liber, observarea florei și faunei locale și sesiuni foto memorabile într-un peisaj care îți taie respirația.\n\n![Moneasa – adventure](/media/belvedere/belvedere-moneasa-2.jpg)\n\n🌟 Moneasa și împrejurimile oferă și mai mult:\n\n🚶‍♀️ DRUMEȚII TEMATICE:\n\nCetatea Dezna: Istorie vie despre fortificații medievale și legende locale pe un traseu pitoresc.\n\n![Moneasa – adventure](/media/cave-diving/whatsapp-image-2026-03-10-at-18.20.42.jpeg)\n\nPeștera Liliecilor: Drumeție prin pădure până la adăpostul preistoric al oamenilor și urșilor.\n\n![Moneasa – adventure](/media/cave-diving/whatsapp-image-2026-03-12-at-17.29.37.jpeg)\n\nCariera de Marmură: Geologie aplicată despre renumita marmură roșie și neagră de Moneasa.\n\n![Moneasa – adventure](/media/cave-diving/cariera-de-marmura-moneasa.jpg)\n\n🧗‍♀️ VIA FERRATA CETATE DEZNA: Provocarea supremă pentru liceeni – un traseu sigur cu vedere spectaculoasă asupra întregii zone.\n\n![Moneasa – adventure](/media/cave-diving/img_20240518_183806559.jpg)\n\n🚜 PLIMBĂRI CU TRACTORAȘUL: Distracție garantată pentru cei mici! Ajungem rapid și confortabil la Belvedere sau la Cariera de Marmură.\n\n![Moneasa – adventure](/media/cave-diving/image.png)\n\n👥 PUBLIC ȚINTĂ: Grădinițe, Clasele Primare (I-IV), Gimnaziu (V-VIII) și Liceu (IX-XII).\n💰 TARIFE SPECIALE PENTRU GRUPURI ȘCOLARE!\n\n📅[REZERVAȚI ACUM](/contact) AVENTURA CLASEI DUMNEAVOASTRĂ!\nLocurile se ocupă rapid, mai ales în perioadele de vârf.\n\n📞 Telefon/WhatsApp: +40 770 846 001\n\n📱 Urmăriți-ne pe Facebook, TikTok și Instagram:\n👉 Pestera Grota Ursului – Moneasa"
         }
       ],
-      "bodyMarkdown": "![Moneasa – adventure](/media/cave-diving/a4-2.jpg.jpeg)\n\n## 🏔️ AVENTURI DE NEUITAT PENTRU COPII LA MONEASA! 🏔️\n\n### 🤖 Școala Altfel & Săptămâna Verde 🌿 – Experiențe Educative Unice\n\nDragi profesori și părinți, transformați învățarea într-o aventură captivantă în stațiunea Moneasa, județul Arad! Oferim activități corelate cu programa școlară pentru discipline precum Biologie, Geografie, Istorie, Arte Vizuale și Sport.\n\n✨ Ce am pregătit pentru micii exploratori:\n\n✅ EXPLORATORI SUBTERANI LA GROTA URSULUI 🏰\nUn laborator geologic natural unde copiii descoperă:\n\nExpoziție cu cele mai vechi desene rupestre din Europa Centrală și de Est.\n\nUrme ale urșilor de cavernă, stalactite și stalagmitte.\n\nIntroducere fascinantă în lumea speologiei.\n\n![Moneasa – adventure](/media/cave-diving/whatsapp-image-2025-09-02-at-23.25.53.jpeg)\n\n✅ ADRENALINĂ ÎN PARCUL DE AVENTURĂ 🌲\nTrasee suspendate adaptate vârstei și tiroliene palpitante, perfecte pentru dezvoltarea încrederii în sine și a motricității.\n\n![Moneasa – adventure](/media/cave-diving/img_20250705_124502_782.jpg)\n\n✅ RELAXARE ȘI PANORAMĂ LA BELVEDERE ⛰️\nLecții de geografie în aer liber, observarea florei și faunei locale și sesiuni foto memorabile într-un peisaj care îți taie respirația.\n\n![Moneasa – adventure](/media/belvedere/belvedere-moneasa-2.jpg)\n\n🌟 Moneasa și împrejurimile oferă și mai mult:\n\n🚶‍♀️ DRUMEȚII TEMATICE:\n\nCetatea Dezna: Istorie vie despre fortificații medievale și legende locale pe un traseu pitoresc.\n\n![Moneasa – adventure](/media/cave-diving/whatsapp-image-2026-03-10-at-18.20.42.jpeg)\n\nPeștera Liliecilor: Drumeție prin pădure până la adăpostul preistoric al oamenilor și urșilor.\n\n![Moneasa – adventure](/media/cave-diving/whatsapp-image-2026-03-12-at-17.29.37.jpeg)\n\nCariera de Marmură: Geologie aplicată despre renumita marmură roșie și neagră de Moneasa.\n\n![Moneasa – adventure](/media/cave-diving/cariera-de-marmura-moneasa.jpg)\n\n🧗‍♀️ VIA FERRATA CETATE DEZNA: Provocarea supremă pentru liceeni – un traseu sigur cu vedere spectaculoasă asupra întregii zone.\n\n![Moneasa – adventure](/media/cave-diving/img_20240518_183806559.jpg)\n\n🚜 PLIMBĂRI CU TRACTORAȘUL: Distracție garantată pentru cei mici! Ajungem rapid și confortabil la Belvedere sau la Cariera de Marmură.\n\n![Moneasa – adventure](/media/cave-diving/image.png)\n\n👥 PUBLIC ȚINTĂ: Grădinițe, Clasele Primare (I-IV), Gimnaziu (V-VIII) și Liceu (IX-XII).\n💰 TARIFE SPECIALE PENTRU GRUPURI ȘCOLARE!\n\n📅[REZERVAȚI ACUM](/contact) AVENTURA CLASEI DUMNEAVOASTRĂ!\nLocurile se ocupă rapid, mai ales în perioadele de vârf.\n\n📞 Telefon/WhatsApp: +40 770 846 001\n\n📱 Urmăriți-ne pe Facebook, TikTok & Instagram:\n👉 Pestera Grota Ursului – Moneasa",
+      "bodyMarkdown": "![Moneasa – adventure](/media/cave-diving/a4-2.jpg.jpeg)\n\n## 🏔️ AVENTURI DE NEUITAT PENTRU COPII LA MONEASA! 🏔️\n\n### 🤖 Școala Altfel și Săptămâna Verde 🌿 – Experiențe Educative Unice\n\nDragi profesori și părinți, transformați învățarea într-o aventură captivantă în stațiunea Moneasa, județul Arad! Oferim activități corelate cu programa școlară pentru discipline precum Biologie, Geografie, Istorie, Arte Vizuale și Sport.\n\n✨ Ce am pregătit pentru micii exploratori:\n\n✅ EXPLORATORI SUBTERANI LA GROTA URSULUI 🏰\nUn laborator geologic natural unde copiii descoperă:\n\nExpoziție cu cele mai vechi desene rupestre din Europa Centrală și de Est.\n\nUrme ale urșilor de cavernă, stalactite și stalagmitte.\n\nIntroducere fascinantă în lumea speologiei.\n\n![Moneasa – adventure](/media/cave-diving/whatsapp-image-2025-09-02-at-23.25.53.jpeg)\n\n✅ ADRENALINĂ ÎN PARCUL DE AVENTURĂ 🌲\nTrasee suspendate adaptate vârstei și tiroliene palpitante, perfecte pentru dezvoltarea încrederii în sine și a motricității.\n\n![Moneasa – adventure](/media/cave-diving/img_20250705_124502_782.jpg)\n\n✅ RELAXARE ȘI PANORAMĂ LA BELVEDERE ⛰️\nLecții de geografie în aer liber, observarea florei și faunei locale și sesiuni foto memorabile într-un peisaj care îți taie respirația.\n\n![Moneasa – adventure](/media/belvedere/belvedere-moneasa-2.jpg)\n\n🌟 Moneasa și împrejurimile oferă și mai mult:\n\n🚶‍♀️ DRUMEȚII TEMATICE:\n\nCetatea Dezna: Istorie vie despre fortificații medievale și legende locale pe un traseu pitoresc.\n\n![Moneasa – adventure](/media/cave-diving/whatsapp-image-2026-03-10-at-18.20.42.jpeg)\n\nPeștera Liliecilor: Drumeție prin pădure până la adăpostul preistoric al oamenilor și urșilor.\n\n![Moneasa – adventure](/media/cave-diving/whatsapp-image-2026-03-12-at-17.29.37.jpeg)\n\nCariera de Marmură: Geologie aplicată despre renumita marmură roșie și neagră de Moneasa.\n\n![Moneasa – adventure](/media/cave-diving/cariera-de-marmura-moneasa.jpg)\n\n🧗‍♀️ VIA FERRATA CETATE DEZNA: Provocarea supremă pentru liceeni – un traseu sigur cu vedere spectaculoasă asupra întregii zone.\n\n![Moneasa – adventure](/media/cave-diving/img_20240518_183806559.jpg)\n\n🚜 PLIMBĂRI CU TRACTORAȘUL: Distracție garantată pentru cei mici! Ajungem rapid și confortabil la Belvedere sau la Cariera de Marmură.\n\n![Moneasa – adventure](/media/cave-diving/image.png)\n\n👥 PUBLIC ȚINTĂ: Grădinițe, Clasele Primare (I-IV), Gimnaziu (V-VIII) și Liceu (IX-XII).\n💰 TARIFE SPECIALE PENTRU GRUPURI ȘCOLARE!\n\n📅[REZERVAȚI ACUM](/contact) AVENTURA CLASEI DUMNEAVOASTRĂ!\nLocurile se ocupă rapid, mai ales în perioadele de vârf.\n\n📞 Telefon/WhatsApp: +40 770 846 001\n\n📱 Urmăriți-ne pe Facebook, TikTok și Instagram:\n👉 Pestera Grota Ursului – Moneasa",
       "contactInformation": [
         "Telefon: +40 770 846 (📞 Telefon/WhatsApp: +40 770 846 001)",
         "📞 Telefon/WhatsApp: +40 770 846 001"
@@ -2517,7 +2517,7 @@
           "value": "Vizită ghidată în Peștera Grota Ursului, atelier de speologie, drumeție tematică, tiroliană / speoturism"
         },
         {
-          "label": "Coordonare & Rezervări",
+          "label": "Coordonare și Rezervări",
           "value": "S.C. Transilvania Cave Diving S.R.L. — +40 770 846 001"
         }
       ],
@@ -2725,7 +2725,7 @@
         },
         {
           "label": "Suport tehnic disponibil",
-          "value": "Circuit Deschis (OC) & Rebreather (CCR), transport echipament prin galeria uscată"
+          "value": "Circuit Deschis (OC) și Rebreather (CCR), transport echipament prin galeria uscată"
         },
         {
           "label": "Credite fotografice",
@@ -2751,7 +2751,7 @@
       "language": "ro",
       "pageType": "contact",
       "iaSection": "Contact",
-      "categoryLabel": "Date Oficiale de Contact & Identificare Fiscală",
+      "categoryLabel": "Date Oficiale de Contact și Identificare Fiscală",
       "region": "Arad / Moneasa, Județul Arad, România",
       "translations": [],
       "heroImage": "/media/logos/tr-1.jpg",
@@ -2856,7 +2856,7 @@
       "language": "ro",
       "pageType": "shop",
       "iaSection": "Magazin",
-      "categoryLabel": "Echipamente Scufundări, Speologie & Lucrări Tehnice",
+      "categoryLabel": "Echipamente Scufundări, Speologie și Lucrări Tehnice",
       "region": "Livrare prin curier în toată România",
       "translations": [],
       "heroImage": "/media/logos/fenix_logo-e.jpg",
@@ -3445,7 +3445,7 @@
       "language": "ro",
       "pageType": "destination",
       "iaSection": "Istorie și patrimoniu",
-      "categoryLabel": "Monografie Istorică & Balneoclimaterică",
+      "categoryLabel": "Monografie Istorică și Balneoclimaterică",
       "region": "Stațiunea Moneasa („Perla Munților Apuseni”), Jud. Arad",
       "translations": [],
       "heroImage": "/media/cave-diving/menyhaza1904.webp",
@@ -3859,10 +3859,10 @@
         {
           "heading": "După 1990 – Privatizare, stagnare și speranțe neîmplinite",
           "level": 3,
-          "contentMarkdown": "În contextul tranziției postcomuniste, între anii 1991–2000, stațiunea a trecut printr-o perioadă de declin accentuat. Pentru a gestiona patrimoniul local, autoritățile au înființat societatea S.C. Moneasa S.A., care a fost privatizată în anul 2000, fiind preluată de S.C. Arconserv S.A. (Alexandru Bercea).\n\nÎn 2005, Vila ’’Nufărul’’ a fost vândută către S.C. Trend Invest SRL (Valer Blidar), care a propus un proiect de revitalizare, respectiv construirea unui hotel de 4 stele cu 20 de camere, centru spa & wellness, restaurant, sală de conferințe, etc. Termenul de finalizare fusese estimat pentru anul 2010, însă proiectul a fost abandonat din pricina crizei economice în care intrase România.\n\n![Moneasa](/media/cave-diving/002-moneasa.jpg)\n\n![Moneasa](/media/cave-diving/004-moneasa-1.jpg)\n\n*Proiect reabilitare*\n\nÎn anul 2007, ruinele Vilelor nr. 1 și nr. 2 au fost demolate, cu excepția frontispiciului Vilei nr. 1, care a fost păstrat ca mărturie a trecutului. În cursul aceluiași an au fost refăcute captările izvoarelor mezotermale care astăzi alimentează baza de tratament de la Hotel Parc și a ștrandului din Moneasa.\n\nAstăzi, emblematica vilă a stațiunii rămâne în ruină, amintind de gloria apusă a Monesei.\n\n![Moneasa](/media/cave-diving/641476141_910780581600780_3436188387219044082_n.jpg)\n\n*Foto: Ștefan (Piști) Bakos*\n\n***Surse:**\nAndrei Ando – Moneasa, vieți și contexte* (2022)\n\n*Felici**a Aneta Oarcea, Spiridon Groza – Moneasa, monografie* istorică (2007)\n\n*Felici**a Aneta Oarcea – Moneasa. Monografie* (2016)\n\n*Iancu Orășeanu – Hidrogeologia carstului din Munții Apuseni*, ediția a II-a (2020)\n\n*Kurunczi Ferenc – Băile Moneasa (Facebook 2021)*\n\n[https://sanuuitam.blogspot.com/2014/06/asa-cum-fost_22.html](https://sanuuitam.blogspot.com/2014/06/asa-cum-fost_22.html)\n\nhttp://users.atw.hu/pereiarpad/menyha2.html\n\n***Sinteză:***\n\n*Mihai Besesek*, *Felicia Aneta Oarcea**(2025)*"
+          "contentMarkdown": "În contextul tranziției postcomuniste, între anii 1991–2000, stațiunea a trecut printr-o perioadă de declin accentuat. Pentru a gestiona patrimoniul local, autoritățile au înființat societatea S.C. Moneasa S.A., care a fost privatizată în anul 2000, fiind preluată de S.C. Arconserv S.A. (Alexandru Bercea).\n\nÎn 2005, Vila ’’Nufărul’’ a fost vândută către S.C. Trend Invest SRL (Valer Blidar), care a propus un proiect de revitalizare, respectiv construirea unui hotel de 4 stele cu 20 de camere, centru spa și wellness, restaurant, sală de conferințe, etc. Termenul de finalizare fusese estimat pentru anul 2010, însă proiectul a fost abandonat din pricina crizei economice în care intrase România.\n\n![Moneasa](/media/cave-diving/002-moneasa.jpg)\n\n![Moneasa](/media/cave-diving/004-moneasa-1.jpg)\n\n*Proiect reabilitare*\n\nÎn anul 2007, ruinele Vilelor nr. 1 și nr. 2 au fost demolate, cu excepția frontispiciului Vilei nr. 1, care a fost păstrat ca mărturie a trecutului. În cursul aceluiași an au fost refăcute captările izvoarelor mezotermale care astăzi alimentează baza de tratament de la Hotel Parc și a ștrandului din Moneasa.\n\nAstăzi, emblematica vilă a stațiunii rămâne în ruină, amintind de gloria apusă a Monesei.\n\n![Moneasa](/media/cave-diving/641476141_910780581600780_3436188387219044082_n.jpg)\n\n*Foto: Ștefan (Piști) Bakos*\n\n***Surse:**\nAndrei Ando – Moneasa, vieți și contexte* (2022)\n\n*Felici**a Aneta Oarcea, Spiridon Groza – Moneasa, monografie* istorică (2007)\n\n*Felici**a Aneta Oarcea – Moneasa. Monografie* (2016)\n\n*Iancu Orășeanu – Hidrogeologia carstului din Munții Apuseni*, ediția a II-a (2020)\n\n*Kurunczi Ferenc – Băile Moneasa (Facebook 2021)*\n\n[https://sanuuitam.blogspot.com/2014/06/asa-cum-fost_22.html](https://sanuuitam.blogspot.com/2014/06/asa-cum-fost_22.html)\n\nhttp://users.atw.hu/pereiarpad/menyha2.html\n\n***Sinteză:***\n\n*Mihai Besesek*, *Felicia Aneta Oarcea**(2025)*"
         }
       ],
-      "bodyMarkdown": "## Stațiunea Balneoclimaterică\n\n![Moneasa](/media/cave-diving/menyhaza1904.webp)\n\n![Moneasa](/media/cave-diving/485739336_1093430329495022_8730647237080951664_n.jpg)\n\n*Lacul cu pești (Lacul Liniștit) 1904*\n\n### Primele mențiuni și izvoarele termale\n\nAșezată într-un cadru natural pitoresc, la poalele Munților Codru-Moma, stațiunea Moneasa este cunoscută pentru izvoarele sale mezotermale, care au fost utilizate de pe vremea stăpânirii otomane.\n\nPrima atestare documentară a acestora datează din 1597, când principele Transilvaniei, Sigismund Báthory, emite un act de donație în favoarea nobilului Kornis Gáspár. Domeniul cedat cuprindea Cetatea Dezna, domeniul Borossebes (Sebiș), precum și izvoarele termale și zăcămintele de fier de la Moneasa.\n\n![Moneasa](/media/cave-diving/whatsapp-image-2025-03-25-at-21.12.17.jpeg)\n\n![Moneasa](/media/cave-diving/whatsapp-image-2025-03-15-at-13.24.51.jpeg)\n\n*Furdo-forrasbarlang (Izvorul Băilor) – Peștera de la Băi ([Grota Ursului](/grota-ursului))*\n\n### Factori naturali și terapeutici\n\nApele minerale, bicarbonatate, calcice, megneziene, sodice, oligominerale, mezotermale, cu o temperatură de 24-32°C, au fost valorificate de-a lungul timpului pentru tratarea diverselor afecțiuni ale aparatului locomotor, ale sistemului nervos periferic, digestive, etc.\n\nPrintre izvoarele utilizate în scop balnear se numărau Izvorul Ernő – 32°C, Izvorul Maria –31°C, Izvorul Kerestély – 25°C, Izvorul Rece (apele ce se revarsă prin gura Peșterii [Grota Ursului](/grota-ursului)) – 9°C și un izvor artezian, forat între 1893–1895, la o adâncime de 320 m – 25°C.\n\n### Începuturile dezvoltării turistice\n\nDupă ce a trecut succesiv prin mâinile mai multor nobili, în anul 1804, familia Névery, a cumpărat satele Moneasa și Dezna și realizează primele amenajări modeste care includeau în 1830, patru camere pentru cazare și două bazine. În 1847 domeniul este achiziționat de contele Waldstein, iar la mijlocul secolului al XIX-lea, zona turistică avea șaisprezece camere, cinci încăperi de îmbăiere, o cabină de duș și un restaurant.\n\nÎncepând cu 1891, odată cu achiziționarea domeniului Sebiș împreună cu satele aparținătoare, printre care și Moneasa, contele Wenckheim, a început procesul de modernizare. Pe propria-i cheltuială a construit calea ferată îngustă Sebiș – Moneasa, finalizată în 1893, Baza de Hidroterapie (ștrandul), cu două bazine în aer liber, cabine și o clădire cu instalații de hidroterapie pentru femei și bărbați, parcul cu aleile trasate de [Czárán Gyula](/czaran-gyula), Hotelul Central, Vila Wenckheim-Andrényi. În perioada 1895-1896, a remodelat arhitectural vechile edificii ale băilor, construite de contele Waldstein în deceniul șapte al secolului XIX, clădiri intrate într-un proces de degradare, cu cabine din lemn și un restaurant demodat.\n\n![Moneasa](/media/cave-diving/wenckheim_frigyes.jpg)\n\n![Moneasa](/media/cave-diving/41606921_1070866279743172_2736449828945920000_n.jpg)\n\n![Moneasa](/media/cave-diving/f2.jpeg)\n\n![Moneasa](/media/cave-diving/arad2bmoneasa2bhotelul2bcentral.jpg)\n\n![Moneasa](/media/cave-diving/p1080098b.jpg)\n\n![Moneasa](/media/cave-diving/486376157_9340248566056321_1684211579444221842_n.jpg)\n\n![Moneasa](/media/cave-diving/00002.jpeg)\n\n*Contele Wenckheim, mocănița, ștrandul, Hotel Central, Vila Wenckheim-Andrenyi*, *parcul și băile (Salonul de Cură)*\n\n### Salonul de Cură – Gyógyterem – Nucleul vieții balneare\n\nPrimul pas decisiv spre transformarea Monesei într-o stațiune balneoclimaterică l-a reprezentat construcția Salonului de Cură, ulterior cunoscut sub denumirea de Pavilionul Central, Pavilionul nr. 1, Vila nr. 1 sau Vila ’’Nufărul’’. Potrivit memoriei localnicilor, primii nuferi au fost aduși în lacul de lângă clădirea băilor, în anul 1971, de către Ioan Crișan și Mitru Bortiș, de la Băile 1 Mai.\n\nImpozantul edificiu, cu o lungime de 80 m și cu două nivele (P+E), dat în folosință în anul 1897 impresiona prin eleganță și funcționalitate. La parter erau amenajate treisprezece cabine pentru baie, cu vană confecționată din marmură roșie de Moneasa. Vanele, cu o capacitate diferită, de la 1 mc. până la 3-4 mc. erau alimentate prin trei robineți – unul cu apă mezotermală naturală, altul cu apă mezotermală supraîncălzită și celălalt cu apă rece. Cele mici erau destinate copiilor, cele mijlocii pentru 1-2 persoane, iar cele mari pentru 3-4 persoane.\n\nLa parter se aflau și cabinetul medical, săli de tratament, clubul de distracții și diverse spații sociale. Etajul era rezervat cazării oaspeților, oferind camere elegante și confortabile.\n\n![Moneasa](/media/cave-diving/moneasa-4.jpg)\n\n![Moneasa](/media/cave-diving/menyh-arad-21.jpg)\n\n![Moneasa](/media/cave-diving/coperta.jpg)\n\n*Salonul de Cură / Pavilionul nr. 1 / Vila nr. 1 / Vila ”Nufărul”*\n\nÎn imediata apropiere a clădirii a fost ridicat un restaurant cu pereți de sticlă, cu o capacitate de 300 de locuri, iar vizavi se afla bucătăria, cunoscută ulterior sub denumirea de Vila nr. 2.\n\nÎn trecut, în aval de Vila 2, a fost amenajată o ghețărie – o grotă artificială (2,5 x 1,8 x 1,9 m) unde se depozitau blocurile de gheață tăiate iarna din lacul cu pești. Gheața adusă aici se păstra până vara, grota servind drept un veritabil frigider natural pentru alimente.\n\n![Moneasa](/media/cave-diving/menyhazafurdo1902.webp)\n\n*Restaurantul Salonului de Cură 1902*\n\nÎn documentele austro-ungare și în cataloagele turistice ale vremii, Salonul de Cură era denumit Menyházafürdő – Gyógyterem , fiind considerat nucleul vieții mondene și balneare din stațiune. El a impus un model arhitectural și funcțional care a fost urmat de toate clădirile construite ulterior în stațiune.\n\n![Moneasa](/media/cave-diving/65120442_1252921351537663_2262961102247690240_n.jpg)\n\n![Moneasa](/media/cave-diving/486243362_9340248772722967_444995424118341209_n.jpg)\n\n![Moneasa](/media/cave-diving/68694354_1297139667115831_4981392310731276288_n.jpg)\n\n![Moneasa](/media/cave-diving/121613463_1677855312377596_8948151950609028590_n.jpg)\n\n![Moneasa](/media/cave-diving/130968310_227459685688074_910464010212728522_n.jpg)\n\nStațiunea Moneasa\n\n### Recunoașterea oficială – statutul de stațiune balneară\n\nEforturile de modernizare inițiate de contele Wenckheim, precum și popularitatea tot mai mare a stațiunii, au determinat autoritățile imperiale să recunoască oficial valoarea terapeutică a locului. Astfel, la 13 mai 1896, în urma unui demers susținut către Ministerul de Interne Regal Maghiar, Moneasa a primit statutul oficial de stațiune balneară.\n\n### Moneasa – Stațiune de elită în Imperiul Austro-Ungar\n\nMoneasa a devenit o destinație tot mai apreciată în rândul aristocrației și burgheziei din Imperiul Austro-Ungar. Stațiunea cunoștea un adevărat avânt turistic, iar Salonul de Cură devenise epicentrul vieții mondene.\n\nÎntr-un singur sezon, peste 2.000 de vizitatori au trecut prin stațiune, dintre care aproximativ 100 au rămas timp de o lună, semn al prestigiului în creștere.\n\nAtmosfera elegantă era animată de cea mai renumită orchestră de țigani din comitatul Arad, originară din Ineu, care întreținea seratele muzicale și balurile dansante.\n\nSalonul de Cură concura, prin rafinament și servicii, cu cele mai importante resorturi din imperiu. Sezonul turistic era oficial deschis între 15 mai și 30 septembrie, perioadă în care vizitatorii se bucurau nu doar de apele termale cu proprietăți curative, ci și de numeroase activități recreative. Printre distracțiile preferate se numărau jocurile de societate, biliardul, popicele, tenisul de masă, plimbările în natură, excursiile montane, balurile și chiar programele pentru copii.\n\n### După 1918 – Transformări în perioada interbelică\n\nDupă Marea Unire din 1918 și reforma agrară din 1921, domeniul contesei Wenckheim, inclusiv Stațiunea Moneasa a fost expropriat intrând în patrimoniul statului român. Între 1935 și 1942, Moneasa s-a aflat în subordinea Ministerului Sănătății, iar ulterior a fost administrată de Prefectura județului Arad.\n\nDe-a lungul timpului, numeroase personalități au poposit la Moneasa pentru a beneficia de proprietățile curative ale apelor. Printre acestea, amintim vizita din 1936 a regelui Albaniei, Ahmed Zogu, care a petrecut câteva săptămâni în stațiune, confirmând reputația internațională a Monesei.\n\n*Ahmed Zogu – regele Albaniei*\n\n![Moneasa](/media/cave-diving/474553837_10223565645643426_6782197288509260271_n.jpg)\n\nÎn 1937, familia Wenckheim a fost despăgubită cu 45 de milioane de lei, echivalentul a 293 kg de aur, pentru bunurile expropriate\n\n### Perioada postbelică – Naționalizare și declin\n\n![Moneasa](/media/cave-diving/485729748_1091744969663558_1191256612730996447_n.jpg)\n\n![Moneasa](/media/cave-diving/img_0064a.jpg)\n\n*Vila nr. 1 in perioada comunistă*\n\nDupă instaurarea regimului comunist, în urma Legii naționalizării, Stațiunea Balneoclimaterică Moneasa a fost trecută complet în proprietatea statului. Administrarea a fost preluată de autoritățile centrale, care au integrat-o în sistemul balnear național, fiind frecventată mai ales în cadrul biletelor de tratament oferite prin sindicate. În anii ’60, pe locul vechiului restaurant s-a construit un bazin, cu apă termală.\n\nÎn 1989, autoritățile au lansat un proiect de restaurare a Vilei ”Nufărul”, dar evenimentele din decembrie 1989 au întrerupt definitiv proiectul. Clădirea, odinioară emblema stațiunii, a fost abandonată și a trecut printr-un proces rapid de degradare, ajungând treptat în paragină în anii ce au urmat.\n\n![Moneasa](/media/cave-diving/pict7662.jpeg)\n\n![Moneasa](/media/cave-diving/pict7625.jpeg)\n\n![Moneasa](/media/cave-diving/pict7597.jpeg)\n\n*Vila nr. 1 si Vila nr. 2 demolate în 2007*\n\n### După 1990 – Privatizare, stagnare și speranțe neîmplinite\n\nÎn contextul tranziției postcomuniste, între anii 1991–2000, stațiunea a trecut printr-o perioadă de declin accentuat. Pentru a gestiona patrimoniul local, autoritățile au înființat societatea S.C. Moneasa S.A., care a fost privatizată în anul 2000, fiind preluată de S.C. Arconserv S.A. (Alexandru Bercea).\n\nÎn 2005, Vila ’’Nufărul’’ a fost vândută către S.C. Trend Invest SRL (Valer Blidar), care a propus un proiect de revitalizare, respectiv construirea unui hotel de 4 stele cu 20 de camere, centru spa & wellness, restaurant, sală de conferințe, etc. Termenul de finalizare fusese estimat pentru anul 2010, însă proiectul a fost abandonat din pricina crizei economice în care intrase România.\n\n![Moneasa](/media/cave-diving/002-moneasa.jpg)\n\n![Moneasa](/media/cave-diving/004-moneasa-1.jpg)\n\n*Proiect reabilitare*\n\nÎn anul 2007, ruinele Vilelor nr. 1 și nr. 2 au fost demolate, cu excepția frontispiciului Vilei nr. 1, care a fost păstrat ca mărturie a trecutului. În cursul aceluiași an au fost refăcute captările izvoarelor mezotermale care astăzi alimentează baza de tratament de la Hotel Parc și a ștrandului din Moneasa.\n\nAstăzi, emblematica vilă a stațiunii rămâne în ruină, amintind de gloria apusă a Monesei.\n\n![Moneasa](/media/cave-diving/641476141_910780581600780_3436188387219044082_n.jpg)\n\n*Foto: Ștefan (Piști) Bakos*\n\n***Surse:**\nAndrei Ando – Moneasa, vieți și contexte* (2022)\n\n*Felici**a Aneta Oarcea, Spiridon Groza – Moneasa, monografie* istorică (2007)\n\n*Felici**a Aneta Oarcea – Moneasa. Monografie* (2016)\n\n*Iancu Orășeanu – Hidrogeologia carstului din Munții Apuseni*, ediția a II-a (2020)\n\n*Kurunczi Ferenc – Băile Moneasa (Facebook 2021)*\n\n[https://sanuuitam.blogspot.com/2014/06/asa-cum-fost_22.html](https://sanuuitam.blogspot.com/2014/06/asa-cum-fost_22.html)\n\nhttp://users.atw.hu/pereiarpad/menyha2.html\n\n***Sinteză:***\n\n*Mihai Besesek*, *Felicia Aneta Oarcea**(2025)*",
+      "bodyMarkdown": "## Stațiunea Balneoclimaterică\n\n![Moneasa](/media/cave-diving/menyhaza1904.webp)\n\n![Moneasa](/media/cave-diving/485739336_1093430329495022_8730647237080951664_n.jpg)\n\n*Lacul cu pești (Lacul Liniștit) 1904*\n\n### Primele mențiuni și izvoarele termale\n\nAșezată într-un cadru natural pitoresc, la poalele Munților Codru-Moma, stațiunea Moneasa este cunoscută pentru izvoarele sale mezotermale, care au fost utilizate de pe vremea stăpânirii otomane.\n\nPrima atestare documentară a acestora datează din 1597, când principele Transilvaniei, Sigismund Báthory, emite un act de donație în favoarea nobilului Kornis Gáspár. Domeniul cedat cuprindea Cetatea Dezna, domeniul Borossebes (Sebiș), precum și izvoarele termale și zăcămintele de fier de la Moneasa.\n\n![Moneasa](/media/cave-diving/whatsapp-image-2025-03-25-at-21.12.17.jpeg)\n\n![Moneasa](/media/cave-diving/whatsapp-image-2025-03-15-at-13.24.51.jpeg)\n\n*Furdo-forrasbarlang (Izvorul Băilor) – Peștera de la Băi ([Grota Ursului](/grota-ursului))*\n\n### Factori naturali și terapeutici\n\nApele minerale, bicarbonatate, calcice, megneziene, sodice, oligominerale, mezotermale, cu o temperatură de 24-32°C, au fost valorificate de-a lungul timpului pentru tratarea diverselor afecțiuni ale aparatului locomotor, ale sistemului nervos periferic, digestive, etc.\n\nPrintre izvoarele utilizate în scop balnear se numărau Izvorul Ernő – 32°C, Izvorul Maria –31°C, Izvorul Kerestély – 25°C, Izvorul Rece (apele ce se revarsă prin gura Peșterii [Grota Ursului](/grota-ursului)) – 9°C și un izvor artezian, forat între 1893–1895, la o adâncime de 320 m – 25°C.\n\n### Începuturile dezvoltării turistice\n\nDupă ce a trecut succesiv prin mâinile mai multor nobili, în anul 1804, familia Névery, a cumpărat satele Moneasa și Dezna și realizează primele amenajări modeste care includeau în 1830, patru camere pentru cazare și două bazine. În 1847 domeniul este achiziționat de contele Waldstein, iar la mijlocul secolului al XIX-lea, zona turistică avea șaisprezece camere, cinci încăperi de îmbăiere, o cabină de duș și un restaurant.\n\nÎncepând cu 1891, odată cu achiziționarea domeniului Sebiș împreună cu satele aparținătoare, printre care și Moneasa, contele Wenckheim, a început procesul de modernizare. Pe propria-i cheltuială a construit calea ferată îngustă Sebiș – Moneasa, finalizată în 1893, Baza de Hidroterapie (ștrandul), cu două bazine în aer liber, cabine și o clădire cu instalații de hidroterapie pentru femei și bărbați, parcul cu aleile trasate de [Czárán Gyula](/czaran-gyula), Hotelul Central, Vila Wenckheim-Andrényi. În perioada 1895-1896, a remodelat arhitectural vechile edificii ale băilor, construite de contele Waldstein în deceniul șapte al secolului XIX, clădiri intrate într-un proces de degradare, cu cabine din lemn și un restaurant demodat.\n\n![Moneasa](/media/cave-diving/wenckheim_frigyes.jpg)\n\n![Moneasa](/media/cave-diving/41606921_1070866279743172_2736449828945920000_n.jpg)\n\n![Moneasa](/media/cave-diving/f2.jpeg)\n\n![Moneasa](/media/cave-diving/arad2bmoneasa2bhotelul2bcentral.jpg)\n\n![Moneasa](/media/cave-diving/p1080098b.jpg)\n\n![Moneasa](/media/cave-diving/486376157_9340248566056321_1684211579444221842_n.jpg)\n\n![Moneasa](/media/cave-diving/00002.jpeg)\n\n*Contele Wenckheim, mocănița, ștrandul, Hotel Central, Vila Wenckheim-Andrenyi*, *parcul și băile (Salonul de Cură)*\n\n### Salonul de Cură – Gyógyterem – Nucleul vieții balneare\n\nPrimul pas decisiv spre transformarea Monesei într-o stațiune balneoclimaterică l-a reprezentat construcția Salonului de Cură, ulterior cunoscut sub denumirea de Pavilionul Central, Pavilionul nr. 1, Vila nr. 1 sau Vila ’’Nufărul’’. Potrivit memoriei localnicilor, primii nuferi au fost aduși în lacul de lângă clădirea băilor, în anul 1971, de către Ioan Crișan și Mitru Bortiș, de la Băile 1 Mai.\n\nImpozantul edificiu, cu o lungime de 80 m și cu două nivele (P+E), dat în folosință în anul 1897 impresiona prin eleganță și funcționalitate. La parter erau amenajate treisprezece cabine pentru baie, cu vană confecționată din marmură roșie de Moneasa. Vanele, cu o capacitate diferită, de la 1 mc. până la 3-4 mc. erau alimentate prin trei robineți – unul cu apă mezotermală naturală, altul cu apă mezotermală supraîncălzită și celălalt cu apă rece. Cele mici erau destinate copiilor, cele mijlocii pentru 1-2 persoane, iar cele mari pentru 3-4 persoane.\n\nLa parter se aflau și cabinetul medical, săli de tratament, clubul de distracții și diverse spații sociale. Etajul era rezervat cazării oaspeților, oferind camere elegante și confortabile.\n\n![Moneasa](/media/cave-diving/moneasa-4.jpg)\n\n![Moneasa](/media/cave-diving/menyh-arad-21.jpg)\n\n![Moneasa](/media/cave-diving/coperta.jpg)\n\n*Salonul de Cură / Pavilionul nr. 1 / Vila nr. 1 / Vila ”Nufărul”*\n\nÎn imediata apropiere a clădirii a fost ridicat un restaurant cu pereți de sticlă, cu o capacitate de 300 de locuri, iar vizavi se afla bucătăria, cunoscută ulterior sub denumirea de Vila nr. 2.\n\nÎn trecut, în aval de Vila 2, a fost amenajată o ghețărie – o grotă artificială (2,5 x 1,8 x 1,9 m) unde se depozitau blocurile de gheață tăiate iarna din lacul cu pești. Gheața adusă aici se păstra până vara, grota servind drept un veritabil frigider natural pentru alimente.\n\n![Moneasa](/media/cave-diving/menyhazafurdo1902.webp)\n\n*Restaurantul Salonului de Cură 1902*\n\nÎn documentele austro-ungare și în cataloagele turistice ale vremii, Salonul de Cură era denumit Menyházafürdő – Gyógyterem , fiind considerat nucleul vieții mondene și balneare din stațiune. El a impus un model arhitectural și funcțional care a fost urmat de toate clădirile construite ulterior în stațiune.\n\n![Moneasa](/media/cave-diving/65120442_1252921351537663_2262961102247690240_n.jpg)\n\n![Moneasa](/media/cave-diving/486243362_9340248772722967_444995424118341209_n.jpg)\n\n![Moneasa](/media/cave-diving/68694354_1297139667115831_4981392310731276288_n.jpg)\n\n![Moneasa](/media/cave-diving/121613463_1677855312377596_8948151950609028590_n.jpg)\n\n![Moneasa](/media/cave-diving/130968310_227459685688074_910464010212728522_n.jpg)\n\nStațiunea Moneasa\n\n### Recunoașterea oficială – statutul de stațiune balneară\n\nEforturile de modernizare inițiate de contele Wenckheim, precum și popularitatea tot mai mare a stațiunii, au determinat autoritățile imperiale să recunoască oficial valoarea terapeutică a locului. Astfel, la 13 mai 1896, în urma unui demers susținut către Ministerul de Interne Regal Maghiar, Moneasa a primit statutul oficial de stațiune balneară.\n\n### Moneasa – Stațiune de elită în Imperiul Austro-Ungar\n\nMoneasa a devenit o destinație tot mai apreciată în rândul aristocrației și burgheziei din Imperiul Austro-Ungar. Stațiunea cunoștea un adevărat avânt turistic, iar Salonul de Cură devenise epicentrul vieții mondene.\n\nÎntr-un singur sezon, peste 2.000 de vizitatori au trecut prin stațiune, dintre care aproximativ 100 au rămas timp de o lună, semn al prestigiului în creștere.\n\nAtmosfera elegantă era animată de cea mai renumită orchestră de țigani din comitatul Arad, originară din Ineu, care întreținea seratele muzicale și balurile dansante.\n\nSalonul de Cură concura, prin rafinament și servicii, cu cele mai importante resorturi din imperiu. Sezonul turistic era oficial deschis între 15 mai și 30 septembrie, perioadă în care vizitatorii se bucurau nu doar de apele termale cu proprietăți curative, ci și de numeroase activități recreative. Printre distracțiile preferate se numărau jocurile de societate, biliardul, popicele, tenisul de masă, plimbările în natură, excursiile montane, balurile și chiar programele pentru copii.\n\n### După 1918 – Transformări în perioada interbelică\n\nDupă Marea Unire din 1918 și reforma agrară din 1921, domeniul contesei Wenckheim, inclusiv Stațiunea Moneasa a fost expropriat intrând în patrimoniul statului român. Între 1935 și 1942, Moneasa s-a aflat în subordinea Ministerului Sănătății, iar ulterior a fost administrată de Prefectura județului Arad.\n\nDe-a lungul timpului, numeroase personalități au poposit la Moneasa pentru a beneficia de proprietățile curative ale apelor. Printre acestea, amintim vizita din 1936 a regelui Albaniei, Ahmed Zogu, care a petrecut câteva săptămâni în stațiune, confirmând reputația internațională a Monesei.\n\n*Ahmed Zogu – regele Albaniei*\n\n![Moneasa](/media/cave-diving/474553837_10223565645643426_6782197288509260271_n.jpg)\n\nÎn 1937, familia Wenckheim a fost despăgubită cu 45 de milioane de lei, echivalentul a 293 kg de aur, pentru bunurile expropriate\n\n### Perioada postbelică – Naționalizare și declin\n\n![Moneasa](/media/cave-diving/485729748_1091744969663558_1191256612730996447_n.jpg)\n\n![Moneasa](/media/cave-diving/img_0064a.jpg)\n\n*Vila nr. 1 in perioada comunistă*\n\nDupă instaurarea regimului comunist, în urma Legii naționalizării, Stațiunea Balneoclimaterică Moneasa a fost trecută complet în proprietatea statului. Administrarea a fost preluată de autoritățile centrale, care au integrat-o în sistemul balnear național, fiind frecventată mai ales în cadrul biletelor de tratament oferite prin sindicate. În anii ’60, pe locul vechiului restaurant s-a construit un bazin, cu apă termală.\n\nÎn 1989, autoritățile au lansat un proiect de restaurare a Vilei ”Nufărul”, dar evenimentele din decembrie 1989 au întrerupt definitiv proiectul. Clădirea, odinioară emblema stațiunii, a fost abandonată și a trecut printr-un proces rapid de degradare, ajungând treptat în paragină în anii ce au urmat.\n\n![Moneasa](/media/cave-diving/pict7662.jpeg)\n\n![Moneasa](/media/cave-diving/pict7625.jpeg)\n\n![Moneasa](/media/cave-diving/pict7597.jpeg)\n\n*Vila nr. 1 si Vila nr. 2 demolate în 2007*\n\n### După 1990 – Privatizare, stagnare și speranțe neîmplinite\n\nÎn contextul tranziției postcomuniste, între anii 1991–2000, stațiunea a trecut printr-o perioadă de declin accentuat. Pentru a gestiona patrimoniul local, autoritățile au înființat societatea S.C. Moneasa S.A., care a fost privatizată în anul 2000, fiind preluată de S.C. Arconserv S.A. (Alexandru Bercea).\n\nÎn 2005, Vila ’’Nufărul’’ a fost vândută către S.C. Trend Invest SRL (Valer Blidar), care a propus un proiect de revitalizare, respectiv construirea unui hotel de 4 stele cu 20 de camere, centru spa și wellness, restaurant, sală de conferințe, etc. Termenul de finalizare fusese estimat pentru anul 2010, însă proiectul a fost abandonat din pricina crizei economice în care intrase România.\n\n![Moneasa](/media/cave-diving/002-moneasa.jpg)\n\n![Moneasa](/media/cave-diving/004-moneasa-1.jpg)\n\n*Proiect reabilitare*\n\nÎn anul 2007, ruinele Vilelor nr. 1 și nr. 2 au fost demolate, cu excepția frontispiciului Vilei nr. 1, care a fost păstrat ca mărturie a trecutului. În cursul aceluiași an au fost refăcute captările izvoarelor mezotermale care astăzi alimentează baza de tratament de la Hotel Parc și a ștrandului din Moneasa.\n\nAstăzi, emblematica vilă a stațiunii rămâne în ruină, amintind de gloria apusă a Monesei.\n\n![Moneasa](/media/cave-diving/641476141_910780581600780_3436188387219044082_n.jpg)\n\n*Foto: Ștefan (Piști) Bakos*\n\n***Surse:**\nAndrei Ando – Moneasa, vieți și contexte* (2022)\n\n*Felici**a Aneta Oarcea, Spiridon Groza – Moneasa, monografie* istorică (2007)\n\n*Felici**a Aneta Oarcea – Moneasa. Monografie* (2016)\n\n*Iancu Orășeanu – Hidrogeologia carstului din Munții Apuseni*, ediția a II-a (2020)\n\n*Kurunczi Ferenc – Băile Moneasa (Facebook 2021)*\n\n[https://sanuuitam.blogspot.com/2014/06/asa-cum-fost_22.html](https://sanuuitam.blogspot.com/2014/06/asa-cum-fost_22.html)\n\nhttp://users.atw.hu/pereiarpad/menyha2.html\n\n***Sinteză:***\n\n*Mihai Besesek*, *Felicia Aneta Oarcea**(2025)*",
       "contactInformation": [
         "Telefon: 0329495022 (![](https://transilvaniacavediving.com/wp-content/uploads/2025/08/485739336_1093430329495022_8730647237080951664_n.jpg))",
         "Telefon: 07086627974 (![](https://transilvaniacavediving.com/wp-content/uploads/2025/08/41606921_1070866279743172_2736449828945920000_n.jpg))",
@@ -3919,7 +3919,7 @@
         "*Vila nr. 1 si Vila nr. 2 demolate în 2007*",
         "### După 1990 – Privatizare, stagnare și speranțe neîmplinite",
         "În contextul tranziției postcomuniste, între anii 1991–2000, stațiunea a trecut printr-o perioadă de declin accentuat. Pentru a gestiona patrimoniul local, autoritățile au înființat societatea S.C. Moneasa S.A., care a fost privatizată în anul 2000, fiind preluată de S.C. Arconse",
-        "În 2005, Vila ’’Nufărul’’ a fost vândută către S.C. Trend Invest SRL (Valer Blidar), care a propus un proiect de revitalizare, respectiv construirea unui hotel de 4 stele cu 20 de camere, centru spa & wellness, restaurant, sală de conferințe, etc. Termenul de finalizare fusese es",
+        "În 2005, Vila ’’Nufărul’’ a fost vândută către S.C. Trend Invest SRL (Valer Blidar), care a propus un proiect de revitalizare, respectiv construirea unui hotel de 4 stele cu 20 de camere, centru spa și wellness, restaurant, sală de conferințe, etc. Termenul de finalizare fusese es",
         "![](https://transilvaniacavediving.com/wp-content/uploads/2025/08/002-moneasa.jpg)",
         "![](https://transilvaniacavediving.com/wp-content/uploads/2025/08/004-moneasa-1.jpg)",
         "În anul 2007, ruinele Vilelor nr. 1 și nr. 2 au fost demolate, cu excepția frontispiciului Vilei nr. 1, care a fost păstrat ca mărturie a trecutului. În cursul aceluiași an au fost refăcute captările izvoarelor mezotermale care astăzi alimentează baza de tratament de la Hotel Par",
@@ -3935,7 +3935,7 @@
       "safetyWarnings": [],
       "technicalSpecs": [
         {
-          "label": "Altitudine & Climat",
+          "label": "Altitudine și Climat",
           "value": "280 m altitudine, depresionar adăpostit, bioclimat sedativ-indiferent cu ioni negativi"
         },
         {
@@ -3974,7 +3974,7 @@
       "language": "ro",
       "pageType": "destination",
       "iaSection": "Descoperă",
-      "categoryLabel": "Traseu Montan & Geologie Industrială",
+      "categoryLabel": "Traseu Montan și Geologie Industrială",
       "region": "Stațiunea Moneasa, Munții Codru-Moma, Jud. Arad",
       "translations": [],
       "heroImage": "/media/belvedere/whatsapp-image-2022-05-06-at-12.21.15-pm.jpeg",
@@ -4292,7 +4292,7 @@
       "technicalSpecs": [
         {
           "label": "Obiective pe traseu",
-          "value": "Punctul de Belvedere Moneasa & Cariera de Marmură Roșie și Neagră"
+          "value": "Punctul de Belvedere Moneasa și Cariera de Marmură Roșie și Neagră"
         },
         {
           "label": "Marcaj turistic",
@@ -4331,7 +4331,7 @@
       "pageType": "heritage",
       "iaSection": "Istorie și patrimoniu",
       "categoryLabel": "Biografie Istorică — Pionierul Turismului în Apuseni",
-      "region": "Sepreuș / Moneasa, Jud. Arad & Munții Apuseni",
+      "region": "Sepreuș / Moneasa, Jud. Arad și Munții Apuseni",
       "translations": [],
       "heroImage": "/media/pestera-liliecilor/p1040534.jpg",
       "images": [
@@ -4437,8 +4437,8 @@
           "value": "„Kalauz a bihari kirándulásokra” (Ghid pentru excursiile în Bihor, Beiuș, 1903)"
         },
         {
-          "label": "Monumente & Memorie",
-          "value": "Placa comemorativă din Moneasa (dezvelită 19 august 1906) & mormântul din cimitirul romano-catolic Moneasa"
+          "label": "Monumente și Memorie",
+          "value": "Placa comemorativă din Moneasa (dezvelită 19 august 1906) și mormântul din cimitirul romano-catolic Moneasa"
         }
       ],
       "scheduleSummary": null,
@@ -5229,7 +5229,7 @@
       "language": "ro",
       "pageType": "article",
       "iaSection": "Jurnal",
-      "categoryLabel": "Echipamente & Tehnică",
+      "categoryLabel": "Echipamente și Tehnică",
       "region": "România",
       "translations": [],
       "heroImage": "/media/cave-diving/05-1440x1080-1.jpg",
@@ -5454,7 +5454,7 @@
         {
           "heading": "Introducere",
           "level": 1,
-          "contentMarkdown": "![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/05-1440x1080-1.jpg)\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/06-1440x1080-1.jpg)\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/07-1440x1080-1.jpg)\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/08-1440x1080-1.gif)\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/09-1440x1080-1.jpg)\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/10-1440x1080-1.jpg)\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/11-1440x1080-1.gif)\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/12-1440x1080-1.gif)\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/13-1440x1080-1.jpg)\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/14-1440x1080-1.gif)\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/15-1440x1080-1.gif)\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/16-1440x1080-1.gif)\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/17-1440x1080-1.jpg)\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/18-1440x1080-1.gif)\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/19-1440x1080-1.jpg)\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/20-1440x1080-1.jpg)\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/21-1440x1080-1.jpg)\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/22-1440x1080-1.jpg)\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/23-1440x1080-1.jpg)\n\nFenix ​​HM75R este o frontală de înaltă performanță, cu o autonomie foarte lungă.\n\nAlimentată de două baterii reîncărcabile incluse, această lanternă aruncă o putere maximă de 1600 de lumeni la o distanță maximă a fasciculului de 223 de metri.\n\nAre o durată maximă de funcționare uimitoare de 234 de ore, calculată la intensitatea de 5 lumeni.\n\nOperarea celor 2 întrerupătoare este neașteptat de simplă, cu funcția de pornire/oprire și selectarea modului controlate de comutatorul rotativ, iar comutatorul electronic selectează intensitatea.\n\nCu fascicul Spot, fascicul flood și lumină roșie, această frontală este capabilă să acopere diverse nevoi de iluminare.\n\nBateria de mare capacitate de 5000 mAh inclusă permite o durată de funcționare extinsă într-o carcasă ușoară și simplu de reîncărcat, cu capacitatea de a acționa ca o baterie externă alte dispozitive digitale.\n\nCu un corp din aliaj de magneziu, HM75R are o protecție IP68 și o rezistență la impact de 2 metri.\n\nPentru cerințele de iluminare de mare intensitate derivate din misiuni SAR (tactico-militare), lucrări industriale, operațiuni pe șantier sau alte activități în aer liber, Fenix ​​HM75R nu vă va dezamăgi niciodată.\n\n| Specificații lanternă | |\n| --- | --- |\n| Model | HM75R |\n| Tip LED: | 1 * Led Luminus SST40 lumină rece, 2 * Led-uri Luminus SST20 lumină neutră și 1 * Led OSRAM GR QSSPA1.23 lumină roșie |\n| Flux luminos maxim: | 1600 lumeni |\n| Intensitate maxima: | 12448 candeli |\n| Lungimea fasciculului: | 223 metri |\n| Autonomie maxima: | 14040 minute |\n| Niveluri de intensitate: | 8 niveluri |\n| Tip baterie: | 1 * 18650 + 1 * 21700 |\n| Baterii Incluse: | Da – 1 * 18650 Li-Ion 3400mAh + 1 * 21700 Li-Ion 5000mAh |\n| Lungime | 91.10 mm |\n| Diametrul capului: | 41.00 mm |\n| Diametrul corpului: | 53.50 mm |\n| Greutate | 321.00 grame (modulul de extindere a autonomiei, bateriile și banda incluse) |\n| Comutator: | Comutator Combo (rotativ & electronic) |\n| Material: | Aluminiu A6061-T6 |\n| Impermeabilitate: | IP68 |\n| Rezistenta la impact: | 2 metri |\n| Variante de culoare: | Negru |\n| Recomandari de folosire: | Speologie, drumeție, cățărare, lucru |"
+          "contentMarkdown": "![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/05-1440x1080-1.jpg)\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/06-1440x1080-1.jpg)\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/07-1440x1080-1.jpg)\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/08-1440x1080-1.gif)\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/09-1440x1080-1.jpg)\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/10-1440x1080-1.jpg)\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/11-1440x1080-1.gif)\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/12-1440x1080-1.gif)\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/13-1440x1080-1.jpg)\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/14-1440x1080-1.gif)\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/15-1440x1080-1.gif)\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/16-1440x1080-1.gif)\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/17-1440x1080-1.jpg)\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/18-1440x1080-1.gif)\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/19-1440x1080-1.jpg)\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/20-1440x1080-1.jpg)\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/21-1440x1080-1.jpg)\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/22-1440x1080-1.jpg)\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/23-1440x1080-1.jpg)\n\nFenix ​​HM75R este o frontală de înaltă performanță, cu o autonomie foarte lungă.\n\nAlimentată de două baterii reîncărcabile incluse, această lanternă aruncă o putere maximă de 1600 de lumeni la o distanță maximă a fasciculului de 223 de metri.\n\nAre o durată maximă de funcționare uimitoare de 234 de ore, calculată la intensitatea de 5 lumeni.\n\nOperarea celor 2 întrerupătoare este neașteptat de simplă, cu funcția de pornire/oprire și selectarea modului controlate de comutatorul rotativ, iar comutatorul electronic selectează intensitatea.\n\nCu fascicul Spot, fascicul flood și lumină roșie, această frontală este capabilă să acopere diverse nevoi de iluminare.\n\nBateria de mare capacitate de 5000 mAh inclusă permite o durată de funcționare extinsă într-o carcasă ușoară și simplu de reîncărcat, cu capacitatea de a acționa ca o baterie externă alte dispozitive digitale.\n\nCu un corp din aliaj de magneziu, HM75R are o protecție IP68 și o rezistență la impact de 2 metri.\n\nPentru cerințele de iluminare de mare intensitate derivate din misiuni SAR (tactico-militare), lucrări industriale, operațiuni pe șantier sau alte activități în aer liber, Fenix ​​HM75R nu vă va dezamăgi niciodată.\n\n| Specificații lanternă | |\n| --- | --- |\n| Model | HM75R |\n| Tip LED: | 1 * Led Luminus SST40 lumină rece, 2 * Led-uri Luminus SST20 lumină neutră și 1 * Led OSRAM GR QSSPA1.23 lumină roșie |\n| Flux luminos maxim: | 1600 lumeni |\n| Intensitate maxima: | 12448 candeli |\n| Lungimea fasciculului: | 223 metri |\n| Autonomie maxima: | 14040 minute |\n| Niveluri de intensitate: | 8 niveluri |\n| Tip baterie: | 1 * 18650 + 1 * 21700 |\n| Baterii Incluse: | Da – 1 * 18650 Li-Ion 3400mAh + 1 * 21700 Li-Ion 5000mAh |\n| Lungime | 91.10 mm |\n| Diametrul capului: | 41.00 mm |\n| Diametrul corpului: | 53.50 mm |\n| Greutate | 321.00 grame (modulul de extindere a autonomiei, bateriile și banda incluse) |\n| Comutator: | Comutator Combo (rotativ și electronic) |\n| Material: | Aluminiu A6061-T6 |\n| Impermeabilitate: | IP68 |\n| Rezistenta la impact: | 2 metri |\n| Variante de culoare: | Negru |\n| Recomandari de folosire: | Speologie, drumeție, cățărare, lucru |"
         },
         {
           "heading": "Caracteristici",
@@ -5474,7 +5474,7 @@
         {
           "heading": "Pachet",
           "level": 2,
-          "contentMarkdown": "- Lanterna frontală Fenix ​​HM75R\n\n- Baterie reîncărcabilă ARB-L18-3400\n\n- Baterie reîncărcabilă ARB-L21-5000 V2.0\n\n- Cablu prelungitor de 1 metru\n\n- 2 x garnituri (O-ring) de rezervă\n\n- Manual de utilizare\n\n- Card de garanție (NOU ! ACEST PRODUS BENEFICIAZA DE O GARANTIE TOTALA DE 66 LUNI : Garanție 60 luni (5 ANI) & 6 luni Garanție extinsa – Fenix recomanda clienților săi să înregistreze numărul Serial aferent fiecărei lanterne Fenix, pe site-ul oficial www.fenixlight.com."
+          "contentMarkdown": "- Lanterna frontală Fenix ​​HM75R\n\n- Baterie reîncărcabilă ARB-L18-3400\n\n- Baterie reîncărcabilă ARB-L21-5000 V2.0\n\n- Cablu prelungitor de 1 metru\n\n- 2 x garnituri (O-ring) de rezervă\n\n- Manual de utilizare\n\n- Card de garanție (NOU ! ACEST PRODUS BENEFICIAZA DE O GARANTIE TOTALA DE 66 LUNI : Garanție 60 luni (5 ANI) și 6 luni Garanție extinsa – Fenix recomanda clienților săi să înregistreze numărul Serial aferent fiecărei lanterne Fenix, pe site-ul oficial www.fenixlight.com."
         },
         {
           "heading": "Preț 850 lei",
@@ -5482,13 +5482,13 @@
           "contentMarkdown": "Pentru comenzi vă rugăm să ne [contactați](/contact)."
         }
       ],
-      "bodyMarkdown": "![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/05-1440x1080-1.jpg)\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/06-1440x1080-1.jpg)\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/07-1440x1080-1.jpg)\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/08-1440x1080-1.gif)\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/09-1440x1080-1.jpg)\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/10-1440x1080-1.jpg)\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/11-1440x1080-1.gif)\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/12-1440x1080-1.gif)\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/13-1440x1080-1.jpg)\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/14-1440x1080-1.gif)\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/15-1440x1080-1.gif)\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/16-1440x1080-1.gif)\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/17-1440x1080-1.jpg)\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/18-1440x1080-1.gif)\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/19-1440x1080-1.jpg)\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/20-1440x1080-1.jpg)\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/21-1440x1080-1.jpg)\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/22-1440x1080-1.jpg)\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/23-1440x1080-1.jpg)\n\nFenix ​​HM75R este o frontală de înaltă performanță, cu o autonomie foarte lungă.\n\nAlimentată de două baterii reîncărcabile incluse, această lanternă aruncă o putere maximă de 1600 de lumeni la o distanță maximă a fasciculului de 223 de metri.\n\nAre o durată maximă de funcționare uimitoare de 234 de ore, calculată la intensitatea de 5 lumeni.\n\nOperarea celor 2 întrerupătoare este neașteptat de simplă, cu funcția de pornire/oprire și selectarea modului controlate de comutatorul rotativ, iar comutatorul electronic selectează intensitatea.\n\nCu fascicul Spot, fascicul flood și lumină roșie, această frontală este capabilă să acopere diverse nevoi de iluminare.\n\nBateria de mare capacitate de 5000 mAh inclusă permite o durată de funcționare extinsă într-o carcasă ușoară și simplu de reîncărcat, cu capacitatea de a acționa ca o baterie externă alte dispozitive digitale.\n\nCu un corp din aliaj de magneziu, HM75R are o protecție IP68 și o rezistență la impact de 2 metri.\n\nPentru cerințele de iluminare de mare intensitate derivate din misiuni SAR (tactico-militare), lucrări industriale, operațiuni pe șantier sau alte activități în aer liber, Fenix ​​HM75R nu vă va dezamăgi niciodată.\n\n| Specificații lanternă | |\n| --- | --- |\n| Model | HM75R |\n| Tip LED: | 1 * Led Luminus SST40 lumină rece, 2 * Led-uri Luminus SST20 lumină neutră și 1 * Led OSRAM GR QSSPA1.23 lumină roșie |\n| Flux luminos maxim: | 1600 lumeni |\n| Intensitate maxima: | 12448 candeli |\n| Lungimea fasciculului: | 223 metri |\n| Autonomie maxima: | 14040 minute |\n| Niveluri de intensitate: | 8 niveluri |\n| Tip baterie: | 1 * 18650 + 1 * 21700 |\n| Baterii Incluse: | Da – 1 * 18650 Li-Ion 3400mAh + 1 * 21700 Li-Ion 5000mAh |\n| Lungime | 91.10 mm |\n| Diametrul capului: | 41.00 mm |\n| Diametrul corpului: | 53.50 mm |\n| Greutate | 321.00 grame (modulul de extindere a autonomiei, bateriile și banda incluse) |\n| Comutator: | Comutator Combo (rotativ & electronic) |\n| Material: | Aluminiu A6061-T6 |\n| Impermeabilitate: | IP68 |\n| Rezistenta la impact: | 2 metri |\n| Variante de culoare: | Negru |\n| Recomandari de folosire: | Speologie, drumeție, cățărare, lucru |\n\n## Caracteristici\n\n- Putere maximă de 1600 de lumeni, distanță maximă a fasciculului de 223 de metri.\n\n- 1 LED Luminus SST40 lumină alb-rece, 2 LED-uri Luminus SST20 lumină alb-neutru și 1 LED OSRAM GR QSSPA1.23 cu lumină roșie – cu o durată de viață de 50.000 de ore fiecare.\n\n- 2 surse de alimentare pentru autonomie mare.\n\n- Fabricată din aliaj de magneziu de înaltă calitate, ușor și durabil.\n\n- Comutator rotativ și comutator electronic pentru o operare ușoară și rapidă.\n\n- Spotlight, floodlight și lumină roșie combinate.\n\n- Funcție inteligentă de reducere a luminozității pentru a evita temperaturile ridicate potențial periculoase la iluminarea de aproape.\n\n- Portul USB Type-C de pe carcasa bateriei suportă descărcarea rapidă.\n\n- Modulul bateriei auxiliare este prevăzut cu QR (quick-release) pentru diferite moduri de purtare și poate fi folosit ca power-bank de urgență.\n\n- 2 porturi USB Type-C cu tratament interior de impermeabilizare.\n\n- Lanterna (inclusiv suport): 91,1 × 41 × 53,5 mm.\n\n- Modulul bateriei: 107,7 x 28 x 28 mm.\n\n- Greutate: 321 g (inclusiv carcasa bateriei, bateriile și banda pentru cap).\n\n## Autonomie\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/21-1440x1080-2.jpg)\n\n## Instrucțiuni\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/diagram.jpg)\n\n## Pachet\n\n- Lanterna frontală Fenix ​​HM75R\n\n- Baterie reîncărcabilă ARB-L18-3400\n\n- Baterie reîncărcabilă ARB-L21-5000 V2.0\n\n- Cablu prelungitor de 1 metru\n\n- 2 x garnituri (O-ring) de rezervă\n\n- Manual de utilizare\n\n- Card de garanție (NOU ! ACEST PRODUS BENEFICIAZA DE O GARANTIE TOTALA DE 66 LUNI : Garanție 60 luni (5 ANI) & 6 luni Garanție extinsa – Fenix recomanda clienților săi să înregistreze numărul Serial aferent fiecărei lanterne Fenix, pe site-ul oficial www.fenixlight.com.\n\n## Preț 850 lei\n\nPentru comenzi vă rugăm să ne [contactați](/contact).",
+      "bodyMarkdown": "![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/05-1440x1080-1.jpg)\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/06-1440x1080-1.jpg)\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/07-1440x1080-1.jpg)\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/08-1440x1080-1.gif)\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/09-1440x1080-1.jpg)\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/10-1440x1080-1.jpg)\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/11-1440x1080-1.gif)\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/12-1440x1080-1.gif)\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/13-1440x1080-1.jpg)\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/14-1440x1080-1.gif)\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/15-1440x1080-1.gif)\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/16-1440x1080-1.gif)\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/17-1440x1080-1.jpg)\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/18-1440x1080-1.gif)\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/19-1440x1080-1.jpg)\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/20-1440x1080-1.jpg)\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/21-1440x1080-1.jpg)\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/22-1440x1080-1.jpg)\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/23-1440x1080-1.jpg)\n\nFenix ​​HM75R este o frontală de înaltă performanță, cu o autonomie foarte lungă.\n\nAlimentată de două baterii reîncărcabile incluse, această lanternă aruncă o putere maximă de 1600 de lumeni la o distanță maximă a fasciculului de 223 de metri.\n\nAre o durată maximă de funcționare uimitoare de 234 de ore, calculată la intensitatea de 5 lumeni.\n\nOperarea celor 2 întrerupătoare este neașteptat de simplă, cu funcția de pornire/oprire și selectarea modului controlate de comutatorul rotativ, iar comutatorul electronic selectează intensitatea.\n\nCu fascicul Spot, fascicul flood și lumină roșie, această frontală este capabilă să acopere diverse nevoi de iluminare.\n\nBateria de mare capacitate de 5000 mAh inclusă permite o durată de funcționare extinsă într-o carcasă ușoară și simplu de reîncărcat, cu capacitatea de a acționa ca o baterie externă alte dispozitive digitale.\n\nCu un corp din aliaj de magneziu, HM75R are o protecție IP68 și o rezistență la impact de 2 metri.\n\nPentru cerințele de iluminare de mare intensitate derivate din misiuni SAR (tactico-militare), lucrări industriale, operațiuni pe șantier sau alte activități în aer liber, Fenix ​​HM75R nu vă va dezamăgi niciodată.\n\n| Specificații lanternă | |\n| --- | --- |\n| Model | HM75R |\n| Tip LED: | 1 * Led Luminus SST40 lumină rece, 2 * Led-uri Luminus SST20 lumină neutră și 1 * Led OSRAM GR QSSPA1.23 lumină roșie |\n| Flux luminos maxim: | 1600 lumeni |\n| Intensitate maxima: | 12448 candeli |\n| Lungimea fasciculului: | 223 metri |\n| Autonomie maxima: | 14040 minute |\n| Niveluri de intensitate: | 8 niveluri |\n| Tip baterie: | 1 * 18650 + 1 * 21700 |\n| Baterii Incluse: | Da – 1 * 18650 Li-Ion 3400mAh + 1 * 21700 Li-Ion 5000mAh |\n| Lungime | 91.10 mm |\n| Diametrul capului: | 41.00 mm |\n| Diametrul corpului: | 53.50 mm |\n| Greutate | 321.00 grame (modulul de extindere a autonomiei, bateriile și banda incluse) |\n| Comutator: | Comutator Combo (rotativ și electronic) |\n| Material: | Aluminiu A6061-T6 |\n| Impermeabilitate: | IP68 |\n| Rezistenta la impact: | 2 metri |\n| Variante de culoare: | Negru |\n| Recomandari de folosire: | Speologie, drumeție, cățărare, lucru |\n\n## Caracteristici\n\n- Putere maximă de 1600 de lumeni, distanță maximă a fasciculului de 223 de metri.\n\n- 1 LED Luminus SST40 lumină alb-rece, 2 LED-uri Luminus SST20 lumină alb-neutru și 1 LED OSRAM GR QSSPA1.23 cu lumină roșie – cu o durată de viață de 50.000 de ore fiecare.\n\n- 2 surse de alimentare pentru autonomie mare.\n\n- Fabricată din aliaj de magneziu de înaltă calitate, ușor și durabil.\n\n- Comutator rotativ și comutator electronic pentru o operare ușoară și rapidă.\n\n- Spotlight, floodlight și lumină roșie combinate.\n\n- Funcție inteligentă de reducere a luminozității pentru a evita temperaturile ridicate potențial periculoase la iluminarea de aproape.\n\n- Portul USB Type-C de pe carcasa bateriei suportă descărcarea rapidă.\n\n- Modulul bateriei auxiliare este prevăzut cu QR (quick-release) pentru diferite moduri de purtare și poate fi folosit ca power-bank de urgență.\n\n- 2 porturi USB Type-C cu tratament interior de impermeabilizare.\n\n- Lanterna (inclusiv suport): 91,1 × 41 × 53,5 mm.\n\n- Modulul bateriei: 107,7 x 28 x 28 mm.\n\n- Greutate: 321 g (inclusiv carcasa bateriei, bateriile și banda pentru cap).\n\n## Autonomie\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/21-1440x1080-2.jpg)\n\n## Instrucțiuni\n\n![Fenix HM75R – Lanternă frontală – 1600 Lumeni – 223 Metri](/media/cave-diving/diagram.jpg)\n\n## Pachet\n\n- Lanterna frontală Fenix ​​HM75R\n\n- Baterie reîncărcabilă ARB-L18-3400\n\n- Baterie reîncărcabilă ARB-L21-5000 V2.0\n\n- Cablu prelungitor de 1 metru\n\n- 2 x garnituri (O-ring) de rezervă\n\n- Manual de utilizare\n\n- Card de garanție (NOU ! ACEST PRODUS BENEFICIAZA DE O GARANTIE TOTALA DE 66 LUNI : Garanție 60 luni (5 ANI) și 6 luni Garanție extinsa – Fenix recomanda clienților săi să înregistreze numărul Serial aferent fiecărei lanterne Fenix, pe site-ul oficial www.fenixlight.com.\n\n## Preț 850 lei\n\nPentru comenzi vă rugăm să ne [contactați](/contact).",
       "contactInformation": [],
       "prices": [
         "## Preț 850 lei"
       ],
       "schedules": [
-        "- Card de garanție (NOU ! ACEST PRODUS BENEFICIAZA DE O GARANTIE TOTALA DE 66 LUNI : Garanție 60 luni (5 ANI) & 6 luni Garanție extinsa – Fenix recomanda clienților săi să înregistreze numărul Serial aferent fiecărei lanterne Fenix, pe site-ul oficia"
+        "- Card de garanție (NOU ! ACEST PRODUS BENEFICIAZA DE O GARANTIE TOTALA DE 66 LUNI : Garanție 60 luni (5 ANI) și 6 luni Garanție extinsa – Fenix recomanda clienților săi să înregistreze numărul Serial aferent fiecărei lanterne Fenix, pe site-ul oficia"
       ],
       "historicalDates": [
         "- ![](https://transilvaniacavediving.com/wp-content/uploads/2025/01/05-1440x1080-1.jpg?w=1024)",
@@ -5538,7 +5538,7 @@
       "language": "ro",
       "pageType": "article",
       "iaSection": "Jurnal",
-      "categoryLabel": "Cave Diving & Cursuri",
+      "categoryLabel": "Cave Diving și Cursuri",
       "region": "România",
       "translations": [],
       "heroImage": "/media/cave-diving/image002-2.png",
@@ -5593,7 +5593,7 @@
       "language": "ro",
       "pageType": "article",
       "iaSection": "Jurnal",
-      "categoryLabel": "Echipamente & Tehnică",
+      "categoryLabel": "Echipamente și Tehnică",
       "region": "România",
       "translations": [],
       "heroImage": "/media/cave-diving/hp16r-headlamp_web-1440x1080-1-1.jpg",
@@ -5821,11 +5821,11 @@
       "slug": "hose-holders-for-111-7-liter-aluminum-cylinders-and-other-cylinders-with-a-diameter-of-182-152-mm",
       "title": "HOSE HOLDERS, for 11,1 / 7 liter aluminum cylinders and other cylinders with a diameter of 182/152 mm.  – Transilvania Cave Diving",
       "cleanTitle": "HOSE HOLDERS, for 11,1 / 7 liter aluminum cylinders and other cylinders with a diameter of 182/152 mm.",
-      "metaDescription": "Something new, something blue, green, orange & black INSTRUCTIONS – HOSE HOLDERS – Miflex hose holders are dedicated to 11.1/7 -liter aluminum cylinders and other cylinders with a d…",
+      "metaDescription": "Something new, something blue, green, orange și black INSTRUCTIONS – HOSE HOLDERS – Miflex hose holders are dedicated to 11.1/7 -liter aluminum cylinders and other cylinders with a d…",
       "language": "ro",
       "pageType": "article",
       "iaSection": "Jurnal",
-      "categoryLabel": "Cave Diving & Cursuri",
+      "categoryLabel": "Cave Diving și Cursuri",
       "region": "România",
       "translations": [],
       "heroImage": "/media/cave-diving/t20100-2_4.jpg",
@@ -5892,10 +5892,10 @@
         {
           "heading": "Introducere",
           "level": 1,
-          "contentMarkdown": "Something new, something blue, green, orange & black\n\n![HOSE HOLDERS, for 11,1 / 7 liter aluminum cylinders and other cylinders with a diameter of 182/152 mm.](/media/cave-diving/t20100-2_4.jpg)\n\n![HOSE HOLDERS, for 11,1 / 7 liter aluminum cylinders and other cylinders with a diameter of 182/152 mm.](/media/cave-diving/t20100-2_3.jpg)\n\n![HOSE HOLDERS, for 11,1 / 7 liter aluminum cylinders and other cylinders with a diameter of 182/152 mm.](/media/cave-diving/t20100-2_1.jpg)\n\n![HOSE HOLDERS, for 11,1 / 7 liter aluminum cylinders and other cylinders with a diameter of 182/152 mm.](/media/cave-diving/t20100-4_1.jpg)\n\n![HOSE HOLDERS, for 11,1 / 7 liter aluminum cylinders and other cylinders with a diameter of 182/152 mm.](/media/cave-diving/t20100-3_1.jpg)\n\n![HOSE HOLDERS, for 11,1 / 7 liter aluminum cylinders and other cylinders with a diameter of 182/152 mm.](/media/cave-diving/t20100-1_1.jpg)\n\n**INSTRUCTIONS – HOSE HOLDERS** – Miflex hose holders are dedicated to 11.1/7 -liter aluminum cylinders and other cylinders with a diameter of 182/152 mm. The handles should be installed on the cylinder by putting on rubber bands, as symmetrically as possible, at a distance from each other that guarantees holding the entire length of the hose and its movement under the handle.\n**WARNING** – before diving, check and practice the configuration according to all safety rules applicable in the diving standards of the user of diving equipment."
+          "contentMarkdown": "Something new, something blue, green, orange și black\n\n![HOSE HOLDERS, for 11,1 / 7 liter aluminum cylinders and other cylinders with a diameter of 182/152 mm.](/media/cave-diving/t20100-2_4.jpg)\n\n![HOSE HOLDERS, for 11,1 / 7 liter aluminum cylinders and other cylinders with a diameter of 182/152 mm.](/media/cave-diving/t20100-2_3.jpg)\n\n![HOSE HOLDERS, for 11,1 / 7 liter aluminum cylinders and other cylinders with a diameter of 182/152 mm.](/media/cave-diving/t20100-2_1.jpg)\n\n![HOSE HOLDERS, for 11,1 / 7 liter aluminum cylinders and other cylinders with a diameter of 182/152 mm.](/media/cave-diving/t20100-4_1.jpg)\n\n![HOSE HOLDERS, for 11,1 / 7 liter aluminum cylinders and other cylinders with a diameter of 182/152 mm.](/media/cave-diving/t20100-3_1.jpg)\n\n![HOSE HOLDERS, for 11,1 / 7 liter aluminum cylinders and other cylinders with a diameter of 182/152 mm.](/media/cave-diving/t20100-1_1.jpg)\n\n**INSTRUCTIONS – HOSE HOLDERS** – Miflex hose holders are dedicated to 11.1/7 -liter aluminum cylinders and other cylinders with a diameter of 182/152 mm. The handles should be installed on the cylinder by putting on rubber bands, as symmetrically as possible, at a distance from each other that guarantees holding the entire length of the hose and its movement under the handle.\n**WARNING** – before diving, check and practice the configuration according to all safety rules applicable in the diving standards of the user of diving equipment."
         }
       ],
-      "bodyMarkdown": "Something new, something blue, green, orange & black\n\n![HOSE HOLDERS, for 11,1 / 7 liter aluminum cylinders and other cylinders with a diameter of 182/152 mm.](/media/cave-diving/t20100-2_4.jpg)\n\n![HOSE HOLDERS, for 11,1 / 7 liter aluminum cylinders and other cylinders with a diameter of 182/152 mm.](/media/cave-diving/t20100-2_3.jpg)\n\n![HOSE HOLDERS, for 11,1 / 7 liter aluminum cylinders and other cylinders with a diameter of 182/152 mm.](/media/cave-diving/t20100-2_1.jpg)\n\n![HOSE HOLDERS, for 11,1 / 7 liter aluminum cylinders and other cylinders with a diameter of 182/152 mm.](/media/cave-diving/t20100-4_1.jpg)\n\n![HOSE HOLDERS, for 11,1 / 7 liter aluminum cylinders and other cylinders with a diameter of 182/152 mm.](/media/cave-diving/t20100-3_1.jpg)\n\n![HOSE HOLDERS, for 11,1 / 7 liter aluminum cylinders and other cylinders with a diameter of 182/152 mm.](/media/cave-diving/t20100-1_1.jpg)\n\n**INSTRUCTIONS – HOSE HOLDERS** – Miflex hose holders are dedicated to 11.1/7 -liter aluminum cylinders and other cylinders with a diameter of 182/152 mm. The handles should be installed on the cylinder by putting on rubber bands, as symmetrically as possible, at a distance from each other that guarantees holding the entire length of the hose and its movement under the handle.\n**WARNING** – before diving, check and practice the configuration according to all safety rules applicable in the diving standards of the user of diving equipment.",
+      "bodyMarkdown": "Something new, something blue, green, orange și black\n\n![HOSE HOLDERS, for 11,1 / 7 liter aluminum cylinders and other cylinders with a diameter of 182/152 mm.](/media/cave-diving/t20100-2_4.jpg)\n\n![HOSE HOLDERS, for 11,1 / 7 liter aluminum cylinders and other cylinders with a diameter of 182/152 mm.](/media/cave-diving/t20100-2_3.jpg)\n\n![HOSE HOLDERS, for 11,1 / 7 liter aluminum cylinders and other cylinders with a diameter of 182/152 mm.](/media/cave-diving/t20100-2_1.jpg)\n\n![HOSE HOLDERS, for 11,1 / 7 liter aluminum cylinders and other cylinders with a diameter of 182/152 mm.](/media/cave-diving/t20100-4_1.jpg)\n\n![HOSE HOLDERS, for 11,1 / 7 liter aluminum cylinders and other cylinders with a diameter of 182/152 mm.](/media/cave-diving/t20100-3_1.jpg)\n\n![HOSE HOLDERS, for 11,1 / 7 liter aluminum cylinders and other cylinders with a diameter of 182/152 mm.](/media/cave-diving/t20100-1_1.jpg)\n\n**INSTRUCTIONS – HOSE HOLDERS** – Miflex hose holders are dedicated to 11.1/7 -liter aluminum cylinders and other cylinders with a diameter of 182/152 mm. The handles should be installed on the cylinder by putting on rubber bands, as symmetrically as possible, at a distance from each other that guarantees holding the entire length of the hose and its movement under the handle.\n**WARNING** – before diving, check and practice the configuration according to all safety rules applicable in the diving standards of the user of diving equipment.",
       "contactInformation": [],
       "prices": [],
       "schedules": [],
@@ -5929,7 +5929,7 @@
       "language": "ro",
       "pageType": "article",
       "iaSection": "Jurnal",
-      "categoryLabel": "Echipamente & Tehnică",
+      "categoryLabel": "Echipamente și Tehnică",
       "region": "România",
       "translations": [],
       "heroImage": "/media/cave-diving/01-2400x1800-1440x1080-1-1.jpg",
@@ -6124,7 +6124,7 @@
       "language": "ro",
       "pageType": "article",
       "iaSection": "Jurnal",
-      "categoryLabel": "Echipamente & Tehnică",
+      "categoryLabel": "Echipamente și Tehnică",
       "region": "România",
       "translations": [],
       "heroImage": "/media/cave-diving/hm60r_1-1440x1080-1.jpg",
@@ -6379,7 +6379,7 @@
       "language": "ro",
       "pageType": "article",
       "iaSection": "Jurnal",
-      "categoryLabel": "Echipamente & Tehnică",
+      "categoryLabel": "Echipamente și Tehnică",
       "region": "România",
       "translations": [],
       "heroImage": "/media/cave-diving/hm65r-dt-3-1440x1080-1.jpg",
@@ -6633,7 +6633,7 @@
       "language": "ro",
       "pageType": "article",
       "iaSection": "Jurnal",
-      "categoryLabel": "Echipamente & Tehnică",
+      "categoryLabel": "Echipamente și Tehnică",
       "region": "România",
       "translations": [],
       "heroImage": "/media/cave-diving/002-2400x1800-1.jpg",
@@ -6873,11 +6873,11 @@
       "slug": "fenix-hp30r-v2-0-lanterna-frontala-3000-lumeni-270-metri",
       "title": "Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri – Transilvania Cave Diving",
       "cleanTitle": "Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri",
-      "metaDescription": "HP30R V2.0 – Ultrahigh-Performance Separate Search & Rescue Headlamp Versiunea îmbunătățită Fenix HP30R V2.0 este o lanternă frontală profesională reîncărcabilă de înaltă performanță. Put…",
+      "metaDescription": "HP30R V2.0 – Ultrahigh-Performance Separate Search și Rescue Headlamp Versiunea îmbunătățită Fenix HP30R V2.0 este o lanternă frontală profesională reîncărcabilă de înaltă performanță. Put…",
       "language": "ro",
       "pageType": "article",
       "iaSection": "Jurnal",
-      "categoryLabel": "Echipamente & Tehnică",
+      "categoryLabel": "Echipamente și Tehnică",
       "region": "România",
       "translations": [],
       "heroImage": "/media/cave-diving/05-2400x1800-1.jpg",
@@ -7085,7 +7085,7 @@
         {
           "heading": "Introducere",
           "level": 1,
-          "contentMarkdown": "![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/05-2400x1800-1.jpg)\n\n**HP30R V2.0 – Ultrahigh-Performance Separate Search & Rescue Headlamp**\n\nVersiunea îmbunătățită Fenix HP30R V2.0 este o lanternă frontală profesională reîncărcabilă de înaltă performanță. Puterea provine de la cele două baterii reîncărcabile 21700 (5000 mAh) incluse, care asigură o durată de funcționare extinsă, situate într-o carcasă ușor de reîncărcat, cu capacitatea unică de a încărca și celelalte dispozitive digitale ca power bank. Cele 3 LED-uri pot fi folosite simultan pentru a produce o putere de 3000 lumeni ce ating o distanță de peste 270 metri. Versatilitatea acestei lanterne începe cu carcasa bateriei care poate fi purtată pe curea, lăsând o utilizare ușoară și confortabilă a modulului de iuminare pe cap. Capacitatea de a utiliza atât nivelurile de iluminare flood (larg), cât și nivelurile spot (fascicul concentrat) vă oferă posibilitatea obținerii unei lumini adaptabilă nevoilor dumneavoastră. HP30R V2.0 poate fi un instrument care salvează vieți atunci când este folosită de profesioniști în intervanții de căutare și salvare.\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/01.1-2400x1800-1.png)\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/02-2400x1800-1.jpg)\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/03-2400x1800-1.jpg)\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/04-2400x1800-1.jpg)\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/05-2400x1800-2.jpg)\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/06-2400x1800-1.jpg)\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/07-2400x1800-1.jpg)\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/08-2400x1800-1.gif)\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/09-2400x1800-1.gif)\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/10-2400x1800-1.jpg)\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/11-2400x1800-1.jpg)\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/12-2400x1800-1.jpg)\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/13-2400x1800-1.jpg)\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/14-2400x1800-1.jpg)\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/15-2400x1800-1.jpg)\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/16-2400x1800-1.jpg)\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/17-2400x1800-1.jpg)\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/18-2400x1800-1.jpg)\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/19-2400x1800-1.jpg)"
+          "contentMarkdown": "![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/05-2400x1800-1.jpg)\n\n**HP30R V2.0 – Ultrahigh-Performance Separate Search și Rescue Headlamp**\n\nVersiunea îmbunătățită Fenix HP30R V2.0 este o lanternă frontală profesională reîncărcabilă de înaltă performanță. Puterea provine de la cele două baterii reîncărcabile 21700 (5000 mAh) incluse, care asigură o durată de funcționare extinsă, situate într-o carcasă ușor de reîncărcat, cu capacitatea unică de a încărca și celelalte dispozitive digitale ca power bank. Cele 3 LED-uri pot fi folosite simultan pentru a produce o putere de 3000 lumeni ce ating o distanță de peste 270 metri. Versatilitatea acestei lanterne începe cu carcasa bateriei care poate fi purtată pe curea, lăsând o utilizare ușoară și confortabilă a modulului de iuminare pe cap. Capacitatea de a utiliza atât nivelurile de iluminare flood (larg), cât și nivelurile spot (fascicul concentrat) vă oferă posibilitatea obținerii unei lumini adaptabilă nevoilor dumneavoastră. HP30R V2.0 poate fi un instrument care salvează vieți atunci când este folosită de profesioniști în intervanții de căutare și salvare.\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/01.1-2400x1800-1.png)\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/02-2400x1800-1.jpg)\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/03-2400x1800-1.jpg)\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/04-2400x1800-1.jpg)\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/05-2400x1800-2.jpg)\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/06-2400x1800-1.jpg)\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/07-2400x1800-1.jpg)\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/08-2400x1800-1.gif)\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/09-2400x1800-1.gif)\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/10-2400x1800-1.jpg)\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/11-2400x1800-1.jpg)\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/12-2400x1800-1.jpg)\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/13-2400x1800-1.jpg)\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/14-2400x1800-1.jpg)\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/15-2400x1800-1.jpg)\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/16-2400x1800-1.jpg)\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/17-2400x1800-1.jpg)\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/18-2400x1800-1.jpg)\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/19-2400x1800-1.jpg)"
         },
         {
           "heading": "Preț: 1199 lei*",
@@ -7103,7 +7103,7 @@
           "contentMarkdown": "■ 3000 lumens maximum output; 120 hours maximum runtime.\n\n■ One XHP50 white light LED, 2*XP-G3 S4 neutral white light LEDs; with a lifespan of 50000 hours.\n\n■ Included 2*5000mAh Li-ion batteries.\n\n■ Integrated die-casting security and better heat dissipation.\n\n■ Rotary switch simultaneously activates spot- and floodlight modes.\n\n■ Dual interface for charging and discharging capability.\n\n■ Dual wearing way of battery case: can be clipped on the headband or can be belt-worn."
         }
       ],
-      "bodyMarkdown": "![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/05-2400x1800-1.jpg)\n\n**HP30R V2.0 – Ultrahigh-Performance Separate Search & Rescue Headlamp**\n\nVersiunea îmbunătățită Fenix HP30R V2.0 este o lanternă frontală profesională reîncărcabilă de înaltă performanță. Puterea provine de la cele două baterii reîncărcabile 21700 (5000 mAh) incluse, care asigură o durată de funcționare extinsă, situate într-o carcasă ușor de reîncărcat, cu capacitatea unică de a încărca și celelalte dispozitive digitale ca power bank. Cele 3 LED-uri pot fi folosite simultan pentru a produce o putere de 3000 lumeni ce ating o distanță de peste 270 metri. Versatilitatea acestei lanterne începe cu carcasa bateriei care poate fi purtată pe curea, lăsând o utilizare ușoară și confortabilă a modulului de iuminare pe cap. Capacitatea de a utiliza atât nivelurile de iluminare flood (larg), cât și nivelurile spot (fascicul concentrat) vă oferă posibilitatea obținerii unei lumini adaptabilă nevoilor dumneavoastră. HP30R V2.0 poate fi un instrument care salvează vieți atunci când este folosită de profesioniști în intervanții de căutare și salvare.\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/01.1-2400x1800-1.png)\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/02-2400x1800-1.jpg)\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/03-2400x1800-1.jpg)\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/04-2400x1800-1.jpg)\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/05-2400x1800-2.jpg)\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/06-2400x1800-1.jpg)\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/07-2400x1800-1.jpg)\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/08-2400x1800-1.gif)\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/09-2400x1800-1.gif)\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/10-2400x1800-1.jpg)\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/11-2400x1800-1.jpg)\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/12-2400x1800-1.jpg)\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/13-2400x1800-1.jpg)\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/14-2400x1800-1.jpg)\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/15-2400x1800-1.jpg)\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/16-2400x1800-1.jpg)\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/17-2400x1800-1.jpg)\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/18-2400x1800-1.jpg)\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/19-2400x1800-1.jpg)\n\n## Preț: 1199 lei*\n\n#### *Speologii legitimați la un club/asociație/fundație de speologie, membre ale Federației Române de Speologie – FRS, Salvatorii Montani și Salvatorii Speologi legitimați la Asociația Națională a Salvatorilor Montani din România – ANSMR / Corpul Român Salvaspeo – CORSA beneficiază de un discount de 10% la toate produsele din gama Fenix Light!\n\n# Caracteristici:\n\n■ 3000 lumens maximum output; 120 hours maximum runtime.\n\n■ One XHP50 white light LED, 2*XP-G3 S4 neutral white light LEDs; with a lifespan of 50000 hours.\n\n■ Included 2*5000mAh Li-ion batteries.\n\n■ Integrated die-casting security and better heat dissipation.\n\n■ Rotary switch simultaneously activates spot- and floodlight modes.\n\n■ Dual interface for charging and discharging capability.\n\n■ Dual wearing way of battery case: can be clipped on the headband or can be belt-worn.",
+      "bodyMarkdown": "![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/05-2400x1800-1.jpg)\n\n**HP30R V2.0 – Ultrahigh-Performance Separate Search și Rescue Headlamp**\n\nVersiunea îmbunătățită Fenix HP30R V2.0 este o lanternă frontală profesională reîncărcabilă de înaltă performanță. Puterea provine de la cele două baterii reîncărcabile 21700 (5000 mAh) incluse, care asigură o durată de funcționare extinsă, situate într-o carcasă ușor de reîncărcat, cu capacitatea unică de a încărca și celelalte dispozitive digitale ca power bank. Cele 3 LED-uri pot fi folosite simultan pentru a produce o putere de 3000 lumeni ce ating o distanță de peste 270 metri. Versatilitatea acestei lanterne începe cu carcasa bateriei care poate fi purtată pe curea, lăsând o utilizare ușoară și confortabilă a modulului de iuminare pe cap. Capacitatea de a utiliza atât nivelurile de iluminare flood (larg), cât și nivelurile spot (fascicul concentrat) vă oferă posibilitatea obținerii unei lumini adaptabilă nevoilor dumneavoastră. HP30R V2.0 poate fi un instrument care salvează vieți atunci când este folosită de profesioniști în intervanții de căutare și salvare.\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/01.1-2400x1800-1.png)\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/02-2400x1800-1.jpg)\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/03-2400x1800-1.jpg)\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/04-2400x1800-1.jpg)\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/05-2400x1800-2.jpg)\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/06-2400x1800-1.jpg)\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/07-2400x1800-1.jpg)\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/08-2400x1800-1.gif)\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/09-2400x1800-1.gif)\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/10-2400x1800-1.jpg)\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/11-2400x1800-1.jpg)\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/12-2400x1800-1.jpg)\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/13-2400x1800-1.jpg)\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/14-2400x1800-1.jpg)\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/15-2400x1800-1.jpg)\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/16-2400x1800-1.jpg)\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/17-2400x1800-1.jpg)\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/18-2400x1800-1.jpg)\n\n![Fenix HP30R V2.0 – Lanternă frontală – 3000 Lumeni – 270 Metri](/media/cave-diving/19-2400x1800-1.jpg)\n\n## Preț: 1199 lei*\n\n#### *Speologii legitimați la un club/asociație/fundație de speologie, membre ale Federației Române de Speologie – FRS, Salvatorii Montani și Salvatorii Speologi legitimați la Asociația Națională a Salvatorilor Montani din România – ANSMR / Corpul Român Salvaspeo – CORSA beneficiază de un discount de 10% la toate produsele din gama Fenix Light!\n\n# Caracteristici:\n\n■ 3000 lumens maximum output; 120 hours maximum runtime.\n\n■ One XHP50 white light LED, 2*XP-G3 S4 neutral white light LEDs; with a lifespan of 50000 hours.\n\n■ Included 2*5000mAh Li-ion batteries.\n\n■ Integrated die-casting security and better heat dissipation.\n\n■ Rotary switch simultaneously activates spot- and floodlight modes.\n\n■ Dual interface for charging and discharging capability.\n\n■ Dual wearing way of battery case: can be clipped on the headband or can be belt-worn.",
       "contactInformation": [],
       "prices": [
         "## Preț: 1199 lei*"
@@ -7153,7 +7153,7 @@
       "language": "ro",
       "pageType": "article",
       "iaSection": "Jurnal",
-      "categoryLabel": "Cave Diving & Cursuri",
+      "categoryLabel": "Cave Diving și Cursuri",
       "region": "România",
       "translations": [],
       "heroImage": "/media/cave-diving/290371783_404757335026019_7389677311620195486_n.jpg",
@@ -7335,7 +7335,7 @@
       "language": "ro",
       "pageType": "article",
       "iaSection": "Jurnal",
-      "categoryLabel": "Echipamente & Tehnică",
+      "categoryLabel": "Echipamente și Tehnică",
       "region": "România",
       "translations": [],
       "heroImage": "/media/cave-diving/tec2-ml-mail-v2.jpg",
@@ -7547,7 +7547,7 @@
       "language": "ro",
       "pageType": "article",
       "iaSection": "Jurnal",
-      "categoryLabel": "Echipamente & Tehnică",
+      "categoryLabel": "Echipamente și Tehnică",
       "region": "România",
       "translations": [],
       "heroImage": "/media/cave-diving/sm-set.jpg",
@@ -7744,7 +7744,7 @@
       "language": "ro",
       "pageType": "article",
       "iaSection": "Jurnal",
-      "categoryLabel": "Cave Diving & Cursuri",
+      "categoryLabel": "Cave Diving și Cursuri",
       "region": "România",
       "translations": [],
       "heroImage": "/media/grota-ursului/dsc00265-ink.jpeg",
@@ -8008,7 +8008,7 @@
       "language": "ro",
       "pageType": "article",
       "iaSection": "Jurnal",
-      "categoryLabel": "Cave Diving & Cursuri",
+      "categoryLabel": "Cave Diving și Cursuri",
       "region": "România",
       "translations": [],
       "heroImage": "/media/isverna/visit-isverna-cm4-resize.jpg",
@@ -8107,7 +8107,7 @@
       "language": "ro",
       "pageType": "article",
       "iaSection": "Jurnal",
-      "categoryLabel": "Cave Diving & Cursuri",
+      "categoryLabel": "Cave Diving și Cursuri",
       "region": "România",
       "translations": [],
       "heroImage": "/media/isverna/125346305_4031384590211798_3691498830409177817_o.jpg",
@@ -8190,7 +8190,7 @@
       "language": "ro",
       "pageType": "article",
       "iaSection": "Jurnal",
-      "categoryLabel": "Cave Diving & Cursuri",
+      "categoryLabel": "Cave Diving și Cursuri",
       "region": "România",
       "translations": [],
       "heroImage": "/media/shop/20210721010914glovesfoto.jpg",
@@ -8357,7 +8357,7 @@
       "language": "ro",
       "pageType": "article",
       "iaSection": "Jurnal",
-      "categoryLabel": "Cave Diving & Cursuri",
+      "categoryLabel": "Cave Diving și Cursuri",
       "region": "România",
       "translations": [],
       "heroImage": "/media/shop/10-discount-1.jpg",
@@ -8585,7 +8585,7 @@
       "language": "ro",
       "pageType": "article",
       "iaSection": "Jurnal",
-      "categoryLabel": "Echipamente & Tehnică",
+      "categoryLabel": "Echipamente și Tehnică",
       "region": "România",
       "translations": [],
       "heroImage": "/media/shop/hm70r-01-2400x1800-1.png",
@@ -8698,17 +8698,17 @@
         {
           "heading": "Garanție",
           "level": 3,
-          "contentMarkdown": "NOU ! ACEST PRODUS BENEFICIAZĂ DE O GARANTIE TOTALĂ DE 66 LUNI :\nGaranție 60 luni (5 ANI) & 6 luni [Garanție extins](https://www.fenixlight.com)ă – Fenix recomandă clienților săi să înregistreze Numărul Serial aferent fiecărei lanterne Fenix, pe site-ul oficial: [www.fenixlight.com](https://www.fenixlight.com).\nAstfel, după înregistrare, fiecare produs va primi o perioadă suplimentară de garanție de încă 6 luni. În total, 66 de luni de reparații gratuite !"
+          "contentMarkdown": "NOU ! ACEST PRODUS BENEFICIAZĂ DE O GARANTIE TOTALĂ DE 66 LUNI :\nGaranție 60 luni (5 ANI) și 6 luni [Garanție extins](https://www.fenixlight.com)ă – Fenix recomandă clienților săi să înregistreze Numărul Serial aferent fiecărei lanterne Fenix, pe site-ul oficial: [www.fenixlight.com](https://www.fenixlight.com).\nAstfel, după înregistrare, fiecare produs va primi o perioadă suplimentară de garanție de încă 6 luni. În total, 66 de luni de reparații gratuite !"
         }
       ],
-      "bodyMarkdown": "![Nou – Lanternă frontală Fenix HM70R – 1600 Lumeni](/media/shop/hm70r-01-2400x1800-1.png)\n\nFenix HM70R este o lanternă frontală reîncărcabilă cu o intensitate maximă de 1600 lumeni pe o distanță maximă a fasciculului de 186 de metri. Acumulatorul invlus 21700 de 5000 mAh permite lanternei sa funcționeze pentru 100 ore pe treapta low – 30 de lumeni.\n\n### Preț 495 lei*\n\n*Speologii legitimați la un club/asociație/fundație de speologie, membre ale Federației Române de Speologie – FRS, beneficiază de un discount de 10%\n\n![Nou – Lanternă frontală Fenix HM70R – 1600 Lumeni](/media/cave-diving/001-2400x1800-1.gif)\n\n![Nou – Lanternă frontală Fenix HM70R – 1600 Lumeni](/media/cave-diving/003-2400x1800-1.jpg)\n\n![Nou – Lanternă frontală Fenix HM70R – 1600 Lumeni](/media/cave-diving/006-2400x1800-1.jpg)\n\n![Nou – Lanternă frontală Fenix HM70R – 1600 Lumeni](/media/cave-diving/007-2400x1800-1.jpg)\n\n### Caracteristici:\n\n■ Lumină spotlight și floodlight\n■ LED lumină albă Cree XM-L2 U2 și LED lumină neutră XP-G2 R5\n■ Alimentată de o baterie 18650 Li-ion sau două baterii 3V/CR123A\n■ Două butoane pentru operare intuitivă\n■ Încărcare type-C 1.5A\n■ Aluminiu și magneziu de înaltă calitate\n■ 3.17″ Lungime x 2.17″ Lățime x 1.57″ Înălțime (80.5 x 55x 40 mm)\n■ 3.42 oz / 97 grame (fără baterii)\n\n### Autonomie:\n\n![Nou – Lanternă frontală Fenix HM70R – 1600 Lumeni](/media/cave-diving/fenix-hm65r-headlamp-ansi-chart.png)\n\n### Pachetul include:\n\n■ 1* Fenix HM70R\n■ 1* Acumulator inclus ARB-L-21700 – 5000 mAh\n■ USB Type-C\n■ Manual utilizator\n■ Card garanție\n\n### Garanție\n\nNOU ! ACEST PRODUS BENEFICIAZĂ DE O GARANTIE TOTALĂ DE 66 LUNI :\nGaranție 60 luni (5 ANI) & 6 luni [Garanție extins](https://www.fenixlight.com)ă – Fenix recomandă clienților săi să înregistreze Numărul Serial aferent fiecărei lanterne Fenix, pe site-ul oficial: [www.fenixlight.com](https://www.fenixlight.com).\nAstfel, după înregistrare, fiecare produs va primi o perioadă suplimentară de garanție de încă 6 luni. În total, 66 de luni de reparații gratuite !",
+      "bodyMarkdown": "![Nou – Lanternă frontală Fenix HM70R – 1600 Lumeni](/media/shop/hm70r-01-2400x1800-1.png)\n\nFenix HM70R este o lanternă frontală reîncărcabilă cu o intensitate maximă de 1600 lumeni pe o distanță maximă a fasciculului de 186 de metri. Acumulatorul invlus 21700 de 5000 mAh permite lanternei sa funcționeze pentru 100 ore pe treapta low – 30 de lumeni.\n\n### Preț 495 lei*\n\n*Speologii legitimați la un club/asociație/fundație de speologie, membre ale Federației Române de Speologie – FRS, beneficiază de un discount de 10%\n\n![Nou – Lanternă frontală Fenix HM70R – 1600 Lumeni](/media/cave-diving/001-2400x1800-1.gif)\n\n![Nou – Lanternă frontală Fenix HM70R – 1600 Lumeni](/media/cave-diving/003-2400x1800-1.jpg)\n\n![Nou – Lanternă frontală Fenix HM70R – 1600 Lumeni](/media/cave-diving/006-2400x1800-1.jpg)\n\n![Nou – Lanternă frontală Fenix HM70R – 1600 Lumeni](/media/cave-diving/007-2400x1800-1.jpg)\n\n### Caracteristici:\n\n■ Lumină spotlight și floodlight\n■ LED lumină albă Cree XM-L2 U2 și LED lumină neutră XP-G2 R5\n■ Alimentată de o baterie 18650 Li-ion sau două baterii 3V/CR123A\n■ Două butoane pentru operare intuitivă\n■ Încărcare type-C 1.5A\n■ Aluminiu și magneziu de înaltă calitate\n■ 3.17″ Lungime x 2.17″ Lățime x 1.57″ Înălțime (80.5 x 55x 40 mm)\n■ 3.42 oz / 97 grame (fără baterii)\n\n### Autonomie:\n\n![Nou – Lanternă frontală Fenix HM70R – 1600 Lumeni](/media/cave-diving/fenix-hm65r-headlamp-ansi-chart.png)\n\n### Pachetul include:\n\n■ 1* Fenix HM70R\n■ 1* Acumulator inclus ARB-L-21700 – 5000 mAh\n■ USB Type-C\n■ Manual utilizator\n■ Card garanție\n\n### Garanție\n\nNOU ! ACEST PRODUS BENEFICIAZĂ DE O GARANTIE TOTALĂ DE 66 LUNI :\nGaranție 60 luni (5 ANI) și 6 luni [Garanție extins](https://www.fenixlight.com)ă – Fenix recomandă clienților săi să înregistreze Numărul Serial aferent fiecărei lanterne Fenix, pe site-ul oficial: [www.fenixlight.com](https://www.fenixlight.com).\nAstfel, după înregistrare, fiecare produs va primi o perioadă suplimentară de garanție de încă 6 luni. În total, 66 de luni de reparații gratuite !",
       "contactInformation": [],
       "prices": [
         "### Preț 495 lei*"
       ],
       "schedules": [
         "NOU ! ACEST PRODUS BENEFICIAZĂ DE O GARANTIE TOTALĂ DE 66 LUNI :",
-        "Garanție 60 luni (5 ANI) & 6 luni [Garanție extins](https://www.fenixlight.com)ă – Fenix recomandă clienților săi să înregistreze Numărul Serial aferent fiecărei lanterne Fenix, pe site-ul oficial: [www.fenixlight.com](http://www.",
+        "Garanție 60 luni (5 ANI) și 6 luni [Garanție extins](https://www.fenixlight.com)ă – Fenix recomandă clienților săi să înregistreze Numărul Serial aferent fiecărei lanterne Fenix, pe site-ul oficial: [www.fenixlight.com](http://www.",
         "Astfel, după înregistrare, fiecare produs va primi o perioadă suplimentară de garanție de încă 6 luni. În total, 66 de luni de reparații gratuite !"
       ],
       "historicalDates": [
@@ -8742,7 +8742,7 @@
       "language": "ro",
       "pageType": "article",
       "iaSection": "Jurnal",
-      "categoryLabel": "Cave Diving & Cursuri",
+      "categoryLabel": "Cave Diving și Cursuri",
       "region": "România",
       "translations": [],
       "heroImage": "/media/cave-diving/131903942_3515041411944051_5543289828096856000_n-1.jpg",
@@ -8796,7 +8796,7 @@
       "language": "ro",
       "pageType": "article",
       "iaSection": "Jurnal",
-      "categoryLabel": "Cave Diving & Cursuri",
+      "categoryLabel": "Cave Diving și Cursuri",
       "region": "România",
       "translations": [],
       "heroImage": "/media/shop/t14012-1.jpg",
@@ -8880,7 +8880,7 @@
       "language": "ro",
       "pageType": "article",
       "iaSection": "Jurnal",
-      "categoryLabel": "Echipamente & Tehnică",
+      "categoryLabel": "Echipamente și Tehnică",
       "region": "România",
       "translations": [],
       "heroImage": "/media/cave-diving/sm-set.jpg",
@@ -9049,7 +9049,7 @@
       "language": "ro",
       "pageType": "article",
       "iaSection": "Jurnal",
-      "categoryLabel": "Cave Diving & Cursuri",
+      "categoryLabel": "Cave Diving și Cursuri",
       "region": "România",
       "translations": [],
       "heroImage": "/media/grota-ursului/grota.jpg",
@@ -9150,7 +9150,7 @@
       "language": "ro",
       "pageType": "article",
       "iaSection": "Jurnal",
-      "categoryLabel": "Cave Diving & Cursuri",
+      "categoryLabel": "Cave Diving și Cursuri",
       "region": "România",
       "translations": [],
       "heroImage": "/media/cave-diving/mariusz_czajka_20210709-dsc00284.jpg",
@@ -9334,7 +9334,7 @@
       "language": "ro",
       "pageType": "article",
       "iaSection": "Jurnal",
-      "categoryLabel": "Cave Diving & Cursuri",
+      "categoryLabel": "Cave Diving și Cursuri",
       "region": "România",
       "translations": [],
       "heroImage": "/media/cave-diving/sura-mare-2_moment-2.jpg",
@@ -9438,7 +9438,7 @@
       "language": "ro",
       "pageType": "article",
       "iaSection": "Jurnal",
-      "categoryLabel": "Cave Diving & Cursuri",
+      "categoryLabel": "Cave Diving și Cursuri",
       "region": "România",
       "translations": [],
       "heroImage": "/media/cave-diving/sidemount.jpg",
@@ -9603,7 +9603,7 @@
       "language": "ro",
       "pageType": "article",
       "iaSection": "Jurnal",
-      "categoryLabel": "Cave Diving & Cursuri",
+      "categoryLabel": "Cave Diving și Cursuri",
       "region": "România",
       "translations": [],
       "heroImage": "/media/grota-ursului/grota.jpg",
@@ -9782,7 +9782,7 @@
       "language": "ro",
       "pageType": "article",
       "iaSection": "Jurnal",
-      "categoryLabel": "Echipamente & Tehnică",
+      "categoryLabel": "Echipamente și Tehnică",
       "region": "România",
       "translations": [],
       "heroImage": "/media/cave-diving/sm-set.jpg",
@@ -9960,7 +9960,7 @@
       "language": "ro",
       "pageType": "article",
       "iaSection": "Jurnal",
-      "categoryLabel": "Echipamente & Tehnică",
+      "categoryLabel": "Echipamente și Tehnică",
       "region": "România",
       "translations": [],
       "heroImage": "/media/cave-diving/1-2400x1800-1.jpg",
@@ -10172,17 +10172,17 @@
         {
           "heading": "Garanție",
           "level": 3,
-          "contentMarkdown": "NOU ! ACEST PRODUS BENEFICIAZĂ DE O GARANTIE TOTALĂ DE 66 LUNI :\nGaranție 60 luni (5 ANI) & 6 luni [Garanție extins](https://www.fenixlight.com)ă – Fenix recomandă clienților săi să înregistreze Numărul Serial aferent fiecarei lanterne Fenix, pe siteul oficial: [www.fenixlight.com](https://www.fenixlight.com).\nAstfel, după înregistrare, fiecare produs va primi o perioadă suplimentară de garanție de încă 6 luni. În total, 66 de luni de reparații gratuite !"
+          "contentMarkdown": "NOU ! ACEST PRODUS BENEFICIAZĂ DE O GARANTIE TOTALĂ DE 66 LUNI :\nGaranție 60 luni (5 ANI) și 6 luni [Garanție extins](https://www.fenixlight.com)ă – Fenix recomandă clienților săi să înregistreze Numărul Serial aferent fiecarei lanterne Fenix, pe siteul oficial: [www.fenixlight.com](https://www.fenixlight.com).\nAstfel, după înregistrare, fiecare produs va primi o perioadă suplimentară de garanție de încă 6 luni. În total, 66 de luni de reparații gratuite !"
         }
       ],
-      "bodyMarkdown": "Fenix HM61R este o lanternă frontală multifuncțională reîncărcabilă ce poate fi folosită și ca lanternă pentru piept. Este dotată cu 2 surse de lumină, roșie și albă și produce un flux luminos maxim de 1200 lumeni cu o distanță a fasciculului luminos de 145 metri. Datorită cozii sale magnetice, ea poate fi montată în orice poziție pe o suprafață de metal. Niște caracteristici adiționale sunt reîncărcarea magnetică, nivelul indicator al acumulatorului și indicatorul de încărcare. Toate acestea fac ca lanterna HM61R să fie o unealtă indispensabilă.\n\n### Preț 435 lei*\n\n*Speologii legitimați la un club/asociație/fundație de speologie, membre ale Federației Române de Speologie – FRS, beneficiază de un discount de 10%\n\n![Lanternă frontală Fenix HM61R – 1200 Lumeni](/media/cave-diving/1-2400x1800-1.jpg)\n\n![Lanternă frontală Fenix HM61R – 1200 Lumeni](/media/cave-diving/2-2400x1800-1.jpg)\n\n![Lanternă frontală Fenix HM61R – 1200 Lumeni](/media/cave-diving/3-2400x1800-1.jpg)\n\n![Lanternă frontală Fenix HM61R – 1200 Lumeni](/media/cave-diving/4-2400x1800-1.jpg)\n\n![Lanternă frontală Fenix HM61R – 1200 Lumeni](/media/cave-diving/5-2400x1800-1.jpg)\n\n![Lanternă frontală Fenix HM61R – 1200 Lumeni](/media/cave-diving/6-2400x1800-1.jpg)\n\n![Lanternă frontală Fenix HM61R – 1200 Lumeni](/media/cave-diving/7-2400x1800-1.jpg)\n\n![Lanternă frontală Fenix HM61R – 1200 Lumeni](/media/cave-diving/8-2400x1800-1.gif)\n\n![Lanternă frontală Fenix HM61R – 1200 Lumeni](/media/cave-diving/9-2400x1800-1.jpg)\n\n![Lanternă frontală Fenix HM61R – 1200 Lumeni](/media/cave-diving/10-2400x1800-1.jpg)\n\n![Lanternă frontală Fenix HM61R – 1200 Lumeni](/media/cave-diving/11-2400x1800-1.jpg)\n\n![Lanternă frontală Fenix HM61R – 1200 Lumeni](/media/cave-diving/12-2400x1800-1.jpg)\n\n![Lanternă frontală Fenix HM61R – 1200 Lumeni](/media/cave-diving/13-2400x1800-1.jpg)\n\n![Lanternă frontală Fenix HM61R – 1200 Lumeni](/media/cave-diving/14-2400x1800-1.jpg)\n\n![Lanternă frontală Fenix HM61R – 1200 Lumeni](/media/cave-diving/15-2400x1800-1.jpg)\n\n![Lanternă frontală Fenix HM61R – 1200 Lumeni](/media/cave-diving/hm61refbc882400x1800-1-2400x1800-1.jpg)\n\n### Caracteristici:\n\n■ LED alb și roșu Luminus SST40 cu o medie de viață de 50,000 ore\n\n■ Alimentată de 1 * acumulator 18650 sau 2 * baterii CR123A\n\n■ Reîncărcare magnetică\n\n■ Indicator de nivel al acumulatorului și indicator de încărcare\n\n■ Coadă magnetică\n\n■ Fabricată din aluminiu de înaltă calitate\n\n■ Protecție împotriva polarității inverse – poate apărea la instalarea greșită a bateriei\n\n■ Mărime: 3.98” x 1.81” x 1.42” / 101 x 46 x 36 mm.\n\n■ Greutate: 3.51 oz / 99.5 grams (fără acumulator).\n\n### Autonomie:\n\n![Lanternă frontală Fenix HM61R – 1200 Lumeni](/media/cave-diving/eeeeeee.jpg)\n\n### Pachetul include:\n\n■ 1 Lanternă HM61R\n■ 1 Acumulator Fenix ARB-L18 3500 mAh\n■ 1 Încărcător magnetic\n■ 1 Bandă elastică\n■ 1 Suport lanternă\n■ 1 Garnitură de rezervă\n■ 1 Manual utilizare\n■ 1 Garanție\n\n### Garanție\n\nNOU ! ACEST PRODUS BENEFICIAZĂ DE O GARANTIE TOTALĂ DE 66 LUNI :\nGaranție 60 luni (5 ANI) & 6 luni [Garanție extins](https://www.fenixlight.com)ă – Fenix recomandă clienților săi să înregistreze Numărul Serial aferent fiecarei lanterne Fenix, pe siteul oficial: [www.fenixlight.com](https://www.fenixlight.com).\nAstfel, după înregistrare, fiecare produs va primi o perioadă suplimentară de garanție de încă 6 luni. În total, 66 de luni de reparații gratuite !",
+      "bodyMarkdown": "Fenix HM61R este o lanternă frontală multifuncțională reîncărcabilă ce poate fi folosită și ca lanternă pentru piept. Este dotată cu 2 surse de lumină, roșie și albă și produce un flux luminos maxim de 1200 lumeni cu o distanță a fasciculului luminos de 145 metri. Datorită cozii sale magnetice, ea poate fi montată în orice poziție pe o suprafață de metal. Niște caracteristici adiționale sunt reîncărcarea magnetică, nivelul indicator al acumulatorului și indicatorul de încărcare. Toate acestea fac ca lanterna HM61R să fie o unealtă indispensabilă.\n\n### Preț 435 lei*\n\n*Speologii legitimați la un club/asociație/fundație de speologie, membre ale Federației Române de Speologie – FRS, beneficiază de un discount de 10%\n\n![Lanternă frontală Fenix HM61R – 1200 Lumeni](/media/cave-diving/1-2400x1800-1.jpg)\n\n![Lanternă frontală Fenix HM61R – 1200 Lumeni](/media/cave-diving/2-2400x1800-1.jpg)\n\n![Lanternă frontală Fenix HM61R – 1200 Lumeni](/media/cave-diving/3-2400x1800-1.jpg)\n\n![Lanternă frontală Fenix HM61R – 1200 Lumeni](/media/cave-diving/4-2400x1800-1.jpg)\n\n![Lanternă frontală Fenix HM61R – 1200 Lumeni](/media/cave-diving/5-2400x1800-1.jpg)\n\n![Lanternă frontală Fenix HM61R – 1200 Lumeni](/media/cave-diving/6-2400x1800-1.jpg)\n\n![Lanternă frontală Fenix HM61R – 1200 Lumeni](/media/cave-diving/7-2400x1800-1.jpg)\n\n![Lanternă frontală Fenix HM61R – 1200 Lumeni](/media/cave-diving/8-2400x1800-1.gif)\n\n![Lanternă frontală Fenix HM61R – 1200 Lumeni](/media/cave-diving/9-2400x1800-1.jpg)\n\n![Lanternă frontală Fenix HM61R – 1200 Lumeni](/media/cave-diving/10-2400x1800-1.jpg)\n\n![Lanternă frontală Fenix HM61R – 1200 Lumeni](/media/cave-diving/11-2400x1800-1.jpg)\n\n![Lanternă frontală Fenix HM61R – 1200 Lumeni](/media/cave-diving/12-2400x1800-1.jpg)\n\n![Lanternă frontală Fenix HM61R – 1200 Lumeni](/media/cave-diving/13-2400x1800-1.jpg)\n\n![Lanternă frontală Fenix HM61R – 1200 Lumeni](/media/cave-diving/14-2400x1800-1.jpg)\n\n![Lanternă frontală Fenix HM61R – 1200 Lumeni](/media/cave-diving/15-2400x1800-1.jpg)\n\n![Lanternă frontală Fenix HM61R – 1200 Lumeni](/media/cave-diving/hm61refbc882400x1800-1-2400x1800-1.jpg)\n\n### Caracteristici:\n\n■ LED alb și roșu Luminus SST40 cu o medie de viață de 50,000 ore\n\n■ Alimentată de 1 * acumulator 18650 sau 2 * baterii CR123A\n\n■ Reîncărcare magnetică\n\n■ Indicator de nivel al acumulatorului și indicator de încărcare\n\n■ Coadă magnetică\n\n■ Fabricată din aluminiu de înaltă calitate\n\n■ Protecție împotriva polarității inverse – poate apărea la instalarea greșită a bateriei\n\n■ Mărime: 3.98” x 1.81” x 1.42” / 101 x 46 x 36 mm.\n\n■ Greutate: 3.51 oz / 99.5 grams (fără acumulator).\n\n### Autonomie:\n\n![Lanternă frontală Fenix HM61R – 1200 Lumeni](/media/cave-diving/eeeeeee.jpg)\n\n### Pachetul include:\n\n■ 1 Lanternă HM61R\n■ 1 Acumulator Fenix ARB-L18 3500 mAh\n■ 1 Încărcător magnetic\n■ 1 Bandă elastică\n■ 1 Suport lanternă\n■ 1 Garnitură de rezervă\n■ 1 Manual utilizare\n■ 1 Garanție\n\n### Garanție\n\nNOU ! ACEST PRODUS BENEFICIAZĂ DE O GARANTIE TOTALĂ DE 66 LUNI :\nGaranție 60 luni (5 ANI) și 6 luni [Garanție extins](https://www.fenixlight.com)ă – Fenix recomandă clienților săi să înregistreze Numărul Serial aferent fiecarei lanterne Fenix, pe siteul oficial: [www.fenixlight.com](https://www.fenixlight.com).\nAstfel, după înregistrare, fiecare produs va primi o perioadă suplimentară de garanție de încă 6 luni. În total, 66 de luni de reparații gratuite !",
       "contactInformation": [],
       "prices": [
         "### Preț 435 lei*"
       ],
       "schedules": [
         "NOU ! ACEST PRODUS BENEFICIAZĂ DE O GARANTIE TOTALĂ DE 66 LUNI :",
-        "Garanție 60 luni (5 ANI) & 6 luni [Garanție extins](https://www.fenixlight.com)ă – Fenix recomandă clienților săi să înregistreze Numărul Serial aferent fiecarei lanterne Fenix, pe siteul oficial: [www.fenixlight.com](http://www.f",
+        "Garanție 60 luni (5 ANI) și 6 luni [Garanție extins](https://www.fenixlight.com)ă – Fenix recomandă clienților săi să înregistreze Numărul Serial aferent fiecarei lanterne Fenix, pe siteul oficial: [www.fenixlight.com](http://www.f",
         "Astfel, după înregistrare, fiecare produs va primi o perioadă suplimentară de garanție de încă 6 luni. În total, 66 de luni de reparații gratuite !"
       ],
       "historicalDates": [
@@ -10226,7 +10226,7 @@
       "language": "ro",
       "pageType": "article",
       "iaSection": "Jurnal",
-      "categoryLabel": "Echipamente & Tehnică",
+      "categoryLabel": "Echipamente și Tehnică",
       "region": "România",
       "translations": [],
       "heroImage": "/media/cave-diving/1614304201.png",
@@ -10509,7 +10509,7 @@
       "language": "ro",
       "pageType": "article",
       "iaSection": "Jurnal",
-      "categoryLabel": "Echipamente & Tehnică",
+      "categoryLabel": "Echipamente și Tehnică",
       "region": "România",
       "translations": [],
       "heroImage": "/media/cave-diving/displayhl32rb-2400x1800-1.jpg",
@@ -10653,17 +10653,17 @@
         {
           "heading": "Garanție",
           "level": 3,
-          "contentMarkdown": "NOU ! ACEST PRODUS BENEFICIAZĂ DE O GARANTIE TOTALĂ DE 30 LUNI :\nGaranție 24 luni (2 ANI) & 6 luni [Garanție extins](https://www.fenixlight.com)ă – Fenix recomandă clienților săi să înregistreze Numărul Serial aferent fiecarei lanterne Fenix, pe siteul oficial: [www.fenixlight.com](https://www.fenixlight.com).\nAstfel, după înregistrare, fiecare produs va primi o perioadă suplimentară de garanție de încă 6 luni. În total, 30 de luni de reparații gratuite !"
+          "contentMarkdown": "NOU ! ACEST PRODUS BENEFICIAZĂ DE O GARANTIE TOTALĂ DE 30 LUNI :\nGaranție 24 luni (2 ANI) și 6 luni [Garanție extins](https://www.fenixlight.com)ă – Fenix recomandă clienților săi să înregistreze Numărul Serial aferent fiecarei lanterne Fenix, pe siteul oficial: [www.fenixlight.com](https://www.fenixlight.com).\nAstfel, după înregistrare, fiecare produs va primi o perioadă suplimentară de garanție de încă 6 luni. În total, 30 de luni de reparații gratuite !"
         }
       ],
-      "bodyMarkdown": "###### Noua Serie de Lanterne Frontale – ECO-FRIENDELY !\n\nECO-Friendely HL32R este o lanternă frontală reîncărcabilă cu performanțe ridicate și supercomfort.\nDispune de 5 niveluri de intensitate plus lumină roșie și S.O.S.\nEste prevăzută cu baterie de 2000 mAh Li-polimer încorporată, care asigură o putere de 600 lumeni și o durată de funcționare maximă de 200 de ore.\nÎn plus, lanterna poate fi reîncărcată Micro-USB, cu indicator a nivelului de încărcare și a statusului bateriei – simplu și ușor.\nComutatorul dublu reglează în mod separat Modul General (lumina albă) și Modul Funcțional (lumina colorată și lumina de semnalizare).\nÎncadrarea în standardul de protecție IP66, banda reflectorizantă (cu un canal pentru transpirație) – toate definesc lanterna HL32R ca fiind cea mai sigură pentru drumeții, camping, alpinism sau speologie.\n\n### Preț 260 lei*\n\n###### *Speologii legitimați la un club/asociație/fundație de speologie, membre ale Federației Române de Speologie – FRS, beneficiază de un discount de 10%\n\n![Lanternă frontală reîncărcabilă – Fenix HL32R – 600 Lumeni](/media/cave-diving/displayhl32rb-2400x1800-1.jpg)\n\n![Lanternă frontală reîncărcabilă – Fenix HL32R – 600 Lumeni](/media/cave-diving/fenix-hl32r-lanterna-frontala-02-2400x1800-1.jpg)\n\n![Lanternă frontală reîncărcabilă – Fenix HL32R – 600 Lumeni](/media/cave-diving/fenix-hl32r-lanterna-frontala-03-2400x1800-1.jpg)\n\n![Lanternă frontală reîncărcabilă – Fenix HL32R – 600 Lumeni](/media/cave-diving/fenix-hl32r-lanterna-frontala-04-2400x1800-1.jpg)\n\n### Caracteristici:\n\n■ 600 lumeni intensitate, 73 metri lungimea fasciculului\n\n■ Echipată cu Led Cree XP-G3 alb, durată medie de viață 50.000 ore\n\n■  Led Nichia roșu\n\n■ Alimentarea este asigurată de un acumulator Li-Po de 2000 mAh – integrat\n\n■ 64 mm Lungime x 46 mm Lățime x 37.5 mm Înălțime / 2.51×1.81×1.47 in\n\n■ 108 grame (incluzând banda elastică de prindere și acumulatorul) / 3.80 oz\n\n■ Comutator dublu – simplu și ușor de utilizat\n\n■ Port de reîncărcare Micro-USB 5V / 1A\n\n■ Leduri indicatoare al nivelului de încărcare al bateriei\n\n■ Funcție de blocare – evită aprinderea accidentală\n\n■ Standard de protecție IP66\n\n■ Construită din PC de înaltă calitate și aliaj de aluminiu\n\n![Lanternă frontală reîncărcabilă – Fenix HL32R – 600 Lumeni](/media/cave-diving/pic1.jpg)\n\n### Autonomie:\n\nMod Burst:\n600 lumeni (1 oră* – 73 metri) *autonomia a fost determinată fără a se lua în calcul funcția downshift\n\nMod de iluminare General:\nTurbo – 300 lumeni (4 ore și 30 minute)\nHigh – 130 lumeni (14 ore)\nMed – 70 lumeni (24 ore)\nLow – 30 lumeni (60 ore)\nEco – 4 lumeni (200 ore)\n\nMod de iluminare și semnalizare Funcțional:\nRoșu constant – 1 lumen (100 ore)\nS.O.S – 30 lumeni (120 ore)\nRoșu intermitent – 1 lumen (200 ore)\n\n![Lanternă frontală reîncărcabilă – Fenix HL32R – 600 Lumeni](/media/cave-diving/autonomie-ro.jpg)\n\n### Instrucțiuni de utilizare\n\nComutatoare:\nComutator General: controlează modul General – deschiderea și schimbarea nivelurilor de iluminare\nComutator Functional: controlează modul Funcțional – deschiderea și schimbarea tipurilor de iluminare\n\nModul General:\nON/OFF:\nApăsați comutatorul General timp de 0.5 secunde, lanterna se va deschide pe nivelul de intensitate Eco (fără circuit de memorare a ultimei trepte de intensitate utilizată anterior); apăsați comutatorul din nou timp de 0.5 secunde pentru a o închide.\nSelectarea nivelurilor de intensitate:\nCu lanterna deschisă, un singur click pe comutatorul General va schimba nivelul de intensitate în următoarea ordine: Eco→Low→Med→High.\n\nModul Funcțional:\nON/OFF:\nApăsați comutatorul Funcțional timp de 0.5 secunde, lanterna se va deschide pe lumina Roșu constant (fără circuit de memorare), apăsați comutatorul din nou timp de 0.5 secunde pentru a o închide.\nSelectarea nivelurilor de intensitate:\nCu lanterna deschisă, un singur click pe comutatorul Funcțional va schimba tipul de lumină în următoarea ordine: Roșu constant→SOS→Roșu intermitent.\n\nComutarea între cele două Moduri:\nCu lanterna deschisă în Modul General, un singur click pe comutatorul Funcțional va activa Modul de iluminare Funcțional.\nCu lanterna deschisă în Modul Funcțional, un singur click pe comutatorul General va activa Modul de iluminare General.\n\nModul Burst:\nÎn orice status al lanternei, apăsați oricare dintre cele 2 comutatoare timp de 1.2 secunde pentru a activa Modul de iluminare Burst. Acesta va rămâne activ timp de 1 minut sau până la orice altă operațiune efectuată în acest interval.\n\nFuncția de blocare:\nBlocarea: cu lanterna oprită, apăsați oricare dintre comutatoare, sau pe ambele simultan, timp de 3 secunde. Lanterna se va bloca și va indica acest status prin 4 flash-uri Roșii intermitente, de 2Hz.\nDeblocarea: cu lanterna oprită, apăsați simultan ambele comutatoare, timp de 3 secunde. Lanterna se va debloca și va indica acest status prin 4 flash-uri Roșii intermitente, de 2Hz, după care va rămâne deschisă pe lumina Roșie permanentă.\n\nStatusul blocat:\nÎn statusul blocat, apăsarea oricăruia din cele 2 comutatoare, va determina lanterna să lumineze 4 flash-uri Roșii intermitente, indicând aceast status.\n\nProtecția împotriva Supra-Încălzirii:Utilizată perioade mai lungi de timp pe modul Burst, lanterna va acumula foarte multă căldură. Pentru a evita Supra-Încălzirea, lanterna va scădea controlat și automat treapta de intensitate în HIGH, scăzând astfel temperatura.\n\n![Lanternă frontală reîncărcabilă – Fenix HL32R – 600 Lumeni](/media/cave-diving/presentation-ro.jpg)\n\n### Pachetul include\n\n■ 1 x Lanternă frontală HL32R\n■ 1 x Bandă reflectorizantă de fixare\n■ 1 x Cablu USB de reîncărcare\n■ 1 x Card de garanție extinsă\n■ 1 x Manual de utilizare\n\n### Garanție\n\nNOU ! ACEST PRODUS BENEFICIAZĂ DE O GARANTIE TOTALĂ DE 30 LUNI :\nGaranție 24 luni (2 ANI) & 6 luni [Garanție extins](https://www.fenixlight.com)ă – Fenix recomandă clienților săi să înregistreze Numărul Serial aferent fiecarei lanterne Fenix, pe siteul oficial: [www.fenixlight.com](https://www.fenixlight.com).\nAstfel, după înregistrare, fiecare produs va primi o perioadă suplimentară de garanție de încă 6 luni. În total, 30 de luni de reparații gratuite !",
+      "bodyMarkdown": "###### Noua Serie de Lanterne Frontale – ECO-FRIENDELY !\n\nECO-Friendely HL32R este o lanternă frontală reîncărcabilă cu performanțe ridicate și supercomfort.\nDispune de 5 niveluri de intensitate plus lumină roșie și S.O.S.\nEste prevăzută cu baterie de 2000 mAh Li-polimer încorporată, care asigură o putere de 600 lumeni și o durată de funcționare maximă de 200 de ore.\nÎn plus, lanterna poate fi reîncărcată Micro-USB, cu indicator a nivelului de încărcare și a statusului bateriei – simplu și ușor.\nComutatorul dublu reglează în mod separat Modul General (lumina albă) și Modul Funcțional (lumina colorată și lumina de semnalizare).\nÎncadrarea în standardul de protecție IP66, banda reflectorizantă (cu un canal pentru transpirație) – toate definesc lanterna HL32R ca fiind cea mai sigură pentru drumeții, camping, alpinism sau speologie.\n\n### Preț 260 lei*\n\n###### *Speologii legitimați la un club/asociație/fundație de speologie, membre ale Federației Române de Speologie – FRS, beneficiază de un discount de 10%\n\n![Lanternă frontală reîncărcabilă – Fenix HL32R – 600 Lumeni](/media/cave-diving/displayhl32rb-2400x1800-1.jpg)\n\n![Lanternă frontală reîncărcabilă – Fenix HL32R – 600 Lumeni](/media/cave-diving/fenix-hl32r-lanterna-frontala-02-2400x1800-1.jpg)\n\n![Lanternă frontală reîncărcabilă – Fenix HL32R – 600 Lumeni](/media/cave-diving/fenix-hl32r-lanterna-frontala-03-2400x1800-1.jpg)\n\n![Lanternă frontală reîncărcabilă – Fenix HL32R – 600 Lumeni](/media/cave-diving/fenix-hl32r-lanterna-frontala-04-2400x1800-1.jpg)\n\n### Caracteristici:\n\n■ 600 lumeni intensitate, 73 metri lungimea fasciculului\n\n■ Echipată cu Led Cree XP-G3 alb, durată medie de viață 50.000 ore\n\n■  Led Nichia roșu\n\n■ Alimentarea este asigurată de un acumulator Li-Po de 2000 mAh – integrat\n\n■ 64 mm Lungime x 46 mm Lățime x 37.5 mm Înălțime / 2.51×1.81×1.47 in\n\n■ 108 grame (incluzând banda elastică de prindere și acumulatorul) / 3.80 oz\n\n■ Comutator dublu – simplu și ușor de utilizat\n\n■ Port de reîncărcare Micro-USB 5V / 1A\n\n■ Leduri indicatoare al nivelului de încărcare al bateriei\n\n■ Funcție de blocare – evită aprinderea accidentală\n\n■ Standard de protecție IP66\n\n■ Construită din PC de înaltă calitate și aliaj de aluminiu\n\n![Lanternă frontală reîncărcabilă – Fenix HL32R – 600 Lumeni](/media/cave-diving/pic1.jpg)\n\n### Autonomie:\n\nMod Burst:\n600 lumeni (1 oră* – 73 metri) *autonomia a fost determinată fără a se lua în calcul funcția downshift\n\nMod de iluminare General:\nTurbo – 300 lumeni (4 ore și 30 minute)\nHigh – 130 lumeni (14 ore)\nMed – 70 lumeni (24 ore)\nLow – 30 lumeni (60 ore)\nEco – 4 lumeni (200 ore)\n\nMod de iluminare și semnalizare Funcțional:\nRoșu constant – 1 lumen (100 ore)\nS.O.S – 30 lumeni (120 ore)\nRoșu intermitent – 1 lumen (200 ore)\n\n![Lanternă frontală reîncărcabilă – Fenix HL32R – 600 Lumeni](/media/cave-diving/autonomie-ro.jpg)\n\n### Instrucțiuni de utilizare\n\nComutatoare:\nComutator General: controlează modul General – deschiderea și schimbarea nivelurilor de iluminare\nComutator Functional: controlează modul Funcțional – deschiderea și schimbarea tipurilor de iluminare\n\nModul General:\nON/OFF:\nApăsați comutatorul General timp de 0.5 secunde, lanterna se va deschide pe nivelul de intensitate Eco (fără circuit de memorare a ultimei trepte de intensitate utilizată anterior); apăsați comutatorul din nou timp de 0.5 secunde pentru a o închide.\nSelectarea nivelurilor de intensitate:\nCu lanterna deschisă, un singur click pe comutatorul General va schimba nivelul de intensitate în următoarea ordine: Eco→Low→Med→High.\n\nModul Funcțional:\nON/OFF:\nApăsați comutatorul Funcțional timp de 0.5 secunde, lanterna se va deschide pe lumina Roșu constant (fără circuit de memorare), apăsați comutatorul din nou timp de 0.5 secunde pentru a o închide.\nSelectarea nivelurilor de intensitate:\nCu lanterna deschisă, un singur click pe comutatorul Funcțional va schimba tipul de lumină în următoarea ordine: Roșu constant→SOS→Roșu intermitent.\n\nComutarea între cele două Moduri:\nCu lanterna deschisă în Modul General, un singur click pe comutatorul Funcțional va activa Modul de iluminare Funcțional.\nCu lanterna deschisă în Modul Funcțional, un singur click pe comutatorul General va activa Modul de iluminare General.\n\nModul Burst:\nÎn orice status al lanternei, apăsați oricare dintre cele 2 comutatoare timp de 1.2 secunde pentru a activa Modul de iluminare Burst. Acesta va rămâne activ timp de 1 minut sau până la orice altă operațiune efectuată în acest interval.\n\nFuncția de blocare:\nBlocarea: cu lanterna oprită, apăsați oricare dintre comutatoare, sau pe ambele simultan, timp de 3 secunde. Lanterna se va bloca și va indica acest status prin 4 flash-uri Roșii intermitente, de 2Hz.\nDeblocarea: cu lanterna oprită, apăsați simultan ambele comutatoare, timp de 3 secunde. Lanterna se va debloca și va indica acest status prin 4 flash-uri Roșii intermitente, de 2Hz, după care va rămâne deschisă pe lumina Roșie permanentă.\n\nStatusul blocat:\nÎn statusul blocat, apăsarea oricăruia din cele 2 comutatoare, va determina lanterna să lumineze 4 flash-uri Roșii intermitente, indicând aceast status.\n\nProtecția împotriva Supra-Încălzirii:Utilizată perioade mai lungi de timp pe modul Burst, lanterna va acumula foarte multă căldură. Pentru a evita Supra-Încălzirea, lanterna va scădea controlat și automat treapta de intensitate în HIGH, scăzând astfel temperatura.\n\n![Lanternă frontală reîncărcabilă – Fenix HL32R – 600 Lumeni](/media/cave-diving/presentation-ro.jpg)\n\n### Pachetul include\n\n■ 1 x Lanternă frontală HL32R\n■ 1 x Bandă reflectorizantă de fixare\n■ 1 x Cablu USB de reîncărcare\n■ 1 x Card de garanție extinsă\n■ 1 x Manual de utilizare\n\n### Garanție\n\nNOU ! ACEST PRODUS BENEFICIAZĂ DE O GARANTIE TOTALĂ DE 30 LUNI :\nGaranție 24 luni (2 ANI) și 6 luni [Garanție extins](https://www.fenixlight.com)ă – Fenix recomandă clienților săi să înregistreze Numărul Serial aferent fiecarei lanterne Fenix, pe siteul oficial: [www.fenixlight.com](https://www.fenixlight.com).\nAstfel, după înregistrare, fiecare produs va primi o perioadă suplimentară de garanție de încă 6 luni. În total, 30 de luni de reparații gratuite !",
       "contactInformation": [],
       "prices": [
         "### Preț 260 lei*"
       ],
       "schedules": [
         "NOU ! ACEST PRODUS BENEFICIAZĂ DE O GARANTIE TOTALĂ DE 30 LUNI :",
-        "Garanție 24 luni (2 ANI) & 6 luni [Garanție extins](https://www.fenixlight.com)ă – Fenix recomandă clienților săi să înregistreze Numărul Serial aferent fiecarei lanterne Fenix, pe siteul oficial: [www.fenixlight.com](http://www.f",
+        "Garanție 24 luni (2 ANI) și 6 luni [Garanție extins](https://www.fenixlight.com)ă – Fenix recomandă clienților săi să înregistreze Numărul Serial aferent fiecarei lanterne Fenix, pe siteul oficial: [www.fenixlight.com](http://www.f",
         "Astfel, după înregistrare, fiecare produs va primi o perioadă suplimentară de garanție de încă 6 luni. În total, 30 de luni de reparații gratuite !"
       ],
       "historicalDates": [
@@ -10699,7 +10699,7 @@
       "language": "ro",
       "pageType": "article",
       "iaSection": "Jurnal",
-      "categoryLabel": "Echipamente & Tehnică",
+      "categoryLabel": "Echipamente și Tehnică",
       "region": "România",
       "translations": [],
       "heroImage": "/media/cave-diving/01-2400x1800-2400x1800-1.jpg",
@@ -11125,7 +11125,7 @@
         {
           "heading": "Garanție",
           "level": 3,
-          "contentMarkdown": "ACEST PRODUS BENEFICIAZĂ DE O GARANTIE TOTALĂ DE 66 LUNI :\n■ Garanție 60 luni (5 ANI) & 6 luni [Garanție extins](https://www.fenixlight.com)ă – Fenix recomand clienților săi să înregistreze Numărul Serial aferent fiecarei lanterne Fenix, pe siteul oficial: [www.fenixlight.com](https://www.fenixlight.com).\nAstfel, după înregistrare, fiecare produs va primi o perioadă suplimentară de garanție de înca 6 luni. În total, 66 de luni de reparatii gratuite !"
+          "contentMarkdown": "ACEST PRODUS BENEFICIAZĂ DE O GARANTIE TOTALĂ DE 66 LUNI :\n■ Garanție 60 luni (5 ANI) și 6 luni [Garanție extins](https://www.fenixlight.com)ă – Fenix recomand clienților săi să înregistreze Numărul Serial aferent fiecarei lanterne Fenix, pe siteul oficial: [www.fenixlight.com](https://www.fenixlight.com).\nAstfel, după înregistrare, fiecare produs va primi o perioadă suplimentară de garanție de înca 6 luni. În total, 66 de luni de reparatii gratuite !"
         },
         {
           "heading": "Accesorii",
@@ -11148,14 +11148,14 @@
           "contentMarkdown": "![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/2-2400x1800-3.jpg)\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/3-2400x1800-3.jpg)\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/4-2400x1800-3.jpg)\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/5-2400x1800-3.jpg)\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/displayalg-03-2400x1800-1.jpg)"
         }
       ],
-      "bodyMarkdown": "Lanterna frontală Fenix HM65R oferă o lumină controlată spotlight și o lumină floodlight, cu o intensitate combinată a luminozității de 1400 lumeni, cu lumină neutră și albă. Este alimentată de acumulatorul 3500mAh inclus și are un indicator de nivel al bateriei foarte precis. Materialul ei este din magneziu,  pentru o mai bună rezistență. Submersibilă la 2 metri și cu o rezistență la impact la 2 metri este lanterna frontală perfectă pentru speologie, aventuri outdoor și pentru cei ce au nevoie de lumină extremă hands-free.\n\n### Preț 455 lei*\n\n###### *Speologii legitimați la un club/asociație/fundație de speologie, membre ale Federației Române de Speologie – FRS, beneficiază de un discount de 10%\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/01-2400x1800-2400x1800-1.jpg)\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/1-2400x1800-1.jpg)\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/2-2400x1800-1.jpg)\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/3-2400x1800-1.jpg)\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/4-2400x1800-2.jpg)\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/5-2400x1800-2.jpg)\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/6-2400x1800-2.jpg)\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/7-2400x1800-2.jpg)\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/8-2400x1800-2.jpg)\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/9-2400x1800-2.gif)\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/10-2400x1800-2.jpg)\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/11-2400x1800-2.jpg)\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/12-2400x1800-2.jpg)\n\n### Caracteristici\n\n■ Lumină spotlight și floodlight\n■ LED lumină albă Cree XM-L2 U2 și LED lumină neutră XP-G2 R5\n■ Alimentată de o baterie 18650 Li-ion sau două baterii 3V/CR123A\n■ Două butoane pentru operare intuitivă\n■ Încărcare type-C 1.5A\n■ Aluminiu și magneziu de înaltă calitate\n■ 3.17″ Lungime x 2.17″ Lățime x 1.57″ Înălțime (80.5 x 55x 40 mm)\n■ 3.42 oz / 97 grame (fără baterii)\n\n### Autonomie\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/fenix-hm65r-headlamp-ansi-chart.png)\n\n###### Notă: Parametrii menționați mai sus sunt testați în laboratoarele Fenix folosind acumulatori Fenix ARB-L18-3500 la temperatura de 21±3°C și umiditatea de 50% – 80%. Parametrii pot varia în funcție de acumulatorii folosiți sau în funcție de mediu.\n\n### Instrucțiuni\n\n**On/Off**\n\nȚineți apăsat unul dintre cele două butoane pentru a porni/opri lanterna.\n**Schimbarea modulelor**\n\nCu lanterna pornită, apăsați odată oricare dintre cele două butoane pentru a atinge modul dorit.\n**Schimbarea intensităților**\nLumina flood: Un singur click pe butonul flood pentru a circula prin Med→High→LowLumina spot: Un singur click pe butonul spot pentru a circula prin Med→High→Turbo→Low\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/capture.png)\n\n**Funcția de blocare**\n**Blocare:** Cu lanterna oprită, tineți apăsat oricare dintre cele două butoane, sau simultan apăsat timp de 3 secunde, lanterna va clipi de două ori pentru a indica statusul de blocat.\n**Deblocare:**Cu lanterna blocată, tineți apăsat cele două butoane, timp de 3 secunde. Lanterna va fi activată cu 3 clipiri a câte o secundă și activată pe modul Low spotlight\n\n### Pachet\n\n■ Lanternă frontală Fenix HM65R\n■ 1 Acumulator reîncărcabil 18650 Li-ion inclus\n■ USB Type-C\n■ Manual utilizator\n■ Card garanție\n\n### Garanție\n\nACEST PRODUS BENEFICIAZĂ DE O GARANTIE TOTALĂ DE 66 LUNI :\n■ Garanție 60 luni (5 ANI) & 6 luni [Garanție extins](https://www.fenixlight.com)ă – Fenix recomand clienților săi să înregistreze Numărul Serial aferent fiecarei lanterne Fenix, pe siteul oficial: [www.fenixlight.com](https://www.fenixlight.com).\nAstfel, după înregistrare, fiecare produs va primi o perioadă suplimentară de garanție de înca 6 luni. În total, 66 de luni de reparatii gratuite !\n\n### Accesorii\n\n##### Acumulatori rezervă\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/2-2400x1800-1-1.jpg)\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/3-2400x1800-1-1.jpg)\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/4-2400x1800-1-1.jpg)\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/5-2400x1800-1-1.jpg)\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/6-2400x1800-1-1.jpg)\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/7-2400x1800-1-1.jpg)\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/displayarb-l18-3500-2400x1800-1.jpg)\n\n##### Încărcătoare inteligente\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/1-2400x1800-1-1.jpg)\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/2-2400x1800-2.jpg)\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/3-2400x1800-2-1.jpg)\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/5-2400x1800-2-1.jpg)\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/6-2400x1800-2-1.jpg)\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/7-2400x1800-2-1.jpg)\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/8-2400x1800-1-1.jpg)\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/displayk-2400x1800-1.jpg)\n\n#### Adaptor cască\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/2-2400x1800-3.jpg)\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/3-2400x1800-3.jpg)\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/4-2400x1800-3.jpg)\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/5-2400x1800-3.jpg)\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/displayalg-03-2400x1800-1.jpg)",
+      "bodyMarkdown": "Lanterna frontală Fenix HM65R oferă o lumină controlată spotlight și o lumină floodlight, cu o intensitate combinată a luminozității de 1400 lumeni, cu lumină neutră și albă. Este alimentată de acumulatorul 3500mAh inclus și are un indicator de nivel al bateriei foarte precis. Materialul ei este din magneziu,  pentru o mai bună rezistență. Submersibilă la 2 metri și cu o rezistență la impact la 2 metri este lanterna frontală perfectă pentru speologie, aventuri outdoor și pentru cei ce au nevoie de lumină extremă hands-free.\n\n### Preț 455 lei*\n\n###### *Speologii legitimați la un club/asociație/fundație de speologie, membre ale Federației Române de Speologie – FRS, beneficiază de un discount de 10%\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/01-2400x1800-2400x1800-1.jpg)\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/1-2400x1800-1.jpg)\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/2-2400x1800-1.jpg)\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/3-2400x1800-1.jpg)\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/4-2400x1800-2.jpg)\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/5-2400x1800-2.jpg)\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/6-2400x1800-2.jpg)\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/7-2400x1800-2.jpg)\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/8-2400x1800-2.jpg)\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/9-2400x1800-2.gif)\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/10-2400x1800-2.jpg)\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/11-2400x1800-2.jpg)\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/12-2400x1800-2.jpg)\n\n### Caracteristici\n\n■ Lumină spotlight și floodlight\n■ LED lumină albă Cree XM-L2 U2 și LED lumină neutră XP-G2 R5\n■ Alimentată de o baterie 18650 Li-ion sau două baterii 3V/CR123A\n■ Două butoane pentru operare intuitivă\n■ Încărcare type-C 1.5A\n■ Aluminiu și magneziu de înaltă calitate\n■ 3.17″ Lungime x 2.17″ Lățime x 1.57″ Înălțime (80.5 x 55x 40 mm)\n■ 3.42 oz / 97 grame (fără baterii)\n\n### Autonomie\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/fenix-hm65r-headlamp-ansi-chart.png)\n\n###### Notă: Parametrii menționați mai sus sunt testați în laboratoarele Fenix folosind acumulatori Fenix ARB-L18-3500 la temperatura de 21±3°C și umiditatea de 50% – 80%. Parametrii pot varia în funcție de acumulatorii folosiți sau în funcție de mediu.\n\n### Instrucțiuni\n\n**On/Off**\n\nȚineți apăsat unul dintre cele două butoane pentru a porni/opri lanterna.\n**Schimbarea modulelor**\n\nCu lanterna pornită, apăsați odată oricare dintre cele două butoane pentru a atinge modul dorit.\n**Schimbarea intensităților**\nLumina flood: Un singur click pe butonul flood pentru a circula prin Med→High→LowLumina spot: Un singur click pe butonul spot pentru a circula prin Med→High→Turbo→Low\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/capture.png)\n\n**Funcția de blocare**\n**Blocare:** Cu lanterna oprită, tineți apăsat oricare dintre cele două butoane, sau simultan apăsat timp de 3 secunde, lanterna va clipi de două ori pentru a indica statusul de blocat.\n**Deblocare:**Cu lanterna blocată, tineți apăsat cele două butoane, timp de 3 secunde. Lanterna va fi activată cu 3 clipiri a câte o secundă și activată pe modul Low spotlight\n\n### Pachet\n\n■ Lanternă frontală Fenix HM65R\n■ 1 Acumulator reîncărcabil 18650 Li-ion inclus\n■ USB Type-C\n■ Manual utilizator\n■ Card garanție\n\n### Garanție\n\nACEST PRODUS BENEFICIAZĂ DE O GARANTIE TOTALĂ DE 66 LUNI :\n■ Garanție 60 luni (5 ANI) și 6 luni [Garanție extins](https://www.fenixlight.com)ă – Fenix recomand clienților săi să înregistreze Numărul Serial aferent fiecarei lanterne Fenix, pe siteul oficial: [www.fenixlight.com](https://www.fenixlight.com).\nAstfel, după înregistrare, fiecare produs va primi o perioadă suplimentară de garanție de înca 6 luni. În total, 66 de luni de reparatii gratuite !\n\n### Accesorii\n\n##### Acumulatori rezervă\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/2-2400x1800-1-1.jpg)\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/3-2400x1800-1-1.jpg)\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/4-2400x1800-1-1.jpg)\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/5-2400x1800-1-1.jpg)\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/6-2400x1800-1-1.jpg)\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/7-2400x1800-1-1.jpg)\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/displayarb-l18-3500-2400x1800-1.jpg)\n\n##### Încărcătoare inteligente\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/1-2400x1800-1-1.jpg)\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/2-2400x1800-2.jpg)\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/3-2400x1800-2-1.jpg)\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/5-2400x1800-2-1.jpg)\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/6-2400x1800-2-1.jpg)\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/7-2400x1800-2-1.jpg)\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/8-2400x1800-1-1.jpg)\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/displayk-2400x1800-1.jpg)\n\n#### Adaptor cască\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/2-2400x1800-3.jpg)\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/3-2400x1800-3.jpg)\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/4-2400x1800-3.jpg)\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/5-2400x1800-3.jpg)\n\n![Lanternă frontală Fenix HM65R – 1400 Lumeni](/media/cave-diving/displayalg-03-2400x1800-1.jpg)",
       "contactInformation": [],
       "prices": [
         "### Preț 455 lei*"
       ],
       "schedules": [
         "ACEST PRODUS BENEFICIAZĂ DE O GARANTIE TOTALĂ DE 66 LUNI :",
-        "■ Garanție 60 luni (5 ANI) & 6 luni [Garanție extins](https://www.fenixlight.com)ă – Fenix recomand clienților săi să înregistreze Numărul Serial aferent fiecarei lanterne Fenix, pe siteul oficial: [www.fenixlight.com](http://www.",
+        "■ Garanție 60 luni (5 ANI) și 6 luni [Garanție extins](https://www.fenixlight.com)ă – Fenix recomand clienților săi să înregistreze Numărul Serial aferent fiecarei lanterne Fenix, pe siteul oficial: [www.fenixlight.com](http://www.",
         "Astfel, după înregistrare, fiecare produs va primi o perioadă suplimentară de garanție de înca 6 luni. În total, 66 de luni de reparatii gratuite !"
       ],
       "historicalDates": [
@@ -11217,7 +11217,7 @@
       "language": "ro",
       "pageType": "article",
       "iaSection": "Jurnal",
-      "categoryLabel": "Cave Diving & Cursuri",
+      "categoryLabel": "Cave Diving și Cursuri",
       "region": "România",
       "translations": [],
       "heroImage": "/media/cave-diving/mj-cave-resize.jpg",
@@ -11281,7 +11281,7 @@
       "language": "ro",
       "pageType": "article",
       "iaSection": "Jurnal",
-      "categoryLabel": "Cave Diving & Cursuri",
+      "categoryLabel": "Cave Diving și Cursuri",
       "region": "România",
       "translations": [],
       "heroImage": "/media/isverna/125346305_4031384590211798_3691498830409177817_o.jpg",
@@ -11444,7 +11444,7 @@
       "language": "ro",
       "pageType": "article",
       "iaSection": "Jurnal",
-      "categoryLabel": "Cave Diving & Cursuri",
+      "categoryLabel": "Cave Diving și Cursuri",
       "region": "România",
       "translations": [],
       "heroImage": "/media/cave-diving/sidemount.jpg",
@@ -11641,7 +11641,7 @@
       "language": "ro",
       "pageType": "article",
       "iaSection": "Jurnal",
-      "categoryLabel": "Echipamente & Tehnică",
+      "categoryLabel": "Echipamente și Tehnică",
       "region": "România",
       "translations": [],
       "heroImage": "/media/shop/ammonite-system_products-2019-2.jpg",
@@ -11698,7 +11698,7 @@
       "language": "ro",
       "pageType": "article",
       "iaSection": "Jurnal",
-      "categoryLabel": "Cave Diving & Cursuri",
+      "categoryLabel": "Cave Diving și Cursuri",
       "region": "România",
       "translations": [],
       "heroImage": "/media/cave-diving/p6280326.jpg",
@@ -11831,7 +11831,7 @@
       "language": "ro",
       "pageType": "archive",
       "iaSection": "Jurnal",
-      "categoryLabel": "Cave Diving & Cursuri",
+      "categoryLabel": "Cave Diving și Cursuri",
       "region": "România",
       "translations": [],
       "heroImage": "/media/logos/placeholder-cavern.svg",
@@ -11875,7 +11875,7 @@
       "language": "ro",
       "pageType": "archive",
       "iaSection": "Jurnal",
-      "categoryLabel": "Cave Diving & Cursuri",
+      "categoryLabel": "Cave Diving și Cursuri",
       "region": "România",
       "translations": [],
       "heroImage": "/media/logos/placeholder-cavern.svg",
@@ -11919,7 +11919,7 @@
       "language": "ro",
       "pageType": "archive",
       "iaSection": "Jurnal",
-      "categoryLabel": "Cave Diving & Cursuri",
+      "categoryLabel": "Cave Diving și Cursuri",
       "region": "România",
       "translations": [],
       "heroImage": "/media/logos/placeholder-cavern.svg",
@@ -11963,7 +11963,7 @@
       "language": "ro",
       "pageType": "archive",
       "iaSection": "Jurnal",
-      "categoryLabel": "Cave Diving & Cursuri",
+      "categoryLabel": "Cave Diving și Cursuri",
       "region": "România",
       "translations": [],
       "heroImage": "/media/logos/placeholder-cavern.svg",
@@ -12007,7 +12007,7 @@
       "language": "ro",
       "pageType": "archive",
       "iaSection": "Jurnal",
-      "categoryLabel": "Cave Diving & Cursuri",
+      "categoryLabel": "Cave Diving și Cursuri",
       "region": "România",
       "translations": [],
       "heroImage": "/media/logos/placeholder-cavern.svg",
@@ -12051,7 +12051,7 @@
       "language": "ro",
       "pageType": "archive",
       "iaSection": "Jurnal",
-      "categoryLabel": "Cave Diving & Cursuri",
+      "categoryLabel": "Cave Diving și Cursuri",
       "region": "România",
       "translations": [],
       "heroImage": "/media/logos/placeholder-cavern.svg",
@@ -12095,7 +12095,7 @@
       "language": "ro",
       "pageType": "archive",
       "iaSection": "Jurnal",
-      "categoryLabel": "Cave Diving & Cursuri",
+      "categoryLabel": "Cave Diving și Cursuri",
       "region": "România",
       "translations": [],
       "heroImage": "/media/logos/placeholder-cavern.svg",
@@ -12139,7 +12139,7 @@
       "language": "ro",
       "pageType": "archive",
       "iaSection": "Jurnal",
-      "categoryLabel": "Cave Diving & Cursuri",
+      "categoryLabel": "Cave Diving și Cursuri",
       "region": "România",
       "translations": [],
       "heroImage": "/media/logos/placeholder-cavern.svg",
@@ -12183,7 +12183,7 @@
       "language": "ro",
       "pageType": "archive",
       "iaSection": "Jurnal",
-      "categoryLabel": "Cave Diving & Cursuri",
+      "categoryLabel": "Cave Diving și Cursuri",
       "region": "România",
       "translations": [],
       "heroImage": "/media/logos/placeholder-cavern.svg",
@@ -12227,7 +12227,7 @@
       "language": "ro",
       "pageType": "archive",
       "iaSection": "Jurnal",
-      "categoryLabel": "Cave Diving & Cursuri",
+      "categoryLabel": "Cave Diving și Cursuri",
       "region": "România",
       "translations": [],
       "heroImage": "/media/logos/placeholder-cavern.svg",
@@ -12271,7 +12271,7 @@
       "language": "ro",
       "pageType": "archive",
       "iaSection": "Jurnal",
-      "categoryLabel": "Cave Diving & Cursuri",
+      "categoryLabel": "Cave Diving și Cursuri",
       "region": "România",
       "translations": [],
       "heroImage": "/media/logos/placeholder-cavern.svg",
@@ -12315,7 +12315,7 @@
       "language": "ro",
       "pageType": "archive",
       "iaSection": "Jurnal",
-      "categoryLabel": "Echipamente & Tehnică",
+      "categoryLabel": "Echipamente și Tehnică",
       "region": "România",
       "translations": [],
       "heroImage": "/media/logos/placeholder-cavern.svg",
@@ -12359,7 +12359,7 @@
       "language": "ro",
       "pageType": "archive",
       "iaSection": "Jurnal",
-      "categoryLabel": "Cave Diving & Cursuri",
+      "categoryLabel": "Cave Diving și Cursuri",
       "region": "România",
       "translations": [],
       "heroImage": "/media/logos/placeholder-cavern.svg",
@@ -12403,7 +12403,7 @@
       "language": "ro",
       "pageType": "archive",
       "iaSection": "Jurnal",
-      "categoryLabel": "Cave Diving & Cursuri",
+      "categoryLabel": "Cave Diving și Cursuri",
       "region": "România",
       "translations": [],
       "heroImage": "/media/logos/placeholder-cavern.svg",
@@ -12447,7 +12447,7 @@
       "language": "ro",
       "pageType": "archive",
       "iaSection": "Jurnal",
-      "categoryLabel": "Cave Diving & Cursuri",
+      "categoryLabel": "Cave Diving și Cursuri",
       "region": "România",
       "translations": [],
       "heroImage": "/media/logos/placeholder-cavern.svg",
@@ -12491,7 +12491,7 @@
       "language": "ro",
       "pageType": "archive",
       "iaSection": "Jurnal",
-      "categoryLabel": "Cave Diving & Cursuri",
+      "categoryLabel": "Cave Diving și Cursuri",
       "region": "România",
       "translations": [],
       "heroImage": "/media/logos/placeholder-cavern.svg",
@@ -12535,7 +12535,7 @@
       "language": "ro",
       "pageType": "archive",
       "iaSection": "Jurnal",
-      "categoryLabel": "Cave Diving & Cursuri",
+      "categoryLabel": "Cave Diving și Cursuri",
       "region": "România",
       "translations": [],
       "heroImage": "/media/logos/placeholder-cavern.svg",
@@ -12579,7 +12579,7 @@
       "language": "ro",
       "pageType": "archive",
       "iaSection": "Jurnal",
-      "categoryLabel": "Cave Diving & Cursuri",
+      "categoryLabel": "Cave Diving și Cursuri",
       "region": "România",
       "translations": [],
       "heroImage": "/media/logos/placeholder-cavern.svg",
@@ -12623,7 +12623,7 @@
       "language": "ro",
       "pageType": "archive",
       "iaSection": "Jurnal",
-      "categoryLabel": "Cave Diving & Cursuri",
+      "categoryLabel": "Cave Diving și Cursuri",
       "region": "România",
       "translations": [],
       "heroImage": "/media/logos/placeholder-cavern.svg",
@@ -12660,42 +12660,42 @@
     {
       "name": "Fenix",
       "slug": "fenix",
-      "category": "Lanterne Frontale, Subacvatice & Industriale",
+      "category": "Lanterne Frontale, Subacvatice și Industriale",
       "description": "Sisteme profesionale de iluminat cu LED de înaltă performanță pentru speologie, căutare-salvare, drumeție montană și aplicații tactice/industriale (seriile HM65R, HM65R-DT, HM60R, HM70R, HP30R, WH23R).",
       "image": "/media/logos/placeholder-cavern.svg"
     },
     {
       "name": "TecLine",
       "slug": "tecline",
-      "category": "Echipamente Scufundări Tehnice & Cave Diving",
-      "description": "Detentoare (R2 TEC2, V2 ICE), aripi compensatoare (BCD Backmount & Sidemount Avenger), instrumente, măști frameless, labe și accesorii configurate pentru scufundări tehnice și în peșteri.",
+      "category": "Echipamente Scufundări Tehnice și Cave Diving",
+      "description": "Detentoare (R2 TEC2, V2 ICE), aripi compensatoare (BCD Backmount și Sidemount Avenger), instrumente, măști frameless, labe și accesorii configurate pentru scufundări tehnice și în peșteri.",
       "image": "/media/cave-diving/41613734_2191457734450778_4376036792281858048_n.jpg"
     },
     {
       "name": "Ammonite System",
       "slug": "ammonite-system",
-      "category": "Lanterne Umbilicale & Sisteme Încălzire Subacvatică",
+      "category": "Lanterne Umbilicale și Sisteme Încălzire Subacvatică",
       "description": "Lanterne primare și de backup din aluminiu anodizat și delrin, acumulatori Li-Ion și sisteme de încălzire electrică (Accu Thermo) proiectate pentru scufundări în ape reci și peșteri.",
       "image": "/media/cave-diving/ammonite-system_products-2019-1.jpg"
     },
     {
       "name": "Shearwater Research",
       "slug": "shearwater",
-      "category": "Computere de Scufundare Tehnice & CCR",
+      "category": "Computere de Scufundare Tehnice și CCR",
       "description": "Computere de scufundare de referință mondială (Perdix, Petrel, Teric, Peregrine) pentru scufundări tehnice cu amestecuri Trimix/Nitrox în circuit deschis (OC) și circuit închis (CCR).",
       "image": "/media/cave-diving/ai-product-page-image-1.png"
     },
     {
       "name": "Ursuit",
       "slug": "ursuit",
-      "category": "Costume Uscate (Drysuits) & Echipamente Salvare",
+      "category": "Costume Uscate (Drysuits) și Echipamente Salvare",
       "description": "Costume uscate trilaminate și din neopren comprimat, subcostume termice și echipamente de protecție pentru scufundări în ape reci (~8 °C în peșterile din România) și misiuni de salvare acvatică.",
       "image": "/media/cave-diving/009640_rescue2.0_l1.png"
     },
     {
       "name": "Bauer Kompressoren",
       "slug": "bauer-kompressoren",
-      "category": "Compresoare de Înaltă Presiune Aer & Nitrox",
+      "category": "Compresoare de Înaltă Presiune Aer și Nitrox",
       "description": "Compresoare portabile și staționare de înaltă presiune (seria Junior II, Oceanus, Capitano) și sisteme de filtrare aer respirabil conform standardului EN 12021.",
       "image": "/media/cave-diving/csm_junior-2-b-back_646810c7c8.jpg"
     },
@@ -12716,7 +12716,7 @@
     {
       "name": "Si Tech",
       "slug": "si-tech",
-      "category": "Supape, Manșoane & Mănuși Uscate pentru Drysuit",
+      "category": "Supape, Manșoane și Mănuși Uscate pentru Drysuit",
       "description": "Sisteme modulare de etanșare pentru gât și încheieturi (Quick Neck, QCP, Antares), supape de inflare/evacuare și sisteme P-Valve pentru costume uscate.",
       "image": "/media/cave-diving/1.jpg"
     }

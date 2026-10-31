@@ -17,8 +17,8 @@ export const metadata: Metadata = {
 export default function AventuriHubPage() {
   const adventurePosts = getAllPosts().filter(
     (p) =>
-      p.categoryLabel === 'Speoturism & Aventură' ||
-      p.categoryLabel === 'Cave Diving & Cursuri'
+      p.categoryLabel === 'Speoturism și Aventură' ||
+      p.categoryLabel === 'Cave Diving și Cursuri'
   );
 
   const mainExperiences = [
@@ -31,7 +31,7 @@ export default function AventuriHubPage() {
         'Dincolo de sectorul turistic amenajat de 200 m, organizăm ture ghidate de speoturism pe trasee cu lungimi între 250 m și 1.500 m în galeriile superioare și active ale peșterii. Asigurăm cască, sistem de iluminat, costum de protecție, cizme și mănuși.',
     },
     {
-      title: 'Cave Diving & Cursuri Tehnice IANTD (România & Internațional)',
+      title: 'Cave Diving și Cursuri Tehnice IANTD (România și Internațional)',
       badge: 'Exclusiv Scafandri Brevetați',
       href: '/cave-diving',
       icon: Waves,
@@ -47,8 +47,8 @@ export default function AventuriHubPage() {
         'Traseu spectaculos pe Dealul Osoiu (390 m) până la ruinele Cetății Dezna (sec. XIII–XIV), cu două sectoare echipate cu cablu și trepte metalice și o punte indiană de 25 m. Acces gratuit cu echipament propriu omologat sau ghidaj și închiriere echipament la cerere.',
     },
     {
-      title: 'Moneasa Adventure — Școala Altfel & Săptămâna Verde',
-      badge: 'Grădinițe, Primar, Gimnaziu & Liceu',
+      title: 'Moneasa Adventure — Școala Altfel și Săptămâna Verde',
+      badge: 'Grădinițe, Primar, Gimnaziu și Liceu',
       href: '/moneasa-adventure',
       icon: GraduationCap,
       description:

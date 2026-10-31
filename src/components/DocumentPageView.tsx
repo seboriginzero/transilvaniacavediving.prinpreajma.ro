@@ -199,7 +199,7 @@ export function DocumentPageView({
               {/* Quick Contact / Reservation Card (always visible on both mobile and desktop) */}
               <div className="editorial-card rounded-2xl p-5">
                 <h3 className="font-serif text-base font-bold text-limestone-50">
-                  Programări Ghidaj, Ture &amp; Informații
+                  Programări Ghidaj, Ture și Informații
                 </h3>
                 <p className="mt-2 text-xs leading-relaxed text-limestone-200">
                   Pentru programarea grupurilor la Peștera Grota Ursului, ture de speoturism, cave diving sau închiriere echipament Via Ferrata:

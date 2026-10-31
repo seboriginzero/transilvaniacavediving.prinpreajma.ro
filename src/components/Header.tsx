@@ -314,7 +314,7 @@ export function Header({ navigation, phonePrimary }: HeaderProps) {
             onClick={toggleTheme}
             data-testid="theme-toggle-desktop"
             aria-label={theme === 'dark' ? 'Activează tema luminoasă (Light Mode)' : 'Activează tema întunecată (Dark Mode)'}
-            title={theme === 'dark' ? 'Schimbă pe Tema Light (Calcar & Travertin)' : 'Schimbă pe Tema Dark (Subteran & Carst)'}
+            title={theme === 'dark' ? 'Schimbă pe Tema Light (Calcar și Travertin)' : 'Schimbă pe Tema Dark (Subteran și Carst)'}
             className="inline-flex h-8 w-8 items-center justify-center rounded-lg border border-cavern-700 bg-cavern-800/80 text-limestone-100 transition hover:border-karst-400 hover:text-karst-400 xl:h-9 xl:w-9"
           >
             {theme === 'dark' ? (
@@ -424,7 +424,7 @@ export function Header({ navigation, phonePrimary }: HeaderProps) {
           <div className="mb-3 flex flex-wrap items-center justify-between gap-2 rounded-xl border border-cavern-700 bg-cavern-950/70 px-3.5 py-2.5">
             <span className="inline-flex items-center gap-1.5 text-xs font-medium text-limestone-300">
               <Globe className="h-4 w-4 text-karst-400" aria-hidden="true" />
-              Limbă &amp; Temă:
+              Limbă și Temă:
             </span>
             <div className="flex items-center gap-1.5">
               <button

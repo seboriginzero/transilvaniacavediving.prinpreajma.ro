@@ -22,7 +22,7 @@ export default function IstorieSiPatrimoniuHubPage() {
   const moara = getPageByPath('/pestera-uscata-de-la-moara');
   const liliecilor = getPageByPath('/pestera-liliecilor');
 
-  const historyPosts = getAllPosts().filter((p) => p.categoryLabel === 'Istorie & Patrimoniu');
+  const historyPosts = getAllPosts().filter((p) => p.categoryLabel === 'Istorie și Patrimoniu');
 
   const mainMonographs = [moneasa, czaran, dezna, moara, liliecilor].filter(Boolean);
 
@@ -44,7 +44,7 @@ export default function IstorieSiPatrimoniuHubPage() {
     },
     {
       year: '1891 – 1896',
-      title: 'Modernizarea Stațiunii Moneasa & Amenajările lui Czárán Gyula',
+      title: 'Modernizarea Stațiunii Moneasa și Amenajările lui Czárán Gyula',
       text: 'Forarea izvoarelor mezotermale (ing. Zsigmondy Béla), inaugurarea căii ferate Sebiș–Moneasa (1893), traseele turistice create de Czárán Gyula și obținerea statutului oficial de stațiune balneară la 13 mai 1896.',
     },
     {
@@ -64,7 +64,7 @@ export default function IstorieSiPatrimoniuHubPage() {
       <div>
         <Breadcrumbs items={[{ name: 'Istorie și patrimoniu', path: '/istorie-si-patrimoniu' }]} />
         <span className="text-xs font-bold uppercase tracking-wider text-karst-400">
-          Arhivă Monografică, Cartografie Istorică &amp; Cercetare Speologică
+          Arhivă Monografică, Cartografie Istorică și Cercetare Speologică
         </span>
         <h1 className="mt-2 text-3xl font-extrabold text-limestone-50 sm:text-5xl">
           Istorie, Personalități și Patrimoniu Cultural-Științific

@@ -72,7 +72,7 @@ export default function ContactPage() {
                 <MapPin className="mt-0.5 h-5 w-5 shrink-0 text-karst-400" aria-hidden="true" />
                 <div>
                   <dt className="text-xs font-semibold uppercase tracking-wider text-limestone-400">
-                    Sediu &amp; Puncte Operaționale
+                    Sediu și Puncte Operaționale
                   </dt>
                   <dd className="mt-1 text-limestone-100">
                     <strong>Sediu social:</strong> {company.headquarters}
