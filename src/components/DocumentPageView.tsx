@@ -219,6 +219,79 @@ export function DocumentPageView({
                     Formular de Contact <ArrowRight className="h-4 w-4" />
                   </Link>
                 </div>
+
+                {/* Contextual Official Facebook Links */}
+                <div className="mt-4 border-t border-cavern-700/80 pt-3.5 space-y-2">
+                  <span className="block text-[11px] font-bold uppercase tracking-wider text-limestone-300">
+                    Pagini Oficiale Facebook:
+                  </span>
+                  <div className="flex flex-col gap-1.5 text-xs">
+                    {page.path === '/grota-ursului' && (
+                      <a
+                        href="https://www.facebook.com/Pe%C8%99tera-Grota-Ursului-Moneasa-108508321317590"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center justify-between rounded-lg border border-cavern-700 bg-cavern-900/90 px-3 py-2 font-semibold text-limestone-100 transition hover:border-[#1877F2] hover:text-karst-400"
+                      >
+                        <span>Facebook: Peștera Grota Ursului</span>
+                        <ArrowRight className="h-3.5 w-3.5 text-[#1877F2]" />
+                      </a>
+                    )}
+                    {page.path === '/belvedere-moneasa' && (
+                      <a
+                        href="https://www.facebook.com/Belvedere-Moneasa-105856912164648"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center justify-between rounded-lg border border-cavern-700 bg-cavern-900/90 px-3 py-2 font-semibold text-limestone-100 transition hover:border-[#1877F2] hover:text-karst-400"
+                      >
+                        <span>Facebook: Belvedere Moneasa</span>
+                        <ArrowRight className="h-3.5 w-3.5 text-[#1877F2]" />
+                      </a>
+                    )}
+                    {page.path === '/via-ferrata-cetate-dezna' && (
+                      <a
+                        href="https://www.facebook.com/profile.php?id=100083662944867"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center justify-between rounded-lg border border-cavern-700 bg-cavern-900/90 px-3 py-2 font-semibold text-limestone-100 transition hover:border-[#1877F2] hover:text-karst-400"
+                      >
+                        <span>Facebook: Via Ferrata Cetatea Dezna</span>
+                        <ArrowRight className="h-3.5 w-3.5 text-[#1877F2]" />
+                      </a>
+                    )}
+                    {page.path === '/czaran-gyula' && (
+                      <a
+                        href="https://www.facebook.com/profile.php?id=61575535798320"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center justify-between rounded-lg border border-cavern-700 bg-cavern-900/90 px-3 py-2 font-semibold text-limestone-100 transition hover:border-[#1877F2] hover:text-karst-400"
+                      >
+                        <span>Facebook: Czárán Gyula – Moneasa</span>
+                        <ArrowRight className="h-3.5 w-3.5 text-[#1877F2]" />
+                      </a>
+                    )}
+                    {page.path === '/visit-isverna' && (
+                      <a
+                        href="https://www.facebook.com/isvernacavediving"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center justify-between rounded-lg border border-cavern-700 bg-cavern-900/90 px-3 py-2 font-semibold text-limestone-100 transition hover:border-[#1877F2] hover:text-karst-400"
+                      >
+                        <span>Facebook: Visit Isverna Cave Diving</span>
+                        <ArrowRight className="h-3.5 w-3.5 text-[#1877F2]" />
+                      </a>
+                    )}
+                    <a
+                      href="https://www.facebook.com/cavedivingromania"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center justify-between rounded-lg border border-cavern-700 bg-cavern-900/90 px-3 py-2 font-semibold text-limestone-100 transition hover:border-[#1877F2] hover:text-karst-400"
+                    >
+                      <span>Facebook: Transilvania Cave Diving</span>
+                      <ArrowRight className="h-3.5 w-3.5 text-[#1877F2]" />
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
           </aside>

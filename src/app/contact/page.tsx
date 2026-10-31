@@ -99,7 +99,7 @@ export default function ContactPage() {
               </div>
             </dl>
 
-            <div className="border-t border-cavern-700 pt-4">
+            <div className="border-t border-cavern-700 pt-4 space-y-3">
               <a
                 href={company.mapsGrotaUrsului}
                 target="_blank"
@@ -109,6 +109,80 @@ export default function ContactPage() {
                 Deschide localizarea Peșterii Grota Ursului în Google Maps
                 <ExternalLink className="h-3.5 w-3.5" />
               </a>
+
+              <div className="border-t border-cavern-700/70 pt-3">
+                <h3 className="text-xs font-bold uppercase tracking-wider text-limestone-300">
+                  Pagini Oficiale Facebook
+                </h3>
+                <ul className="mt-2.5 space-y-2 text-xs">
+                  <li>
+                    <a
+                      href="https://www.facebook.com/cavedivingromania"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1.5 font-semibold text-limestone-100 hover:text-karst-400 hover:underline"
+                    >
+                      <span>Transilvania Cave Diving (1,047 followers)</span>
+                      <ExternalLink className="h-3 w-3 text-[#1877F2]" />
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.facebook.com/Pe%C8%99tera-Grota-Ursului-Moneasa-108508321317590"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1.5 font-semibold text-limestone-100 hover:text-karst-400 hover:underline"
+                    >
+                      <span>Peștera Grota Ursului - Moneasa (2,382 followers)</span>
+                      <ExternalLink className="h-3 w-3 text-[#1877F2]" />
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.facebook.com/Belvedere-Moneasa-105856912164648"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1.5 font-semibold text-limestone-100 hover:text-karst-400 hover:underline"
+                    >
+                      <span>Belvedere Moneasa (1,120 followers)</span>
+                      <ExternalLink className="h-3 w-3 text-[#1877F2]" />
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.facebook.com/profile.php?id=100083662944867"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1.5 font-semibold text-limestone-100 hover:text-karst-400 hover:underline"
+                    >
+                      <span>Via Ferrata Cetatea Dezna</span>
+                      <ExternalLink className="h-3 w-3 text-[#1877F2]" />
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.facebook.com/profile.php?id=61575535798320"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1.5 font-semibold text-limestone-100 hover:text-karst-400 hover:underline"
+                    >
+                      <span>Czárán Gyula – Patrimoniu Moneasa</span>
+                      <ExternalLink className="h-3 w-3 text-[#1877F2]" />
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.facebook.com/isvernacavediving"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1.5 font-semibold text-limestone-100 hover:text-karst-400 hover:underline"
+                    >
+                      <span>Visit Isverna Cave Diving</span>
+                      <ExternalLink className="h-3 w-3 text-[#1877F2]" />
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>

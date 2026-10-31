@@ -65,7 +65,16 @@ export function buildOrganizationJsonLd() {
       addressRegion: 'Arad',
       addressCountry: 'RO',
     },
-    sameAs: [company.facebookUrl, company.youtubeUrl],
+    sameAs: [
+      company.facebookUrl,
+      'https://www.facebook.com/Pe%C8%99tera-Grota-Ursului-Moneasa-108508321317590',
+      'https://www.facebook.com/share/1WHBh6Nj2z/',
+      'https://www.facebook.com/Belvedere-Moneasa-105856912164648',
+      'https://www.facebook.com/profile.php?id=100083662944867',
+      'https://www.facebook.com/profile.php?id=61575535798320',
+      'https://www.facebook.com/isvernacavediving',
+      company.youtubeUrl,
+    ],
   };
 }
 

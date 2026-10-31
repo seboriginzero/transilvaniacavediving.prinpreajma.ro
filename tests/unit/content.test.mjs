@@ -189,4 +189,30 @@ describe('Site Database, Visual Fidelity & Content Migration Unit Tests', () => 
       }
     }
   });
+
+  test('All official Facebook pages and links are present in Footer.tsx and site-database.json', async () => {
+    const dbPath = path.join(PROJECT_ROOT, 'src/content/site-database.json');
+    const db = JSON.parse(await fs.readFile(dbPath, 'utf8'));
+    assert.strictEqual(db.company.facebookUrl, 'https://www.facebook.com/cavedivingromania');
+
+    const footerPath = path.join(PROJECT_ROOT, 'src/components/Footer.tsx');
+    const footerContent = await fs.readFile(footerPath, 'utf8');
+
+    const requiredFbUrls = [
+      'https://www.facebook.com/cavedivingromania',
+      'https://www.facebook.com/Pe%C8%99tera-Grota-Ursului-Moneasa-108508321317590',
+      'https://www.facebook.com/Belvedere-Moneasa-105856912164648',
+      'https://www.facebook.com/share/1WHBh6Nj2z/',
+      'https://www.facebook.com/profile.php?id=100083662944867',
+      'https://www.facebook.com/profile.php?id=61575535798320',
+      'https://www.facebook.com/isvernacavediving',
+      'https://www.facebook.com/molnarjanoscave',
+      'https://www.facebook.com/minediving',
+      'https://www.facebook.com/MakitaRomaniaSRL/',
+    ];
+
+    for (const fbUrl of requiredFbUrls) {
+      assert.ok(footerContent.includes(fbUrl), `Missing Facebook URL in Footer.tsx: ${fbUrl}`);
+    }
+  });
 });
