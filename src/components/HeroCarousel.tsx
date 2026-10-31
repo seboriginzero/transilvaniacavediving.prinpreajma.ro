@@ -56,6 +56,13 @@ const HERO_SLIDES: HeroSlide[] = [
     linkHref: '/belvedere-moneasa',
     linkLabel: 'Traseul Belvedere',
   },
+  {
+    src: '/media/via-ferrata/via-ferrata-panorama-dezna.jpg',
+    title: 'Panoramă de pe Via Ferrata – Cetatea Dezna',
+    location: 'Puntea Nepaleză · Dealul Osoiu, Dezna, Județul Arad',
+    linkHref: '/via-ferrata-cetate-dezna',
+    linkLabel: 'Explorează Via Ferrata Dezna',
+  },
 ];
 
 export function HeroCarousel() {
