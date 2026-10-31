@@ -1,0 +1,72 @@
+{
+  "primaryDomain": "https://transilvaniacavediving.com",
+  "wpComSiteSlug": "transilvaniacavedivingcom.wordpress.com",
+  "allowedPageHosts": [
+    "transilvaniacavediving.com",
+    "www.transilvaniacavediving.com",
+    "transilvaniacavedivingcom.wordpress.com"
+  ],
+  "allowedApiHosts": [
+    "transilvaniacavediving.com",
+    "www.transilvaniacavediving.com",
+    "public-api.wordpress.com"
+  ],
+  "allowedMediaHosts": [
+    "transilvaniacavediving.com",
+    "www.transilvaniacavediving.com",
+    "transilvaniacavedivingcom.wordpress.com",
+    "transilvaniacavedivingcom.files.wordpress.com",
+    "i0.wp.com",
+    "i1.wp.com",
+    "i2.wp.com",
+    "s0.wp.com",
+    "s1.wp.com",
+    "s2.wp.com",
+    "videos.files.wordpress.com"
+  ],
+  "concurrency": 2,
+  "delayMs": 1000,
+  "maxRetries": 3,
+  "timeoutMs": 20000,
+  "maxHtmlBytes": 10485760,
+  "maxMediaBytes": 52428800,
+  "excludedPrefixes": [
+    "/wp-admin",
+    "/wp-login.php",
+    "/wp-signup.php",
+    "/press-this.php",
+    "/remote-login.php",
+    "/activate/",
+    "/cgi-bin/",
+    "/mshots/v1/",
+    "/next/",
+    "/public.api/",
+    "/xmlrpc.php"
+  ],
+  "excludedQueryParams": [
+    "replytocom",
+    "share",
+    " nb",
+    "like_comment",
+    "_wpnonce",
+    "preview",
+    "s"
+  ],
+  "seedPaths": [
+    "/",
+    "/blog/",
+    "/grota-ursului/",
+    "/pestera-liliecilor/",
+    "/pestera-uscata-de-la-moara/",
+    "/via-ferrata-cetate-dezna/",
+    "/moneasa-adventure/",
+    "/visit-isverna/",
+    "/magazin/",
+    "/contact/",
+    "/servicii/",
+    "/statiunea-moneasa/",
+    "/czaran-gyula/",
+    "/belvedere-moneasa/"
+  ]
+}
+

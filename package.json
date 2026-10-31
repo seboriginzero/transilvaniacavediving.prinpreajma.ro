@@ -1,0 +1,35 @@
+{
+  "name": "transilvania-cave-diving",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Transilvania Cave Diving — Explorare Speologică, Scufundări în Peșteri, Speoturism, Via Ferrata și Patrimoniu Carstic",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "tsc --noEmit",
+    "crawl": "node crawler/src/crawl.mjs",
+    "compile:content": "node scripts/compile-content-and-reports.mjs",
+    "verify:completeness": "node scripts/verify-completeness.mjs",
+    "test:unit": "node --test crawler/tests/*.test.mjs tests/unit/*.test.mjs",
+    "test:e2e": "playwright test",
+    "test": "npm run test:unit && npm run verify:completeness"
+  },
+  "dependencies": {
+    "lucide-react": "^0.454.0",
+    "next": "^14.2.15",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.48.2",
+    "@types/node": "^20.16.11",
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.1",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.14",
+    "typescript": "^5.6.3"
+  }
+}
+

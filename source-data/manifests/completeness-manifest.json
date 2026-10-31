@@ -1,0 +1,27 @@
+{
+  "generatedAt": "2026-10-31T12:20:08.172Z",
+  "sourcePagesCount": 17,
+  "sourcePostsCount": 36,
+  "sourceArchivesCount": 19,
+  "migratedPagesCount": 17,
+  "migratedPostsCount": 36,
+  "migratedArchivesCount": 19,
+  "completenessPercentage": 100,
+  "unmigratedPages": [],
+  "checklistVerification": {
+    "acasa": true,
+    "servicii": true,
+    "grotaUrsului": true,
+    "pesteraLiliecilor": true,
+    "sistemulCarsticMoara": true,
+    "viaFerrataDezna": true,
+    "belvedereMoneasa": true,
+    "moneasaAdventure": true,
+    "statiuneaMoneasa": true,
+    "czaranGyula": true,
+    "visitIsverna": true,
+    "magazin": true,
+    "contact": true,
+    "multilingualPages": true
+  }
+}
