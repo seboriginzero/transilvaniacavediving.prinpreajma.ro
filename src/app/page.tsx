@@ -83,13 +83,13 @@ export default function HomePage() {
           </Link>
         </div>
 
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 lg:gap-8">
           {mainDestinations.map((dest) => {
             if (!dest) return null;
             return (
               <article
                 key={dest.path}
-                className="group flex flex-col overflow-hidden rounded-xl border border-cavern-700 bg-cavern-800 shadow-md transition-all duration-300 hover:-translate-y-1 hover:border-cavern-600"
+                className="editorial-card group flex flex-col overflow-hidden rounded-2xl transition-all duration-300 hover:-translate-y-1"
               >
                 <Link href={dest.path} className="block w-full">
                   <CardMediaThumb src={dest.heroImage} alt={dest.cleanTitle} />
@@ -143,11 +143,11 @@ export default function HomePage() {
 
       {/* WARM NATURAL CALLOUT: GROTA URSULUI SCHEDULE */}
       <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="rounded-2xl border border-cavern-700 bg-cavern-800 p-6 shadow-lg sm:p-10">
+        <div className="editorial-card rounded-2xl p-6 sm:p-10">
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-12 lg:items-center">
             <div className="space-y-3 lg:col-span-8">
               <div className="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-safety-400">
-                <Clock className="h-4 w-4" aria-hidden="true" />
+                <Clock className="h-4 w-4 shrink-0" aria-hidden="true" />
                 <span>Program de vizitare — Peștera Grota Ursului, Stațiunea Moneasa</span>
               </div>
               <h2 className="font-serif text-2xl font-bold text-limestone-50 sm:text-3xl">
@@ -160,13 +160,13 @@ export default function HomePage() {
             <div className="flex flex-col gap-3 sm:flex-row lg:col-span-4 lg:justify-end">
               <Link
                 href="/grota-ursului"
-                className="inline-flex items-center justify-center gap-2 rounded-lg bg-karst-600 px-5 py-3 text-sm font-semibold text-limestone-50 transition hover:bg-karst-500"
+                className="inline-flex items-center justify-center gap-2 rounded-xl bg-karst-600 px-5 py-3 text-sm font-semibold text-limestone-50 transition hover:bg-karst-500"
               >
                 Detalii despre Grota Ursului
               </Link>
               <Link
                 href="/contact"
-                className="inline-flex items-center justify-center gap-2 rounded-lg border border-cavern-600 bg-cavern-900 px-5 py-3 text-sm font-medium text-limestone-100 transition hover:border-limestone-300"
+                className="inline-flex items-center justify-center gap-2 rounded-xl border border-cavern-600 bg-cavern-900 px-5 py-3 text-sm font-medium text-limestone-100 transition hover:border-limestone-300"
               >
                 Programează un grup
               </Link>
@@ -176,7 +176,7 @@ export default function HomePage() {
       </section>
 
       {/* SECTION 2: ACTIVITĂȚI, SERVICII ȘI PATRIMONIU */}
-      <section className="border-y border-cavern-700 bg-cavern-950/60 py-16">
+      <section className="border-y border-limestone-200/10 bg-cavern-950/60 py-14 sm:py-16">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mb-10 max-w-3xl">
             <p className="text-sm font-medium text-karst-400">
@@ -187,8 +187,8 @@ export default function HomePage() {
             </h2>
           </div>
 
-          <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
-            <div className="flex flex-col justify-between rounded-xl border border-cavern-700 bg-cavern-800 p-6">
+          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+            <div className="editorial-card flex flex-col justify-between rounded-2xl p-6">
               <div>
                 <Waves className="h-7 w-7 text-karst-400" aria-hidden="true" />
                 <h3 className="mt-4 font-serif text-xl font-bold text-limestone-50">
@@ -206,7 +206,7 @@ export default function HomePage() {
               </Link>
             </div>
 
-            <div className="flex flex-col justify-between rounded-xl border border-cavern-700 bg-cavern-800 p-6">
+            <div className="editorial-card flex flex-col justify-between rounded-2xl p-6">
               <div>
                 <Mountain className="h-7 w-7 text-safety-400" aria-hidden="true" />
                 <h3 className="mt-4 font-serif text-xl font-bold text-limestone-50">
@@ -224,7 +224,7 @@ export default function HomePage() {
               </Link>
             </div>
 
-            <div className="flex flex-col justify-between rounded-xl border border-cavern-700 bg-cavern-800 p-6">
+            <div className="editorial-card flex flex-col justify-between rounded-2xl p-6">
               <div>
                 <Wrench className="h-7 w-7 text-karst-400" aria-hidden="true" />
                 <h3 className="mt-4 font-serif text-xl font-bold text-limestone-50">
@@ -242,7 +242,7 @@ export default function HomePage() {
               </Link>
             </div>
 
-            <div className="flex flex-col justify-between rounded-xl border border-cavern-700 bg-cavern-800 p-6">
+            <div className="editorial-card flex flex-col justify-between rounded-2xl p-6">
               <div>
                 <BookOpen className="h-7 w-7 text-safety-400" aria-hidden="true" />
                 <h3 className="mt-4 font-serif text-xl font-bold text-limestone-50">
@@ -304,11 +304,11 @@ export default function HomePage() {
           </Link>
         </div>
 
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 lg:gap-8">
           {recentPosts.map((post) => (
             <article
               key={post.path}
-              className="group flex flex-col overflow-hidden rounded-xl border border-cavern-700 bg-cavern-800 transition-all duration-300 hover:-translate-y-1 hover:border-cavern-600"
+              className="editorial-card group flex flex-col overflow-hidden rounded-2xl transition-all duration-300 hover:-translate-y-1"
             >
               <Link href={post.path} className="block w-full">
                 <CardMediaThumb src={post.heroImage} alt={post.cleanTitle} />

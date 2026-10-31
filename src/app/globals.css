@@ -3,26 +3,44 @@
 @tailwind utilities;
 
 @layer base {
+  :root {
+    --bg-cavern-deep: #11100e;
+    --bg-cavern-canvas: #171512;
+    --bg-cavern-surface: #211e1a;
+    --border-limestone-subtle: rgba(226, 217, 200, 0.12);
+    --accent-karst: #6fb387;
+    --accent-amber: #dfa255;
+  }
+
   html {
     scroll-behavior: smooth;
-    background-color: #191714;
-    color: #f5efe4;
+    background-color: #171512;
+    color: #f4efe6;
+    text-rendering: optimizeLegibility;
   }
 
   body {
-    background-color: #191714;
-    color: #f5efe4;
+    background-color: #171512;
+    background-image:
+      radial-gradient(ellipse 80% 50% at 50% -10%, rgba(58, 120, 82, 0.11), transparent),
+      radial-gradient(ellipse 60% 40% at 85% 20%, rgba(198, 127, 50, 0.06), transparent);
+    background-attachment: fixed;
+    color: #f4efe6;
     -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
   }
 
   h1,
   h2,
-  h3 {
+  h3,
+  h4 {
     font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    letter-spacing: -0.015em;
   }
 
   ::selection {
-    background-color: #52946b;
+    background-color: #4e9468;
     color: #fdfbf7;
   }
 }
@@ -30,11 +48,20 @@
 @keyframes fadeUpSmooth {
   0% {
     opacity: 0;
-    transform: translateY(22px) scale(0.985);
+    transform: translateY(20px) scale(0.99);
   }
   100% {
     opacity: 1;
     transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes heroSlowZoom {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.045);
   }
 }
 
@@ -50,7 +77,7 @@
 @keyframes lightboxContentIn {
   0% {
     opacity: 0;
-    transform: scale(0.94) translateY(10px);
+    transform: scale(0.95) translateY(10px);
   }
   100% {
     opacity: 1;
@@ -59,7 +86,11 @@
 }
 
 .animate-fade-up {
-  animation: fadeUpSmooth 0.75s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  animation: fadeUpSmooth 0.7s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+.animate-hero-zoom {
+  animation: heroSlowZoom 7s ease-out forwards;
 }
 
 .animate-lightbox-backdrop {
@@ -68,6 +99,22 @@
 
 .animate-lightbox-content {
   animation: lightboxContentIn 0.35s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+/* Editorial Card & Surface Utilities */
+.editorial-card {
+  background: linear-gradient(180deg, rgba(33, 30, 26, 0.92) 0%, rgba(23, 21, 18, 0.96) 100%);
+  border: 1px solid rgba(226, 217, 200, 0.12);
+  box-shadow: 0 18px 40px -15px rgba(0, 0, 0, 0.65);
+  transition:
+    transform 0.35s cubic-bezier(0.22, 1, 0.36, 1),
+    border-color 0.35s ease,
+    box-shadow 0.35s ease;
+}
+
+.editorial-card:hover {
+  border-color: rgba(111, 179, 135, 0.42);
+  box-shadow: 0 24px 48px -12px rgba(0, 0, 0, 0.78);
 }
 
 /* Premium Tiled Gallery Hover & Transitions */
@@ -80,7 +127,7 @@
 
 .tiled-mosaic-item:hover {
   z-index: 2;
-  box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.75), 0 0 0 1px rgba(116, 180, 139, 0.4);
+  box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.75), 0 0 0 1px rgba(111, 179, 135, 0.45);
 }
 
 .tiled-mosaic-img {
@@ -90,8 +137,8 @@
 }
 
 .tiled-mosaic-item:hover .tiled-mosaic-img {
-  transform: scale(1.055);
-  filter: saturate(1.08) contrast(1.03);
+  transform: scale(1.045);
+  filter: saturate(1.06) contrast(1.02);
 }
 
 @media (prefers-reduced-motion: reduce) {

@@ -134,7 +134,7 @@ export function Header({ navigation, phonePrimary }: HeaderProps) {
   };
 
   return (
-    <header className="sticky top-0 z-50 border-b border-cavern-700/70 bg-cavern-900/90 backdrop-blur-md">
+    <header className="sticky top-0 z-50 border-b border-limestone-200/10 bg-cavern-950/75 backdrop-blur-xl transition-colors">
       <a
         href="#main-content"
         className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[100] focus:rounded-lg focus:bg-karst-600 focus:px-4 focus:py-2.5 focus:font-semibold focus:text-limestone-50 focus:shadow-lg"

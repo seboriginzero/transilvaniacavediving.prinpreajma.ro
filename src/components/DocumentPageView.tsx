@@ -109,9 +109,34 @@ export function DocumentPageView({
         />
 
         {/* Two-column layout: Main Document + Sidebar TOC/Action */}
-        <div className="mt-8 grid grid-cols-1 gap-10 lg:grid-cols-12">
+        <div className="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-12 lg:gap-10">
           <div className="lg:col-span-8">
-            <div className="rounded-2xl border border-cavern-700/80 bg-cavern-800/50 p-6 sm:p-8 shadow-xl">
+            {/* Mobile & Tablet Collapsible Table of Contents (visible below 1024px) */}
+            {tocHeadings.length > 1 && (
+              <details className="mb-6 rounded-2xl border border-cavern-700 bg-cavern-800/90 p-4 shadow-md lg:hidden">
+                <summary className="flex cursor-pointer items-center justify-between text-xs font-bold uppercase tracking-wider text-limestone-100">
+                  <span className="inline-flex items-center gap-2">
+                    <BookOpen className="h-4 w-4 text-karst-400" aria-hidden="true" />
+                    Cuprinsul Paginii ({tocHeadings.length} secțiuni)
+                  </span>
+                  <span className="font-mono text-[11px] text-karst-400">Deschide ▾</span>
+                </summary>
+                <ul className="mt-3 space-y-1.5 border-t border-cavern-700 pt-3 text-xs">
+                  {tocHeadings.map((h, i) => (
+                    <li key={i}>
+                      <a
+                        href={`#${slugifyHeading(h.text)}`}
+                        className="block rounded-lg px-2.5 py-1.5 text-limestone-200 transition hover:bg-cavern-700 hover:text-karst-400"
+                      >
+                        {h.text}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </details>
+            )}
+
+            <div className="editorial-card rounded-2xl p-5 sm:p-8">
               <MarkdownContent markdown={page.bodyMarkdown} />
             </div>
 
@@ -147,16 +172,16 @@ export function DocumentPageView({
 
           {/* Right Sidebar: TOC + Booking/Contact Card */}
           <aside className="space-y-6 lg:col-span-4">
-            {tocHeadings.length > 1 && (
-              <div className="sticky top-28 space-y-6">
-                <div className="rounded-2xl border border-cavern-700 bg-cavern-800/90 p-5 shadow-lg">
+            <div className="sticky top-24 space-y-6">
+              {tocHeadings.length > 1 && (
+                <div className="hidden rounded-2xl border border-cavern-700 bg-cavern-800/90 p-5 shadow-lg lg:block">
                   <div className="mb-3 flex items-center gap-2 border-b border-cavern-700 pb-3">
                     <BookOpen className="h-4 w-4 text-karst-400" aria-hidden="true" />
                     <h2 className="text-sm font-bold uppercase tracking-wider text-limestone-100">
                       Cuprinsul Paginii
                     </h2>
                   </div>
-                  <ul className="space-y-2 text-xs">
+                  <ul className="space-y-1.5 text-xs">
                     {tocHeadings.map((h, i) => (
                       <li key={i}>
                         <a
@@ -169,33 +194,33 @@ export function DocumentPageView({
                     ))}
                   </ul>
                 </div>
+              )}
 
-                {/* Quick Contact / Reservation Card */}
-                <div className="rounded-2xl border border-karst-500/40 bg-gradient-to-br from-cavern-800 to-cavern-900 p-5 shadow-lg">
-                  <h3 className="text-base font-bold text-limestone-100">
-                    Programări Ghidaj, Ture &amp; Informații
-                  </h3>
-                  <p className="mt-2 text-xs leading-relaxed text-limestone-300">
-                    Pentru programarea grupurilor la Peștera Grota Ursului, ture de speoturism, cave diving sau închiriere echipament Via Ferrata:
-                  </p>
-                  <div className="mt-4 space-y-2.5">
-                    <a
-                      href="tel:+40770846001"
-                      className="flex w-full items-center justify-center gap-2 rounded-xl bg-karst-600 px-4 py-2.5 text-sm font-bold text-cavern-950 transition hover:bg-karst-500"
-                    >
-                      <Phone className="h-4 w-4" aria-hidden="true" />
-                      +40 770 846 001
-                    </a>
-                    <Link
-                      href="/contact"
-                      className="flex w-full items-center justify-center gap-2 rounded-xl border border-cavern-600 bg-cavern-900 px-4 py-2.5 text-sm font-semibold text-limestone-100 transition hover:border-karst-400 hover:text-karst-400"
-                    >
-                      Formular de Contact <ArrowRight className="h-4 w-4" />
-                    </Link>
-                  </div>
+              {/* Quick Contact / Reservation Card (always visible on both mobile and desktop) */}
+              <div className="editorial-card rounded-2xl p-5">
+                <h3 className="font-serif text-base font-bold text-limestone-50">
+                  Programări Ghidaj, Ture &amp; Informații
+                </h3>
+                <p className="mt-2 text-xs leading-relaxed text-limestone-200">
+                  Pentru programarea grupurilor la Peștera Grota Ursului, ture de speoturism, cave diving sau închiriere echipament Via Ferrata:
+                </p>
+                <div className="mt-4 space-y-2.5">
+                  <a
+                    href="tel:+40770846001"
+                    className="flex w-full items-center justify-center gap-2 rounded-xl bg-karst-600 px-4 py-2.5 text-sm font-bold text-limestone-50 transition hover:bg-karst-500"
+                  >
+                    <Phone className="h-4 w-4" aria-hidden="true" />
+                    +40 770 846 001
+                  </a>
+                  <Link
+                    href="/contact"
+                    className="flex w-full items-center justify-center gap-2 rounded-xl border border-cavern-600 bg-cavern-900 px-4 py-2.5 text-sm font-semibold text-limestone-100 transition hover:border-karst-400 hover:text-karst-400"
+                  >
+                    Formular de Contact <ArrowRight className="h-4 w-4" />
+                  </Link>
                 </div>
               </div>
-            )}
+            </div>
           </aside>
         </div>
 
