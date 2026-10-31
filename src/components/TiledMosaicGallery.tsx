@@ -381,7 +381,7 @@ export function TiledMosaicGallery({
           role="dialog"
           aria-modal="true"
           aria-label="Vizualizare fotografie mărită"
-          className="animate-lightbox-backdrop fixed inset-0 z-[100] flex items-center justify-center bg-cavern-950/95 p-3 sm:p-6 backdrop-blur-md"
+          className="theme-hero-dark animate-lightbox-backdrop fixed inset-0 z-[100] flex items-center justify-center bg-cavern-950/95 p-3 sm:p-6 backdrop-blur-md"
           onClick={() => setActiveIndex(null)}
         >
           <div

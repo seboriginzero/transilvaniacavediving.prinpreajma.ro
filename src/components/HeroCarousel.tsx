@@ -83,7 +83,7 @@ export function HeroCarousel() {
       aria-label="Galerie foto principală Transilvania Cave Diving"
       onMouseEnter={() => setIsPaused(true)}
       onMouseLeave={() => setIsPaused(false)}
-      className="relative flex min-h-[68vh] flex-col justify-end overflow-hidden bg-cavern-950 sm:min-h-[76vh] lg:min-h-[84vh]"
+      className="theme-hero-dark relative flex min-h-[68vh] flex-col justify-end overflow-hidden bg-cavern-950 sm:min-h-[76vh] lg:min-h-[84vh]"
     >
       {/* Full-bleed natural photography slides with subtle editorial zoom */}
       <div className="absolute inset-0 z-0">

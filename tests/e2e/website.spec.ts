@@ -396,6 +396,72 @@ test.describe('Transilvania Cave Diving — End-to-End & Visual Fidelity Verific
     expect(page.url()).toContain('/magazin');
   });
 
+  test('Dual-Mode Figma Theme (Carpathian Dark & Sunlit Travertine Light) toggles palette, logos, and persists', async ({
+    page
+  }) => {
+    await page.setViewportSize({ width: 1440, height: 900 });
+    await page.goto('/');
+
+    // 1. Default theme is Dark ("Carpathian Karst": #171512 -> rgb(23, 21, 18))
+    const html = page.locator('html');
+    const body = page.locator('body');
+    await expect(html).toHaveAttribute('data-theme', 'dark');
+    await expect(body).toHaveCSS('background-color', 'rgb(23, 21, 18)');
+
+    // Dark logo is visible, Light logo is hidden
+    await expect(page.locator('header img.logo-dark-mode')).toBeVisible();
+    await expect(page.locator('header img.logo-light-mode')).toBeHidden();
+
+    // 2. Click theme toggle button to switch to Light Mode ("Sunlit Travertine": #F5F0E6 -> rgb(245, 240, 230))
+    const toggleBtn = page.getByTestId('theme-toggle-desktop');
+    await expect(toggleBtn).toBeVisible();
+    await toggleBtn.click();
+
+    await expect(html).toHaveAttribute('data-theme', 'light');
+    await expect(body).toHaveCSS('background-color', 'rgb(245, 240, 230)');
+    await expect(body).toHaveCSS('color', 'rgb(36, 44, 38)');
+
+    // Light logo is visible, Dark logo is hidden
+    await expect(page.locator('header img.logo-light-mode')).toBeVisible();
+    await expect(page.locator('header img.logo-dark-mode')).toBeHidden();
+
+    // Hero carousel preserves dark photographic overlay (.theme-hero-dark) even in Light Mode
+    await expect(page.locator('.theme-hero-dark h1')).toHaveCSS('color', 'rgb(253, 251, 247)');
+
+    // 3. Reload page and verify Light theme persists via localStorage
+    await page.reload();
+    await expect(html).toHaveAttribute('data-theme', 'light');
+    await expect(body).toHaveCSS('background-color', 'rgb(245, 240, 230)');
+
+    // 4. Toggle back to Dark Mode
+    await toggleBtn.click();
+    await expect(html).toHaveAttribute('data-theme', 'dark');
+    await expect(body).toHaveCSS('background-color', 'rgb(23, 21, 18)');
+
+    // 5. Verify SVG Favicon and 2-second Animated Logo (Mountains <-> Vampire SVG)
+    const favRes = await page.request.get('/favicon.svg');
+    expect(favRes.status()).toBe(200);
+    const favSvgText = await favRes.text();
+    expect(favSvgText).toContain('<svg');
+    expect(favSvgText).toContain('M3460 5950');
+
+    const darkLogoRes = await page.request.get('/media/logos/tcd-logo.svg');
+    expect(darkLogoRes.status()).toBe(200);
+    const darkLogoText = await darkLogoRes.text();
+    expect(darkLogoText).toContain('scene-mountains');
+    expect(darkLogoText).toContain('scene-vampire');
+    expect(darkLogoText).toContain('tcdToggleVampire 4s');
+    expect(darkLogoText).toContain('M3460 5950');
+
+    const lightLogoRes = await page.request.get('/media/logos/tcd-logo-light.svg');
+    expect(lightLogoRes.status()).toBe(200);
+    const lightLogoText = await lightLogoRes.text();
+    expect(lightLogoText).toContain('scene-mountains');
+    expect(lightLogoText).toContain('scene-vampire');
+    expect(lightLogoText).toContain('tcdToggleVampire 4s');
+    expect(lightLogoText).toContain('M3460 5950');
+  });
+
   test('404 page renders helpful navigation and HTTP 404 status', async ({ page }) => {
     const res = await page.goto('/pagina-inexistenta-xyz-404');
     expect(res?.status()).toBe(404);

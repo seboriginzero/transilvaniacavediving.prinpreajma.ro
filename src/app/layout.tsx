@@ -13,6 +13,14 @@ export const metadata: Metadata = {
   },
   description:
     'Transilvania Cave Diving — Peștera Grota Ursului Moneasa, Peștera Liliecilor, Sistemul Carstic de la Moară, Via Ferrata Cetatea Dezna, Peștera Isverna, cursuri IANTD, echipamente și lucrări subacvatice.',
+  icons: {
+    icon: [
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+      { url: '/media/logos/tcd-vampire-logo.svg', type: 'image/svg+xml' },
+    ],
+    shortcut: '/favicon.svg',
+    apple: '/favicon.svg',
+  },
   openGraph: {
     siteName: 'Transilvania Cave Diving',
     locale: 'ro_RO',
@@ -31,8 +39,13 @@ export default function RootLayout({
   const siteJsonLd = buildWebSiteJsonLd();
 
   return (
-    <html lang="ro" className="dark">
+    <html lang="ro" className="dark" data-theme="dark" suppressHydrationWarning>
       <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(function(){try{var t=localStorage.getItem('tcd-theme');if(t==='light'||t==='dark'){document.documentElement.setAttribute('data-theme',t);document.documentElement.classList.remove('light','dark');document.documentElement.classList.add(t);}}catch(e){}})();`,
+          }}
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(orgJsonLd) }}

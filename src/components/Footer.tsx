@@ -39,7 +39,14 @@ export function Footer({ company }: FooterProps) {
               <img
                 src="/media/logos/tcd-logo.svg"
                 alt="Transilvania Cave Diving"
-                className="h-11 w-auto"
+                className="logo-dark-mode h-11 w-auto"
+                width={176}
+                height={44}
+              />
+              <img
+                src="/media/logos/tcd-logo-light.svg"
+                alt="Transilvania Cave Diving"
+                className="logo-light-mode h-11 w-auto"
                 width={176}
                 height={44}
               />

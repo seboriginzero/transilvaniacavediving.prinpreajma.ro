@@ -3,32 +3,107 @@
 @tailwind utilities;
 
 @layer base {
-  :root {
-    --bg-cavern-deep: #11100e;
-    --bg-cavern-canvas: #171512;
-    --bg-cavern-surface: #211e1a;
-    --border-limestone-subtle: rgba(226, 217, 200, 0.12);
-    --accent-karst: #6fb387;
-    --accent-amber: #dfa255;
+  /* ==========================================================================
+   * MODE 1 (DEFAULT): DARK THEME — "Carpathian Karst & Subterranean Heritage"
+   * Deep subterranean basalt, warm wet slate, travertine text, emerald sump
+   * ========================================================================== */
+  :root,
+  html[data-theme="dark"],
+  html.dark,
+  .theme-hero-dark {
+    --cavern-950: 17 16 14;       /* #11100E - Deepest cavern shadow */
+    --cavern-900: 23 21 18;       /* #171512 - Main subterranean canvas */
+    --cavern-800: 33 30 26;       /* #211E1A - Elevated limestone card surface */
+    --cavern-700: 51 46 39;       /* #332E27 - Warm mineral border */
+    --cavern-600: 73 65 56;       /* #494138 - Active border / divider */
+    --cavern-500: 102 91 78;      /* #665B4E */
+
+    --limestone-50: 253 251 247;  /* #FDFBF7 - Pure calcite heading white */
+    --limestone-100: 244 239 230; /* #F4EFE6 - Primary travertine body text */
+    --limestone-200: 226 217 200; /* #E2D9C8 - Secondary editorial copy */
+    --limestone-300: 194 182 161; /* #C2B6A1 - Captions & metadata */
+    --limestone-400: 150 138 118; /* #968A76 - Muted labels */
+
+    --karst-300: 148 204 167;     /* #94CCA7 */
+    --karst-400: 111 179 135;     /* #6FB387 - Sump emerald interactive accent */
+    --karst-500: 78 148 104;      /* #4E9468 */
+    --karst-600: 58 120 82;       /* #3A7852 - Primary CTA button surface */
+    --karst-700: 43 92 62;        /* #2B5C3E */
+
+    --safety-300: 236 192 130;    /* #ECC082 */
+    --safety-400: 223 162 85;     /* #DFA255 - Aragonite headlamp amber */
+    --safety-500: 198 127 50;     /* #C67F32 */
+    --safety-600: 158 97 30;      /* #9E611E */
+
+    --marble-500: 140 45 45;      /* #8C2D2D */
+    --marble-600: 110 32 32;      /* #6E2020 */
+
+    color-scheme: dark;
+  }
+
+  /* ==========================================================================
+   * MODE 2: LIGHT THEME — "Sunlit Travertine & Alpine Limestone" (Figma Light)
+   * Warm sunlit limestone parchment (#F5F0E6), crisp alabaster cards (#FDFBF7),
+   * deep forest basalt ink (#161D18), and Codru-Moma pine green (#21623D).
+   * ========================================================================== */
+  html[data-theme="light"],
+  html.light {
+    --cavern-950: 233 224 209;    /* #E9E0D1 - Warm travertine stone well / footer */
+    --cavern-900: 245 240 230;    /* #F5F0E6 - Main sunlit limestone parchment canvas */
+    --cavern-800: 253 251 247;    /* #FDFBF7 - Crisp warm alabaster card surface */
+    --cavern-700: 210 198 178;    /* #D2C6B2 - Warm mineral border stroke */
+    --cavern-600: 181 166 143;    /* #B5A68F - Defined limestone border */
+    --cavern-500: 145 130 109;    /* #91826D */
+
+    --limestone-50: 22 29 24;     /* #161D18 - Deep forest basalt ink (headings) */
+    --limestone-100: 36 44 38;    /* #242C26 - Rich charcoal-moss body text */
+    --limestone-200: 60 70 62;    /* #3C463E - Warm slate editorial text */
+    --limestone-300: 86 96 88;    /* #566058 - Balanced mineral metadata (AA contrast) */
+    --limestone-400: 110 120 112; /* #6E7870 - Muted labels */
+
+    --karst-300: 25 79 47;        /* #194F2F - Deep pine hover accent */
+    --karst-400: 33 98 61;        /* #21623D - High-contrast Codru-Moma forest green */
+    --karst-500: 42 116 73;       /* #2A7449 - Hover CTA button surface */
+    --karst-600: 37 102 64;       /* #256640 - Primary CTA button surface */
+    --karst-700: 28 80 50;        /* #1C5032 */
+
+    --safety-300: 140 70 12;      /* #8C460C */
+    --safety-400: 163 83 16;      /* #A35310 - Rich terracotta/aragonite ochre text */
+    --safety-500: 186 99 24;      /* #BA6318 - Amber border/badge */
+    --safety-600: 145 75 15;      /* #914B0F */
+
+    --marble-500: 153 38 38;      /* #992626 */
+    --marble-600: 122 28 28;      /* #7A1C1C */
+
+    color-scheme: light;
   }
 
   html {
     scroll-behavior: smooth;
-    background-color: #171512;
-    color: #f4efe6;
+    background-color: rgb(var(--cavern-900));
+    color: rgb(var(--limestone-100));
     text-rendering: optimizeLegibility;
+    transition: background-color 0.25s ease, color 0.25s ease;
   }
 
   body {
-    background-color: #171512;
+    background-color: rgb(var(--cavern-900));
     background-image:
       radial-gradient(ellipse 80% 50% at 50% -10%, rgba(58, 120, 82, 0.11), transparent),
       radial-gradient(ellipse 60% 40% at 85% 20%, rgba(198, 127, 50, 0.06), transparent);
     background-attachment: fixed;
-    color: #f4efe6;
+    color: rgb(var(--limestone-100));
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     overflow-x: hidden;
+    transition: background-color 0.25s ease, color 0.25s ease;
+  }
+
+  html[data-theme="light"] body,
+  html.light body {
+    background-image:
+      radial-gradient(ellipse 80% 50% at 50% -10%, rgba(37, 102, 64, 0.07), transparent),
+      radial-gradient(ellipse 60% 40% at 85% 20%, rgba(186, 99, 24, 0.05), transparent);
   }
 
   h1,
@@ -40,9 +115,31 @@
   }
 
   ::selection {
-    background-color: #4e9468;
+    background-color: #3a7852;
     color: #fdfbf7;
   }
+}
+
+/* Primary solid green CTA buttons always maintain warm white text in both Dark and Light mode */
+.bg-karst-600,
+.bg-karst-500 {
+  color: #fdfbf7 !important;
+}
+
+/* Theme-aware Header & Footer Logos */
+.logo-light-mode {
+  display: none;
+}
+.logo-dark-mode {
+  display: block;
+}
+html[data-theme="light"] .logo-light-mode,
+html.light .logo-light-mode {
+  display: block;
+}
+html[data-theme="light"] .logo-dark-mode,
+html.light .logo-dark-mode {
+  display: none;
 }
 
 @keyframes fadeUpSmooth {
@@ -101,7 +198,7 @@
   animation: lightboxContentIn 0.35s cubic-bezier(0.22, 1, 0.36, 1) forwards;
 }
 
-/* Editorial Card & Surface Utilities */
+/* Editorial Card & Surface Utilities (Dual-Mode Figma Tokens) */
 .editorial-card {
   background: linear-gradient(180deg, rgba(33, 30, 26, 0.92) 0%, rgba(23, 21, 18, 0.96) 100%);
   border: 1px solid rgba(226, 217, 200, 0.12);
@@ -109,12 +206,30 @@
   transition:
     transform 0.35s cubic-bezier(0.22, 1, 0.36, 1),
     border-color 0.35s ease,
-    box-shadow 0.35s ease;
+    box-shadow 0.35s ease,
+    background 0.25s ease;
 }
 
 .editorial-card:hover {
   border-color: rgba(111, 179, 135, 0.42);
   box-shadow: 0 24px 48px -12px rgba(0, 0, 0, 0.78);
+}
+
+html[data-theme="light"] .editorial-card,
+html.light .editorial-card {
+  background: linear-gradient(180deg, rgba(253, 251, 247, 0.98) 0%, rgba(248, 243, 234, 0.98) 100%);
+  border: 1px solid rgba(181, 166, 143, 0.55);
+  box-shadow:
+    0 14px 32px -12px rgba(36, 30, 20, 0.08),
+    0 2px 6px -1px rgba(36, 30, 20, 0.04);
+}
+
+html[data-theme="light"] .editorial-card:hover,
+html.light .editorial-card:hover {
+  border-color: rgba(33, 98, 61, 0.45);
+  box-shadow:
+    0 20px 40px -12px rgba(36, 30, 20, 0.14),
+    0 4px 10px -2px rgba(36, 30, 20, 0.06);
 }
 
 /* Premium Tiled Gallery Hover & Transitions */
@@ -128,6 +243,11 @@
 .tiled-mosaic-item:hover {
   z-index: 2;
   box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.75), 0 0 0 1px rgba(111, 179, 135, 0.45);
+}
+
+html[data-theme="light"] .tiled-mosaic-item:hover,
+html.light .tiled-mosaic-item:hover {
+  box-shadow: 0 18px 36px -12px rgba(36, 30, 20, 0.22), 0 0 0 1px rgba(33, 98, 61, 0.45);
 }
 
 .tiled-mosaic-img {
