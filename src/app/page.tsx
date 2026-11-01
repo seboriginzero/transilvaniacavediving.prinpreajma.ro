@@ -1,356 +1,306 @@
 import React from 'react';
 import Link from 'next/link';
-import {
-  Waves,
-  Mountain,
-  BookOpen,
-  Wrench,
-  ArrowRight,
-  Clock,
-  MapPin,
-} from 'lucide-react';
-import {
-  getPageByPath,
-  getAllPages,
-  getAllPosts,
-} from '@/lib/content';
-import { MediaGallery } from '@/components/MediaGallery';
+import { ArrowRight, ArrowUpRight, Clock, MapPin, Phone, Ticket } from 'lucide-react';
+import { getCompanyInfo } from '@/lib/content';
+import { getDynamicSettings } from '@/lib/settings';
 import { HeroCarousel } from '@/components/HeroCarousel';
-import { TiledMosaicGallery } from '@/components/TiledMosaicGallery';
-import { EquipmentShowcase } from '@/components/EquipmentShowcase';
-import { CardMediaThumb } from '@/components/CardMediaThumb';
+
+export const dynamic = 'force-dynamic';
+
+const DESTINATIONS = [
+  {
+    href: '/via-ferrata-cetate-dezna',
+    img: '/media/via-ferrata/vlcsnap-2023-03-05-14h44m12s820-1.jpg',
+    kicker: 'Dezna · Dealul Osoiu',
+    title: 'Via Ferrata Cetatea Dezna',
+    fact: '600 m · grad B · punte indiană de 25 m',
+  },
+  {
+    href: '/belvedere-moneasa',
+    img: '/media/belvedere/belvedere-moneasa-2.jpg',
+    kicker: 'Moneasa · marcaj punct roșu',
+    title: 'Belvedere și Cariera de Marmură',
+    fact: '2,7 km · ~1,5 ore · dificultate mică – medie',
+  },
+  {
+    href: '/pestera-liliecilor',
+    img: '/media/pestera-liliecilor/img_20250703_192845_163.jpg',
+    kicker: 'Moneasa · bandă albastră',
+    title: 'Peștera Liliecilor',
+    fact: '1,3 km de traseu · sit arheologic RAN 11487.01',
+  },
+  {
+    href: '/pestera-uscata-de-la-moara',
+    img: '/media/sistemul-carstic/whatsapp-image-2026-10-06-at-19.59.12-1-1.jpeg',
+    kicker: 'Natura 2000 · ROSCI0042',
+    title: 'Sistemul Carstic de la Moară',
+    fact: 'Peștera cu Apă de la Moară · 1.750 m',
+  },
+];
+
+const TIMELINE = [
+  { year: '1597', text: 'Prima atestare documentară: donația principelui Sigismund Báthory către Kornis Gáspár.' },
+  { year: '1746', text: 'Conscripția consemnează moara de apă care dă numele Dealului Morii.' },
+  { year: '1891–1893', text: 'Sunt forate izvoarele mezotermale (24 – 32 °C) și amenajate traseele lui Czárán Gyula.' },
+  { year: '1893', text: 'Se deschide calea ferată îngustă Sebiș – Moneasa (23,6 km), activă până în 1962.' },
+  { year: '1896', text: '13 mai: Moneasa primește statutul oficial de stațiune balneară.' },
+  { year: '1906', text: '19 august: este dezvelită placa comemorativă Czárán Gyula din Moneasa.' },
+];
 
 export default function HomePage() {
-  const homePage = getPageByPath('/');
-  const allPages = getAllPages();
-  const recentPosts = getAllPosts().slice(0, 6);
-
-  const mainDestinations = [
-    '/grota-ursului',
-    '/pestera-liliecilor',
-    '/pestera-uscata-de-la-moara',
-    '/via-ferrata-cetate-dezna',
-    '/belvedere-moneasa',
-    '/visit-isverna',
-  ]
-    .map((p) => allPages.find((page) => page.path === p))
-    .filter(Boolean);
-
-  // Exact first 5 images from the original homepage Jetpack Tiled Gallery (home.html)
-  const introMosaicImages = (homePage?.images || []).slice(0, 5).map((img) => ({
-    src: img.localPath,
-    alt: img.alt,
-    caption: img.caption,
-    credit: img.credit,
-    width: img.width,
-    height: img.height,
-  }));
-
-  // Remaining photos from the homepage archive
-  const remainingHomeImages = (homePage?.images || []).slice(5);
+  const settings = getDynamicSettings();
+  const company = getCompanyInfo();
+  const g = settings.grotaUrsului;
 
   return (
-    <div className="space-y-20 pb-20">
-      {/* FULL-BLEED NATURAL PHOTOGRAPHY CAROUSEL */}
-      <HeroCarousel />
+    <>
+      <HeroCarousel settings={settings} />
 
-      {/* ORIGINAL HOMEPAGE STATEMENT & 5-IMAGE JETPACK TILED MOSAIC */}
-      <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="mx-auto mb-8 max-w-4xl text-center">
-          <p className="font-serif text-xl italic leading-relaxed text-limestone-100 sm:text-2xl">
-            „Transilvania” este un proiect dedicat promovării activităților de turism speologic, a scufundărilor, precum și pentru amenajarea și promovarea altor destinații turistice.
-          </p>
-        </div>
-        <TiledMosaicGallery images={introMosaicImages} />
-      </section>
-
-      {/* SECTION 1: DESCOPERĂ OBIECTIVELE CARSTICE ȘI MONTANE */}
-      <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="mb-10 flex flex-wrap items-end justify-between gap-4 border-b border-cavern-700 pb-5">
-          <div>
-            <p className="text-sm font-medium text-karst-400">
-              Peșteri, rezervații naturale și trasee montane
-            </p>
-            <h2 className="mt-1 font-serif text-3xl font-bold text-limestone-50 sm:text-4xl">
-              Descoperă Locurile și Peșterile Noastre
-            </h2>
-          </div>
-          <Link
-            href="/descopera"
-            className="inline-flex items-center gap-1.5 text-sm font-medium text-limestone-200 hover:text-karst-400"
-          >
-            Vezi toate obiectivele <ArrowRight className="h-4 w-4" />
-          </Link>
-        </div>
-
-        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 lg:gap-8">
-          {mainDestinations.map((dest) => {
-            if (!dest) return null;
-            return (
-              <article
-                key={dest.path}
-                className="editorial-card group flex flex-col overflow-hidden rounded-2xl transition-all duration-300 hover:-translate-y-1"
-              >
-                <Link href={dest.path} className="block w-full">
-                  <CardMediaThumb src={dest.heroImage} alt={dest.cleanTitle} />
-                </Link>
-
-                <div className="flex flex-1 flex-col justify-between p-6">
-                  <div>
-                    <div className="flex items-center gap-1.5 text-xs text-limestone-300">
-                      <MapPin className="h-3.5 w-3.5 shrink-0 text-karst-400" aria-hidden="true" />
-                      <span>{dest.region}</span>
-                    </div>
-                    <h3 className="mt-2 font-serif text-2xl font-bold text-limestone-50 group-hover:text-karst-400">
-                      <Link href={dest.path}>{dest.cleanTitle}</Link>
-                    </h3>
-                    <p className="mt-2.5 line-clamp-3 text-sm leading-relaxed text-limestone-200">
-                      {dest.metaDescription}
-                    </p>
-                  </div>
-
-                  <div className="mt-6 flex items-center justify-between border-t border-cavern-700/80 pt-4">
-                    <div className="flex items-center gap-2">
-                      {dest.translations && dest.translations.length > 0 ? (
-                        dest.translations.map((t) => (
-                          <Link
-                            key={t.path}
-                            href={t.path}
-                            className="rounded border border-cavern-700 bg-cavern-900 px-2 py-0.5 text-xs text-limestone-300 hover:text-karst-400"
-                          >
-                            {t.lang.toUpperCase()}
-                          </Link>
-                        ))
-                      ) : (
-                        <span className="text-xs text-limestone-400">
-                          {dest.images.length} fotografii
-                        </span>
-                      )}
-                    </div>
-                    <Link
-                      href={dest.path}
-                      className="inline-flex items-center gap-1 text-sm font-medium text-karst-400 transition group-hover:translate-x-0.5"
-                    >
-                      Citește povestea <ArrowRight className="h-3.5 w-3.5" />
-                    </Link>
-                  </div>
-                </div>
-              </article>
-            );
-          })}
-        </div>
-      </section>
-
-      {/* WARM NATURAL CALLOUT: GROTA URSULUI SCHEDULE */}
-      <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="editorial-card rounded-2xl p-6 sm:p-10">
-          <div className="grid grid-cols-1 gap-8 lg:grid-cols-12 lg:items-center">
-            <div className="space-y-3 lg:col-span-8">
-              <div className="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-safety-400">
-                <Clock className="h-4 w-4 shrink-0" aria-hidden="true" />
-                <span>Program de vizitare — Peștera Grota Ursului, Stațiunea Moneasa</span>
-              </div>
-              <h2 className="font-serif text-2xl font-bold text-limestone-50 sm:text-3xl">
-                Deschisă sâmbăta și duminica între orele 11:00 – 16:00
-              </h2>
-              <p className="text-sm leading-relaxed text-limestone-200 sm:text-base">
-                Traseu turistic amenajat și iluminat de 200 m până în Sala Czárán Gyula, alături de expoziția picturilor rupestre din Peștera Coliboaia (cca. 36.000 ani). Bilete: <strong>20 lei</strong> adulți și copii peste 14 ani · <strong>10 lei</strong> copii sub 14 ani · <strong>Gratuit</strong> pentru copii sub 5 ani, speologi și salvatori montani/speologi legitimați. Pentru grupuri organizate, deschidem și în afara programului, pe bază de programare.
+      {/* ───────────── Planifică vizita ───────────── */}
+      <section aria-labelledby="visit-title" className="border-b border-cavern-700">
+        <div className="mx-auto max-w-[1440px] px-5 sm:px-8 lg:px-12">
+          <h2 id="visit-title" className="sr-only">
+            Informații de vizitare Grota Ursului
+          </h2>
+          <div className="grid grid-cols-1 divide-y divide-cavern-700 md:grid-cols-2 md:divide-y-0 lg:grid-cols-4 lg:divide-x">
+            <div className="py-8 lg:pr-8">
+              <p className="flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.18em] text-limestone-400">
+                <Clock className="h-3.5 w-3.5 text-karst-400" /> Program Grota Ursului
+              </p>
+              <p className="mt-3 font-display text-2xl font-semibold text-limestone-50">{g.hours}</p>
+              <p className="mt-1 text-sm text-limestone-300">{g.days}</p>
+            </div>
+            <div className="py-8 lg:px-8">
+              <p className="flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.18em] text-limestone-400">
+                <Ticket className="h-3.5 w-3.5 text-karst-400" /> Bilete
+              </p>
+              <p className="mt-3 font-display text-2xl font-semibold text-limestone-50">
+                {g.adultPrice} lei <span className="text-base font-normal text-limestone-300">adulți</span>
+              </p>
+              <p className="mt-1 text-sm text-limestone-300">
+                {g.childPrice} lei copii până la 14 ani · sub 5 ani gratuit
               </p>
             </div>
-            <div className="flex flex-col gap-3 sm:flex-row lg:col-span-4 lg:justify-end">
-              <Link
-                href="/grota-ursului"
-                className="inline-flex items-center justify-center gap-2 rounded-xl bg-karst-600 px-5 py-3 text-sm font-semibold text-limestone-50 transition hover:bg-karst-500"
+            <div className="py-8 lg:px-8">
+              <p className="flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.18em] text-limestone-400">
+                <Phone className="h-3.5 w-3.5 text-karst-400" /> Grupuri și programări
+              </p>
+              <a
+                href={`tel:${g.phoneContact.replace(/\s+/g, '')}`}
+                className="mt-3 block font-display text-2xl font-semibold text-limestone-50 hover:text-karst-400"
               >
-                Detalii despre Grota Ursului
-              </Link>
-              <Link
-                href="/contact"
-                className="inline-flex items-center justify-center gap-2 rounded-xl border border-cavern-600 bg-cavern-900 px-5 py-3 text-sm font-medium text-limestone-100 transition hover:border-limestone-300"
+                {g.phoneContact}
+              </a>
+              <p className="mt-1 text-sm text-limestone-300">Grupuri organizate și în afara programului, pe bază de programare</p>
+            </div>
+            <div className="py-8 lg:pl-8">
+              <p className="flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.18em] text-limestone-400">
+                <MapPin className="h-3.5 w-3.5 text-karst-400" /> Locație
+              </p>
+              <p className="mt-3 font-display text-2xl font-semibold text-limestone-50">Moneasa, Arad</p>
+              <a
+                href={company.mapsGrotaUrsului}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-1 inline-flex items-center gap-1 text-sm font-medium text-karst-400 hover:underline"
               >
-                Programează un grup
-              </Link>
+                Deschide în Google Maps <ArrowUpRight className="h-3.5 w-3.5" />
+              </a>
             </div>
           </div>
         </div>
       </section>
 
-      {/* SECTION 2: ACTIVITĂȚI, SERVICII ȘI PATRIMONIU */}
-      <section className="border-y border-limestone-200/10 bg-cavern-950/60 py-14 sm:py-16">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="mb-10 max-w-3xl">
-            <p className="text-sm font-medium text-karst-400">
-              Experiențe în natură și activități specializate
+      {/* ───────────── Grota Ursului feature ───────────── */}
+      <section className="mx-auto max-w-[1440px] px-5 py-20 sm:px-8 lg:px-12 lg:py-28">
+        <div className="grid grid-cols-1 items-center gap-10 lg:grid-cols-12 lg:gap-16">
+          <div className="overflow-hidden rounded-3xl bg-white shadow-xl lg:col-span-7">
+            <img
+              src="/media/logos/logo-grota-ursului-2025.jpg"
+              alt="Grota Ursului Moneasa"
+              loading="lazy"
+              className="aspect-[3/2] w-full object-cover"
+            />
+          </div>
+
+          <div className="lg:col-span-5">
+            <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-karst-400">
+              Peștera de la Băi · Grota Ursului
             </p>
-            <h2 className="mt-1 font-serif text-3xl font-bold text-limestone-50 sm:text-4xl">
-              Cu ce ne ocupăm
+            <h2 className="mt-4 font-display text-4xl font-bold leading-[1.05] text-limestone-50 sm:text-5xl">
+              Un sistem carstic pe două niveluri: fosil și activ.
             </h2>
-          </div>
-
-          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
-            <div className="editorial-card flex flex-col justify-between rounded-2xl p-6">
-              <div>
-                <Waves className="h-7 w-7 text-karst-400" aria-hidden="true" />
-                <h3 className="mt-4 font-serif text-xl font-bold text-limestone-50">
-                  Scufundări în Peșteri (Cave Diving)
-                </h3>
-                <p className="mt-2.5 text-sm leading-relaxed text-limestone-200">
-                  Ture ghidate în peșteri și galerii de mină scufundate din România și străinătate pentru scafandri brevetați, plus cursuri IANTD (Side Mount, Cavern, Intro to Cave).
-                </p>
-              </div>
-              <Link
-                href="/cave-diving"
-                className="mt-6 inline-flex items-center gap-1.5 text-sm font-medium text-karst-400 hover:underline"
-              >
-                Află mai multe <ArrowRight className="h-3.5 w-3.5" />
-              </Link>
-            </div>
-
-            <div className="editorial-card flex flex-col justify-between rounded-2xl p-6">
-              <div>
-                <Mountain className="h-7 w-7 text-safety-400" aria-hidden="true" />
-                <h3 className="mt-4 font-serif text-xl font-bold text-limestone-50">
-                  Speoturism, Via Ferrata și Școala Altfel
-                </h3>
-                <p className="mt-2.5 text-sm leading-relaxed text-limestone-200">
-                  Ture de speoturism cu echipament complet în Grota Ursului (250–1.500 m), traseul Via Ferrata Cetatea Dezna și excursii școlare Moneasa Adventure.
-                </p>
-              </div>
-              <Link
-                href="/aventuri"
-                className="mt-6 inline-flex items-center gap-1.5 text-sm font-medium text-safety-400 hover:underline"
-              >
-                Vezi programele <ArrowRight className="h-3.5 w-3.5" />
-              </Link>
-            </div>
-
-            <div className="editorial-card flex flex-col justify-between rounded-2xl p-6">
-              <div>
-                <Wrench className="h-7 w-7 text-karst-400" aria-hidden="true" />
-                <h3 className="mt-4 font-serif text-xl font-bold text-limestone-50">
-                  Lucrări Subacvatice și la Înălțime
-                </h3>
-                <p className="mt-2.5 text-sm leading-relaxed text-limestone-200">
-                  Inspecții, mentenanță și lucrări subacvatice la baraje, hidrocentrale și stații de pompare, precum și lucrări în puțuri, spații înguste și amenajări turistice.
-                </p>
-              </div>
-              <Link
-                href="/servicii"
-                className="mt-6 inline-flex items-center gap-1.5 text-sm font-medium text-karst-400 hover:underline"
-              >
-                Vezi serviciile <ArrowRight className="h-3.5 w-3.5" />
-              </Link>
-            </div>
-
-            <div className="editorial-card flex flex-col justify-between rounded-2xl p-6">
-              <div>
-                <BookOpen className="h-7 w-7 text-safety-400" aria-hidden="true" />
-                <h3 className="mt-4 font-serif text-xl font-bold text-limestone-50">
-                  Istoria Moneasa și Czárán Gyula
-                </h3>
-                <p className="mt-2.5 text-sm leading-relaxed text-limestone-200">
-                  Monografia istorică a Stațiunii Moneasa (1597–prezent), viața pionierului turismului în Munții Apuseni, Czárán Gyula (1847–1906), și cărți poștale de epocă.
-                </p>
-              </div>
-              <Link
-                href="/istorie-si-patrimoniu"
-                className="mt-6 inline-flex items-center gap-1.5 text-sm font-medium text-safety-400 hover:underline"
-              >
-                Citește istoria locului <ArrowRight className="h-3.5 w-3.5" />
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* SECTION 3: MAGAZIN ECHIPAMENTE (PROFESSIONAL SHOWCASE) */}
-      <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="mb-8 flex flex-wrap items-end justify-between gap-4 border-b border-cavern-700 pb-5">
-          <div>
-            <p className="text-sm font-medium text-karst-400">
-              Distribuție oficială echipamente speologie, cave diving și salvare
+            <p className="mt-6 text-base leading-relaxed text-limestone-200">
+              Denumirea vine de la vechiul Pârâu al Ursului, azi Pârâul Băilor. În 1989, speologii arădeni au
+              descoperit în etajul superior fosile ale ursului de cavernă. Traseul turistic amenajat duce până în
+              Sala Czárán Gyula, iar traseele de speoturism continuă mult dincolo de el.
             </p>
-            <h2 className="mt-1 font-serif text-3xl font-bold text-limestone-50 sm:text-4xl">
-              Echipamente Profesionale la Vânzare
-            </h2>
-          </div>
-          <Link
-            href="/magazin"
-            className="inline-flex items-center gap-1.5 rounded-xl bg-karst-600 px-4 py-2.5 text-xs font-semibold text-limestone-50 transition hover:bg-karst-500"
-          >
-            Deschide Magazinul Complet și Specificațiile <ArrowRight className="h-4 w-4" />
-          </Link>
-        </div>
 
-        <EquipmentShowcase compact />
-      </section>
-
-      {/* SECTION 4: JURNAL & ARHIVĂ DE EXPLORARE */}
-      <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="mb-10 flex flex-wrap items-end justify-between gap-4 border-b border-cavern-700 pb-5">
-          <div>
-            <p className="text-sm font-medium text-karst-400">
-              Povești din subteran, expediții și noutăți
-            </p>
-            <h2 className="mt-1 font-serif text-3xl font-bold text-limestone-50 sm:text-4xl">
-              Jurnal de Explorare
-            </h2>
-          </div>
-          <Link
-            href="/jurnal"
-            className="inline-flex items-center gap-1.5 text-sm font-medium text-limestone-200 hover:text-karst-400"
-          >
-            Vezi toate cele 36 de articole <ArrowRight className="h-4 w-4" />
-          </Link>
-        </div>
-
-        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 lg:gap-8">
-          {recentPosts.map((post) => (
-            <article
-              key={post.path}
-              className="editorial-card group flex flex-col overflow-hidden rounded-2xl transition-all duration-300 hover:-translate-y-1"
-            >
-              <Link href={post.path} className="block w-full">
-                <CardMediaThumb src={post.heroImage} alt={post.cleanTitle} />
-              </Link>
-              <div className="flex flex-1 flex-col justify-between p-6">
-                <div>
-                  <div className="flex items-center justify-between text-xs text-limestone-300">
-                    <span className="font-medium text-karst-400">
-                      {post.categoryLabel}
-                    </span>
-                    {post.publicationDate && (
-                      <span>{post.publicationDate.slice(0, 10)}</span>
-                    )}
-                  </div>
-                  <h3 className="mt-2 font-serif text-xl font-bold text-limestone-50 group-hover:text-karst-400">
-                    <Link href={post.path}>{post.cleanTitle}</Link>
-                  </h3>
-                  <p className="mt-2 line-clamp-2 text-sm text-limestone-200">
-                    {post.metaDescription}
-                  </p>
+            <dl className="mt-8 divide-y divide-cavern-700 border-y border-cavern-700">
+              {[
+                ['Traseu turistic', 'cca. 200 m, electrificat și ghidat'],
+                ['Lungime explorată', 'peste 2.500 m'],
+                ['Speoturism', '250 m – 1.500 m · 1 – 6 ore'],
+                ['Temperatură', g.temperature],
+                ['Mineralogie', 'aragonit, calcit, domuri, gururi'],
+              ].map(([k, v]) => (
+                <div key={k} className="flex items-baseline justify-between gap-6 py-3.5">
+                  <dt className="text-sm text-limestone-400">{k}</dt>
+                  <dd className="text-right text-sm font-medium text-limestone-50">{v}</dd>
                 </div>
+              ))}
+            </dl>
+
+            <Link
+              href="/grota-ursului"
+              className="group mt-8 inline-flex items-center gap-2 text-sm font-semibold text-limestone-50"
+            >
+              <span className="border-b border-limestone-50/40 pb-0.5 group-hover:border-limestone-50">
+                Ghidul complet al peșterii
+              </span>
+              <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* ───────────── Destinații ───────────── */}
+      <section className="border-t border-cavern-700 bg-cavern-900">
+        <div className="mx-auto max-w-[1440px] px-5 py-20 sm:px-8 lg:px-12 lg:py-28">
+          <div className="flex flex-wrap items-end justify-between gap-6">
+            <div className="max-w-2xl">
+              <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-karst-400">
+                Munții Codru-Moma
+              </p>
+              <h2 className="mt-4 font-display text-4xl font-bold leading-[1.05] text-limestone-50 sm:text-5xl">
+                Trasee și obiective în jurul Moneasei
+              </h2>
+            </div>
+            <Link
+              href="/descopera"
+              className="group inline-flex items-center gap-2 text-sm font-semibold text-limestone-50"
+            >
+              <span className="border-b border-limestone-50/40 pb-0.5 group-hover:border-limestone-50">
+                Toate obiectivele
+              </span>
+              <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+            </Link>
+          </div>
+
+          <div className="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:grid-cols-4">
+            {DESTINATIONS.map((d) => (
+              <Link key={d.href} href={d.href} className="group block">
+                <div className="overflow-hidden rounded-2xl bg-black">
+                  <img
+                    src={d.img}
+                    alt={d.title}
+                    loading="lazy"
+                    className="aspect-[4/5] w-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.04]"
+                  />
+                </div>
+                <p className="mt-5 text-[11px] font-semibold uppercase tracking-[0.18em] text-limestone-400">
+                  {d.kicker}
+                </p>
+                <h3 className="mt-2 flex items-start justify-between gap-3 font-display text-xl font-semibold leading-snug text-limestone-50">
+                  {d.title}
+                  <ArrowUpRight className="mt-1 h-4 w-4 shrink-0 text-limestone-400 transition group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-limestone-50" />
+                </h3>
+                <p className="mt-2 text-sm text-limestone-300">{d.fact}</p>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ───────────── Istorie ───────────── */}
+      <section className="border-t border-cavern-700">
+        <div className="mx-auto max-w-[1440px] px-5 py-20 sm:px-8 lg:px-12 lg:py-28">
+          <div className="grid grid-cols-1 gap-12 lg:grid-cols-12 lg:gap-16">
+            <div className="lg:col-span-5">
+              <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-karst-400">
+                Istorie și patrimoniu
+              </p>
+              <h2 className="mt-4 font-display text-4xl font-bold leading-[1.05] text-limestone-50 sm:text-5xl">
+                Moneasa și Czárán Gyula
+              </h2>
+              <p className="mt-6 text-base leading-relaxed text-limestone-200">
+                Originar din Șepreuș, Czárán Gyula (1847–1906) este considerat părintele turismului montan în Munții
+                Apuseni. A investit resurse proprii în marcarea primelor trasee din regiune, iar la Moneasa a amenajat
+                traseele turistice între 1891 și 1893.
+              </p>
+
+              <figure className="mt-10 grid grid-cols-2 gap-4">
+                <img
+                  src="/media/pestera-liliecilor/p1040534.jpg"
+                  alt="Portretul lui Czárán Gyula"
+                  loading="lazy"
+                  className="aspect-[4/5] w-full rounded-2xl object-cover"
+                />
+                <img
+                  src="/media/cave-diving/menyhaza1904.webp"
+                  alt="Lacul cu pești din Moneasa, carte poștală din 1904"
+                  loading="lazy"
+                  className="aspect-[4/5] w-full rounded-2xl object-cover"
+                />
+                <figcaption className="col-span-2 text-xs text-limestone-400">
+                  Czárán Gyula · „Halastó” (Lacul cu pești), Menyháza, carte poștală din 1904.
+                </figcaption>
+              </figure>
+            </div>
+
+            <div className="lg:col-span-7">
+              <ol className="relative border-l border-cavern-700">
+                {TIMELINE.map((t) => (
+                  <li key={t.year} className="relative pb-10 pl-8 last:pb-0">
+                    <span className="absolute -left-[5px] top-2 h-2.5 w-2.5 rounded-full bg-karst-400" />
+                    <p className="font-display text-3xl font-semibold tabular-nums text-limestone-50">{t.year}</p>
+                    <p className="mt-2 max-w-xl text-base leading-relaxed text-limestone-300">{t.text}</p>
+                  </li>
+                ))}
+              </ol>
+
+              <div className="mt-12 flex flex-wrap gap-3 pl-8">
                 <Link
-                  href={post.path}
-                  className="mt-4 inline-flex items-center gap-1 text-sm font-medium text-karst-400"
+                  href="/statiunea-moneasa"
+                  className="inline-flex items-center gap-2 rounded-full bg-limestone-50 px-6 py-3 text-sm font-semibold text-cavern-950 transition hover:opacity-90"
                 >
-                  Citește articolul <ArrowRight className="h-3.5 w-3.5" />
+                  Monografia stațiunii <ArrowRight className="h-4 w-4" />
+                </Link>
+                <Link
+                  href="/czaran-gyula"
+                  className="inline-flex items-center gap-2 rounded-full border border-cavern-600 px-6 py-3 text-sm font-semibold text-limestone-50 transition hover:bg-cavern-800"
+                >
+                  Biografia Czárán Gyula
                 </Link>
               </div>
-            </article>
-          ))}
+            </div>
+          </div>
         </div>
       </section>
 
-      {/* SECTION 5: HOMEPAGE ORIGINAL ARCHIVE GALLERY */}
-      {remainingHomeImages.length > 0 && (
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <MediaGallery
-            images={remainingHomeImages}
-            title="Fotografii din Activitățile și Explorările Transilvania Cave Diving"
-          />
+      {/* ───────────── Școala Altfel ───────────── */}
+      <section className="theme-hero-dark bg-[#0f2a1c] text-white">
+        <div className="mx-auto flex max-w-[1440px] flex-col gap-8 px-5 py-16 sm:px-8 lg:flex-row lg:items-center lg:justify-between lg:px-12 lg:py-20">
+          <div className="max-w-2xl">
+            <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-white/60">
+              Moneasa Adventure
+            </p>
+            <h2 className="mt-3 font-display text-3xl font-bold leading-tight text-white sm:text-4xl">
+              Școala Altfel și Săptămâna Verde
+            </h2>
+            <p className="mt-4 text-base leading-relaxed text-white/80">
+              Programe pentru grădinițe, ciclul primar, gimnaziu și liceu: vizită ghidată în Grota Ursului, atelier de
+              speologie, drumeție tematică și tiroliană.
+            </p>
+          </div>
+          <Link
+            href="/moneasa-adventure"
+            className="inline-flex shrink-0 items-center gap-2 self-start rounded-full bg-white px-6 py-3 text-sm font-semibold text-neutral-950 transition hover:bg-white/90 lg:self-auto"
+          >
+            Vezi programele <ArrowRight className="h-4 w-4" />
+          </Link>
         </div>
-      )}
-    </div>
+      </section>
+    </>
   );
 }

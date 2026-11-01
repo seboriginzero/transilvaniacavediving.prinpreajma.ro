@@ -30,21 +30,23 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   const company = getCompanyInfo();
   const navigation = getNavigation();
+
   const orgJsonLd = buildOrganizationJsonLd();
-  const siteJsonLd = buildWebSiteJsonLd();
+  const webSiteJsonLd = buildWebSiteJsonLd();
 
   return (
-    <html lang="ro" className="dark" data-theme="dark" suppressHydrationWarning>
+    <html lang="ro" data-theme="dark" className="dark">
       <head>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `(function(){try{var t=localStorage.getItem('tcd-theme');if(t==='light'||t==='dark'){document.documentElement.setAttribute('data-theme',t);document.documentElement.classList.remove('light','dark');document.documentElement.classList.add(t);}}catch(e){}})();`,
-          }}
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;0,800;0,900;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
+          rel="stylesheet"
         />
         <script
           type="application/ld+json"
@@ -52,10 +54,22 @@ export default function RootLayout({
         />
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(siteJsonLd) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(webSiteJsonLd) }}
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              try {
+                var theme = localStorage.getItem('tcd-theme') || 'dark';
+                document.documentElement.setAttribute('data-theme', theme);
+                document.documentElement.classList.remove('light', 'dark');
+                document.documentElement.classList.add(theme);
+              } catch (e) {}
+            `,
+          }}
         />
       </head>
-      <body className="flex min-h-screen flex-col bg-cavern-900 text-limestone-100 antialiased">
+      <body className="flex min-h-screen flex-col bg-cavern-950 font-sans text-limestone-100 antialiased selection:bg-karst-600 selection:text-white">
         <Header navigation={navigation} phonePrimary={company.phonePrimary} />
         <main id="main-content" className="flex-1">
           {children}
@@ -65,4 +79,3 @@ export default function RootLayout({
     </html>
   );
 }
-

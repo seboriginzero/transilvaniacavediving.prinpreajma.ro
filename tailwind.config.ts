@@ -2,8 +2,8 @@ import type { Config } from 'tailwindcss';
 
 /**
  * Figma Dual-Mode Design System Tokens:
- * - Dark Mode ("Carpathian Karst & Subterranean Heritage"): Deep basalt, wet slate, travertine text, sump emerald
- * - Light Mode ("Sunlit Travertine & Alpine Limestone"): Warm sunlit parchment, alabaster cards, forest basalt ink, pine green
+ * - Editorial Mountaineering / Leica / NatGeo Minimalist Palette
+ * - High-contrast typography & architectural grid
  */
 const config: Config = {
   darkMode: ['class', '[data-theme="dark"]'],
@@ -50,31 +50,41 @@ const config: Config = {
       },
       fontFamily: {
         sans: [
-          'system-ui',
+          '"Plus Jakarta Sans"',
           '-apple-system',
           'BlinkMacSystemFont',
-          '"Segoe UI"',
-          'Roboto',
-          '"Helvetica Neue"',
-          'Arial',
+          '"SF Pro Display"',
+          'system-ui',
           'sans-serif',
         ],
-        display: ['Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
-        serif: ['Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
+        display: [
+          '"Playfair Display"',
+          '"New York"',
+          'Charter',
+          'Baskerville',
+          'Georgia',
+          'serif',
+        ],
+        serif: [
+          '"Playfair Display"',
+          '"New York"',
+          'Charter',
+          'Georgia',
+          'serif',
+        ],
         mono: [
-          'ui-monospace',
-          'SFMono-Regular',
+          '"JetBrains Mono"',
+          '"SF Mono"',
           'Menlo',
-          'Monaco',
-          'Consolas',
+          'ui-monospace',
           'monospace',
         ],
       },
       boxShadow: {
-        editorial:
-          '0 20px 45px -15px rgba(0, 0, 0, 0.65), 0 0 0 1px rgba(226, 217, 200, 0.06)',
-        'editorial-hover':
-          '0 24px 50px -12px rgba(0, 0, 0, 0.78), 0 0 0 1px rgba(111, 179, 135, 0.35)',
+        'figma-subtle': '0 1px 2px 0 rgba(0, 0, 0, 0.05)',
+        'figma-card': '0 4px 20px -2px rgba(0, 0, 0, 0.12), 0 2px 6px -1px rgba(0, 0, 0, 0.08)',
+        'figma-card-dark': '0 12px 32px -4px rgba(0, 0, 0, 0.5), 0 4px 12px -2px rgba(0, 0, 0, 0.4)',
+        'figma-elevated': '0 20px 40px -8px rgba(0, 0, 0, 0.35)',
       },
     },
   },

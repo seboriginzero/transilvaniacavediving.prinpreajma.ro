@@ -43,9 +43,9 @@ export function DocumentPageView({
         />
       )}
 
-      {/* Clean Editorial Header (no cropped banner behind text; banners render at 100% visibility in content) */}
+      {/* Clean Editorial Header */}
       <div className="relative overflow-hidden border-b border-cavern-700 bg-gradient-to-b from-cavern-950 via-cavern-900 to-cavern-900/60 py-10 lg:py-14">
-        <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div className="relative mx-auto max-w-[1500px] px-4 sm:px-6 lg:px-10">
           <Breadcrumbs items={breadcrumbs} />
 
           <div className="mb-4 flex flex-wrap items-center gap-2.5">
@@ -66,20 +66,20 @@ export function DocumentPageView({
             )}
           </div>
 
-          <h1 className="max-w-4xl font-serif text-3xl font-extrabold tracking-tight text-limestone-50 sm:text-4xl lg:text-5xl">
+          <h1 className="max-w-5xl font-serif text-3xl font-extrabold tracking-tight text-limestone-50 sm:text-4xl lg:text-5xl">
             {page.cleanTitle}
           </h1>
 
           {page.metaDescription && (
-            <p className="mt-4 max-w-3xl text-base leading-relaxed text-limestone-200 sm:text-lg">
+            <p className="mt-4 max-w-4xl text-base leading-relaxed text-limestone-200 sm:text-lg">
               {page.metaDescription}
             </p>
           )}
         </div>
       </div>
 
-      {/* Main Content Container */}
-      <div className="mx-auto max-w-7xl px-4 pt-8 sm:px-6 lg:px-8">
+      {/* Main Content Container - Full Canvas Editorial Width */}
+      <div className="mx-auto max-w-[1500px] px-4 pt-8 sm:px-6 lg:px-10">
         <LanguageSwitcher currentLang={page.language} translations={page.translations} />
 
         {/* Historical Context Notice for dated archive posts */}
@@ -202,15 +202,15 @@ export function DocumentPageView({
                   Programări Ghidaj, Ture și Informații
                 </h3>
                 <p className="mt-2 text-xs leading-relaxed text-limestone-200">
-                  Pentru programarea grupurilor la Peștera Grota Ursului, ture de speoturism, cave diving sau închiriere echipament Via Ferrata:
+                  Pentru programarea grupurilor la Peștera Grota Ursului, ghidaj speologic sau închiriere kit Via Ferrata:
                 </p>
                 <div className="mt-4 space-y-2.5">
                   <a
                     href="tel:+40770846001"
-                    className="flex w-full items-center justify-center gap-2 rounded-xl bg-karst-600 px-4 py-2.5 text-sm font-bold text-limestone-50 transition hover:bg-karst-500"
+                    className="flex w-full items-center justify-center gap-2 rounded-xl bg-karst-600 px-4 py-2.5 text-sm font-bold text-white shadow-md transition hover:bg-karst-500"
                   >
-                    <Phone className="h-4 w-4" aria-hidden="true" />
-                    +40 770 846 001
+                    <Phone className="h-4 w-4 text-white" aria-hidden="true" />
+                    <span className="text-white font-mono tracking-wide">+40 770 846 001</span>
                   </a>
                   <Link
                     href="/contact"

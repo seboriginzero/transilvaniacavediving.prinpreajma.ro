@@ -18,7 +18,7 @@ export function CardMediaThumb({ src, alt, className = '' }: CardMediaThumbProps
 
   return (
     <div
-      className={`relative flex aspect-[16/10] w-full items-center justify-center overflow-hidden bg-cavern-950 ${className}`}
+      className={`relative flex aspect-[16/10] w-full items-center justify-center overflow-hidden bg-black ${className}`}
     >
       {/* Subtle blurred ambient backdrop to fill any letterbox/pillarbox space organically */}
       <img
@@ -26,7 +26,7 @@ export function CardMediaThumb({ src, alt, className = '' }: CardMediaThumbProps
         alt=""
         aria-hidden="true"
         loading="lazy"
-        className="pointer-events-none absolute inset-0 h-full w-full scale-110 object-cover opacity-25 blur-md"
+        className="pointer-events-none absolute inset-0 h-full w-full scale-110 object-cover opacity-60 blur-2xl brightness-50"
       />
 
       {/* Foreground image: 100% uncropped (`object-contain`), never cuts off banners or products */}

@@ -7,9 +7,9 @@ import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { CardMediaThumb } from '@/components/CardMediaThumb';
 
 export const metadata: Metadata = {
-  title: 'Descoperă Peșterile, Sistemul Carstic și Traseele din Moneasa',
+  title: 'Descoperă Obiectivele, Peșterile și Traseele din Moneasa & Dezna',
   description:
-    'Ghid complet al obiectivelor carstice și montane: Peștera Grota Ursului, Peștera Liliecilor (RO/EN/HU), Sistemul Carstic de la Moară (Natura 2000 RO/EN/HU), Belvedere Moneasa și Peștera Isverna.',
+    'Ghid complet al obiectivelor carstice și montane: Peștera Grota Ursului, Via Ferrata Cetatea Dezna, Belvedere Moneasa & Cariera de Marmură Roșie, Peștera Liliecilor și Sistemul Carstic de la Moară (Natura 2000).',
   alternates: {
     canonical: 'https://transilvaniacavediving.com/descopera',
   },
@@ -19,11 +19,11 @@ export default function DescoperaHubPage() {
   const allPages = getAllPages();
   const primaryPaths = [
     '/grota-ursului',
+    '/via-ferrata-cetate-dezna',
+    '/belvedere-moneasa',
     '/pestera-liliecilor',
     '/pestera-uscata-de-la-moara',
-    '/belvedere-moneasa',
-    '/via-ferrata-cetate-dezna',
-    '/visit-isverna',
+    '/moneasa-adventure',
   ];
 
   const destinations = primaryPaths
@@ -35,13 +35,13 @@ export default function DescoperaHubPage() {
       <div>
         <Breadcrumbs items={[{ name: 'Descoperă', path: '/descopera' }]} />
         <span className="text-xs font-bold uppercase tracking-wider text-karst-400">
-          Patrimoniu Carstic Natural · Munții Codru-Moma și Munții Mehedinți
+          Patrimoniu Carstic Natural · Munții Codru-Moma · Moneasa & Dezna
         </span>
         <h1 className="mt-2 text-3xl font-extrabold text-limestone-50 sm:text-5xl">
-          Descoperă Peșterile, Avenele și Traseele Montane
+          Descoperă Obiectivele, Peșterile și Traseele Montane
         </h1>
         <p className="mt-4 max-w-3xl text-base leading-relaxed text-limestone-200">
-          Explorează documentația științifică, hărțile speologice, traseele marcate și condițiile de vizitare pentru obiectivele carstice din zona Stațiunii Moneasa (Județul Arad) și marile sisteme scufundate din România.
+          Explorează documentația, hărțile speologice, traseele marcate și condițiile de vizitare pentru obiectivele turistice din zona Stațiunii Moneasa și Dezna (Județul Arad).
         </p>
       </div>
 
@@ -56,7 +56,7 @@ export default function DescoperaHubPage() {
             >
               <Link href={dest.path} className="relative block w-full">
                 <CardMediaThumb src={dest.heroImage} alt={dest.cleanTitle} />
-                <span className="absolute left-3 top-3 z-20 rounded-full border border-cavern-700 bg-cavern-950/90 px-3 py-1 text-[11px] font-bold text-karst-400">
+                <span className="absolute left-3 top-3 z-20 rounded-full border border-white/15 bg-black/70 px-3 py-1 text-[11px] font-bold text-white">
                   {dest.categoryLabel}
                 </span>
               </Link>

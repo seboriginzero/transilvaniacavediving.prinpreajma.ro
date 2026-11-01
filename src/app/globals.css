@@ -4,272 +4,242 @@
 
 @layer base {
   /* ==========================================================================
-   * MODE 1 (DEFAULT): DARK THEME — "Carpathian Karst & Subterranean Heritage"
-   * Deep subterranean basalt, warm wet slate, travertine text, emerald sump
+   * PREMIUM EDITORIAL DESIGN SYSTEM — Moneasa / Codru-Moma
+   * Theme tokens drive UI surfaces only. Anything placed ON TOP OF A PHOTO
+   * must use literal black/white (or the .theme-hero-dark scope) so that
+   * light mode can never wash photography with cream overlays.
    * ========================================================================== */
+
   :root,
-  html[data-theme="dark"],
-  html.dark,
-  .theme-hero-dark {
-    --cavern-950: 17 16 14;       /* #11100E - Deepest cavern shadow */
-    --cavern-900: 23 21 18;       /* #171512 - Main subterranean canvas */
-    --cavern-800: 33 30 26;       /* #211E1A - Elevated limestone card surface */
-    --cavern-700: 51 46 39;       /* #332E27 - Warm mineral border */
-    --cavern-600: 73 65 56;       /* #494138 - Active border / divider */
-    --cavern-500: 102 91 78;      /* #665B4E */
+  html[data-theme='dark'],
+  html.dark {
+    --cavern-950: 11 12 11;       /* page background */
+    --cavern-900: 18 20 19;       /* surface */
+    --cavern-800: 25 28 26;       /* raised surface */
+    --cavern-700: 40 44 41;       /* hairline */
+    --cavern-600: 62 67 63;       /* strong hairline */
+    --cavern-500: 98 104 99;
 
-    --limestone-50: 253 251 247;  /* #FDFBF7 - Pure calcite heading white */
-    --limestone-100: 244 239 230; /* #F4EFE6 - Primary travertine body text */
-    --limestone-200: 226 217 200; /* #E2D9C8 - Secondary editorial copy */
-    --limestone-300: 194 182 161; /* #C2B6A1 - Captions & metadata */
-    --limestone-400: 150 138 118; /* #968A76 - Muted labels */
+    --limestone-50: 247 246 241;  /* headings */
+    --limestone-100: 232 231 225; /* body */
+    --limestone-200: 196 195 188; /* secondary */
+    --limestone-300: 152 152 145; /* muted */
+    --limestone-400: 112 113 107; /* faint */
 
-    --karst-300: 148 204 167;     /* #94CCA7 */
-    --karst-400: 111 179 135;     /* #6FB387 - Sump emerald interactive accent */
-    --karst-500: 78 148 104;      /* #4E9468 */
-    --karst-600: 58 120 82;       /* #3A7852 - Primary CTA button surface */
-    --karst-700: 43 92 62;        /* #2B5C3E */
+    --karst-300: 150 205 170;
+    --karst-400: 98 178 132;
+    --karst-500: 62 146 99;
+    --karst-600: 34 103 66;
+    --karst-700: 24 78 50;
 
-    --safety-300: 236 192 130;    /* #ECC082 */
-    --safety-400: 223 162 85;     /* #DFA255 - Aragonite headlamp amber */
-    --safety-500: 198 127 50;     /* #C67F32 */
-    --safety-600: 158 97 30;      /* #9E611E */
+    --safety-300: 252 196 110;
+    --safety-400: 240 165 60;
+    --safety-500: 214 128 30;
+    --safety-600: 176 92 14;
 
-    --marble-500: 140 45 45;      /* #8C2D2D */
-    --marble-600: 110 32 32;      /* #6E2020 */
+    --marble-500: 140 45 45;
+    --marble-600: 110 32 32;
 
     color-scheme: dark;
   }
 
-  /* ==========================================================================
-   * MODE 2: LIGHT THEME — "Sunlit Travertine & Alpine Limestone" (Figma Light)
-   * Warm sunlit limestone parchment (#F5F0E6), crisp alabaster cards (#FDFBF7),
-   * deep forest basalt ink (#161D18), and Codru-Moma pine green (#21623D).
-   * ========================================================================== */
-  html[data-theme="light"],
+  html[data-theme='light'],
   html.light {
-    --cavern-950: 233 224 209;    /* #E9E0D1 - Warm travertine stone well / footer */
-    --cavern-900: 245 240 230;    /* #F5F0E6 - Main sunlit limestone parchment canvas */
-    --cavern-800: 253 251 247;    /* #FDFBF7 - Crisp warm alabaster card surface */
-    --cavern-700: 210 198 178;    /* #D2C6B2 - Warm mineral border stroke */
-    --cavern-600: 181 166 143;    /* #B5A68F - Defined limestone border */
-    --cavern-500: 145 130 109;    /* #91826D */
+    --cavern-950: 246 245 241;
+    --cavern-900: 255 255 255;
+    --cavern-800: 250 249 246;
+    --cavern-700: 228 226 220;
+    --cavern-600: 204 201 193;
+    --cavern-500: 160 157 150;
 
-    --limestone-50: 22 29 24;     /* #161D18 - Deep forest basalt ink (headings) */
-    --limestone-100: 36 44 38;    /* #242C26 - Rich charcoal-moss body text */
-    --limestone-200: 60 70 62;    /* #3C463E - Warm slate editorial text */
-    --limestone-300: 86 96 88;    /* #566058 - Balanced mineral metadata (AA contrast) */
-    --limestone-400: 110 120 112; /* #6E7870 - Muted labels */
+    --limestone-50: 17 18 17;
+    --limestone-100: 36 38 36;
+    --limestone-200: 72 75 72;
+    --limestone-300: 108 111 107;
+    --limestone-400: 146 148 144;
 
-    --karst-300: 25 79 47;        /* #194F2F - Deep pine hover accent */
-    --karst-400: 33 98 61;        /* #21623D - High-contrast Codru-Moma forest green */
-    --karst-500: 42 116 73;       /* #2A7449 - Hover CTA button surface */
-    --karst-600: 37 102 64;       /* #256640 - Primary CTA button surface */
-    --karst-700: 28 80 50;        /* #1C5032 */
+    --karst-300: 46 125 82;
+    --karst-400: 30 105 66;
+    --karst-500: 24 86 54;
+    --karst-600: 22 78 49;
+    --karst-700: 16 58 36;
 
-    --safety-300: 140 70 12;      /* #8C460C */
-    --safety-400: 163 83 16;      /* #A35310 - Rich terracotta/aragonite ochre text */
-    --safety-500: 186 99 24;      /* #BA6318 - Amber border/badge */
-    --safety-600: 145 75 15;      /* #914B0F */
+    --safety-300: 200 110 10;
+    --safety-400: 176 92 14;
+    --safety-500: 146 70 14;
+    --safety-600: 120 53 15;
 
-    --marble-500: 153 38 38;      /* #992626 */
-    --marble-600: 122 28 28;      /* #7A1C1C */
+    --marble-500: 140 45 45;
+    --marble-600: 110 32 32;
 
     color-scheme: light;
   }
 
   html {
     scroll-behavior: smooth;
-    background-color: rgb(var(--cavern-900));
-    color: rgb(var(--limestone-100));
-    text-rendering: optimizeLegibility;
-    transition: background-color 0.25s ease, color 0.25s ease;
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'SF Pro Display', system-ui, sans-serif;
   }
 
   body {
-    background-color: rgb(var(--cavern-900));
-    background-image:
-      radial-gradient(ellipse 80% 50% at 50% -10%, rgba(58, 120, 82, 0.11), transparent),
-      radial-gradient(ellipse 60% 40% at 85% 20%, rgba(198, 127, 50, 0.06), transparent);
-    background-attachment: fixed;
+    background-color: rgb(var(--cavern-950));
     color: rgb(var(--limestone-100));
+    min-height: 100vh;
+    text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    overflow-x: hidden;
-    transition: background-color 0.25s ease, color 0.25s ease;
   }
 
-  html[data-theme="light"] body,
-  html.light body {
-    background-image:
-      radial-gradient(ellipse 80% 50% at 50% -10%, rgba(37, 102, 64, 0.07), transparent),
-      radial-gradient(ellipse 60% 40% at 85% 20%, rgba(186, 99, 24, 0.05), transparent);
+  h1, h2, h3, .font-display {
+    font-family: 'Playfair Display', 'New York', Georgia, serif;
+    letter-spacing: -0.02em;
   }
 
-  h1,
-  h2,
-  h3,
-  h4 {
-    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
-    letter-spacing: -0.015em;
-  }
-
-  ::selection {
-    background-color: #3a7852;
-    color: #fdfbf7;
+  code, kbd, samp, pre, .font-mono {
+    font-family: 'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace;
   }
 }
 
-/* Primary solid green CTA buttons always maintain warm white text in both Dark and Light mode */
-.bg-karst-600,
-.bg-karst-500 {
-  color: #fdfbf7 !important;
+/* ==========================================================================
+ * PHOTO-SAFE DARK SCOPE
+ * Re-declares the dark palette locally. Use on any container that sits on
+ * top of photography (hero, lightbox) so tokens never turn cream in light mode.
+ * ========================================================================== */
+.theme-hero-dark {
+  --cavern-950: 11 12 11;
+  --cavern-900: 18 20 19;
+  --cavern-800: 25 28 26;
+  --cavern-700: 40 44 41;
+  --cavern-600: 62 67 63;
+  --cavern-500: 98 104 99;
+  --limestone-50: 247 246 241;
+  --limestone-100: 232 231 225;
+  --limestone-200: 196 195 188;
+  --limestone-300: 152 152 145;
+  --limestone-400: 112 113 107;
+  --karst-300: 150 205 170;
+  --karst-400: 98 178 132;
+  --karst-500: 62 146 99;
+  --karst-600: 34 103 66;
+  --safety-400: 240 165 60;
+  color-scheme: dark;
 }
 
-/* Theme-aware Header & Footer Logos */
-.logo-light-mode {
-  display: none;
-}
-.logo-dark-mode {
-  display: block;
-}
-html[data-theme="light"] .logo-light-mode,
-html.light .logo-light-mode {
-  display: block;
-}
-html[data-theme="light"] .logo-dark-mode,
-html.light .logo-dark-mode {
-  display: none;
-}
-
-@keyframes fadeUpSmooth {
-  0% {
-    opacity: 0;
-    transform: translateY(20px) scale(0.99);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0) scale(1);
-  }
-}
-
-@keyframes heroSlowZoom {
-  0% {
-    transform: scale(1);
-  }
-  100% {
-    transform: scale(1.045);
-  }
-}
-
-@keyframes lightboxBackdropIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes lightboxContentIn {
-  0% {
-    opacity: 0;
-    transform: scale(0.95) translateY(10px);
-  }
-  100% {
-    opacity: 1;
-    transform: scale(1) translateY(0);
-  }
-}
-
-.animate-fade-up {
-  animation: fadeUpSmooth 0.7s cubic-bezier(0.22, 1, 0.36, 1) forwards;
-}
-
-.animate-hero-zoom {
-  animation: heroSlowZoom 7s ease-out forwards;
-}
-
-.animate-lightbox-backdrop {
-  animation: lightboxBackdropIn 0.25s ease-out forwards;
-}
-
-.animate-lightbox-content {
-  animation: lightboxContentIn 0.35s cubic-bezier(0.22, 1, 0.36, 1) forwards;
-}
-
-/* Editorial Card & Surface Utilities (Dual-Mode Figma Tokens) */
+/* ==========================================================================
+ * CARD SYSTEM
+ * ========================================================================== */
 .editorial-card {
-  background: linear-gradient(180deg, rgba(33, 30, 26, 0.92) 0%, rgba(23, 21, 18, 0.96) 100%);
-  border: 1px solid rgba(226, 217, 200, 0.12);
-  box-shadow: 0 18px 40px -15px rgba(0, 0, 0, 0.65);
-  transition:
-    transform 0.35s cubic-bezier(0.22, 1, 0.36, 1),
-    border-color 0.35s ease,
-    box-shadow 0.35s ease,
-    background 0.25s ease;
+  background-color: rgb(var(--cavern-900));
+  border: 1px solid rgb(var(--cavern-700));
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
 }
 
 .editorial-card:hover {
-  border-color: rgba(111, 179, 135, 0.42);
-  box-shadow: 0 24px 48px -12px rgba(0, 0, 0, 0.78);
+  border-color: rgb(var(--cavern-600));
 }
 
-html[data-theme="light"] .editorial-card,
-html.light .editorial-card {
-  background: linear-gradient(180deg, rgba(253, 251, 247, 0.98) 0%, rgba(248, 243, 234, 0.98) 100%);
-  border: 1px solid rgba(181, 166, 143, 0.55);
-  box-shadow:
-    0 14px 32px -12px rgba(36, 30, 20, 0.08),
-    0 2px 6px -1px rgba(36, 30, 20, 0.04);
+.editorial-card-featured {
+  background-color: rgb(var(--cavern-900));
+  border: 1px solid rgb(var(--karst-600) / 0.4);
 }
 
-html[data-theme="light"] .editorial-card:hover,
-html.light .editorial-card:hover {
-  border-color: rgba(33, 98, 61, 0.45);
-  box-shadow:
-    0 20px 40px -12px rgba(36, 30, 20, 0.14),
-    0 4px 10px -2px rgba(36, 30, 20, 0.06);
+.architectural-divider {
+  height: 1px;
+  background-color: rgb(var(--cavern-700));
 }
 
-/* Premium Tiled Gallery Hover & Transitions */
-.tiled-mosaic-item {
-  transition:
-    transform 0.55s cubic-bezier(0.22, 1, 0.36, 1),
-    box-shadow 0.55s cubic-bezier(0.22, 1, 0.36, 1),
-    border-color 0.35s ease;
+.telemetry-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  padding: 0.25rem 0.625rem;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  border-radius: 4px;
+  border: 1px solid rgb(var(--cavern-700));
+  background-color: rgb(var(--cavern-800));
+  color: rgb(var(--limestone-200));
 }
 
-.tiled-mosaic-item:hover {
-  z-index: 2;
-  box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.75), 0 0 0 1px rgba(111, 179, 135, 0.45);
+/* Logo theme switching */
+html[data-theme='dark'] .logo-light-mode,
+html.dark .logo-light-mode {
+  display: none !important;
 }
 
-html[data-theme="light"] .tiled-mosaic-item:hover,
-html.light .tiled-mosaic-item:hover {
-  box-shadow: 0 18px 36px -12px rgba(36, 30, 20, 0.22), 0 0 0 1px rgba(33, 98, 61, 0.45);
+html[data-theme='dark'] .logo-dark-mode,
+html.dark .logo-dark-mode {
+  display: block !important;
 }
 
-.tiled-mosaic-img {
-  transition:
-    transform 0.75s cubic-bezier(0.22, 1, 0.36, 1),
-    filter 0.55s ease;
+html[data-theme='light'] .logo-dark-mode,
+html.light .logo-dark-mode {
+  display: none !important;
 }
 
-.tiled-mosaic-item:hover .tiled-mosaic-img {
-  transform: scale(1.045);
-  filter: saturate(1.06) contrast(1.02);
+html[data-theme='light'] .logo-light-mode,
+html.light .logo-light-mode {
+  display: block !important;
+}
+
+/* ==========================================================================
+ * MOTION
+ * ========================================================================== */
+@keyframes heroZoom {
+  from { transform: scale(1); }
+  to { transform: scale(1.06); }
+}
+
+.animate-hero-zoom {
+  animation: heroZoom 9s ease-out forwards;
+}
+
+@keyframes heroProgress {
+  from { transform: scaleX(0); }
+  to { transform: scaleX(1); }
+}
+
+.animate-hero-progress {
+  transform-origin: left center;
+  animation: heroProgress 7s linear forwards;
+}
+
+@keyframes heroFadeUp {
+  from { opacity: 0; transform: translateY(14px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-hero-fade-up {
+  animation: heroFadeUp 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
 }
 
 @media (prefers-reduced-motion: reduce) {
-  html {
-    scroll-behavior: auto;
+  .animate-hero-zoom,
+  .animate-hero-fade-up {
+    animation: none;
   }
-  *,
-  *::before,
-  *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-  }
+}
+
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-none {
+  scrollbar-width: none;
+}
+
+@keyframes lightboxBackdrop {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+.animate-lightbox-backdrop {
+  animation: lightboxBackdrop 0.2s ease-out both;
+}
+@keyframes lightboxContent {
+  from { opacity: 0; transform: scale(0.98); }
+  to { opacity: 1; transform: scale(1); }
+}
+.animate-lightbox-content {
+  animation: lightboxContent 0.25s ease-out both;
 }

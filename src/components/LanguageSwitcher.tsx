@@ -37,7 +37,7 @@ export function LanguageSwitcher({ currentLang, translations }: LanguageSwitcher
               <span
                 key={`${t.lang}-${t.label}`}
                 aria-current="page"
-                className="rounded-lg bg-karst-600 px-3 py-1 font-semibold text-limestone-50 shadow-sm"
+                className="rounded-lg bg-karst-600 px-3 py-1 font-semibold text-white shadow-sm"
               >
                 {t.label} ({t.lang.toUpperCase()})
               </span>
@@ -50,7 +50,7 @@ export function LanguageSwitcher({ currentLang, translations }: LanguageSwitcher
               aria-current={active ? 'page' : undefined}
               className={`rounded-lg px-3 py-1 font-semibold transition ${
                 active
-                  ? 'bg-karst-600 text-limestone-50 shadow-sm'
+                  ? 'bg-karst-600 text-white shadow-sm'
                   : 'border border-cavern-700 bg-cavern-900 text-limestone-200 hover:border-karst-400 hover:text-karst-400'
               }`}
             >

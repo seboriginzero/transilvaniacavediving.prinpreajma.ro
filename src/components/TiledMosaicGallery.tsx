@@ -309,22 +309,20 @@ export function TiledMosaicGallery({
             className="tiled-mosaic-img block h-auto w-full"
           />
 
-          {/* Subtle hover highlight & expand icon (never obscures banners at rest) */}
-          <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-cavern-950/70 via-transparent to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
-
-          <span className="absolute right-2.5 top-2.5 flex h-7 w-7 items-center justify-center rounded-lg border border-limestone-100/20 bg-cavern-950/80 text-limestone-100 opacity-0 backdrop-blur-sm transition-all duration-300 group-hover:scale-100 group-hover:opacity-100 scale-90">
+          {/* Clean hover expand icon */}
+          <span className="absolute right-2.5 top-2.5 flex h-7 w-7 items-center justify-center rounded-lg border border-white/20 bg-black/70 text-white opacity-0 backdrop-blur-sm transition-all duration-300 group-hover:scale-100 group-hover:opacity-100 scale-90">
             <Maximize2 className="h-3.5 w-3.5" aria-hidden="true" />
           </span>
 
           {(displayCaption || img.credit) && (
-            <div className="pointer-events-none absolute inset-x-0 bottom-0 flex flex-col justify-end p-3 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+            <div className="pointer-events-none absolute inset-x-0 bottom-0 flex flex-col justify-end p-3 opacity-0 transition-opacity duration-300 group-hover:opacity-100 bg-black/75">
               {displayCaption && (
-                <p className="line-clamp-2 text-xs font-medium leading-snug text-limestone-50 drop-shadow">
+                <p className="line-clamp-2 text-xs font-medium leading-snug text-white">
                   {displayCaption}
                 </p>
               )}
               {img.credit && (
-                <p className="mt-0.5 font-mono text-[11px] text-karst-300 drop-shadow">
+                <p className="mt-0.5 font-mono text-[11px] text-white/70">
                   Foto: {img.credit}
                 </p>
               )}
@@ -381,7 +379,7 @@ export function TiledMosaicGallery({
           role="dialog"
           aria-modal="true"
           aria-label="Vizualizare fotografie mărită"
-          className="theme-hero-dark animate-lightbox-backdrop fixed inset-0 z-[100] flex items-center justify-center bg-cavern-950/95 p-3 sm:p-6 backdrop-blur-md"
+          className="theme-hero-dark animate-lightbox-backdrop fixed inset-0 z-[100] flex items-center justify-center bg-black/95 p-3 sm:p-6"
           onClick={() => setActiveIndex(null)}
         >
           <div

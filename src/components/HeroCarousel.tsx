@@ -1,227 +1,328 @@
 'use client';
 
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
 import Link from 'next/link';
 import { ArrowRight, ChevronLeft, ChevronRight, MapPin } from 'lucide-react';
+import type { DynamicSiteSettings } from '@/lib/settings';
 
-export interface HeroSlide {
-  src: string;
-  title: string;
-  location: string;
-  credit?: string;
-  linkHref: string;
-  linkLabel: string;
+interface HeroFact {
+  label: string;
+  value: string;
 }
 
-const HERO_SLIDES: HeroSlide[] = [
-  {
-    src: '/media/isverna/visit-isverna-cm5-resize.jpg',
-    title: 'Scufundări în Peștera Isverna',
-    location: 'Munții Mehedinți · Foto: Cristi Mitrofan',
-    linkHref: '/visit-isverna',
-    linkLabel: 'Descoperă Peștera Isverna',
-  },
-  {
-    src: '/media/cave-diving/mihai-besesek-gate-of-styx-1.jpg',
-    title: 'Explorare Subacvatică în Galerii Carstice',
-    location: 'Scufundări Tehnice și Speologie Subacvatică',
-    linkHref: '/cave-diving',
-    linkLabel: 'Despre Cave Diving',
-  },
-  {
-    src: '/media/cave-diving/188098413_136636951838060_3227459871193502756_n.jpg',
-    title: 'Peștera Grota Ursului din Moneasa',
-    location: 'Munții Codru-Moma · Foto: Romeo Lazăr',
-    linkHref: '/grota-ursului',
-    linkLabel: 'Vizitează Grota Ursului',
-  },
-  {
-    src: '/media/cave-diving/335522871_190078843742195_6510426867527800716_n.jpg',
-    title: 'Via Ferrata – Cetatea Medievală Dezna',
-    location: 'Dealul Osoiu, Dezna, Județul Arad',
-    linkHref: '/via-ferrata-cetate-dezna',
-    linkLabel: 'Vezi traseul Via Ferrata',
-  },
-  {
-    src: '/media/isverna/visit-isverna-cm1-rezize.jpg',
-    title: 'Sifonul de Intrare din Peștera Isverna',
-    location: 'Munții Mehedinți · Foto: Cristi Mitrofan',
-    linkHref: '/visit-isverna',
-    linkLabel: 'Ghidul tehnic Isverna',
-  },
-  {
-    src: '/media/cave-diving/1aad0880-ab73-43ec-86ed-cad42bd95771.jpg',
-    title: 'Belvedere Moneasa și Munții Codru-Moma',
-    location: 'Stațiunea Balneoclimaterică Moneasa',
-    linkHref: '/belvedere-moneasa',
-    linkLabel: 'Traseul Belvedere',
-  },
-  {
-    src: '/media/via-ferrata/via-ferrata-panorama-dezna.jpg',
-    title: 'Panoramă de pe Via Ferrata – Cetatea Dezna',
-    location: 'Puntea Nepaleză · Dealul Osoiu, Dezna, Județul Arad',
-    linkHref: '/via-ferrata-cetate-dezna',
-    linkLabel: 'Explorează Via Ferrata Dezna',
-  },
-];
+interface HeroSlide {
+  src: string;
+  eyebrow: string;
+  title: string;
+  shortTitle: string;
+  location: string;
+  description: string;
+  linkHref: string;
+  linkLabel: string;
+  facts: HeroFact[];
+  objectPosition?: string;
+  /** Show the entire photo (no crop) anchored right on desktop — for tall subjects like the hanging bat. */
+  fit?: 'contain-right';
+}
 
-export function HeroCarousel() {
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const [isPaused, setIsPaused] = useState(false);
+/**
+ * All facts below are taken verbatim (or condensed) from the technical specs
+ * of the corresponding source pages in site-database.json.
+ */
+function buildSlides(settings: DynamicSiteSettings): HeroSlide[] {
+  const g = settings.grotaUrsului;
+  const v = settings.viaFerrata;
+  return [
+    {
+      src: '/media/cave-diving/188098413_136636951838060_3227459871193502756_n.jpg',
+      eyebrow: 'Obiectiv turistic principal',
+      title: 'Peștera Grota Ursului',
+      shortTitle: 'Grota Ursului',
+      location: 'Moneasa · Munții Codru-Moma · Foto: Romeo Lazăr',
+      description:
+        'Traseu turistic amenajat și electrificat de cca. 200 m până în Sala Czárán Gyula, cu fosile de urs de cavernă (Ursus spelaeus) descoperite în 1989 și Expoziția Peștera Coliboaia.',
+      linkHref: '/grota-ursului',
+      linkLabel: 'Program și vizitare',
+      facts: [
+        { label: 'Program', value: `${g.days}, ${g.hours}` },
+        { label: 'Bilet', value: `${g.adultPrice} lei adulți · ${g.childPrice} lei copii` },
+        { label: 'Temperatură', value: g.temperature },
+      ],
+    },
+    {
+      src: '/media/via-ferrata/img_20230428_151738668_hdr.jpg',
+      eyebrow: 'Traseu montan echipat',
+      title: 'Via Ferrata Cetatea Dezna',
+      shortTitle: 'Via Ferrata',
+      location: 'Dealul Osoiu · Dezna, Județul Arad',
+      description:
+        'Traseu echipat cu cabluri, trepte metalice și o punte indiană de 25 m, care urcă până în incinta Cetății Medievale Dezna, atestată documentar în 1318.',
+      linkHref: '/via-ferrata-cetate-dezna',
+      linkLabel: 'Detalii traseu',
+      facts: [
+        { label: 'Lungime', value: v.length },
+        { label: 'Dificultate', value: v.grade },
+        { label: 'Durată', value: 'Urcare ~1 oră · coborâre ~25 min' },
+      ],
+    },
+    {
+      src: '/media/belvedere/belvedere-moneasa-2.jpg',
+      eyebrow: 'Punct panoramic',
+      title: 'Belvedere Moneasa',
+      shortTitle: 'Belvedere',
+      location: 'Moneasa · Cariera de Marmură Roșie și Neagră',
+      description:
+        'Traseul pornește de lângă Cuptorul de Topit Fier și urcă pe lângă cariera de marmură roșie și neagră exploatată în secolul al XIX-lea, până la platforma panoramică.',
+      linkHref: '/belvedere-moneasa',
+      linkLabel: 'Detalii traseu',
+      facts: [
+        { label: 'Traseu', value: '2,7 km · ~1,5 ore' },
+        { label: 'Marcaj', value: 'Punct roșu' },
+        { label: 'Dificultate', value: 'Mic – Mediu' },
+      ],
+    },
+    {
+      src: '/media/pestera-liliecilor/2012-02-12-moneasa-ar-sebi-013.jpg',
+      eyebrow: 'Sit arheologic · RAN 11487.01',
+      title: 'Peștera Liliecilor',
+      shortTitle: 'Peștera Liliecilor',
+      location: 'Moneasa · Hoanca Coului',
+      description:
+        'Cunoscută de Czárán Gyula drept „Citramontán Barlang”, peștera adăpostește liliacul mare cu potcoavă (Rhinolophus ferrumequinum) și urme de locuire din neolitic până în epoca fierului.',
+      linkHref: '/pestera-liliecilor',
+      linkLabel: 'Detalii peșteră',
+      objectPosition: '56% 55%',
+      fit: 'contain-right',
+      facts: [
+        { label: 'Acces', value: 'Bandă albastră · 1,3 km' },
+        { label: 'Dezvoltare', value: '~150 m (Speowest, 2011)' },
+        { label: 'Durată', value: '~1 oră' },
+      ],
+    },
+    {
+      src: '/media/sistemul-carstic/whatsapp-image-2026-10-06-at-19.59.12-1-1.jpeg',
+      eyebrow: 'Natura 2000 · ROSCI0042',
+      title: 'Sistemul Carstic de la Moară',
+      shortTitle: 'Sistemul de la Moară',
+      location: 'Moneasa · Situl Natura 2000 Codru-Moma',
+      description:
+        'Complex carstic format în calcare și dolomite triasice vechi de ~230 milioane de ani, cu Peștera cu Apă de la Moară, Ponorul de la Merezărie și Peștera Uscată de la Moară.',
+      linkHref: '/pestera-uscata-de-la-moara',
+      linkLabel: 'Descoperă sistemul',
+      facts: [
+        { label: 'Peștera cu Apă', value: '1.750 m · Clasa A' },
+        { label: 'Merezărie', value: '538 m · −64 m' },
+        { label: 'Atestare', value: 'Conscripția din 1746' },
+      ],
+    },
+  ];
+}
 
-  const nextSlide = useCallback(() => {
-    setCurrentIndex((prev) => (prev + 1) % HERO_SLIDES.length);
-  }, []);
+interface HeroCarouselProps {
+  settings: DynamicSiteSettings;
+}
 
-  const prevSlide = useCallback(() => {
-    setCurrentIndex((prev) => (prev - 1 + HERO_SLIDES.length) % HERO_SLIDES.length);
-  }, []);
+export function HeroCarousel({ settings }: HeroCarouselProps) {
+  const slides = buildSlides(settings);
+  const total = slides.length;
+  const [index, setIndex] = useState(0);
+  const [paused, setPaused] = useState(false);
+
+  const next = useCallback(() => setIndex((i) => (i + 1) % total), [total]);
+  const prev = useCallback(() => setIndex((i) => (i - 1 + total) % total), [total]);
 
   useEffect(() => {
-    if (isPaused) return;
-    const timer = setInterval(nextSlide, 6500);
-    return () => clearInterval(timer);
-  }, [isPaused, nextSlide]);
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === 'ArrowRight') next();
+      if (e.key === 'ArrowLeft') prev();
+    };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, [next, prev]);
 
-  const activeSlide = HERO_SLIDES[currentIndex];
+  const slide = slides[index];
 
   return (
     <section
-      aria-label="Galerie foto principală Transilvania Cave Diving"
-      onMouseEnter={() => setIsPaused(true)}
-      onMouseLeave={() => setIsPaused(false)}
-      className="theme-hero-dark relative flex min-h-[68vh] flex-col justify-end overflow-hidden bg-cavern-950 sm:min-h-[76vh] lg:min-h-[84vh]"
+      aria-label="Obiective turistice Moneasa"
+      aria-roledescription="carusel"
+      onMouseEnter={() => setPaused(true)}
+      onMouseLeave={() => setPaused(false)}
+      className="theme-hero-dark relative isolate h-[calc(100svh-4rem)] min-h-[620px] max-h-[1000px] w-full overflow-hidden bg-black text-white"
     >
-      {/* Full-bleed natural photography slides with subtle editorial zoom */}
-      <div className="absolute inset-0 z-0">
-        {HERO_SLIDES.map((slide, idx) => {
-          const isCurrent = idx === currentIndex;
-          return (
-            <div
-              key={slide.src}
-              aria-hidden={!isCurrent}
-              className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${
-                isCurrent ? 'opacity-100 z-10' : 'opacity-0 z-0 pointer-events-none'
-              }`}
-            >
-              <img
-                src={slide.src}
-                alt={slide.title}
-                loading={idx === 0 ? 'eager' : 'lazy'}
-                className={`h-full w-full object-cover object-center ${
-                  isCurrent ? 'animate-hero-zoom' : ''
-                }`}
-              />
-            </div>
-          );
-        })}
-
-        {/* Natural, transparent vignette only at the bottom and left so photography stays vivid */}
+      {/* Photography — full bleed, untouched colours */}
+      {slides.map((s, i) => (
         <div
-          className="absolute inset-0 z-20 bg-gradient-to-t from-cavern-950/92 via-cavern-950/20 to-transparent"
-          aria-hidden="true"
-        />
-        <div
-          className="absolute inset-0 z-20 bg-gradient-to-r from-cavern-950/50 via-transparent to-transparent"
-          aria-hidden="true"
-        />
-      </div>
+          key={s.src}
+          aria-hidden={i !== index}
+          className={`absolute inset-0 transition-opacity duration-[1200ms] ease-out ${
+            i === index ? 'opacity-100' : 'opacity-0'
+          }`}
+        >
+          <img
+            src={s.src}
+            alt={s.title}
+            loading={i === 0 ? 'eager' : 'lazy'}
+            style={{ objectPosition: s.objectPosition || 'center' }}
+            className={`w-full object-cover ${
+              s.fit
+                ? 'absolute inset-x-0 top-0 h-[34%] [mask-image:linear-gradient(to_top,transparent_0%,#000_25%)] sm:hidden'
+                : 'h-full'
+            } ${i === index && !s.fit ? 'animate-hero-zoom' : ''}`}
+          />
+          {s.fit === 'contain-right' && (
+            <img
+              src={s.src}
+              alt=""
+              aria-hidden="true"
+              loading="lazy"
+              style={{
+                WebkitMaskImage:
+                  'linear-gradient(to right, transparent 0%, #000 28%), linear-gradient(to top, transparent 0%, #000 10%)',
+                maskImage:
+                  'linear-gradient(to right, transparent 0%, #000 28%), linear-gradient(to top, transparent 0%, #000 10%)',
+                WebkitMaskComposite: 'source-in',
+                maskComposite: 'intersect',
+              }}
+              className="absolute right-0 top-0 hidden h-[84%] w-auto max-w-none sm:block"
+            />
+          )}
+        </div>
+      ))}
 
-      {/* Organic, Uncluttered Editorial Foreground Content */}
-      <div className="relative z-30 mx-auto w-full max-w-7xl px-4 pb-8 pt-24 sm:px-6 sm:pb-12 sm:pt-28 lg:px-8 lg:pb-14">
-        <div className="max-w-2xl space-y-4 sm:space-y-5">
-          <div className="inline-flex items-center gap-2 rounded-full border border-limestone-100/20 bg-cavern-950/45 px-3.5 py-1.5 text-xs font-medium tracking-wide text-limestone-100 backdrop-blur-md">
-            <MapPin className="h-3.5 w-3.5 text-karst-400 shrink-0" aria-hidden="true" />
-            <span>Speoturism · Cave Diving · Munții Codru-Moma și Carpații Românești</span>
-          </div>
+      {/* Legibility scrims — literal black only, never theme colours.
+          On desktop the uncropped (contain-right) slide sits on pure black already, so its scrims are dropped. */}
+      <div
+        aria-hidden="true"
+        className={`pointer-events-none absolute inset-0 bg-[linear-gradient(to_top,rgba(0,0,0,0.9)_0%,rgba(0,0,0,0.65)_50%,rgba(0,0,0,0.15)_85%)] transition-opacity duration-700 sm:hidden ${
+          slide.fit ? 'opacity-0' : 'opacity-100'
+        }`}
+      />
+      <div
+        aria-hidden="true"
+        className={`pointer-events-none absolute inset-0 hidden bg-[linear-gradient(to_top,rgba(0,0,0,0.85)_0%,rgba(0,0,0,0.5)_32%,rgba(0,0,0,0)_62%)] transition-opacity duration-700 sm:block ${
+          slide.fit ? 'opacity-0' : 'opacity-100'
+        }`}
+      />
+      <div
+        aria-hidden="true"
+        className={`pointer-events-none absolute inset-0 bg-[linear-gradient(to_right,rgba(0,0,0,0.55)_0%,rgba(0,0,0,0.15)_45%,rgba(0,0,0,0)_70%)] transition-opacity duration-700 ${
+          slide.fit ? 'sm:opacity-0' : ''
+        }`}
+      />
 
-          <h1 className="font-serif text-3xl font-bold tracking-tight text-limestone-50 drop-shadow-[0_3px_14px_rgba(0,0,0,0.85)] sm:text-5xl lg:text-6xl">
-            Transilvania Cave Diving
-          </h1>
-
-          <p className="text-sm leading-relaxed text-limestone-100 drop-shadow-[0_2px_8px_rgba(0,0,0,0.85)] sm:text-base lg:text-lg">
-            Un proiect dedicat explorării și protejării lumii subterane: de la galeriile cu cristale din <strong>Peștera Grota Ursului (Moneasa)</strong> și traseul de <strong>Via Ferrata Cetatea Dezna</strong>, până la scufundările în sifoanele adânci din <strong>Peștera Isverna</strong>.
+      {/* Content */}
+      <div className="relative z-10 mx-auto flex h-full w-full max-w-[1440px] flex-col justify-end px-5 pb-8 sm:px-8 sm:pb-10 lg:px-12 lg:pb-12">
+        <div key={index} className="max-w-3xl animate-hero-fade-up">
+          <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-white/70">
+            <span className="tabular-nums text-white">{String(index + 1).padStart(2, '0')}</span>
+            <span className="mx-2 text-white/40">—</span>
+            {slide.eyebrow}
           </p>
 
-          <div className="flex flex-col gap-3 pt-2 sm:flex-row sm:flex-wrap sm:items-center sm:gap-4">
+          <h1 className="mt-4 font-display text-[clamp(2.6rem,6.2vw,5.5rem)] font-bold leading-[0.98] tracking-[-0.03em] text-white">
+            {slide.title}
+          </h1>
+
+          <p className="mt-5 max-w-xl text-base leading-relaxed text-white/85 lg:text-lg">
+            {slide.description}
+          </p>
+
+          <dl className="mt-7 flex max-w-3xl flex-col gap-3 sm:flex-row sm:flex-wrap sm:gap-x-10">
+            {slide.facts.map((f) => (
+              <div key={f.label} className="border-l border-white/25 pl-3">
+                <dt className="text-[10px] font-semibold uppercase tracking-[0.18em] text-white/55">
+                  {f.label}
+                </dt>
+                <dd className="mt-1 text-sm font-medium text-white sm:whitespace-nowrap">{f.value}</dd>
+              </div>
+            ))}
+          </dl>
+
+          <div className="mt-8 flex flex-wrap items-center gap-3">
             <Link
-              href="/grota-ursului"
-              className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-karst-600 px-6 py-3.5 text-sm font-semibold text-limestone-50 shadow-lg transition hover:bg-karst-500 sm:w-auto"
+              href={slide.linkHref}
+              className="group inline-flex items-center gap-2 rounded-full bg-white px-6 py-3 text-sm font-semibold text-neutral-950 transition hover:bg-white/90"
             >
-              <span>Vizitează Peștera Grota Ursului</span>
-              <ArrowRight className="h-4 w-4" />
+              {slide.linkLabel}
+              <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
             </Link>
             <Link
-              href="/descopera"
-              className="inline-flex w-full items-center justify-center gap-2 rounded-xl border border-limestone-200/35 bg-cavern-950/45 px-5 py-3.5 text-sm font-medium text-limestone-50 backdrop-blur-md transition hover:border-limestone-100 hover:bg-cavern-900/75 sm:w-auto"
+              href="/contact"
+              className="inline-flex items-center gap-2 rounded-full border border-white/35 px-6 py-3 text-sm font-semibold text-white transition hover:border-white/60 hover:bg-white/10"
             >
-              <span>Descoperă Peșterile și Traseele</span>
+              Programează o vizită
             </Link>
           </div>
         </div>
 
-        {/* Minimal, Natural Photo Caption & Slide Controls Bar */}
-        <div className="mt-8 flex flex-col items-start justify-between gap-4 border-t border-limestone-200/20 pt-4 sm:mt-10 sm:flex-row sm:items-center sm:pt-5">
-          <div className="min-w-0">
-            <Link
-              href={activeSlide.linkHref}
-              className="group inline-flex items-center gap-2 font-serif text-base font-medium text-limestone-50 hover:text-karst-300 sm:text-lg"
-            >
-              <span className="truncate">{activeSlide.title}</span>
-              <ArrowRight className="h-4 w-4 shrink-0 text-karst-400 transition group-hover:translate-x-1" />
-            </Link>
-            <p className="text-xs text-limestone-300">{activeSlide.location}</p>
-          </div>
-
-          <div className="flex w-full items-center justify-between gap-4 sm:w-auto sm:justify-end">
-            {/* Slide counter + organic dots */}
-            <div className="flex items-center gap-3">
-              <span className="font-mono text-xs text-limestone-300">
-                0{currentIndex + 1} / 0{HERO_SLIDES.length}
-              </span>
-              <div className="flex items-center gap-2" role="tablist" aria-label="Imagini carusel">
-                {HERO_SLIDES.map((s, idx) => {
-                  const active = idx === currentIndex;
-                  return (
-                    <button
-                      key={s.src}
-                      type="button"
-                      role="tab"
-                      aria-selected={active}
-                      aria-label={`Imaginea ${idx + 1}: ${s.title}`}
-                      onClick={() => setCurrentIndex(idx)}
-                      className={`h-2.5 rounded-full transition-all ${
-                        active
-                          ? 'w-8 bg-limestone-100'
-                          : 'w-2.5 bg-limestone-200/40 hover:bg-limestone-200/75'
+        {/* Slide navigation with progress */}
+        <div className="mt-10 flex items-end gap-6 lg:mt-14">
+          <ol className="grid flex-1 grid-cols-5 gap-3 sm:gap-5">
+            {slides.map((s, i) => {
+              const active = i === index;
+              return (
+                <li key={s.src}>
+                  <button
+                    type="button"
+                    onClick={() => setIndex(i)}
+                    aria-label={`Diapozitiv ${i + 1}: ${s.shortTitle}`}
+                    aria-current={active}
+                    className="group block w-full text-left"
+                  >
+                    <span className="relative block h-[2px] w-full overflow-hidden bg-white/25">
+                      {active && (
+                        <span
+                          key={`p-${index}`}
+                          onAnimationEnd={next}
+                          style={{ animationPlayState: paused ? 'paused' : 'running' }}
+                          className="animate-hero-progress absolute inset-0 bg-white"
+                        />
+                      )}
+                      {i < index && <span className="absolute inset-0 bg-white/60" />}
+                    </span>
+                    <span
+                      className={`mt-3 hidden text-xs font-medium transition sm:block ${
+                        active ? 'text-white' : 'text-white/55 group-hover:text-white/85'
                       }`}
-                    />
-                  );
-                })}
-              </div>
-            </div>
+                    >
+                      <span className="mr-2 tabular-nums text-white/45">
+                        {String(i + 1).padStart(2, '0')}
+                      </span>
+                      {s.shortTitle}
+                    </span>
+                  </button>
+                </li>
+              );
+            })}
+          </ol>
 
-            <div className="flex items-center gap-1.5">
-              <button
-                type="button"
-                onClick={prevSlide}
-                aria-label="Imaginea anterioară"
-                className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-limestone-200/30 bg-cavern-950/45 text-limestone-100 backdrop-blur-sm transition hover:border-limestone-100 hover:bg-cavern-900/75"
-              >
-                <ChevronLeft className="h-4 w-4" />
-              </button>
-              <button
-                type="button"
-                onClick={nextSlide}
-                aria-label="Imaginea următoare"
-                className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-limestone-200/30 bg-cavern-950/45 text-limestone-100 backdrop-blur-sm transition hover:border-limestone-100 hover:bg-cavern-900/75"
-              >
-                <ChevronRight className="h-4 w-4" />
-              </button>
-            </div>
+          <div className="hidden shrink-0 items-center gap-2 md:flex">
+            <button
+              type="button"
+              onClick={prev}
+              aria-label="Diapozitiv anterior"
+              className="flex h-10 w-10 items-center justify-center rounded-full border border-white/30 text-white transition hover:bg-white/10"
+            >
+              <ChevronLeft className="h-4 w-4" />
+            </button>
+            <button
+              type="button"
+              onClick={next}
+              aria-label="Diapozitiv următor"
+              className="flex h-10 w-10 items-center justify-center rounded-full border border-white/30 text-white transition hover:bg-white/10"
+            >
+              <ChevronRight className="h-4 w-4" />
+            </button>
           </div>
         </div>
       </div>
+
+      {/* Photo location / credit */}
+      <p className="absolute right-5 top-5 z-10 hidden items-center gap-1.5 text-[11px] font-medium text-white/70 sm:flex lg:right-12">
+        <MapPin className="h-3.5 w-3.5" />
+        {slide.location}
+      </p>
     </section>
   );
 }
