@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server';
 import crypto from 'crypto';
 import { cookies } from 'next/headers';
+import { revalidatePath } from 'next/cache';
 import { getDynamicSettings, updateDynamicSettings } from '@/lib/settings';
 
 function isAuthenticated(): boolean {
@@ -35,6 +36,15 @@ export async function POST(request: Request) {
   try {
     const body = await request.json();
     const updated = updateDynamicSettings(body);
+    try {
+      revalidatePath('/', 'page');
+      revalidatePath('/grota-ursului', 'page');
+      revalidatePath('/via-ferrata-cetate-dezna', 'page');
+      revalidatePath('/contact', 'page');
+      revalidatePath('/descopera', 'page');
+    } catch (e) {
+      console.error('Revalidation error:', e);
+    }
     return NextResponse.json({ success: true, settings: updated });
   } catch (error) {
     console.error('Save error:', error);

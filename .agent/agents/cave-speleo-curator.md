@@ -40,3 +40,4 @@ Ești agentul expert în explorarea carstică, protecția mediului subteran și 
 ## Verificare și Testare
 - Verifică integritatea datelor în `src/content/site-database.json` și pe rutele `/grota-ursului`, `/pestera-liliecilor`, `/pestera-uscata-de-la-moara`.
 - Rulează `npm run lint` pentru conformitate TypeScript.
+

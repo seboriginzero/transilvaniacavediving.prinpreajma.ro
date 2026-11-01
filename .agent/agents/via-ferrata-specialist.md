@@ -35,3 +35,4 @@ Ești agentul responsabil de conținutul tehnic, regulile de siguranță și pre
 
 ## Verificare și Testare
 - Verifică valorile afișate în caruselul de pe homepage, în secțiunea cardurilor de destinație (`DESTINATIONS`), în pagina `/via-ferrata-cetate-dezna` și în rezumatul panoului `/administrator`.
+

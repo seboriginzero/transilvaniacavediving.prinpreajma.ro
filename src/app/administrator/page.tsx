@@ -27,7 +27,6 @@ export default function AdministratorPage() {
   const [saveStatus, setSaveStatus] = useState<{ type: 'success' | 'error'; message: string } | null>(null);
 
   const [settings, setSettings] = useState<DynamicSiteSettings | null>(null);
-  const [saved, setSaved] = useState<DynamicSiteSettings | null>(null);
 
   // Check auth state and load current settings
   const fetchSettings = async () => {
@@ -38,7 +37,6 @@ export default function AdministratorPage() {
       setIsAuthenticated(Boolean(data.authenticated));
       if (data.settings) {
         setSettings(data.settings);
-        setSaved(data.settings);
       }
     } catch (err) {
       console.error('Failed to load settings:', err);
@@ -105,7 +103,6 @@ export default function AdministratorPage() {
 
       if (res.ok && data.success) {
         setSettings(data.settings);
-        setSaved(data.settings);
         setSaveStatus({ type: 'success', message: 'Prețurile și orarele au fost actualizate și salvate cu succes!' });
         setTimeout(() => setSaveStatus(null), 5000);
       } else {
@@ -247,31 +244,7 @@ export default function AdministratorPage() {
         </div>
       </div>
 
-      {saved && (
-        <section aria-label="Valori publicate acum pe site" className="rounded-2xl border border-cavern-700 bg-cavern-900">
-          <div className="flex flex-wrap items-center justify-between gap-2 border-b border-cavern-700 px-6 py-4">
-            <h2 className="text-sm font-semibold text-limestone-50">Afișat acum pe site</h2>
-            <span className="text-xs text-limestone-400">Actualizat: {saved.grotaUrsului.lastUpdated}</span>
-          </div>
-          <dl className="grid grid-cols-1 divide-y divide-cavern-700 sm:grid-cols-2 sm:divide-y-0 lg:grid-cols-4 lg:divide-x">
-            {[
-              ["Grota Ursului · Status", saved.grotaUrsului.status],
-              ["Grota Ursului · Program", `${saved.grotaUrsului.days}, ${saved.grotaUrsului.hours}`],
-              ["Grota Ursului · Bilete", `${saved.grotaUrsului.adultPrice} lei adulți · ${saved.grotaUrsului.childPrice} lei copii`],
-              ["Telefon programări", saved.grotaUrsului.phoneContact],
-              ["Via Ferrata · Acces", saved.viaFerrata.status],
-              ["Via Ferrata · Program", saved.viaFerrata.schedule],
-              ["Via Ferrata · Taxă", saved.viaFerrata.priceNote],
-              ["Via Ferrata · Echipament", saved.viaFerrata.equipmentRentalPrice],
-            ].map(([k, v]) => (
-              <div key={k} className="px-6 py-4">
-                <dt className="text-[11px] font-semibold uppercase tracking-[0.14em] text-limestone-400">{k}</dt>
-                <dd className="mt-1.5 text-sm font-medium text-limestone-50">{v}</dd>
-              </div>
-            ))}
-          </dl>
-        </section>
-      )}
+
 
 
       {saveStatus && (

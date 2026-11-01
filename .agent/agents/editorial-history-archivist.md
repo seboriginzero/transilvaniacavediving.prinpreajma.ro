@@ -31,3 +31,4 @@ Ești agentul responsabil de patrimoniul istoric, cronologia documentată și ar
 
 ## Verificare și Testare
 - Verifică firul cronologic de pe homepage și paginile `/istorie-si-patrimoniu`, `/czaran-gyula`, `/statiunea-moneasa`.
+

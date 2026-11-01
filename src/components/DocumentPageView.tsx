@@ -9,6 +9,7 @@ import { SafetyWarningBanner } from './SafetyWarningBanner';
 import { TechnicalSpecsCard } from './TechnicalSpecsCard';
 import { MarkdownContent, slugifyHeading } from './MarkdownContent';
 import { CardMediaThumb } from './CardMediaThumb';
+import { getDynamicSettings } from '@/lib/settings';
 
 interface DocumentPageViewProps {
   page: PageRecord;
@@ -23,6 +24,9 @@ export function DocumentPageView({
   relatedPages = [],
   showHistoricalNotice = false,
 }: DocumentPageViewProps) {
+  const settings = getDynamicSettings();
+  const phone = settings.grotaUrsului.phoneContact || '+40 770 846 001';
+  const phoneClean = phone.replace(/[^0-9+]/g, '');
   const entityJsonLd = buildPageEntityJsonLd(page);
 
   // Extract TOC headings (level 1-3) that are short enough to be navigation items
@@ -89,8 +93,8 @@ export function DocumentPageView({
             <div>
               <strong className="text-safety-400">Notă de Context Istoric și Arhivă:</strong> Acest articol face parte din arhiva documentară Transilvania Cave Diving
               {page.publicationDate ? ` (publicat la ${page.publicationDate.slice(0, 10)})` : ''}. Orice tarife, promoții sezoniere, programe sau disponibilități de stoc menționate în text reflectă momentul publicării originale și necesită confirmare telefonică la{' '}
-              <a href="tel:+40770846001" className="font-mono font-semibold text-karst-400 underline">
-                +40 770 846 001
+              <a href={`tel:${phoneClean}`} className="font-mono font-semibold text-karst-400 underline">
+                {phone}
               </a>
               .
             </div>
@@ -206,11 +210,11 @@ export function DocumentPageView({
                 </p>
                 <div className="mt-4 space-y-2.5">
                   <a
-                    href="tel:+40770846001"
+                    href={`tel:${phoneClean}`}
                     className="flex w-full items-center justify-center gap-2 rounded-xl bg-karst-600 px-4 py-2.5 text-sm font-bold text-white shadow-md transition hover:bg-karst-500"
                   >
                     <Phone className="h-4 w-4 text-white" aria-hidden="true" />
-                    <span className="text-white font-mono tracking-wide">+40 770 846 001</span>
+                    <span className="text-white font-mono tracking-wide">{phone}</span>
                   </a>
                   <Link
                     href="/contact"

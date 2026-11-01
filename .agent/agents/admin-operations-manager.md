@@ -42,3 +42,4 @@ Ești agentul responsabil de panoul securizat de administrare a platformei (`/ad
   curl -s -X POST http://localhost:3000/api/admin/auth -H "Content-Type: application/json" -d '{"password":"..."}'
   ```
 - Asigură-te că fișierele cu parole nu sunt comise niciodată în Git.
+

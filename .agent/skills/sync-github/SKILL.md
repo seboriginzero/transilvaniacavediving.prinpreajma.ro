@@ -39,3 +39,4 @@ Confirmă că starea locală este aliniată:
 ```bash
 git status
 ```
+

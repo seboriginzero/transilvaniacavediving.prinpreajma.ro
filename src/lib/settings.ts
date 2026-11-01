@@ -129,6 +129,29 @@ export function updateDynamicSettings(newSettings: Partial<DynamicSiteSettings>)
   };
 
   fs.writeFileSync(SETTINGS_PATH, JSON.stringify(merged, null, 2), 'utf-8');
+
+  // Also sync to site-database.json so static snapshots and full database stay in sync
+  try {
+    const dbPath = path.join(process.cwd(), 'src/content/site-database.json');
+    if (fs.existsSync(dbPath)) {
+      const rawDb = fs.readFileSync(dbPath, 'utf-8');
+      const db = JSON.parse(rawDb);
+      const grotaPage = db.pages?.find((p: any) => p.path === '/grota-ursului');
+      if (grotaPage) {
+        grotaPage.scheduleSummary = `${merged.grotaUrsului.days}: ${merged.grotaUrsului.hours} (sau în afara programului pentru grupuri organizate, pe bază de programare)`;
+        grotaPage.pricingSummary = `Adulți și copii peste 14 ani: ${merged.grotaUrsului.adultPrice} lei | Copii până la 14 ani: ${merged.grotaUrsului.childPrice} lei | Sub 5 ani, speologi, salvamontiști și salvaspeo legitimați: Gratuit (valabil în programul de vizitare; necesită confirmare curentă)`;
+      }
+      const vfPage = db.pages?.find((p: any) => p.path === '/via-ferrata-cetate-dezna');
+      if (vfPage) {
+        vfPage.scheduleSummary = merged.viaFerrata.schedule;
+        vfPage.pricingSummary = `${merged.viaFerrata.priceNote}. ${merged.viaFerrata.equipmentRentalPrice}.`;
+      }
+      fs.writeFileSync(dbPath, JSON.stringify(db, null, 2), 'utf-8');
+    }
+  } catch (err) {
+    console.error('Error syncing dynamic settings to site-database.json:', err);
+  }
+
   return merged;
 }
 

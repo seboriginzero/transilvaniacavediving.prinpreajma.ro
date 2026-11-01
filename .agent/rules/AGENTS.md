@@ -51,3 +51,4 @@ Acest depozit găzduiește platforma web modernă **Transilvania Cave Diving** (
   - Port intern expus pe VM1: `0.0.0.0:3040->3000/tcp`
   - Reverse proxy Nginx: gestionează domeniul public `https://transilvaniacavediving.prinpreajma.ro`
   - Healthcheck activ: `GET /api/health` ➔ `HTTP 200 OK`
+

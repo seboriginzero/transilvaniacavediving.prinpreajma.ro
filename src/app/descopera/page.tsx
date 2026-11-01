@@ -15,6 +15,8 @@ export const metadata: Metadata = {
   },
 };
 
+export const dynamic = 'force-dynamic';
+
 export default function DescoperaHubPage() {
   const allPages = getAllPages();
   const primaryPaths = [

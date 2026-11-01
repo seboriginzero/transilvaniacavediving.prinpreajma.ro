@@ -43,3 +43,4 @@ Pe serverul VM1, fișierul `deploy-gitops.sh` execută automat:
    ```bash
    curl -s -i https://transilvaniacavediving.prinpreajma.ro/api/health
    ```
+

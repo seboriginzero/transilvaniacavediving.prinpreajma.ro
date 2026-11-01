@@ -1,4 +1,5 @@
 import siteDatabaseRaw from '@/content/site-database.json';
+import { getDynamicSettings } from './settings';
 
 export interface MediaImage {
   sourceUrl: string;
@@ -128,13 +129,59 @@ export function getNavigation(): NavItem[] {
   return db.navigation;
 }
 
+function applyDynamicSettingsToPage(page: PageRecord): PageRecord {
+  try {
+    const settings = getDynamicSettings();
+    if (page.path === '/grota-ursului') {
+      const g = settings.grotaUrsului;
+      const dynamicSchedule = `${g.days}: ${g.hours} (sau în afara programului pentru grupuri organizate, pe bază de programare)`;
+      const dynamicPricing = `Adulți și copii peste 14 ani: ${g.adultPrice} lei | Copii până la 14 ani: ${g.childPrice} lei | Sub 5 ani, speologi, salvamontiști și salvaspeo legitimați: Gratuit (valabil în programul de vizitare; necesită confirmare curentă)`;
+
+      let dynamicBody = page.bodyMarkdown
+        .replace(
+          /## Sâmbătă și duminică între orele [0-9:–\s-]+/gi,
+          `## ${g.days} între orele ${g.hours}`
+        )
+        .replace(
+          /Copii de peste 14 ani și adulții –\*\*[0-9]+\s*lei\*\*/gi,
+          `Copii de peste 14 ani și adulții –**${g.adultPrice} lei**`
+        )
+        .replace(
+          /Copii de până la 14 ani –\*\*[0-9]+\s*lei\*\*/gi,
+          `Copii de până la 14 ani –**${g.childPrice} lei**`
+        );
+
+      return {
+        ...page,
+        scheduleSummary: dynamicSchedule,
+        pricingSummary: dynamicPricing,
+        bodyMarkdown: dynamicBody,
+      };
+    }
+
+    if (page.path === '/via-ferrata-cetate-dezna') {
+      const v = settings.viaFerrata;
+      return {
+        ...page,
+        scheduleSummary: v.schedule,
+        pricingSummary: `${v.priceNote}. ${v.equipmentRentalPrice}.`,
+      };
+    }
+  } catch (err) {
+    // Return original page if dynamic settings cannot be loaded
+  }
+  return page;
+}
+
 export function getAllPages(): PageRecord[] {
-  return db.pages;
+  return db.pages.map(applyDynamicSettingsToPage);
 }
 
 export function getPageByPath(routePath: string): PageRecord | undefined {
   const normalized = routePath === '/' ? '/' : `/${routePath.replace(/^\/+|\/+$/g, '')}`;
-  return db.pages.find((p) => p.path === normalized);
+  const basePage = db.pages.find((p) => p.path === normalized);
+  if (!basePage) return undefined;
+  return applyDynamicSettingsToPage(basePage);
 }
 
 const LEGACY_SLUG_ALIASES: Record<string, string> = {

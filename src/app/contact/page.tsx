@@ -2,9 +2,12 @@ import React from 'react';
 import { notFound } from 'next/navigation';
 import { Phone, MapPin, Building2, Clock, ExternalLink } from 'lucide-react';
 import { getPageByPath, getCompanyInfo } from '@/lib/content';
+import { getDynamicSettings } from '@/lib/settings';
 import { buildPageMetadata } from '@/lib/seo';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { ContactForm } from '@/components/ContactForm';
+
+export const dynamic = 'force-dynamic';
 
 export const metadata = (() => {
   const page = getPageByPath('/contact');
@@ -18,6 +21,10 @@ export default function ContactPage() {
   if (!page) notFound();
 
   const company = getCompanyInfo();
+  const settings = getDynamicSettings();
+  const g = settings.grotaUrsului;
+  const primaryPhone = g.phoneContact || company.phonePrimary;
+  const phoneClean = primaryPhone.replace(/[^0-9+]/g, '');
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8 space-y-12">
@@ -58,8 +65,8 @@ export default function ContactPage() {
                     Telefon Oficial de Contact
                   </dt>
                   <dd className="mt-1 font-mono text-lg font-bold text-limestone-50">
-                    <a href="tel:+40770846001" className="hover:text-karst-400">
-                      {company.phonePrimary}
+                    <a href={`tel:${phoneClean}`} className="hover:text-karst-400">
+                      {primaryPhone}
                     </a>
                   </dd>
                   <dd className="mt-1 text-xs text-limestone-400">
@@ -90,10 +97,10 @@ export default function ContactPage() {
                     Program Vizitare Peștera Grota Ursului
                   </dt>
                   <dd className="mt-1 text-limestone-100">
-                    Sâmbătă și Duminică: <strong>11:00 – 16:00</strong>
+                    {g.days}: <strong>{g.hours}</strong>
                   </dd>
                   <dd className="mt-0.5 text-xs text-limestone-300">
-                    În afara programului: deschis la cerere pentru grupuri organizate, pe bază de programare prealabilă.
+                    Bilete: {g.adultPrice} lei adulți · {g.childPrice} lei copii. {g.specialNote}
                   </dd>
                 </div>
               </div>

@@ -33,3 +33,4 @@ Ești agentul responsabil de performanța tehnică, respectarea standardelor web
   npm run build
   ```
 - Inspectează antetele de securitate și validitatea JSON-LD la nivel de producție.
+

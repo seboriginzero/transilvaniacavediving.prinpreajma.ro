@@ -51,3 +51,4 @@ curl -X POST http://localhost:3000/api/admin/settings \
   -d '{"password": "...", "settings": { ... }}'
 ```
 Modificările intră în vigoare imediat pe paginile dinamice.
+

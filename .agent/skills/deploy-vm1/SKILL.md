@@ -41,3 +41,4 @@ Verifică domeniul public protejat prin reverse-proxy Nginx:
 ```bash
 curl -s -i https://transilvaniacavediving.prinpreajma.ro/api/health
 ```
+
