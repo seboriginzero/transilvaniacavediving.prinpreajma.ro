@@ -87,10 +87,9 @@ export function Header({ navigation, phonePrimary }: HeaderProps) {
                 item.href === '/'
                   ? pathname === '/'
                   : pathname === item.href || Boolean(item.children && item.children.some((c) => pathname === c.href));
-              const base = `relative inline-flex h-16 items-center gap-1 px-4 text-sm font-medium transition-colors ${
-                isActive ? 'text-limestone-50' : 'text-limestone-300 hover:text-limestone-50'
+              const base = `relative inline-flex h-16 items-center gap-1 px-4 text-sm transition-colors ${
+                isActive ? 'font-semibold text-limestone-50' : 'font-medium text-limestone-300 hover:text-limestone-50'
               }`;
-              const underline = isActive ? <span className="absolute inset-x-4 bottom-0 h-[2px] bg-karst-400" /> : null;
 
               if (item.children && item.children.length > 0) {
                 const isOpen = openDropdown === item.href;
@@ -104,7 +103,6 @@ export function Header({ navigation, phonePrimary }: HeaderProps) {
                     <button type="button" aria-expanded={isOpen} onClick={() => setOpenDropdown(isOpen ? null : item.href)} className={base}>
                       {item.label}
                       <ChevronDown className={`h-3.5 w-3.5 transition-transform ${isOpen ? 'rotate-180' : ''}`} />
-                      {underline}
                     </button>
                     {isOpen && (
                       <div className="absolute left-0 top-full w-80 pt-1">
@@ -131,7 +129,6 @@ export function Header({ navigation, phonePrimary }: HeaderProps) {
               return (
                 <Link key={item.href} href={item.href} className={base}>
                   {item.label}
-                  {underline}
                 </Link>
               );
             })}
