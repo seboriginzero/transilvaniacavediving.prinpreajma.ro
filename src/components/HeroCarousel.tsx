@@ -2,7 +2,7 @@
 
 import React, { useCallback, useEffect, useState } from 'react';
 import Link from 'next/link';
-import { ArrowRight, ChevronLeft, ChevronRight, MapPin } from 'lucide-react';
+import { ArrowRight, ChevronLeft, ChevronRight } from 'lucide-react';
 import type { DynamicSiteSettings } from '@/lib/settings';
 
 interface HeroFact {
@@ -313,12 +313,6 @@ export function HeroCarousel({ settings }: HeroCarouselProps) {
           </div>
         </div>
       </div>
-
-      {/* Photo location / credit */}
-      <p className="absolute right-5 top-5 z-10 hidden items-center gap-1.5 text-[11px] font-medium text-white/70 sm:flex lg:right-12">
-        <MapPin className="h-3.5 w-3.5" />
-        {slide.location}
-      </p>
     </section>
   );
 }
