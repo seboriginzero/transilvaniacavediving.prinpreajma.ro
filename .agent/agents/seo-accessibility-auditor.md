@@ -18,6 +18,7 @@ Ești agentul responsabil de performanța tehnică, respectarea standardelor web
 
 ### 2. SEO Tehnic și Date Structurate
 - **Sitemap și Robots**: Verifică `/sitemap.xml` și `/robots.txt` pentru acuratețea URL-urilor indexabile.
+- **SEO Internațional & Hreflang**: Asigură prezența tagurilor `<link rel="alternate" hrefLang="ro|en|hu" ... />` pentru toate cele 4 trasee traduse (Grota Ursului, Peștera Liliecilor, Moară, Via Ferrata).
 - **Schema.org JSON-LD**: Fiecare pagină generează date structurate `TouristAttraction`, `Place` sau `Article` prin `src/lib/seo.ts`.
 - **Titluri și Metadescrieri**: Fiecare rută are titluri descriptive unice și metadescrieri optimizate, fără texte generice.
 

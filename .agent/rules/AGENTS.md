@@ -52,3 +52,14 @@ Acest depozit găzduiește platforma web modernă **Transilvania Cave Diving** (
   - Reverse proxy Nginx: gestionează domeniul public `https://transilvaniacavediving.prinpreajma.ro`
   - Healthcheck activ: `GET /api/health` ➔ `HTTP 200 OK`
 
+---
+
+## 6. Localizare Multilingvă și Standarde Internaționale (RO, EN, HU)
+- **Mapare Trasee Turistice**:
+  - Peștera Grota Ursului: `/grota-ursului` (RO) ⟷ `/bear-cave` (EN) ⟷ `/medve-barlang` (HU).
+  - Peștera Liliecilor: `/pestera-liliecilor` (RO) ⟷ `/bat-cave` (EN) ⟷ `/denever-barlang` (HU).
+  - Sistemul Carstic de la Moară: `/pestera-uscata-de-la-moara` (RO) ⟷ `/the-mill-karst-system` (EN) ⟷ `/a-malom-karsztrendszere` (HU).
+  - Via Ferrata Cetatea Dezna: `/via-ferrata-cetate-dezna` (RO) ⟷ `/via-ferrata-dezna-en` (EN) ⟷ `/via-ferrata-dezna-hu` (HU).
+- **Comutator Dinamic**: Antetul (`Header.tsx`) detectează automat limba curentă și navighează direct la versiunea tradusă corespondentă a paginii.
+- **SEO Tehnic**: Fiecare pagină tradusă include matricea `translations` pentru generarea automată a tagurilor `<link rel="alternate" hreflang="..." />` în `src/lib/seo.ts`.
+

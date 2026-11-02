@@ -7,3 +7,4 @@ export default function ViaFerrataDeznaEnPage() {
 }
 
 export const dynamic = 'force-dynamic';
+

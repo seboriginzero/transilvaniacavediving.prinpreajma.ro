@@ -7,3 +7,4 @@ export default function BearCavePage() {
 }
 
 export const dynamic = 'force-dynamic';
+

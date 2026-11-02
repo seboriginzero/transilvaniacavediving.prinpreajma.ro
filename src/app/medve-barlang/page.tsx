@@ -7,3 +7,4 @@ export default function MedveBarlangPage() {
 }
 
 export const dynamic = 'force-dynamic';
+
