@@ -8,7 +8,7 @@ import { Breadcrumbs } from '@/components/Breadcrumbs';
 export const metadata: Metadata = {
   title: 'Aventuri și Experiențe — Speoturism, Cave Diving, Via Ferrata și Excursii Școlare',
   description:
-    'Experiențe autentice organizate de Transilvania Cave Diving: ture de speoturism în Grota Ursului, scufundări în peșteri (Isverna), Via Ferrata Cetatea Dezna, canyoning și pachete Școala Altfel / Săptămâna Verde.',
+    'Experiențe autentice organizate de Transilvania Cave Diving: ture de speoturism în Grota Ursului, explorări speologice, Via Ferrata Cetatea Dezna și pachete Moneasa Adventure (Școala Altfel / Săptămâna Verde).',
   alternates: {
     canonical: 'https://transilvaniacavediving.com/aventuri',
   },
@@ -36,7 +36,7 @@ export default function AventuriHubPage() {
       href: '/cave-diving',
       icon: Waves,
       description:
-        'Scufundări ghidate în Peștera Isverna (>4 km, 6 sifoane), Șura Mare și galerii de mină inundate, suport logistic OC/CCR și programe de instruire IANTD (Side Mount, Cavern Diver, Intro to Cave).',
+        'Scufundări speologice și explorări în sifoane carstice, galerii de mină inundate, suport logistic OC/CCR și programe de instruire IANTD (Side Mount, Cavern Diver, Intro to Cave).',
     },
     {
       title: 'Via Ferrata – Cetatea Medievală Dezna',

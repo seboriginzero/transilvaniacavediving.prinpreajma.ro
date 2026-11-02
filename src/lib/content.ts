@@ -267,7 +267,6 @@ export function getCaveDivingArticles(): PageRecord[] {
   return db.posts.filter(
     (p) =>
       p.categoryLabel === 'Cave Diving și Cursuri' ||
-      p.cleanTitle.toLowerCase().includes('isverna') ||
       p.cleanTitle.toLowerCase().includes('cave') ||
       p.cleanTitle.toLowerCase().includes('iantd') ||
       p.cleanTitle.toLowerCase().includes('scufund') ||

@@ -274,17 +274,6 @@ export function DocumentPageView({
                         <ArrowRight className="h-3.5 w-3.5 text-[#1877F2]" />
                       </a>
                     )}
-                    {page.path === '/visit-isverna' && (
-                      <a
-                        href="https://www.facebook.com/isvernacavediving"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="inline-flex items-center justify-between rounded-lg border border-cavern-700 bg-cavern-900/90 px-3 py-2 font-semibold text-limestone-100 transition hover:border-[#1877F2] hover:text-karst-400"
-                      >
-                        <span>Facebook: Visit Isverna Cave Diving</span>
-                        <ArrowRight className="h-3.5 w-3.5 text-[#1877F2]" />
-                      </a>
-                    )}
                     <a
                       href="https://www.facebook.com/cavedivingromania"
                       target="_blank"

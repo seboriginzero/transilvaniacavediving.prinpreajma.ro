@@ -72,7 +72,6 @@ export function buildOrganizationJsonLd() {
       'https://www.facebook.com/Belvedere-Moneasa-105856912164648',
       'https://www.facebook.com/profile.php?id=100083662944867',
       'https://www.facebook.com/profile.php?id=61575535798320',
-      'https://www.facebook.com/isvernacavediving',
       company.youtubeUrl,
     ],
   };

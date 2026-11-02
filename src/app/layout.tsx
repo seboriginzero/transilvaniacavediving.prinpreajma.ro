@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     template: '%s | Transilvania Cave Diving',
   },
   description:
-    'Transilvania Cave Diving — Peștera Grota Ursului Moneasa, Peștera Liliecilor, Sistemul Carstic de la Moară, Via Ferrata Cetatea Dezna, Peștera Isverna, cursuri IANTD, echipamente și lucrări subacvatice.',
+    'Transilvania Cave Diving — Peștera Grota Ursului Moneasa, Peștera Liliecilor, Sistemul Carstic de la Moară, Via Ferrata Cetatea Dezna, explorare speologică și patrimoniu în Munții Codru-Moma.',
   icons: {
     icon: [
       { url: '/favicon.svg', type: 'image/svg+xml' },

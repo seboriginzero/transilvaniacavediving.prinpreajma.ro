@@ -37,7 +37,7 @@ export default function ContactPage() {
           Contactează Transilvania Cave Diving
         </h1>
         <p className="mt-4 max-w-3xl text-base leading-relaxed text-limestone-200">
-          Pentru programarea grupurilor la Peștera Grota Ursului din Moneasa, ture de speoturism, excursii școlare Moneasa Adventure, scufundări tehnice în Peștera Isverna, comenzi de echipamente sau oferte pentru lucrări subacvatice:
+          Pentru programarea grupurilor la Peștera Grota Ursului din Moneasa, ture de speoturism, excursii școlare Moneasa Adventure, traseul Via Ferrata Cetatea Dezna și activități în Munții Codru-Moma:
         </p>
       </div>
 
@@ -174,17 +174,6 @@ export default function ContactPage() {
                       className="inline-flex items-center gap-1.5 font-semibold text-limestone-100 hover:text-karst-400 hover:underline"
                     >
                       <span>Czárán Gyula – Patrimoniu Moneasa</span>
-                      <ExternalLink className="h-3 w-3 text-[#1877F2]" />
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://www.facebook.com/isvernacavediving"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-1.5 font-semibold text-limestone-100 hover:text-karst-400 hover:underline"
-                    >
-                      <span>Visit Isverna Cave Diving</span>
                       <ExternalLink className="h-3 w-3 text-[#1877F2]" />
                     </a>
                   </li>

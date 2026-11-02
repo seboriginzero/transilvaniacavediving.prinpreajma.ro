@@ -157,8 +157,8 @@ export function ContactForm() {
             <option value="Programare vizită Grota Ursului / Speoturism">
               Programare vizită Grota Ursului / Speoturism
             </option>
-            <option value="Cave Diving și Cursuri IANTD (Isverna / România)">
-              Cave Diving și Cursuri IANTD (Isverna / România)
+            <option value="Via Ferrata Cetatea Dezna / Ghidaj Montan">
+              Via Ferrata Cetatea Dezna / Ghidaj Montan
             </option>
             <option value="Moneasa Adventure (Școala Altfel / Săptămâna Verde)">
               Moneasa Adventure (Școala Altfel / Săptămâna Verde)
