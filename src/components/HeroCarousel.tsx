@@ -224,11 +224,7 @@ export function HeroCarousel({ settings }: HeroCarouselProps) {
             {slide.title}
           </h1>
 
-          <p className="mt-5 max-w-xl text-base leading-relaxed text-white/85 lg:text-lg">
-            {slide.description}
-          </p>
-
-          <dl className="mt-7 flex max-w-3xl flex-col gap-3 sm:flex-row sm:flex-wrap sm:gap-x-10">
+          <dl className="mt-6 flex max-w-3xl flex-col gap-3 sm:flex-row sm:flex-wrap sm:gap-x-10">
             {slide.facts.map((f) => (
               <div key={f.label} className="border-l border-white/25 pl-3">
                 <dt className="text-[10px] font-semibold uppercase tracking-[0.18em] text-white/55">

@@ -83,20 +83,16 @@ export function Header({ navigation, phonePrimary }: HeaderProps) {
 
             {/* Emblemă Transilvania extinsă la hover */}
             <div className="pointer-events-none absolute left-0 top-full z-50 pt-2 opacity-0 transition-all duration-200 ease-out group-hover/logo:pointer-events-auto group-hover/logo:opacity-100 group-focus-within/logo:pointer-events-auto group-focus-within/logo:opacity-100">
-              <div className="w-72 sm:w-80 overflow-hidden rounded-2xl border border-cavern-700/80 bg-cavern-950 p-3 shadow-[0_24px_60px_-15px_rgba(0,0,0,0.7)] backdrop-blur-xl">
+              <div className="w-72 sm:w-80 overflow-hidden rounded-2xl border border-cavern-700/80 bg-black p-2 shadow-[0_24px_60px_-15px_rgba(0,0,0,0.7)] backdrop-blur-xl">
                 <div className="relative aspect-[828/934] w-full overflow-hidden rounded-xl bg-black">
                   <img
                     src="/media/logos/transilvania-logo-full.jpg"
-                    alt="Transilvania Cave Diving — Emblemă oficială"
+                    alt="Transilvania Cave Diving"
                     className="h-full w-full object-contain"
                     width={828}
                     height={934}
                     loading="eager"
                   />
-                </div>
-                <div className="mt-2.5 flex items-center justify-between px-1 text-[11px] font-medium text-limestone-400">
-                  <span>Emblemă oficială Transilvania</span>
-                  <span className="font-mono text-karst-400">TCD</span>
                 </div>
               </div>
             </div>
