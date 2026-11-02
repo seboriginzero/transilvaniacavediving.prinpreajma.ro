@@ -32,3 +32,4 @@ curl -s -i https://transilvaniacavediving.prinpreajma.ro/api/health
 - **Compilare Next.js**: Verifică ca toate cele 27 de rute să fie generate fără erori.
 - **Docker VM1**: Verifică ca imaginea `transilvaniacavediving:latest` să fie reconstruită și containerul `originzero-tenant-transilvaniacavediving` să ruleze (`Up`).
 - **Nginx & SSL**: Verifică ca `https://transilvaniacavediving.prinpreajma.ro` să returneze `HTTP 200 OK`.
+

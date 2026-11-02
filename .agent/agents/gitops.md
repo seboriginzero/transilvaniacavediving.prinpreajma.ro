@@ -93,3 +93,4 @@ curl -s -i https://transilvaniacavediving.prinpreajma.ro/api/health
 ## 4. Securitate și Izolare
 - **Fără Secrete în Depozit**: Nu include niciodată `.env`, `.env.local` sau chei private în commit-uri.
 - **Secrete de Producție**: Orice modificare de variabile de mediu se efectuează direct în fișierul `/home/antigravity/secrets/.env.transilvaniacavediving` de pe VM1.
+

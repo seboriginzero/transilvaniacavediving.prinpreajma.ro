@@ -524,7 +524,23 @@
       "iaSection": "Descoperă",
       "categoryLabel": "Peșteră Turistică și Speoturism",
       "region": "Stațiunea Moneasa, Munții Codru-Moma, Jud. Arad",
-      "translations": [],
+      "translations": [
+        {
+          "lang": "ro",
+          "path": "/grota-ursului",
+          "label": "Română"
+        },
+        {
+          "lang": "en",
+          "path": "/bear-cave",
+          "label": "English"
+        },
+        {
+          "lang": "hu",
+          "path": "/medve-barlang",
+          "label": "Magyar"
+        }
+      ],
       "heroImage": "/media/grota-ursului/grota.jpg",
       "images": [
         {
@@ -1211,7 +1227,23 @@
       "iaSection": "Aventuri și experiențe",
       "categoryLabel": "Via Ferrata și Monument Medieval",
       "region": "Dealul Osoiu (390 m), Localitatea Dezna, Jud. Arad",
-      "translations": [],
+      "translations": [
+        {
+          "lang": "ro",
+          "path": "/via-ferrata-cetate-dezna",
+          "label": "Română"
+        },
+        {
+          "lang": "en",
+          "path": "/via-ferrata-dezna-en",
+          "label": "English"
+        },
+        {
+          "lang": "hu",
+          "path": "/via-ferrata-dezna-hu",
+          "label": "Magyar"
+        }
+      ],
       "heroImage": "/media/via-ferrata/graphic1.jpg",
       "images": [
         {
@@ -4067,6 +4099,2320 @@
       "publicationDate": "2026-09-17T04:15:48+00:00",
       "lastModified": "2026-10-14T05:51:34+00:00",
       "validationStatus": "verified_protected_area",
+      "migrationStatus": "migrated_complete"
+    },
+    {
+      "sourceUrl": "https://transilvaniacavediving.com/bear-cave/",
+      "finalUrl": "https://transilvaniacavediving.com/bear-cave/",
+      "canonicalUrl": "https://transilvaniacavediving.com/bear-cave/",
+      "path": "/bear-cave",
+      "slug": "bear-cave",
+      "title": "Bear's Cave – Moneasa – Transilvania Cave Diving",
+      "cleanTitle": "Bear's Cave – Moneasa",
+      "metaDescription": "Discover Bear's Cave in Moneasa Resort (Codru-Moma Mountains). Electrified tourist trail of 200 m, Czárán Gyula Hall, cave bear fossils (Ursus spelaeus), and Coliboaia cave paintings exhibition.",
+      "language": "en",
+      "pageType": "destination",
+      "iaSection": "Descoperă",
+      "categoryLabel": "Speleology & Adventure",
+      "region": "Codru-Moma Mountains, Moneasa Resort",
+      "translations": [
+        {
+          "lang": "ro",
+          "path": "/grota-ursului",
+          "label": "Română"
+        },
+        {
+          "lang": "en",
+          "path": "/bear-cave",
+          "label": "English"
+        },
+        {
+          "lang": "hu",
+          "path": "/medve-barlang",
+          "label": "Magyar"
+        }
+      ],
+      "heroImage": "/media/grota-ursului/grota.jpg",
+      "images": [
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2022/09/grota.jpg",
+          "localPath": "/media/grota-ursului/grota.jpg",
+          "alt": "grota",
+          "caption": "",
+          "credit": "",
+          "width": 10000,
+          "height": 3489
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2025/04/logo-grota-ursului-2025.jpg",
+          "localPath": "/media/logos/logo-grota-ursului-2025.jpg",
+          "alt": "Logo Grota Ursului 2025",
+          "caption": "",
+          "credit": "",
+          "width": 10000,
+          "height": 6641
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2025/04/351491047_619571533569286_3549339122862977017_n.jpg",
+          "localPath": "/media/grota-ursului/351491047_619571533569286_3549339122862977017_n.jpg",
+          "alt": "351491047_619571533569286_3549339122862977017_n",
+          "caption": "",
+          "credit": "",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2025/04/343429593_187722424108450_6305912292523591416_n.jpg",
+          "localPath": "/media/grota-ursului/343429593_187722424108450_6305912292523591416_n.jpg",
+          "alt": "343429593_187722424108450_6305912292523591416_n",
+          "caption": "",
+          "credit": "",
+          "width": 720,
+          "height": 960
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2025/04/346085324_569462455298484_1873608628498028011_n.jpg",
+          "localPath": "/media/grota-ursului/346085324_569462455298484_1873608628498028011_n.jpg",
+          "alt": "346085324_569462455298484_1873608628498028011_n",
+          "caption": "",
+          "credit": "",
+          "width": 2048,
+          "height": 1153
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2025/04/img-20230528-wa0010.jpg",
+          "localPath": "/media/grota-ursului/img-20230528-wa0010.jpg",
+          "alt": "IMG-20230528-WA0010",
+          "caption": "",
+          "credit": "",
+          "width": 2016,
+          "height": 1134
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2025/04/343457355_1299821244244262_6181622533702610248_n.jpg",
+          "localPath": "/media/grota-ursului/343457355_1299821244244262_6181622533702610248_n.jpg",
+          "alt": "343457355_1299821244244262_6181622533702610248_n",
+          "caption": "",
+          "credit": "",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2025/04/whatsapp-image-2025-03-24-at-13.30.43.jpeg",
+          "localPath": "/media/grota-ursului/whatsapp-image-2025-03-24-at-13.30.43.jpeg",
+          "alt": "WhatsApp Image 2025-03-24 at 13.30.43",
+          "caption": "",
+          "credit": "",
+          "width": 4640,
+          "height": 3472
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2025/04/whatsapp-image-2025-03-24-at-13.30.08.jpeg",
+          "localPath": "/media/grota-ursului/whatsapp-image-2025-03-24-at-13.30.08.jpeg",
+          "alt": "WhatsApp Image 2025-03-24 at 13.30.08",
+          "caption": "",
+          "credit": "",
+          "width": 3472,
+          "height": 4640
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2025/04/whatsapp-image-2025-03-24-at-13.26.07.jpeg",
+          "localPath": "/media/grota-ursului/whatsapp-image-2025-03-24-at-13.26.07.jpeg",
+          "alt": "WhatsApp Image 2025-03-24 at 13.26.07",
+          "caption": "",
+          "credit": "",
+          "width": 3472,
+          "height": 4640
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2025/09/whatsapp-image-2025-09-02-at-23.26.18.jpeg",
+          "localPath": "/media/grota-ursului/whatsapp-image-2025-09-02-at-23.26.18.jpeg",
+          "alt": "WhatsApp Image 2025-09-02 at 23.26.18",
+          "caption": "",
+          "credit": "",
+          "width": 918,
+          "height": 2048
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2025/09/whatsapp-image-2025-08-14-at-18.13.33-3.jpeg",
+          "localPath": "/media/grota-ursului/whatsapp-image-2025-08-14-at-18.13.33-3.jpeg",
+          "alt": "WhatsApp Image 2025-08-14 at 18.13.33 (3)",
+          "caption": "",
+          "credit": "",
+          "width": 3024,
+          "height": 4032
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2025/09/whatsapp-image-2025-09-02-at-23.26.19.jpeg",
+          "localPath": "/media/grota-ursului/whatsapp-image-2025-09-02-at-23.26.19.jpeg",
+          "alt": "WhatsApp Image 2025-09-02 at 23.26.19",
+          "caption": "",
+          "credit": "",
+          "width": 2048,
+          "height": 1532
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2025/09/whatsapp-image-2025-08-14-at-18.13.35.jpeg",
+          "localPath": "/media/grota-ursului/whatsapp-image-2025-08-14-at-18.13.35.jpeg",
+          "alt": "WhatsApp Image 2025-08-14 at 18.13.35",
+          "caption": "",
+          "credit": "",
+          "width": 3024,
+          "height": 4032
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2025/09/whatsapp-image-2025-09-02-at-23.25.54-3.jpeg",
+          "localPath": "/media/grota-ursului/whatsapp-image-2025-09-02-at-23.25.54-3.jpeg",
+          "alt": "WhatsApp Image 2025-09-02 at 23.25.54 (3)",
+          "caption": "",
+          "credit": "",
+          "width": 1368,
+          "height": 912
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2025/09/whatsapp-image-2025-08-14-at-18.13.35-5.jpeg",
+          "localPath": "/media/grota-ursului/whatsapp-image-2025-08-14-at-18.13.35-5.jpeg",
+          "alt": "WhatsApp Image 2025-08-14 at 18.13.35 (5)",
+          "caption": "",
+          "credit": "",
+          "width": 3024,
+          "height": 4032
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2022/09/307913482_465944128907339_3121862597359613688_n.jpg",
+          "localPath": "/media/grota-ursului/307913482_465944128907339_3121862597359613688_n.jpg",
+          "alt": "307913482_465944128907339_3121862597359613688_n",
+          "caption": "",
+          "credit": "",
+          "width": 720,
+          "height": 960
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2022/09/293554664_418382433663509_4258934524105899615_n.jpg",
+          "localPath": "/media/grota-ursului/293554664_418382433663509_4258934524105899615_n.jpg",
+          "alt": "293554664_418382433663509_4258934524105899615_n",
+          "caption": "",
+          "credit": "",
+          "width": 1536,
+          "height": 2048
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2022/09/294642257_419349863566766_3577455054733723797_n.jpg",
+          "localPath": "/media/grota-ursului/294642257_419349863566766_3577455054733723797_n.jpg",
+          "alt": "294642257_419349863566766_3577455054733723797_n",
+          "caption": "",
+          "credit": "",
+          "width": 954,
+          "height": 960
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2022/09/299294016_5156478304474737_3960313422591604747_n-1.jpg",
+          "localPath": "/media/grota-ursului/299294016_5156478304474737_3960313422591604747_n-1.jpg",
+          "alt": "299294016_5156478304474737_3960313422591604747_n-1",
+          "caption": "",
+          "credit": "",
+          "width": 1536,
+          "height": 2048
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2021/03/p1040728-1.jpg",
+          "localPath": "/media/grota-ursului/p1040728-1.jpg",
+          "alt": "p1040728-1",
+          "caption": "",
+          "credit": "",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2021/03/p1040743.jpg",
+          "localPath": "/media/grota-ursului/p1040743.jpg",
+          "alt": "p1040743",
+          "caption": "",
+          "credit": "",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2021/03/p1040770.jpg",
+          "localPath": "/media/grota-ursului/p1040770.jpg",
+          "alt": "p1040770",
+          "caption": "",
+          "credit": "",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2021/03/dsc09883.jpg",
+          "localPath": "/media/grota-ursului/dsc09883.jpg",
+          "alt": "dsc09883",
+          "caption": "",
+          "credit": "",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2021/03/dsc02621.jpg",
+          "localPath": "/media/grota-ursului/dsc02621.jpg",
+          "alt": "dsc02621",
+          "caption": "",
+          "credit": "",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2021/03/grota-bivuac-7.jpg",
+          "localPath": "/media/grota-ursului/grota-bivuac-7.jpg",
+          "alt": "grota-bivuac-7",
+          "caption": "",
+          "credit": "",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2021/06/dsc02671-ink-1.jpeg",
+          "localPath": "/media/grota-ursului/dsc02671-ink-1.jpeg",
+          "alt": "dsc02671-ink-1",
+          "caption": "",
+          "credit": "",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2021/06/dsc02639-ink.jpeg",
+          "localPath": "/media/grota-ursului/dsc02639-ink.jpeg",
+          "alt": "dsc02639-ink",
+          "caption": "",
+          "credit": "",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2021/06/dsc00323-ink.jpeg",
+          "localPath": "/media/grota-ursului/dsc00323-ink.jpeg",
+          "alt": "dsc00323-ink",
+          "caption": "",
+          "credit": "",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2021/06/dsc00298-ink.jpeg",
+          "localPath": "/media/grota-ursului/dsc00298-ink.jpeg",
+          "alt": "dsc00298-ink",
+          "caption": "",
+          "credit": "",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2021/07/09-04-06-2009-moneasa-salvaspeo-vali-214.jpg",
+          "localPath": "/media/grota-ursului/09-04-06-2009-moneasa-salvaspeo-vali-214.jpg",
+          "alt": "09-04-06-2009-moneasa-salvaspeo-vali-214",
+          "caption": "",
+          "credit": "",
+          "width": 3072,
+          "height": 2304
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2021/06/dsc00265-ink.jpeg",
+          "localPath": "/media/grota-ursului/dsc00265-ink.jpeg",
+          "alt": "dsc00265-ink",
+          "caption": "",
+          "credit": "",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2021/03/2007_1201_170408.jpg",
+          "localPath": "/media/grota-ursului/2007_1201_170408.jpg",
+          "alt": "2007_1201_170408",
+          "caption": "",
+          "credit": "",
+          "width": 2592,
+          "height": 1944
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2021/03/2007_1201_171547.jpg",
+          "localPath": "/media/grota-ursului/2007_1201_171547.jpg",
+          "alt": "2007_1201_171547",
+          "caption": "",
+          "credit": "",
+          "width": 2592,
+          "height": 1944
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2021/03/2007_1202_123757.jpg",
+          "localPath": "/media/grota-ursului/2007_1202_123757.jpg",
+          "alt": "2007_1202_123757",
+          "caption": "",
+          "credit": "",
+          "width": 2592,
+          "height": 1944
+        },
+        {
+          "sourceUrl": "https://transilvaniacavedivingcom.wordpress.com/wp-content/uploads/2025/04/343432406_723340272920880_7842694474700455514_n.jpg",
+          "localPath": "/media/grota-ursului/343432406_723340272920880_7842694474700455514_n.jpg",
+          "alt": "343432406_723340272920880_7842694474700455514_n",
+          "caption": "",
+          "credit": "",
+          "width": 2048,
+          "height": 1153
+        },
+        {
+          "sourceUrl": "https://transilvaniacavedivingcom.wordpress.com/wp-content/uploads/2025/04/308463539_465944172240668_5288398202573466023_n.jpg",
+          "localPath": "/media/grota-ursului/308463539_465944172240668_5288398202573466023_n.jpg",
+          "alt": "308463539_465944172240668_5288398202573466023_n",
+          "caption": "",
+          "credit": "",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "sourceUrl": "https://transilvaniacavedivingcom.wordpress.com/wp-content/uploads/2025/09/whatsapp-image-2025-08-14-at-18.13.28.jpeg",
+          "localPath": "/media/grota-ursului/whatsapp-image-2025-08-14-at-18.13.28.jpeg",
+          "alt": "WhatsApp Image 2025-08-14 at 18.13.28",
+          "caption": "",
+          "credit": "",
+          "width": 3024,
+          "height": 4032
+        },
+        {
+          "sourceUrl": "https://transilvaniacavedivingcom.wordpress.com/wp-content/uploads/2026/04/program.jpeg",
+          "localPath": "/media/grota-ursului/program.jpeg",
+          "alt": "program",
+          "caption": "",
+          "credit": "",
+          "width": 1024,
+          "height": 572
+        },
+        {
+          "sourceUrl": "https://transilvaniacavedivingcom.wordpress.com/wp-content/uploads/2026/04/chatgpt-image-apr-26-2026-09_15_35-am.png",
+          "localPath": "/media/grota-ursului/chatgpt-image-apr-26-2026-09_15_35-am.png",
+          "alt": "ChatGPT Image Apr 26, 2026, 09_15_35 AM",
+          "caption": "",
+          "credit": "",
+          "width": 1492,
+          "height": 1054
+        },
+        {
+          "sourceUrl": "https://transilvaniacavedivingcom.wordpress.com/wp-content/uploads/2026/05/chatgpt-image-may-22-2026-02_20_23-pm.png",
+          "localPath": "/media/grota-ursului/chatgpt-image-may-22-2026-02_20_23-pm.png",
+          "alt": "ChatGPT Image May 22, 2026, 02_20_23 PM",
+          "caption": "",
+          "credit": "",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "sourceUrl": "https://transilvaniacavedivingcom.wordpress.com/wp-content/uploads/2026/05/chatgpt-image-may-24-2026-09_51_11-am.png",
+          "localPath": "/media/grota-ursului/chatgpt-image-may-24-2026-09_51_11-am.png",
+          "alt": "ChatGPT Image May 24, 2026, 09_51_11 AM",
+          "caption": "",
+          "credit": "",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "sourceUrl": "https://transilvaniacavedivingcom.wordpress.com/wp-content/uploads/2026/07/1000096785.png",
+          "localPath": "/media/grota-ursului/1000096785.png",
+          "alt": "1000096785",
+          "caption": "",
+          "credit": "",
+          "width": 1024,
+          "height": 1536
+        }
+      ],
+      "videos": [],
+      "documents": [],
+      "headings": [
+        {
+          "level": 3,
+          "text": "Grota Ursului – Comoara Ascunsă a Stațiunii Moneasa"
+        },
+        {
+          "level": 4,
+          "text": "Ascunsă în inima Munților Codru-Moma, în pitoreasca Stațiune Moneasa din județul Arad, Grota Ursului (cunoscută și sub numele de Peștera de la Băi ) își așteaptă vizitatorii cu o poveste fascinantă ce îmbină natura, istoria și misterul."
+        },
+        {
+          "level": 4,
+          "text": "„Grota Ursului” este o denumire populară transmisă din trecut. Valea în capătul căreia este localizată peștera purta în trecut numele de Pârâul Ursului, fiind numită în prezent Pârâul Băilor."
+        },
+        {
+          "level": 4,
+          "text": "În anul 1989, speologii din Arad au descoperit în etajul superior al peșterii fosile ale ursului de cavernă ( Ursus spelaeus ), ceea ce a adăugat un plus de valoare acestui loc deja fascinant."
+        },
+        {
+          "level": 1,
+          "text": "Program vizitare:"
+        },
+        {
+          "level": 2,
+          "text": "Sâmbătă și duminică între orele 11:00-16:00"
+        },
+        {
+          "level": 3,
+          "text": "📝 Vrei să ne vizitezi în afara programului?"
+        },
+        {
+          "level": 3,
+          "text": "Localizare"
+        },
+        {
+          "level": 4,
+          "text": "Descoperă Grota Ursului din Moneasa"
+        },
+        {
+          "level": 3,
+          "text": "Traseu vizitare"
+        },
+        {
+          "level": 3,
+          "text": "Vă așteptăm să descoperiți:"
+        },
+        {
+          "level": 3,
+          "text": "💰 Tarife vizitare:"
+        },
+        {
+          "level": 3,
+          "text": "Tarifele afișate sunt valabile exclusiv pentru vizitele desfășurate în intervalul de timp corespunzător programului de vizitare!"
+        },
+        {
+          "level": 3,
+          "text": "Speoturism"
+        },
+        {
+          "level": 6,
+          "text": "Foto: Romeo Lazăr A.S. Speowest Arad"
+        },
+        {
+          "level": 3,
+          "text": "Descrierea peșterii"
+        },
+        {
+          "level": 3,
+          "text": "Istoricul explorărilor"
+        },
+        {
+          "level": 6,
+          "text": "Foto: Robert Valeriu Sarkozi A.S. Speowest Arad"
+        },
+        {
+          "level": 4,
+          "text": "Vă invităm să vizitați Peștera Grota Ursului din Moneasa!"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Introducere",
+          "level": 1,
+          "contentMarkdown": "![Grota Ursului](/media/grota-ursului/grota.jpg)"
+        },
+        {
+          "heading": "Grota Ursului – Comoara Ascunsă a Stațiunii Moneasa",
+          "level": 3,
+          "contentMarkdown": ""
+        },
+        {
+          "heading": "Ascunsă în inima Munților Codru-Moma, în pitoreasca Stațiune Moneasa din județul Arad, Grota Ursului (cunoscută și sub numele de Peștera de la Băi ) își așteaptă vizitatorii cu o poveste fascinantă ce îmbină natura, istoria și misterul.",
+          "level": 4,
+          "contentMarkdown": ""
+        },
+        {
+          "heading": "„Grota Ursului” este o denumire populară transmisă din trecut. Valea în capătul căreia este localizată peștera purta în trecut numele de Pârâul Ursului, fiind numită în prezent Pârâul Băilor.",
+          "level": 4,
+          "contentMarkdown": ""
+        },
+        {
+          "heading": "În anul 1989, speologii din Arad au descoperit în etajul superior al peșterii fosile ale ursului de cavernă ( Ursus spelaeus ), ceea ce a adăugat un plus de valoare acestui loc deja fascinant.",
+          "level": 4,
+          "contentMarkdown": ""
+        },
+        {
+          "heading": "Program vizitare:",
+          "level": 1,
+          "contentMarkdown": ""
+        },
+        {
+          "heading": "Sâmbătă și duminică între orele 11:00-16:00",
+          "level": 2,
+          "contentMarkdown": ""
+        },
+        {
+          "heading": "📝 Vrei să ne vizitezi în afara programului?",
+          "level": 3,
+          "contentMarkdown": "Nicio problemă! La cerere, grupurile organizate pot beneficia de tururi speciale. Completează formularul de [contact](/contact) cu detalii precum: câte persoane sunteți, când doriți să vizitați peștera și un număr de telefon pentru confirmare."
+        },
+        {
+          "heading": "Localizare",
+          "level": 3,
+          "contentMarkdown": "🗺️ **Cum ajungi în Moneasa?**\n\n➡️ **Din Arad** (aproximativ 100 km):\n🛣️ Arad – Ineu – Sebiș – Moneasa;\n\n➡️ **Din Oradea** (aproximativ 120 km):\n🛣️ Oradea – Tinca – Bocsig – Sebiș – Moneasa;\n\n➡️ **Din Timișoara** (aproximativ 150 km):\n🛣️ Timișoara – Arad – Ineu – Sebiș – Moneasa;\n\n➡️ **Din Deva** (aproximativ 125 km):\n🛣️ Deva – Brad – Vârfurile – Dieci – Moneasa.\n\n[https://goo.gl/maps/Ber2qWRJHVFjSGxC9](https://goo.gl/maps/Ber2qWRJHVFjSGxC9)"
+        },
+        {
+          "heading": "Descoperă Grota Ursului din Moneasa",
+          "level": 4,
+          "contentMarkdown": "📌 La doar câteva minute de mers pe jos din centrul stațiunii Moneasa turiștii pot descoperi una dintre cele mai interesante atracții locale: **Peștera Grota Ursului**.\n\nPeștera are două intrări:\n🔸 una naturală, care este inaccesibilă vizitatorilor (galerie scufundată);\n🔸 una artificială, realizată sub forma unui tunel de acces pentru turiști.\n\n🚶‍♂️🚶‍♂️🚶‍♂️ Traseul către peșteră pornește din centrul stațiunii, din zona hotelurilor **Parc** și **Cerbul Albastru**, unde găsești și locuri de parcare. De acolo, urmezi aleea de-a lungul Pârâului Băilor, un drum destinat exclusiv pietonilor, ideal pentru o plimbare liniștită în aer curat.\n\nTraseul spre peșteră trece pe lângă lacurile de baraj cu pești, lacurile cu nuferi și parcul de aventură Aventura Park Moneasa, dotat cu trasee pentru copii, adulți și tiroliene. Traseul este administrat de Primăria Moneasa.\n\n![Grota Ursului](/media/logos/logo-grota-ursului-2025.jpg)\n\n![Grota Ursului](/media/grota-ursului/351491047_619571533569286_3549339122862977017_n.jpg)\n\n![Grota Ursului](/media/grota-ursului/343429593_187722424108450_6305912292523591416_n.jpg)\n\n![Grota Ursului](/media/grota-ursului/346085324_569462455298484_1873608628498028011_n.jpg)\n\n![Grota Ursului](/media/grota-ursului/img-20230528-wa0010.jpg)\n\n![Grota Ursului](/media/grota-ursului/343457355_1299821244244262_6181622533702610248_n.jpg)\n\n![Grota Ursului](/media/grota-ursului/whatsapp-image-2025-03-24-at-13.30.43.jpeg)"
+        },
+        {
+          "heading": "Traseu vizitare",
+          "level": 3,
+          "contentMarkdown": "👣Traseul turistic amenajat și electrificat are o lungime de 200 de metri și include parcurgerea tunelului de acces, precum și a primei porțiuni din galeria principală, până în spectaculoasa **Sală [Czárán Gyula](/czaran-gyula)**.\n\n🧑‍🤝‍🧑💬Vizitele se desfășoară în grupuri organizate, conduse de ghizi specializați.\n\n📄Amenajarea peșterii și a zonei de la suprafață a fost posibilă datorită unei investiții private realizate de **S.C. Transilvania Cave Diving** **S.R.L.** Lucrările au fost efectuate cu sprijinul valoros al speologilor arădeni: *Ștefan Bakos, Adrian Peterfi, Lucian Sas, Radu Popa, Gheorghe Rada, Maria Bakos, Ioan Filip, Daniel Bibarț-Bulzan, Dragoș Pătrâcă și Mihai Besesek.*\n\n![Grota Ursului](/media/grota-ursului/whatsapp-image-2025-03-24-at-13.30.08.jpeg)\n\n![Grota Ursului](/media/grota-ursului/whatsapp-image-2025-03-24-at-13.26.07.jpeg)"
+        },
+        {
+          "heading": "Vă așteptăm să descoperiți:",
+          "level": 3,
+          "contentMarkdown": "📖 Panouri informative despre: Grota Ursului, carst, speologie, speleoteme, ursul de cavernă, omul și peștera, superlative speologice;\n\n🎨 Expoziția Galeria Picturilor Rupestre – Peștera Coliboaia (cca. 36.000 ani);\n\n🌟 Grota Ursului – Sala [Czárán Gyula](/czaran-gyula);\n\n📏 Lungimea traseului subteran: cca. 200m;\n\n🌡️ Temperatura din peșteră: 10-12°C;\n\n🛒 Suveniruri disponibile: magneți, minerale, cristale, fosile, agate, geode, lănțișoare, brățări, brelocuri și YoYo personalizate cu Grota Ursului plus multe altele;\n\n![Grota Ursului](/media/grota-ursului/whatsapp-image-2025-09-02-at-23.26.18.jpeg)\n\n![Grota Ursului](/media/grota-ursului/whatsapp-image-2025-08-14-at-18.13.33-3.jpeg)\n\n![Grota Ursului](/media/grota-ursului/whatsapp-image-2025-09-02-at-23.26.19.jpeg)\n\n![Grota Ursului](/media/grota-ursului/whatsapp-image-2025-08-14-at-18.13.35.jpeg)\n\n![Grota Ursului](/media/grota-ursului/whatsapp-image-2025-09-02-at-23.25.54-3.jpeg)\n\n![Grota Ursului](/media/grota-ursului/whatsapp-image-2025-08-14-at-18.13.35-5.jpeg)"
+        },
+        {
+          "heading": "💰 Tarife vizitare:",
+          "level": 3,
+          "contentMarkdown": "👨‍👩‍👧‍👦 Copii de peste 14 ani și adulții –**20 lei**;\n👶 Copii de până la 14 ani –**10 lei** (copiii sub 5 ani beneficiază de **gratuitate**); 🧗‍♂️ **Speologii**, 🚒 **Salvatorii Montani** și **Salvatorii Speologi** legitimați la asociații de profil au **acces gratuit**!"
+        },
+        {
+          "heading": "Tarifele afișate sunt valabile exclusiv pentru vizitele desfășurate în intervalul de timp corespunzător programului de vizitare!",
+          "level": 3,
+          "contentMarkdown": "📞 **Pentru grupurile organizate** (agenții de turism, școli, universități, tabere școlare etc.), vă rugăm să ne contactați pentru programarea vizitei și o ofertă personalizată ✨. Completați formularul de [contact](/contact) și specificați numărul de persoane, data și ora vizitei, precum și un număr de telefon pentru contact 📱.\n\n![Grota Ursului](/media/grota-ursului/307913482_465944128907339_3121862597359613688_n.jpg)\n\n![Grota Ursului](/media/grota-ursului/293554664_418382433663509_4258934524105899615_n.jpg)\n\n![Grota Ursului](/media/grota-ursului/294642257_419349863566766_3577455054733723797_n.jpg)\n\n![Grota Ursului](/media/grota-ursului/299294016_5156478304474737_3960313422591604747_n-1.jpg)"
+        },
+        {
+          "heading": "Speoturism",
+          "level": 3,
+          "contentMarkdown": "Speoturismul reprezintă o formă de turism care îmbină explorarea peșterilor cu activități educative și recreative. Această activitate presupune vizite ghidate în peșteri, prin parcurgerea unor trasee subterane neamenajate, oferind o experiență autentică și captivantă.\n\nTraseele speoturistice pot varia ca nivel de dificultate: de la rute accesibile pentru începători, până la explorări avansate, ce necesită echipament specializat și competențe tehnice, precum progresia pe verticală.\n\nPe lângă latura aventuroasă, speoturismul are și un important rol educativ, oferind participanților ocazia de a învăța despre speologie, protejarea mediului și conservarea ecosistemelor fragile din mediul subteran.\n\nParticipanții sunt echipați corespunzător cu cască cu iluminare electrică, combinezoane de protecție și, acolo unde este cazul, echipament pentru progresia pe verticală. În funcție de structura și pregătirea grupului, la cerere se pot organiza trasee ce variază între 250m și 1500m, cu o durată de vizitare între 30 de minute și 6 ore.\n\n📞 **Pentru**programarea unui tur speoturistic vă rugăm să ne [contactați.](/contact)\n\n![Grota Ursului](/media/grota-ursului/p1040728-1.jpg)\n\n![Grota Ursului](/media/grota-ursului/p1040743.jpg)\n\n![Grota Ursului](/media/grota-ursului/p1040770.jpg)\n\n![Grota Ursului](/media/grota-ursului/dsc09883.jpg)\n\n![Grota Ursului](/media/grota-ursului/dsc02621.jpg)\n\n![Grota Ursului](/media/grota-ursului/grota-bivuac-7.jpg)"
+        },
+        {
+          "heading": "Foto: Romeo Lazăr A.S. Speowest Arad",
+          "level": 6,
+          "contentMarkdown": ""
+        },
+        {
+          "heading": "Descrierea peșterii",
+          "level": 3,
+          "contentMarkdown": "Intrarea naturală a peşterii este constituită dintr-o galerie joasă, care după 10m sifonează. Sifonulul de la intrare, cu o lungime de 20m și -4m adâncime, continuă cu o galerie relativ strâmtă care după cca. 40m întâlnește o alta cu dimensiuni de până la 4-5 m lățime, galerie în care debușează și tunelul de acces. Galeria, în mare parte, are podeaua acoperită cu blocuri de prăbușire de dimensiuni mari, apa curgând pe sub aceștia. După încă cca. 100m se ajuge la o bifurcație, pe ramura din stânga cursul principal continuă încă 40m până la un alt sifon cu o lungime de circa 100m și -15m adâncime (în curs de explorare). Ramura din dreapta constituie un afluent explorat pe o lungime de cca. 200m.\n\nAccesul în etajul superior al peșterii este posibil din galeria ”Activului Secundar” prin escaladarea la o galerie îngustă „Gaura de Şoarece‘‘. Etajul ”Fosil” al peșterii este caracterizat de un sistem de galerii labirintice, din care, printr-un număr de 3 ”Ferestre” se poate coborî în galeria ”Activului Principal”. Etajul fosil al peșterii urmeză direcția afluentului fiind constituit, în cea mai mare parte, dintr-un sistem de galerii formate în regim înnecat. În ultima porţiune a peşterii (în curs de explorare) galeriile sunt formate de-a lungul unor diaclaze, puțuri și hornuri, dispuse pe mai multe nivele, inclusiv un alt tronson al afluentului. De semnalat pe etajul fosil este prezența în densităţi semnificative a cristalelor de aragonit, concrețiuni extrem de rar întâlnite în foarte puține peșteri din România. Asemănătoare florilor de mină, ”aragonitele” sunt formate din mănunchiuri de cristale care sfidează gravitația, cristalele acestora fiind dispuse în toate direcțiile.\n\n![Grota Ursului](/media/grota-ursului/dsc02671-ink-1.jpeg)\n\n![Grota Ursului](/media/grota-ursului/dsc02639-ink.jpeg)\n\n![Grota Ursului](/media/grota-ursului/dsc00323-ink.jpeg)\n\n![Grota Ursului](/media/grota-ursului/dsc00298-ink.jpeg)\n\n![Grota Ursului](/media/grota-ursului/09-04-06-2009-moneasa-salvaspeo-vali-214.jpg)\n\n![Grota Ursului](/media/grota-ursului/dsc00265-ink.jpeg)"
+        },
+        {
+          "heading": "Istoricul explorărilor",
+          "level": 3,
+          "contentMarkdown": "După mai multe încercări eşuate, în tabăra din august 1984 s-a trecut pentru prima dată sifonul de la intrarea peşterii şi au fost explorați peste 500m de galerii de către scafandri de la G.S.S. ”Transilvania” din Oradea, M.H.Sz. Debrecen din Ungaria și C.S. Speodava din Dr. Petru Groza (actualmente Ștei).\n\n![Grota Ursului](/media/grota-ursului/2007_1201_170408.jpg)\n\n![Grota Ursului](/media/grota-ursului/2007_1201_171547.jpg)\n\n![Grota Ursului](/media/grota-ursului/2007_1202_123757.jpg)"
+        },
+        {
+          "heading": "Foto: Robert Valeriu Sarkozi A.S. Speowest Arad",
+          "level": 6,
+          "contentMarkdown": "La solicitarea conducerii Staţiunii Balneoclimaterice Moneasa, scafandri de la G.S.S. Transilvania au elaborat un proiect de amenajare a peşterii. După forarea unui tunel de acces, (galerie de mină de 50m), care interceptează galeria ”Activului Principal”, în 1986 G.E.S. Aragonit Arad cu Speofoto Oradea şi G.S.R. Speotelex reiau explorarea peșterii. Cu aceeaşi ocazie se descoperă etajul superior al peșterii unde se cartează circa 500m de galerii. Cu sprijinul Muzeului Judeţean Arad au fost reluate cercetările din această cavitate, de către C.S.A. Liliacul Arad, care recartează peștera în anii 1989-1998.\n\nDupă o lungă perioadă de timp în care peştera a fost vizitată doar ocazional de speologi, din anul 2001, aceasta intră în atenţia A.S. Speowest Arad care începe recartarea etajului fosil al peşterii şi derocarea unei strâmtori. Aceasta este lărgită şi depăşită abia în primăvara anului 2005, astfel fiind explorați până în prezent peste 2500m de galerii. În prezent Peștera Grota Ursului este cea mai mare peșteră din județul Arad.\n\nPentru mai multe informații vă rugăm să ne [cotactați](/contact)."
+        },
+        {
+          "heading": "Vă invităm să vizitați Peștera Grota Ursului din Moneasa!",
+          "level": 4,
+          "contentMarkdown": "> [@grotaursuluimoneasa](https://www.tiktok.com/@grotaursuluimoneasa?refer=creator_embed)\n\n[https://www.instagram.com/pesteragrotaursului?igsh=OHZnbjQ1dWxoMGdz](https://www.instagram.com/pesteragrotaursului?igsh=OHZnbjQ1dWxoMGdz)\n\n[https://www.facebook.com/share/1WHBh6Nj2z/](https://www.facebook.com/share/1WHBh6Nj2z/)"
+        }
+      ],
+      "bodyMarkdown": "![Bear's Cave](/media/grota-ursului/grota.jpg)\n\n### Bear's Cave – The Hidden Treasure of Moneasa Resort\n\n#### Hidden in the heart of the Codru-Moma Mountains, in picturesque [Moneasa Resort](https://www.google.ro/maps/place/Pe%C8%99tera+Grota+Ursului/@46.4547112,22.2789956,9245m/data=!3m1!1e3!4m6!3m5!1s0x474f4de187c99d35:0x6d1016f1ec3d1a8f!8m2!3d46.4664548!4d22.2594181!16s%2Fg%2F11r3vnqt3b?entry=ttu&g_ep=EgoyMDI1MDQxNC4xIKXMDSoASAFQAw%3D%3D) (Arad County), Bear's Cave (also known locally as *Peștera de la Băi*) welcomes visitors with a fascinating story uniting nature, history, and underground mystery.\n\n#### \"Grota Ursului\" is a popular historical name. The valley at whose end the cave is situated was historically named Bear's Creek (*Pârâul Ursului*), known today as the Baths' Creek (*Pârâul Băilor*).\n\n#### In 1989, speleologists from Arad discovered fossil remains of the cave bear (*Ursus spelaeus*) in the upper fossil gallery, adding profound paleological value to this remarkable karstic site.\n\n# Visiting Schedule:\n\n## Saturday and Sunday between 11:00 – 16:00\n\n### 📝 Wish to visit outside regular hours?\nOrganized groups can schedule private guided tours at request. Please fill out our [contact form](/contact) with your group size, preferred date, and a phone number.\n\n### Location & Access\n\n🚶‍♂️🚶‍♂️🚶‍♂️ The walking route begins in central Moneasa near the **Parc** and **Cerbul Albastru** hotels (parking available). Follow the pedestrian path along the Baths' Creek (*Pârâul Băilor*), passing scenic dam lakes, water lilies, and the Aventura Park Moneasa.\n\n![Bear's Cave](/media/logos/logo-grota-ursului-2025.jpg)\n\n![Bear's Cave Gallery](/media/grota-ursului/351491047_619571533569286_3549339122862977017_n.jpg)\n\n### Tourist Route\n\n👣 The electrified, secure tourist trail stretches for **200 meters** through the access tunnel into the main active gallery, leading directly into the spectacular **[Czárán Gyula Hall](/czaran-gyula)**.\n\n🧑‍🤝‍🧑 Guided tours are conducted by specialized guides. The cave's development and lighting were achieved through private investment by **S.C. Transilvania Cave Diving S.R.L.**, with the dedicated assistance of Arad speleologists: *Ștefan Bakos, Adrian Peterfi, Lucian Sas, Radu Popa, Gheorghe Rada, Maria Bakos, Ioan Filip, Daniel Bibarț-Bulzan, Dragoș Pătrâcă, and Mihai Besesek.*\n\n![Bear's Cave Interior](/media/grota-ursului/whatsapp-image-2025-03-24-at-13.30.08.jpeg)\n\n### What You Will Discover:\n\n📖 Informative bilingual panels covering: Bear's Cave geology, karst hydrology, speleology, speleothems, the cave bear, and human history;\n\n🎨 **Coliboaia Cave Prehistoric Art Exhibition** — reproducing the black charcoal cave paintings dated to approx. **36,000 years BP**;\n\n📏 Trail length: approx. 200 m | 🌡️ Stable interior temperature: **10 – 12 °C**;\n\n🛒 Handcrafted souvenirs: crystals, minerals, fossils, agates, custom Bear's Cave badges and keepsakes;\n\n![Bear's Cave Minerals](/media/grota-ursului/whatsapp-image-2025-08-14-at-18.13.33-3.jpeg)\n\n### 💰 Admission Fees:\n\n👨‍👩‍👧‍👦 Adults and children over 14 years: **20 lei**;  \n👶 Children up to 14 years: **10 lei** (free for children under 5);  \n🧗‍♂️ Certified **speleologists**, mountain rescue (**Salvamont**), and cave rescue (**Salvaspeo**) personnel: **Free admission** during regular visiting hours!\n\n### Cave Description & Aragonite Crystals\n\nBear's Cave is a multi-level cavity featuring an active underground stream gallery and an upper fossil level. The fossil level is characterized by rare helictites and **aragonite crystal clusters**, mineral formations that grow in multiple directions defying gravity. Bear's Cave is currently the longest surveyed cave system in Arad County (over 2,500 m of explored galleries).\n\n![Bear's Cave Aragonite](/media/grota-ursului/dsc02671-ink-1.jpeg)\n\n![Bear's Cave Formations](/media/grota-ursului/dsc00323-ink.jpeg)\n\n### History of Explorations\n\nFollowing several earlier attempts, in August 1984 cave divers from G.S.S. \"Transilvania\" (Oradea), M.H.Sz. (Debrecen, Hungary), and C.S. Speodava crossed the entrance sump for the first time and explored more than 500 meters of virgin gallery.\n\n![Exploration History](/media/grota-ursului/2007_1201_170408.jpg)\n\n###### Photo: Robert Valeriu Sarkozi – A.S. Speowest Arad\n\nFollowing the mining of the 50 m tourist tunnel intercepting the Main Active Gallery in 1986, the cave was systematically explored and re-surveyed by G.E.S. Aragonit Arad, Speofoto Oradea, C.S.A. Liliacul, and from 2001 by A.S. Speowest Arad.\n\nFor bookings and guided tours, please [contact our team](/contact).",
+      "contactInformation": [
+        "Telefon: 03134225916 (![](https://transilvaniacavediving.com/wp-content/uploads/2022/09/299294016_5156478304474737_3960313422591604747_n-1.jpg))"
+      ],
+      "prices": [
+        "👨‍👩‍👧‍👦 Copii de peste 14 ani și adulții –**20 lei**;",
+        "👶 Copii de până la 14 ani –**10 lei** (copiii sub 5 ani beneficiază de **gratuitate**); 🧗‍♂️ **Speologii**, 🚒 **Salvatorii Montani** și **Salvatorii Speologi** legitimați la asociații de profil au **acces gratuit**!",
+        "Intrarea naturală a peşterii este constituită dintr-o galerie joasă, care după 10m sifonează. Sifonulul de la intrare, cu o lungime de 20m și -4m adâncime, continuă cu o galerie relativ strâmtă care după cca. 40m întâlnește o alta cu dimensiuni de pâ"
+      ],
+      "schedules": [
+        "# Program vizitare:",
+        "## Sâmbătă și duminică între orele 11:00-16:00"
+      ],
+      "historicalDates": [
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2022/09/grota.jpg)",
+        "#### În anul 1989, speologii din Arad au descoperit în etajul superior al peșterii fosile ale ursului de cavernă ( Ursus spelaeus ), ceea ce a adăugat un plus de valoare acestui loc deja fascinant.",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2025/04/logo-grota-ursului-2025.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2025/04/351491047_619571533569286_3549339122862977017_n.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2025/04/343429593_187722424108450_6305912292523591416_n.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2025/04/346085324_569462455298484_1873608628498028011_n.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2025/04/img-20230528-wa0010.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2025/04/343457355_1299821244244262_6181622533702610248_n.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2025/04/whatsapp-image-2025-03-24-at-13.30.43.jpeg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2025/04/whatsapp-image-2025-03-24-at-13.30.08.jpeg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2025/04/whatsapp-image-2025-03-24-at-13.26.07.jpeg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2025/09/whatsapp-image-2025-09-02-at-23.26.18.jpeg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2025/09/whatsapp-image-2025-08-14-at-18.13.33-3.jpeg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2025/09/whatsapp-image-2025-09-02-at-23.26.19.jpeg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2025/09/whatsapp-image-2025-08-14-at-18.13.35.jpeg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2025/09/whatsapp-image-2025-09-02-at-23.25.54-3.jpeg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2025/09/whatsapp-image-2025-08-14-at-18.13.35-5.jpeg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2022/09/307913482_465944128907339_3121862597359613688_n.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2022/09/293554664_418382433663509_4258934524105899615_n.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2022/09/294642257_419349863566766_3577455054733723797_n.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2022/09/299294016_5156478304474737_3960313422591604747_n-1.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2021/03/p1040728-1.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2021/03/p1040743.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2021/03/p1040770.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2021/03/dsc09883.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2021/03/dsc02621.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2021/03/grota-bivuac-7.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2021/06/dsc02671-ink-1.jpeg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2021/06/dsc02639-ink.jpeg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2021/06/dsc00323-ink.jpeg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2021/06/dsc00298-ink.jpeg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2021/07/09-04-06-2009-moneasa-salvaspeo-vali-214.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2021/06/dsc00265-ink.jpeg)",
+        "După mai multe încercări eşuate, în tabăra din august 1984 s-a trecut pentru prima dată sifonul de la intrarea peşterii şi au fost explorați peste 500m de galerii de către scafandri de la G.S.S. ”Transilvania” din Oradea, M.H.Sz. Debrecen din Ungaria și C.S. Speodava din Dr. Petr",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2021/03/2007_1201_170408.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2021/03/2007_1201_171547.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2021/03/2007_1202_123757.jpg)",
+        "La solicitarea conducerii Staţiunii Balneoclimaterice Moneasa, scafandri de la G.S.S. Transilvania au elaborat un proiect de amenajare a peşterii. După forarea unui tunel de acces, (galerie de mină de 50m), care interceptează galeria ”Activului Principal”, în 1986 G.E.S. Aragonit",
+        "După o lungă perioadă de timp în care peştera a fost vizitată doar ocazional de speologi, din anul 2001, aceasta intră în atenţia A.S. Speowest Arad care începe recartarea etajului fosil al peşterii şi derocarea unei strâmtori. Aceasta este lărgită şi depăşită abia în primăvara a"
+      ],
+      "safetyWarnings": [
+        "Traseul turistic de 200 m se parcurge exclusiv în grupuri organizate, conduse de ghizi specializați.",
+        "Temperatura în peșteră este constantă (10–12 °C); se recomandă îmbrăcăminte adecvată și încălțăminte cu talpă aderentă.",
+        "Turele de speoturism (250 m – 1.500 m) în galeriile neamenajate necesită programare prealabilă, echipament speologic complet (cască, iluminat, costum, cizme/mănuși) și respectarea strictă a instrucțiunilor ghidului."
+      ],
+      "technicalSpecs": [
+        {
+          "label": "Denumiri alternative",
+          "value": "Peștera de la Băi / Grota Ursului"
+        },
+        {
+          "label": "Localizare",
+          "value": "Moneasa, Munții Codru-Moma, Județul Arad (Valea Pârâului Băilor)"
+        },
+        {
+          "label": "Lungime traseu turistic amenajat",
+          "value": "cca. 200 m (electrificat, ghidat, până în Sala Czárán Gyula)"
+        },
+        {
+          "label": "Lungime totală explorată",
+          "value": "> 2.500 m (sistem pe două niveluri carstice: fosil și activ)"
+        },
+        {
+          "label": "Lungime trasee speoturism",
+          "value": "250 m – 1.500 m (durată 1 – 6 ore, echipament complet asigurat)"
+        },
+        {
+          "label": "Temperatură subterană",
+          "value": "10 – 12 °C (umiditate ridicată)"
+        },
+        {
+          "label": "Mineralogie rară",
+          "value": "Cristale de aragonit, calcit, stalactite, stalagmite, domuri, gururi"
+        },
+        {
+          "label": "Paleontologie și Expoziții",
+          "value": "Fosile de Ursus spelaeus (descoperite în 1989) și Expoziția Peștera Coliboaia (cca. 36.000 ani)"
+        }
+      ],
+      "scheduleSummary": "Saturday and Sunday: 11:00 – 16:00 (or by appointment for organized groups outside schedule)",
+      "pricingSummary": "Adults and children over 14: 20 lei | Children up to 14: 10 lei | Under 5, speleologists, certified mountain and cave rescue: Free (during visiting hours)",
+      "publicationDate": "2021-03-10T16:14:57+00:00",
+      "lastModified": "2026-10-27T17:08:28+00:00",
+      "validationStatus": "verified_source_and_historical",
+      "migrationStatus": "migrated_complete"
+    },
+    {
+      "sourceUrl": "https://transilvaniacavediving.com/medve-barlang/",
+      "finalUrl": "https://transilvaniacavediving.com/medve-barlang/",
+      "canonicalUrl": "https://transilvaniacavediving.com/medve-barlang/",
+      "path": "/medve-barlang",
+      "slug": "medve-barlang",
+      "title": "Medve-barlang – Menyháza – Transilvania Cave Diving",
+      "cleanTitle": "Medve-barlang – Menyháza",
+      "metaDescription": "Fedezze fel a menyházi Medve-barlangot (Béli-hegység). 200 méteres kivilágított túraútvonal, Czárán Gyula terem, barlangi medve (Ursus spelaeus) fosszíliák és a Coliboaia sziklarajzok kiállítása.",
+      "language": "hu",
+      "pageType": "destination",
+      "iaSection": "Descoperă",
+      "categoryLabel": "Barlangászat és Kaland",
+      "region": "Béli-hegység (Codru-Moma), Menyháza",
+      "translations": [
+        {
+          "lang": "ro",
+          "path": "/grota-ursului",
+          "label": "Română"
+        },
+        {
+          "lang": "en",
+          "path": "/bear-cave",
+          "label": "English"
+        },
+        {
+          "lang": "hu",
+          "path": "/medve-barlang",
+          "label": "Magyar"
+        }
+      ],
+      "heroImage": "/media/grota-ursului/grota.jpg",
+      "images": [
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2022/09/grota.jpg",
+          "localPath": "/media/grota-ursului/grota.jpg",
+          "alt": "grota",
+          "caption": "",
+          "credit": "",
+          "width": 10000,
+          "height": 3489
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2025/04/logo-grota-ursului-2025.jpg",
+          "localPath": "/media/logos/logo-grota-ursului-2025.jpg",
+          "alt": "Logo Grota Ursului 2025",
+          "caption": "",
+          "credit": "",
+          "width": 10000,
+          "height": 6641
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2025/04/351491047_619571533569286_3549339122862977017_n.jpg",
+          "localPath": "/media/grota-ursului/351491047_619571533569286_3549339122862977017_n.jpg",
+          "alt": "351491047_619571533569286_3549339122862977017_n",
+          "caption": "",
+          "credit": "",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2025/04/343429593_187722424108450_6305912292523591416_n.jpg",
+          "localPath": "/media/grota-ursului/343429593_187722424108450_6305912292523591416_n.jpg",
+          "alt": "343429593_187722424108450_6305912292523591416_n",
+          "caption": "",
+          "credit": "",
+          "width": 720,
+          "height": 960
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2025/04/346085324_569462455298484_1873608628498028011_n.jpg",
+          "localPath": "/media/grota-ursului/346085324_569462455298484_1873608628498028011_n.jpg",
+          "alt": "346085324_569462455298484_1873608628498028011_n",
+          "caption": "",
+          "credit": "",
+          "width": 2048,
+          "height": 1153
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2025/04/img-20230528-wa0010.jpg",
+          "localPath": "/media/grota-ursului/img-20230528-wa0010.jpg",
+          "alt": "IMG-20230528-WA0010",
+          "caption": "",
+          "credit": "",
+          "width": 2016,
+          "height": 1134
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2025/04/343457355_1299821244244262_6181622533702610248_n.jpg",
+          "localPath": "/media/grota-ursului/343457355_1299821244244262_6181622533702610248_n.jpg",
+          "alt": "343457355_1299821244244262_6181622533702610248_n",
+          "caption": "",
+          "credit": "",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2025/04/whatsapp-image-2025-03-24-at-13.30.43.jpeg",
+          "localPath": "/media/grota-ursului/whatsapp-image-2025-03-24-at-13.30.43.jpeg",
+          "alt": "WhatsApp Image 2025-03-24 at 13.30.43",
+          "caption": "",
+          "credit": "",
+          "width": 4640,
+          "height": 3472
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2025/04/whatsapp-image-2025-03-24-at-13.30.08.jpeg",
+          "localPath": "/media/grota-ursului/whatsapp-image-2025-03-24-at-13.30.08.jpeg",
+          "alt": "WhatsApp Image 2025-03-24 at 13.30.08",
+          "caption": "",
+          "credit": "",
+          "width": 3472,
+          "height": 4640
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2025/04/whatsapp-image-2025-03-24-at-13.26.07.jpeg",
+          "localPath": "/media/grota-ursului/whatsapp-image-2025-03-24-at-13.26.07.jpeg",
+          "alt": "WhatsApp Image 2025-03-24 at 13.26.07",
+          "caption": "",
+          "credit": "",
+          "width": 3472,
+          "height": 4640
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2025/09/whatsapp-image-2025-09-02-at-23.26.18.jpeg",
+          "localPath": "/media/grota-ursului/whatsapp-image-2025-09-02-at-23.26.18.jpeg",
+          "alt": "WhatsApp Image 2025-09-02 at 23.26.18",
+          "caption": "",
+          "credit": "",
+          "width": 918,
+          "height": 2048
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2025/09/whatsapp-image-2025-08-14-at-18.13.33-3.jpeg",
+          "localPath": "/media/grota-ursului/whatsapp-image-2025-08-14-at-18.13.33-3.jpeg",
+          "alt": "WhatsApp Image 2025-08-14 at 18.13.33 (3)",
+          "caption": "",
+          "credit": "",
+          "width": 3024,
+          "height": 4032
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2025/09/whatsapp-image-2025-09-02-at-23.26.19.jpeg",
+          "localPath": "/media/grota-ursului/whatsapp-image-2025-09-02-at-23.26.19.jpeg",
+          "alt": "WhatsApp Image 2025-09-02 at 23.26.19",
+          "caption": "",
+          "credit": "",
+          "width": 2048,
+          "height": 1532
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2025/09/whatsapp-image-2025-08-14-at-18.13.35.jpeg",
+          "localPath": "/media/grota-ursului/whatsapp-image-2025-08-14-at-18.13.35.jpeg",
+          "alt": "WhatsApp Image 2025-08-14 at 18.13.35",
+          "caption": "",
+          "credit": "",
+          "width": 3024,
+          "height": 4032
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2025/09/whatsapp-image-2025-09-02-at-23.25.54-3.jpeg",
+          "localPath": "/media/grota-ursului/whatsapp-image-2025-09-02-at-23.25.54-3.jpeg",
+          "alt": "WhatsApp Image 2025-09-02 at 23.25.54 (3)",
+          "caption": "",
+          "credit": "",
+          "width": 1368,
+          "height": 912
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2025/09/whatsapp-image-2025-08-14-at-18.13.35-5.jpeg",
+          "localPath": "/media/grota-ursului/whatsapp-image-2025-08-14-at-18.13.35-5.jpeg",
+          "alt": "WhatsApp Image 2025-08-14 at 18.13.35 (5)",
+          "caption": "",
+          "credit": "",
+          "width": 3024,
+          "height": 4032
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2022/09/307913482_465944128907339_3121862597359613688_n.jpg",
+          "localPath": "/media/grota-ursului/307913482_465944128907339_3121862597359613688_n.jpg",
+          "alt": "307913482_465944128907339_3121862597359613688_n",
+          "caption": "",
+          "credit": "",
+          "width": 720,
+          "height": 960
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2022/09/293554664_418382433663509_4258934524105899615_n.jpg",
+          "localPath": "/media/grota-ursului/293554664_418382433663509_4258934524105899615_n.jpg",
+          "alt": "293554664_418382433663509_4258934524105899615_n",
+          "caption": "",
+          "credit": "",
+          "width": 1536,
+          "height": 2048
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2022/09/294642257_419349863566766_3577455054733723797_n.jpg",
+          "localPath": "/media/grota-ursului/294642257_419349863566766_3577455054733723797_n.jpg",
+          "alt": "294642257_419349863566766_3577455054733723797_n",
+          "caption": "",
+          "credit": "",
+          "width": 954,
+          "height": 960
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2022/09/299294016_5156478304474737_3960313422591604747_n-1.jpg",
+          "localPath": "/media/grota-ursului/299294016_5156478304474737_3960313422591604747_n-1.jpg",
+          "alt": "299294016_5156478304474737_3960313422591604747_n-1",
+          "caption": "",
+          "credit": "",
+          "width": 1536,
+          "height": 2048
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2021/03/p1040728-1.jpg",
+          "localPath": "/media/grota-ursului/p1040728-1.jpg",
+          "alt": "p1040728-1",
+          "caption": "",
+          "credit": "",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2021/03/p1040743.jpg",
+          "localPath": "/media/grota-ursului/p1040743.jpg",
+          "alt": "p1040743",
+          "caption": "",
+          "credit": "",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2021/03/p1040770.jpg",
+          "localPath": "/media/grota-ursului/p1040770.jpg",
+          "alt": "p1040770",
+          "caption": "",
+          "credit": "",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2021/03/dsc09883.jpg",
+          "localPath": "/media/grota-ursului/dsc09883.jpg",
+          "alt": "dsc09883",
+          "caption": "",
+          "credit": "",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2021/03/dsc02621.jpg",
+          "localPath": "/media/grota-ursului/dsc02621.jpg",
+          "alt": "dsc02621",
+          "caption": "",
+          "credit": "",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2021/03/grota-bivuac-7.jpg",
+          "localPath": "/media/grota-ursului/grota-bivuac-7.jpg",
+          "alt": "grota-bivuac-7",
+          "caption": "",
+          "credit": "",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2021/06/dsc02671-ink-1.jpeg",
+          "localPath": "/media/grota-ursului/dsc02671-ink-1.jpeg",
+          "alt": "dsc02671-ink-1",
+          "caption": "",
+          "credit": "",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2021/06/dsc02639-ink.jpeg",
+          "localPath": "/media/grota-ursului/dsc02639-ink.jpeg",
+          "alt": "dsc02639-ink",
+          "caption": "",
+          "credit": "",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2021/06/dsc00323-ink.jpeg",
+          "localPath": "/media/grota-ursului/dsc00323-ink.jpeg",
+          "alt": "dsc00323-ink",
+          "caption": "",
+          "credit": "",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2021/06/dsc00298-ink.jpeg",
+          "localPath": "/media/grota-ursului/dsc00298-ink.jpeg",
+          "alt": "dsc00298-ink",
+          "caption": "",
+          "credit": "",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2021/07/09-04-06-2009-moneasa-salvaspeo-vali-214.jpg",
+          "localPath": "/media/grota-ursului/09-04-06-2009-moneasa-salvaspeo-vali-214.jpg",
+          "alt": "09-04-06-2009-moneasa-salvaspeo-vali-214",
+          "caption": "",
+          "credit": "",
+          "width": 3072,
+          "height": 2304
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2021/06/dsc00265-ink.jpeg",
+          "localPath": "/media/grota-ursului/dsc00265-ink.jpeg",
+          "alt": "dsc00265-ink",
+          "caption": "",
+          "credit": "",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2021/03/2007_1201_170408.jpg",
+          "localPath": "/media/grota-ursului/2007_1201_170408.jpg",
+          "alt": "2007_1201_170408",
+          "caption": "",
+          "credit": "",
+          "width": 2592,
+          "height": 1944
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2021/03/2007_1201_171547.jpg",
+          "localPath": "/media/grota-ursului/2007_1201_171547.jpg",
+          "alt": "2007_1201_171547",
+          "caption": "",
+          "credit": "",
+          "width": 2592,
+          "height": 1944
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2021/03/2007_1202_123757.jpg",
+          "localPath": "/media/grota-ursului/2007_1202_123757.jpg",
+          "alt": "2007_1202_123757",
+          "caption": "",
+          "credit": "",
+          "width": 2592,
+          "height": 1944
+        },
+        {
+          "sourceUrl": "https://transilvaniacavedivingcom.wordpress.com/wp-content/uploads/2025/04/343432406_723340272920880_7842694474700455514_n.jpg",
+          "localPath": "/media/grota-ursului/343432406_723340272920880_7842694474700455514_n.jpg",
+          "alt": "343432406_723340272920880_7842694474700455514_n",
+          "caption": "",
+          "credit": "",
+          "width": 2048,
+          "height": 1153
+        },
+        {
+          "sourceUrl": "https://transilvaniacavedivingcom.wordpress.com/wp-content/uploads/2025/04/308463539_465944172240668_5288398202573466023_n.jpg",
+          "localPath": "/media/grota-ursului/308463539_465944172240668_5288398202573466023_n.jpg",
+          "alt": "308463539_465944172240668_5288398202573466023_n",
+          "caption": "",
+          "credit": "",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "sourceUrl": "https://transilvaniacavedivingcom.wordpress.com/wp-content/uploads/2025/09/whatsapp-image-2025-08-14-at-18.13.28.jpeg",
+          "localPath": "/media/grota-ursului/whatsapp-image-2025-08-14-at-18.13.28.jpeg",
+          "alt": "WhatsApp Image 2025-08-14 at 18.13.28",
+          "caption": "",
+          "credit": "",
+          "width": 3024,
+          "height": 4032
+        },
+        {
+          "sourceUrl": "https://transilvaniacavedivingcom.wordpress.com/wp-content/uploads/2026/04/program.jpeg",
+          "localPath": "/media/grota-ursului/program.jpeg",
+          "alt": "program",
+          "caption": "",
+          "credit": "",
+          "width": 1024,
+          "height": 572
+        },
+        {
+          "sourceUrl": "https://transilvaniacavedivingcom.wordpress.com/wp-content/uploads/2026/04/chatgpt-image-apr-26-2026-09_15_35-am.png",
+          "localPath": "/media/grota-ursului/chatgpt-image-apr-26-2026-09_15_35-am.png",
+          "alt": "ChatGPT Image Apr 26, 2026, 09_15_35 AM",
+          "caption": "",
+          "credit": "",
+          "width": 1492,
+          "height": 1054
+        },
+        {
+          "sourceUrl": "https://transilvaniacavedivingcom.wordpress.com/wp-content/uploads/2026/05/chatgpt-image-may-22-2026-02_20_23-pm.png",
+          "localPath": "/media/grota-ursului/chatgpt-image-may-22-2026-02_20_23-pm.png",
+          "alt": "ChatGPT Image May 22, 2026, 02_20_23 PM",
+          "caption": "",
+          "credit": "",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "sourceUrl": "https://transilvaniacavedivingcom.wordpress.com/wp-content/uploads/2026/05/chatgpt-image-may-24-2026-09_51_11-am.png",
+          "localPath": "/media/grota-ursului/chatgpt-image-may-24-2026-09_51_11-am.png",
+          "alt": "ChatGPT Image May 24, 2026, 09_51_11 AM",
+          "caption": "",
+          "credit": "",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "sourceUrl": "https://transilvaniacavedivingcom.wordpress.com/wp-content/uploads/2026/07/1000096785.png",
+          "localPath": "/media/grota-ursului/1000096785.png",
+          "alt": "1000096785",
+          "caption": "",
+          "credit": "",
+          "width": 1024,
+          "height": 1536
+        }
+      ],
+      "videos": [],
+      "documents": [],
+      "headings": [
+        {
+          "level": 3,
+          "text": "Grota Ursului – Comoara Ascunsă a Stațiunii Moneasa"
+        },
+        {
+          "level": 4,
+          "text": "Ascunsă în inima Munților Codru-Moma, în pitoreasca Stațiune Moneasa din județul Arad, Grota Ursului (cunoscută și sub numele de Peștera de la Băi ) își așteaptă vizitatorii cu o poveste fascinantă ce îmbină natura, istoria și misterul."
+        },
+        {
+          "level": 4,
+          "text": "„Grota Ursului” este o denumire populară transmisă din trecut. Valea în capătul căreia este localizată peștera purta în trecut numele de Pârâul Ursului, fiind numită în prezent Pârâul Băilor."
+        },
+        {
+          "level": 4,
+          "text": "În anul 1989, speologii din Arad au descoperit în etajul superior al peșterii fosile ale ursului de cavernă ( Ursus spelaeus ), ceea ce a adăugat un plus de valoare acestui loc deja fascinant."
+        },
+        {
+          "level": 1,
+          "text": "Program vizitare:"
+        },
+        {
+          "level": 2,
+          "text": "Sâmbătă și duminică între orele 11:00-16:00"
+        },
+        {
+          "level": 3,
+          "text": "📝 Vrei să ne vizitezi în afara programului?"
+        },
+        {
+          "level": 3,
+          "text": "Localizare"
+        },
+        {
+          "level": 4,
+          "text": "Descoperă Grota Ursului din Moneasa"
+        },
+        {
+          "level": 3,
+          "text": "Traseu vizitare"
+        },
+        {
+          "level": 3,
+          "text": "Vă așteptăm să descoperiți:"
+        },
+        {
+          "level": 3,
+          "text": "💰 Tarife vizitare:"
+        },
+        {
+          "level": 3,
+          "text": "Tarifele afișate sunt valabile exclusiv pentru vizitele desfășurate în intervalul de timp corespunzător programului de vizitare!"
+        },
+        {
+          "level": 3,
+          "text": "Speoturism"
+        },
+        {
+          "level": 6,
+          "text": "Foto: Romeo Lazăr A.S. Speowest Arad"
+        },
+        {
+          "level": 3,
+          "text": "Descrierea peșterii"
+        },
+        {
+          "level": 3,
+          "text": "Istoricul explorărilor"
+        },
+        {
+          "level": 6,
+          "text": "Foto: Robert Valeriu Sarkozi A.S. Speowest Arad"
+        },
+        {
+          "level": 4,
+          "text": "Vă invităm să vizitați Peștera Grota Ursului din Moneasa!"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Introducere",
+          "level": 1,
+          "contentMarkdown": "![Grota Ursului](/media/grota-ursului/grota.jpg)"
+        },
+        {
+          "heading": "Grota Ursului – Comoara Ascunsă a Stațiunii Moneasa",
+          "level": 3,
+          "contentMarkdown": ""
+        },
+        {
+          "heading": "Ascunsă în inima Munților Codru-Moma, în pitoreasca Stațiune Moneasa din județul Arad, Grota Ursului (cunoscută și sub numele de Peștera de la Băi ) își așteaptă vizitatorii cu o poveste fascinantă ce îmbină natura, istoria și misterul.",
+          "level": 4,
+          "contentMarkdown": ""
+        },
+        {
+          "heading": "„Grota Ursului” este o denumire populară transmisă din trecut. Valea în capătul căreia este localizată peștera purta în trecut numele de Pârâul Ursului, fiind numită în prezent Pârâul Băilor.",
+          "level": 4,
+          "contentMarkdown": ""
+        },
+        {
+          "heading": "În anul 1989, speologii din Arad au descoperit în etajul superior al peșterii fosile ale ursului de cavernă ( Ursus spelaeus ), ceea ce a adăugat un plus de valoare acestui loc deja fascinant.",
+          "level": 4,
+          "contentMarkdown": ""
+        },
+        {
+          "heading": "Program vizitare:",
+          "level": 1,
+          "contentMarkdown": ""
+        },
+        {
+          "heading": "Sâmbătă și duminică între orele 11:00-16:00",
+          "level": 2,
+          "contentMarkdown": ""
+        },
+        {
+          "heading": "📝 Vrei să ne vizitezi în afara programului?",
+          "level": 3,
+          "contentMarkdown": "Nicio problemă! La cerere, grupurile organizate pot beneficia de tururi speciale. Completează formularul de [contact](/contact) cu detalii precum: câte persoane sunteți, când doriți să vizitați peștera și un număr de telefon pentru confirmare."
+        },
+        {
+          "heading": "Localizare",
+          "level": 3,
+          "contentMarkdown": "🗺️ **Cum ajungi în Moneasa?**\n\n➡️ **Din Arad** (aproximativ 100 km):\n🛣️ Arad – Ineu – Sebiș – Moneasa;\n\n➡️ **Din Oradea** (aproximativ 120 km):\n🛣️ Oradea – Tinca – Bocsig – Sebiș – Moneasa;\n\n➡️ **Din Timișoara** (aproximativ 150 km):\n🛣️ Timișoara – Arad – Ineu – Sebiș – Moneasa;\n\n➡️ **Din Deva** (aproximativ 125 km):\n🛣️ Deva – Brad – Vârfurile – Dieci – Moneasa.\n\n[https://goo.gl/maps/Ber2qWRJHVFjSGxC9](https://goo.gl/maps/Ber2qWRJHVFjSGxC9)"
+        },
+        {
+          "heading": "Descoperă Grota Ursului din Moneasa",
+          "level": 4,
+          "contentMarkdown": "📌 La doar câteva minute de mers pe jos din centrul stațiunii Moneasa turiștii pot descoperi una dintre cele mai interesante atracții locale: **Peștera Grota Ursului**.\n\nPeștera are două intrări:\n🔸 una naturală, care este inaccesibilă vizitatorilor (galerie scufundată);\n🔸 una artificială, realizată sub forma unui tunel de acces pentru turiști.\n\n🚶‍♂️🚶‍♂️🚶‍♂️ Traseul către peșteră pornește din centrul stațiunii, din zona hotelurilor **Parc** și **Cerbul Albastru**, unde găsești și locuri de parcare. De acolo, urmezi aleea de-a lungul Pârâului Băilor, un drum destinat exclusiv pietonilor, ideal pentru o plimbare liniștită în aer curat.\n\nTraseul spre peșteră trece pe lângă lacurile de baraj cu pești, lacurile cu nuferi și parcul de aventură Aventura Park Moneasa, dotat cu trasee pentru copii, adulți și tiroliene. Traseul este administrat de Primăria Moneasa.\n\n![Grota Ursului](/media/logos/logo-grota-ursului-2025.jpg)\n\n![Grota Ursului](/media/grota-ursului/351491047_619571533569286_3549339122862977017_n.jpg)\n\n![Grota Ursului](/media/grota-ursului/343429593_187722424108450_6305912292523591416_n.jpg)\n\n![Grota Ursului](/media/grota-ursului/346085324_569462455298484_1873608628498028011_n.jpg)\n\n![Grota Ursului](/media/grota-ursului/img-20230528-wa0010.jpg)\n\n![Grota Ursului](/media/grota-ursului/343457355_1299821244244262_6181622533702610248_n.jpg)\n\n![Grota Ursului](/media/grota-ursului/whatsapp-image-2025-03-24-at-13.30.43.jpeg)"
+        },
+        {
+          "heading": "Traseu vizitare",
+          "level": 3,
+          "contentMarkdown": "👣Traseul turistic amenajat și electrificat are o lungime de 200 de metri și include parcurgerea tunelului de acces, precum și a primei porțiuni din galeria principală, până în spectaculoasa **Sală [Czárán Gyula](/czaran-gyula)**.\n\n🧑‍🤝‍🧑💬Vizitele se desfășoară în grupuri organizate, conduse de ghizi specializați.\n\n📄Amenajarea peșterii și a zonei de la suprafață a fost posibilă datorită unei investiții private realizate de **S.C. Transilvania Cave Diving** **S.R.L.** Lucrările au fost efectuate cu sprijinul valoros al speologilor arădeni: *Ștefan Bakos, Adrian Peterfi, Lucian Sas, Radu Popa, Gheorghe Rada, Maria Bakos, Ioan Filip, Daniel Bibarț-Bulzan, Dragoș Pătrâcă și Mihai Besesek.*\n\n![Grota Ursului](/media/grota-ursului/whatsapp-image-2025-03-24-at-13.30.08.jpeg)\n\n![Grota Ursului](/media/grota-ursului/whatsapp-image-2025-03-24-at-13.26.07.jpeg)"
+        },
+        {
+          "heading": "Vă așteptăm să descoperiți:",
+          "level": 3,
+          "contentMarkdown": "📖 Panouri informative despre: Grota Ursului, carst, speologie, speleoteme, ursul de cavernă, omul și peștera, superlative speologice;\n\n🎨 Expoziția Galeria Picturilor Rupestre – Peștera Coliboaia (cca. 36.000 ani);\n\n🌟 Grota Ursului – Sala [Czárán Gyula](/czaran-gyula);\n\n📏 Lungimea traseului subteran: cca. 200m;\n\n🌡️ Temperatura din peșteră: 10-12°C;\n\n🛒 Suveniruri disponibile: magneți, minerale, cristale, fosile, agate, geode, lănțișoare, brățări, brelocuri și YoYo personalizate cu Grota Ursului plus multe altele;\n\n![Grota Ursului](/media/grota-ursului/whatsapp-image-2025-09-02-at-23.26.18.jpeg)\n\n![Grota Ursului](/media/grota-ursului/whatsapp-image-2025-08-14-at-18.13.33-3.jpeg)\n\n![Grota Ursului](/media/grota-ursului/whatsapp-image-2025-09-02-at-23.26.19.jpeg)\n\n![Grota Ursului](/media/grota-ursului/whatsapp-image-2025-08-14-at-18.13.35.jpeg)\n\n![Grota Ursului](/media/grota-ursului/whatsapp-image-2025-09-02-at-23.25.54-3.jpeg)\n\n![Grota Ursului](/media/grota-ursului/whatsapp-image-2025-08-14-at-18.13.35-5.jpeg)"
+        },
+        {
+          "heading": "💰 Tarife vizitare:",
+          "level": 3,
+          "contentMarkdown": "👨‍👩‍👧‍👦 Copii de peste 14 ani și adulții –**20 lei**;\n👶 Copii de până la 14 ani –**10 lei** (copiii sub 5 ani beneficiază de **gratuitate**); 🧗‍♂️ **Speologii**, 🚒 **Salvatorii Montani** și **Salvatorii Speologi** legitimați la asociații de profil au **acces gratuit**!"
+        },
+        {
+          "heading": "Tarifele afișate sunt valabile exclusiv pentru vizitele desfășurate în intervalul de timp corespunzător programului de vizitare!",
+          "level": 3,
+          "contentMarkdown": "📞 **Pentru grupurile organizate** (agenții de turism, școli, universități, tabere școlare etc.), vă rugăm să ne contactați pentru programarea vizitei și o ofertă personalizată ✨. Completați formularul de [contact](/contact) și specificați numărul de persoane, data și ora vizitei, precum și un număr de telefon pentru contact 📱.\n\n![Grota Ursului](/media/grota-ursului/307913482_465944128907339_3121862597359613688_n.jpg)\n\n![Grota Ursului](/media/grota-ursului/293554664_418382433663509_4258934524105899615_n.jpg)\n\n![Grota Ursului](/media/grota-ursului/294642257_419349863566766_3577455054733723797_n.jpg)\n\n![Grota Ursului](/media/grota-ursului/299294016_5156478304474737_3960313422591604747_n-1.jpg)"
+        },
+        {
+          "heading": "Speoturism",
+          "level": 3,
+          "contentMarkdown": "Speoturismul reprezintă o formă de turism care îmbină explorarea peșterilor cu activități educative și recreative. Această activitate presupune vizite ghidate în peșteri, prin parcurgerea unor trasee subterane neamenajate, oferind o experiență autentică și captivantă.\n\nTraseele speoturistice pot varia ca nivel de dificultate: de la rute accesibile pentru începători, până la explorări avansate, ce necesită echipament specializat și competențe tehnice, precum progresia pe verticală.\n\nPe lângă latura aventuroasă, speoturismul are și un important rol educativ, oferind participanților ocazia de a învăța despre speologie, protejarea mediului și conservarea ecosistemelor fragile din mediul subteran.\n\nParticipanții sunt echipați corespunzător cu cască cu iluminare electrică, combinezoane de protecție și, acolo unde este cazul, echipament pentru progresia pe verticală. În funcție de structura și pregătirea grupului, la cerere se pot organiza trasee ce variază între 250m și 1500m, cu o durată de vizitare între 30 de minute și 6 ore.\n\n📞 **Pentru**programarea unui tur speoturistic vă rugăm să ne [contactați.](/contact)\n\n![Grota Ursului](/media/grota-ursului/p1040728-1.jpg)\n\n![Grota Ursului](/media/grota-ursului/p1040743.jpg)\n\n![Grota Ursului](/media/grota-ursului/p1040770.jpg)\n\n![Grota Ursului](/media/grota-ursului/dsc09883.jpg)\n\n![Grota Ursului](/media/grota-ursului/dsc02621.jpg)\n\n![Grota Ursului](/media/grota-ursului/grota-bivuac-7.jpg)"
+        },
+        {
+          "heading": "Foto: Romeo Lazăr A.S. Speowest Arad",
+          "level": 6,
+          "contentMarkdown": ""
+        },
+        {
+          "heading": "Descrierea peșterii",
+          "level": 3,
+          "contentMarkdown": "Intrarea naturală a peşterii este constituită dintr-o galerie joasă, care după 10m sifonează. Sifonulul de la intrare, cu o lungime de 20m și -4m adâncime, continuă cu o galerie relativ strâmtă care după cca. 40m întâlnește o alta cu dimensiuni de până la 4-5 m lățime, galerie în care debușează și tunelul de acces. Galeria, în mare parte, are podeaua acoperită cu blocuri de prăbușire de dimensiuni mari, apa curgând pe sub aceștia. După încă cca. 100m se ajuge la o bifurcație, pe ramura din stânga cursul principal continuă încă 40m până la un alt sifon cu o lungime de circa 100m și -15m adâncime (în curs de explorare). Ramura din dreapta constituie un afluent explorat pe o lungime de cca. 200m.\n\nAccesul în etajul superior al peșterii este posibil din galeria ”Activului Secundar” prin escaladarea la o galerie îngustă „Gaura de Şoarece‘‘. Etajul ”Fosil” al peșterii este caracterizat de un sistem de galerii labirintice, din care, printr-un număr de 3 ”Ferestre” se poate coborî în galeria ”Activului Principal”. Etajul fosil al peșterii urmeză direcția afluentului fiind constituit, în cea mai mare parte, dintr-un sistem de galerii formate în regim înnecat. În ultima porţiune a peşterii (în curs de explorare) galeriile sunt formate de-a lungul unor diaclaze, puțuri și hornuri, dispuse pe mai multe nivele, inclusiv un alt tronson al afluentului. De semnalat pe etajul fosil este prezența în densităţi semnificative a cristalelor de aragonit, concrețiuni extrem de rar întâlnite în foarte puține peșteri din România. Asemănătoare florilor de mină, ”aragonitele” sunt formate din mănunchiuri de cristale care sfidează gravitația, cristalele acestora fiind dispuse în toate direcțiile.\n\n![Grota Ursului](/media/grota-ursului/dsc02671-ink-1.jpeg)\n\n![Grota Ursului](/media/grota-ursului/dsc02639-ink.jpeg)\n\n![Grota Ursului](/media/grota-ursului/dsc00323-ink.jpeg)\n\n![Grota Ursului](/media/grota-ursului/dsc00298-ink.jpeg)\n\n![Grota Ursului](/media/grota-ursului/09-04-06-2009-moneasa-salvaspeo-vali-214.jpg)\n\n![Grota Ursului](/media/grota-ursului/dsc00265-ink.jpeg)"
+        },
+        {
+          "heading": "Istoricul explorărilor",
+          "level": 3,
+          "contentMarkdown": "După mai multe încercări eşuate, în tabăra din august 1984 s-a trecut pentru prima dată sifonul de la intrarea peşterii şi au fost explorați peste 500m de galerii de către scafandri de la G.S.S. ”Transilvania” din Oradea, M.H.Sz. Debrecen din Ungaria și C.S. Speodava din Dr. Petru Groza (actualmente Ștei).\n\n![Grota Ursului](/media/grota-ursului/2007_1201_170408.jpg)\n\n![Grota Ursului](/media/grota-ursului/2007_1201_171547.jpg)\n\n![Grota Ursului](/media/grota-ursului/2007_1202_123757.jpg)"
+        },
+        {
+          "heading": "Foto: Robert Valeriu Sarkozi A.S. Speowest Arad",
+          "level": 6,
+          "contentMarkdown": "La solicitarea conducerii Staţiunii Balneoclimaterice Moneasa, scafandri de la G.S.S. Transilvania au elaborat un proiect de amenajare a peşterii. După forarea unui tunel de acces, (galerie de mină de 50m), care interceptează galeria ”Activului Principal”, în 1986 G.E.S. Aragonit Arad cu Speofoto Oradea şi G.S.R. Speotelex reiau explorarea peșterii. Cu aceeaşi ocazie se descoperă etajul superior al peșterii unde se cartează circa 500m de galerii. Cu sprijinul Muzeului Judeţean Arad au fost reluate cercetările din această cavitate, de către C.S.A. Liliacul Arad, care recartează peștera în anii 1989-1998.\n\nDupă o lungă perioadă de timp în care peştera a fost vizitată doar ocazional de speologi, din anul 2001, aceasta intră în atenţia A.S. Speowest Arad care începe recartarea etajului fosil al peşterii şi derocarea unei strâmtori. Aceasta este lărgită şi depăşită abia în primăvara anului 2005, astfel fiind explorați până în prezent peste 2500m de galerii. În prezent Peștera Grota Ursului este cea mai mare peșteră din județul Arad.\n\nPentru mai multe informații vă rugăm să ne [cotactați](/contact)."
+        },
+        {
+          "heading": "Vă invităm să vizitați Peștera Grota Ursului din Moneasa!",
+          "level": 4,
+          "contentMarkdown": "> [@grotaursuluimoneasa](https://www.tiktok.com/@grotaursuluimoneasa?refer=creator_embed)\n\n[https://www.instagram.com/pesteragrotaursului?igsh=OHZnbjQ1dWxoMGdz](https://www.instagram.com/pesteragrotaursului?igsh=OHZnbjQ1dWxoMGdz)\n\n[https://www.facebook.com/share/1WHBh6Nj2z/](https://www.facebook.com/share/1WHBh6Nj2z/)"
+        }
+      ],
+      "bodyMarkdown": "![Medve-barlang](/media/grota-ursului/grota.jpg)\n\n### Medve-barlang – Menyháza Rejtett Kincse\n\n#### A Béli-hegység szívében, a festői [Menyháza gyógyfürdőben](https://www.google.ro/maps/place/Pe%C8%99tera+Grota+Ursului/@46.4547112,22.2789956,9245m/data=!3m1!1e3!4m6!3m5!1s0x474f4de187c99d35:0x6d1016f1ec3d1a8f!8m2!3d46.4664548!4d22.2594181!16s%2Fg%2F11r3vnqt3b?entry=ttu&g_ep=EgoyMDI1MDQxNC4xIKXMDSoASAFQAw%3D%3D) (Arad megye) található Medve-barlang (más néven *Peștera de la Băi*) a természet, a történelem és a földalatti világ lenyűgöző élményével várja a látogatókat.\n\n#### A „Grota Ursului” népi elnevezés. A völgy, amelynek végében a barlang nyílik, a múltban Medve-patak (*Pârâul Ursului*) néven volt ismert, jelenleg Fürdő-pataknak (*Pârâul Băilor*) hívják.\n\n#### 1989-ben az aradi barlangkutatók a barlang felső, fosszilis emeletén barlangi medve (*Ursus spelaeus*) csontmaradványokat fedeztek fel, ami jelentős paleontológiai értéket ad ennek a látványos karsztképződménynek.\n\n# Látogatási Rend:\n\n## Szombat és vasárnap 11:00 és 16:00 óra között\n\n### 📝 Nyitvatartási időn kívül szeretne látogatni?\nSzervezett csoportok számára előzetes bejelentkezés alapján külön vezetett túrákat biztosítunk. Kérjük, töltse ki [kapcsolati űrlapunkat](/contact) a létszám és az időpont megadásával.\n\n### Megközelítés és Útvonal\n\n🚶‍♂️🚶‍♂️🚶‍♂️ A gyalogos útvonal Menyháza központjából, a **Parc** és a **Cerbul Albastru** szállodák közeléből indul (parkolási lehetőség adott). Kövesse a Fürdő-patak mentén haladó sétányt, a halastavak és a kalandpark mellett haladva.\n\n![Medve-barlang](/media/logos/logo-grota-ursului-2025.jpg)\n\n![Medve-barlang Galéria](/media/grota-ursului/351491047_619571533569286_3549339122862977017_n.jpg)\n\n### Látogatói Túraútvonal\n\n👣 A kiépített, kivilágított és biztonságos túraútvonal hossza **200 méter**, amely a bejárati alagúton és a fő aktív galérián keresztül vezet a látványos **[Czárán Gyula terembe](/czaran-gyula)**.\n\n🧑‍🤝‍🧑 A látogatások szakképzett túravezetőkkel zajlanak. A barlang turisztikai kiépítését az **S.C. Transilvania Cave Diving S.R.L.** magánberuházása tette lehetővé, az aradi barlangkutatók önzetlen szakmai segítségével: *Bakos István, Peterfi Adrián, Sas Lucián, Popa Radu, Rada Gheorghe, Bakos Mária, Filip Ioan, Bibarț-Bulzan Dániel, Pătrâcă Dragoș és Besesek Mihály.*\n\n![Medve-barlang Belső](/media/grota-ursului/whatsapp-image-2025-03-24-at-13.30.08.jpeg)\n\n### Főbb Látnivalók:\n\n📖 Tájékoztató táblák: Medve-barlang, karsztföldrajz, barlangászat, cseppkövek és az ősember világa;\n\n🎨 **Coliboaia-barlang Sziklarajz Kiállítás** — a mintegy **36 000 éves** őskori faszén barlangrajzok bemutatása;\n\n📏 Kiépített útvonal hossza: kb. 200 m | 🌡️ Belső állandó hőmérséklet: **10 – 12 °C**;\n\n🛒 Emléktárgyak: ásványok, kristályok, geódák, fosszíliák és egyedi menyházi ajándéktárgyak;\n\n![Medve-barlang Ásványok](/media/grota-ursului/whatsapp-image-2025-08-14-at-18.13.33-3.jpeg)\n\n### 💰 Belépődíjak:\n\n👨‍👩‍👧‍👦 Felnőttek és 14 év feletti gyermekek: **20 lej**;  \n👶 Gyermekek 14 éves korig: **10 lej** (5 év alatt ingyenes);  \n🧗‍♂️ Igazolt **barlangászok**, hegyimentők (**Salvamont**) és barlangi mentők (**Salvaspeo**): **Ingyenes belépés** a hivatalos nyitvatartási időben!\n\n### A Barlang Leírása és Aragonitkristályok\n\nA Medve-barlang egy többszintes karsztrendszer, aktív vizes ággal és felső fosszilis emelettel. A fosszilis szint különlegessége a rendkívül ritka **aragonitkristályok** jelenléte, amelyek a gravitációval dacolva minden irányban szétágazó kristálycsokrokat alkotnak. Jelenleg a Medve-barlang Arad megye leghosszabb feltárt barlangja (több mint 2500 méter ismert galéria).\n\n![Medve-barlang Aragonit](/media/grota-ursului/dsc02671-ink-1.jpeg)\n\n![Medve-barlang Cseppkövek](/media/grota-ursului/dsc00323-ink.jpeg)\n\n### A Felfedezések Története\n\nAz 1984. augusztusi kutatótáborban a nagyváradi G.S.S. „Transilvania”, a debreceni M.H.Sz. és a vaskohi C.S. Speodava búvárai sikeresen átúszták a bejárati szifont, és több mint 500 méternyi járatot fedeztek fel.\n\n![Kutatástörténet](/media/grota-ursului/2007_1201_170408.jpg)\n\n###### Fotó: Robert Valeriu Sarkozi – A.S. Speowest Arad\n\nMiután 1986-ban megépült a főfolyosót elérő 50 méteres mesterséges bejárati alagút, az aradi Aragonit és Speofoto, majd a Liliacul és 2001-től a Speowest egyesület folytatta a barlang feltárását és térképezését.\n\nTovábbi információkért és bejelentkezésért kérjük, [vegye fel velünk a kapcsolatot](/contact).",
+      "contactInformation": [
+        "Telefon: 03134225916 (![](https://transilvaniacavediving.com/wp-content/uploads/2022/09/299294016_5156478304474737_3960313422591604747_n-1.jpg))"
+      ],
+      "prices": [
+        "👨‍👩‍👧‍👦 Copii de peste 14 ani și adulții –**20 lei**;",
+        "👶 Copii de până la 14 ani –**10 lei** (copiii sub 5 ani beneficiază de **gratuitate**); 🧗‍♂️ **Speologii**, 🚒 **Salvatorii Montani** și **Salvatorii Speologi** legitimați la asociații de profil au **acces gratuit**!",
+        "Intrarea naturală a peşterii este constituită dintr-o galerie joasă, care după 10m sifonează. Sifonulul de la intrare, cu o lungime de 20m și -4m adâncime, continuă cu o galerie relativ strâmtă care după cca. 40m întâlnește o alta cu dimensiuni de pâ"
+      ],
+      "schedules": [
+        "# Program vizitare:",
+        "## Sâmbătă și duminică între orele 11:00-16:00"
+      ],
+      "historicalDates": [
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2022/09/grota.jpg)",
+        "#### În anul 1989, speologii din Arad au descoperit în etajul superior al peșterii fosile ale ursului de cavernă ( Ursus spelaeus ), ceea ce a adăugat un plus de valoare acestui loc deja fascinant.",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2025/04/logo-grota-ursului-2025.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2025/04/351491047_619571533569286_3549339122862977017_n.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2025/04/343429593_187722424108450_6305912292523591416_n.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2025/04/346085324_569462455298484_1873608628498028011_n.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2025/04/img-20230528-wa0010.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2025/04/343457355_1299821244244262_6181622533702610248_n.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2025/04/whatsapp-image-2025-03-24-at-13.30.43.jpeg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2025/04/whatsapp-image-2025-03-24-at-13.30.08.jpeg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2025/04/whatsapp-image-2025-03-24-at-13.26.07.jpeg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2025/09/whatsapp-image-2025-09-02-at-23.26.18.jpeg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2025/09/whatsapp-image-2025-08-14-at-18.13.33-3.jpeg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2025/09/whatsapp-image-2025-09-02-at-23.26.19.jpeg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2025/09/whatsapp-image-2025-08-14-at-18.13.35.jpeg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2025/09/whatsapp-image-2025-09-02-at-23.25.54-3.jpeg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2025/09/whatsapp-image-2025-08-14-at-18.13.35-5.jpeg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2022/09/307913482_465944128907339_3121862597359613688_n.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2022/09/293554664_418382433663509_4258934524105899615_n.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2022/09/294642257_419349863566766_3577455054733723797_n.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2022/09/299294016_5156478304474737_3960313422591604747_n-1.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2021/03/p1040728-1.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2021/03/p1040743.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2021/03/p1040770.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2021/03/dsc09883.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2021/03/dsc02621.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2021/03/grota-bivuac-7.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2021/06/dsc02671-ink-1.jpeg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2021/06/dsc02639-ink.jpeg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2021/06/dsc00323-ink.jpeg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2021/06/dsc00298-ink.jpeg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2021/07/09-04-06-2009-moneasa-salvaspeo-vali-214.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2021/06/dsc00265-ink.jpeg)",
+        "După mai multe încercări eşuate, în tabăra din august 1984 s-a trecut pentru prima dată sifonul de la intrarea peşterii şi au fost explorați peste 500m de galerii de către scafandri de la G.S.S. ”Transilvania” din Oradea, M.H.Sz. Debrecen din Ungaria și C.S. Speodava din Dr. Petr",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2021/03/2007_1201_170408.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2021/03/2007_1201_171547.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2021/03/2007_1202_123757.jpg)",
+        "La solicitarea conducerii Staţiunii Balneoclimaterice Moneasa, scafandri de la G.S.S. Transilvania au elaborat un proiect de amenajare a peşterii. După forarea unui tunel de acces, (galerie de mină de 50m), care interceptează galeria ”Activului Principal”, în 1986 G.E.S. Aragonit",
+        "După o lungă perioadă de timp în care peştera a fost vizitată doar ocazional de speologi, din anul 2001, aceasta intră în atenţia A.S. Speowest Arad care începe recartarea etajului fosil al peşterii şi derocarea unei strâmtori. Aceasta este lărgită şi depăşită abia în primăvara a"
+      ],
+      "safetyWarnings": [
+        "Traseul turistic de 200 m se parcurge exclusiv în grupuri organizate, conduse de ghizi specializați.",
+        "Temperatura în peșteră este constantă (10–12 °C); se recomandă îmbrăcăminte adecvată și încălțăminte cu talpă aderentă.",
+        "Turele de speoturism (250 m – 1.500 m) în galeriile neamenajate necesită programare prealabilă, echipament speologic complet (cască, iluminat, costum, cizme/mănuși) și respectarea strictă a instrucțiunilor ghidului."
+      ],
+      "technicalSpecs": [
+        {
+          "label": "Denumiri alternative",
+          "value": "Peștera de la Băi / Grota Ursului"
+        },
+        {
+          "label": "Localizare",
+          "value": "Moneasa, Munții Codru-Moma, Județul Arad (Valea Pârâului Băilor)"
+        },
+        {
+          "label": "Lungime traseu turistic amenajat",
+          "value": "cca. 200 m (electrificat, ghidat, până în Sala Czárán Gyula)"
+        },
+        {
+          "label": "Lungime totală explorată",
+          "value": "> 2.500 m (sistem pe două niveluri carstice: fosil și activ)"
+        },
+        {
+          "label": "Lungime trasee speoturism",
+          "value": "250 m – 1.500 m (durată 1 – 6 ore, echipament complet asigurat)"
+        },
+        {
+          "label": "Temperatură subterană",
+          "value": "10 – 12 °C (umiditate ridicată)"
+        },
+        {
+          "label": "Mineralogie rară",
+          "value": "Cristale de aragonit, calcit, stalactite, stalagmite, domuri, gururi"
+        },
+        {
+          "label": "Paleontologie și Expoziții",
+          "value": "Fosile de Ursus spelaeus (descoperite în 1989) și Expoziția Peștera Coliboaia (cca. 36.000 ani)"
+        }
+      ],
+      "scheduleSummary": "Szombat és vasárnap: 11:00 – 16:00 (vagy előzetes egyeztetéssel csoportoknak a nyitvatartási időn kívül)",
+      "pricingSummary": "Felnőttek és 14 év feletti gyermekek: 20 lej | Gyermekek 14 éves korig: 10 lej | 5 év alatt, barlangászok, hegyimentők és barlangi mentők: Ingyenes (nyitvatartási időben)",
+      "publicationDate": "2021-03-10T16:14:57+00:00",
+      "lastModified": "2026-10-27T17:08:28+00:00",
+      "validationStatus": "verified_source_and_historical",
+      "migrationStatus": "migrated_complete"
+    },
+    {
+      "sourceUrl": "https://transilvaniacavediving.com/via-ferrata-dezna-en/",
+      "finalUrl": "https://transilvaniacavediving.com/via-ferrata-dezna-en/",
+      "canonicalUrl": "https://transilvaniacavediving.com/via-ferrata-dezna-en/",
+      "path": "/via-ferrata-dezna-en",
+      "slug": "via-ferrata-dezna-en",
+      "title": "Via Ferrata Dezna Fortress – Transilvania Cave Diving",
+      "cleanTitle": "Via Ferrata Dezna Fortress",
+      "metaDescription": "Mountain via ferrata trail on Osoiu Hill at Dezna Fortress (Arad County). Total length 600 m, difficulty grade B, 25 m suspended Himalayan suspension bridge.",
+      "language": "en",
+      "pageType": "destination",
+      "iaSection": "Aventuri și experiențe",
+      "categoryLabel": "Mountain & Via Ferrata",
+      "region": "Dezna, Codru-Moma Mountains",
+      "translations": [
+        {
+          "lang": "ro",
+          "path": "/via-ferrata-cetate-dezna",
+          "label": "Română"
+        },
+        {
+          "lang": "en",
+          "path": "/via-ferrata-dezna-en",
+          "label": "English"
+        },
+        {
+          "lang": "hu",
+          "path": "/via-ferrata-dezna-hu",
+          "label": "Magyar"
+        }
+      ],
+      "heroImage": "/media/via-ferrata/graphic1.jpg",
+      "images": [
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2022/09/graphic1.jpg",
+          "localPath": "/media/via-ferrata/graphic1.jpg",
+          "alt": "graphic1",
+          "caption": "",
+          "credit": "",
+          "width": 10000,
+          "height": 3529
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2024/02/376792717_3254314148199576_6975361348299454362_n-1.jpg",
+          "localPath": "/media/cave-diving/376792717_3254314148199576_6975361348299454362_n.jpg",
+          "alt": "376792717_3254314148199576_6975361348299454362_n-1",
+          "caption": "",
+          "credit": "Picasa",
+          "width": 1600,
+          "height": 1140
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2024/02/img_20230223_135850799_mf_portrait-1.jpg",
+          "localPath": "/media/cave-diving/img_20230223_135850799_mf_portrait.jpg",
+          "alt": "img_20230223_135850799_mf_portrait-1",
+          "caption": "",
+          "credit": "",
+          "width": 4000,
+          "height": 2250
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2025/09/whatsapp-image-2025-08-19-at-12.12.25-1.jpeg",
+          "localPath": "/media/via-ferrata/whatsapp-image-2025-08-19-at-12.12.25-1.jpeg",
+          "alt": "WhatsApp Image 2025-08-19 at 12.12.25 (1)",
+          "caption": "",
+          "credit": "",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2022/09/dezna.jpg",
+          "localPath": "/media/via-ferrata/dezna.jpg",
+          "alt": "dezna",
+          "caption": "",
+          "credit": "",
+          "width": 10000,
+          "height": 8888
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2025/09/dezna-1900.jpg",
+          "localPath": "/media/via-ferrata/dezna-1900.jpg",
+          "alt": "Dezna-1900",
+          "caption": "",
+          "credit": "",
+          "width": 800,
+          "height": 800
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2025/09/dezna-1900-odaliszk.jpg",
+          "localPath": "/media/via-ferrata/dezna-1900-odaliszk.jpg",
+          "alt": "Dezna-1900-odaliszk",
+          "caption": "",
+          "credit": "",
+          "width": 800,
+          "height": 800
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2025/09/dezna-1903.jpg",
+          "localPath": "/media/via-ferrata/dezna-1903.jpg",
+          "alt": "Dezna-1903",
+          "caption": "",
+          "credit": "",
+          "width": 361,
+          "height": 246
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2024/02/vlcsnap-2023-03-05-14h44m12s820-1.jpg",
+          "localPath": "/media/via-ferrata/vlcsnap-2023-03-05-14h44m12s820-1.jpg",
+          "alt": "vlcsnap-2023-03-05-14h44m12s820-1",
+          "caption": "",
+          "credit": "",
+          "width": 3840,
+          "height": 2160
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2022/09/img_20220706_111844615_hdr.jpg",
+          "localPath": "/media/via-ferrata/img_20220706_111844615_hdr.jpg",
+          "alt": "img_20220706_111844615_hdr",
+          "caption": "",
+          "credit": "",
+          "width": 4000,
+          "height": 3000
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2024/02/img_20231010_150907859.jpg",
+          "localPath": "/media/via-ferrata/img_20231010_150907859.jpg",
+          "alt": "img_20231010_150907859",
+          "caption": "",
+          "credit": "",
+          "width": 1744,
+          "height": 4000
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2024/02/img_20231010_152118648.jpg",
+          "localPath": "/media/via-ferrata/img_20231010_152118648.jpg",
+          "alt": "img_20231010_152118648",
+          "caption": "",
+          "credit": "",
+          "width": 4000,
+          "height": 1756
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2022/09/img_20210514_114146.jpg",
+          "localPath": "/media/via-ferrata/img_20210514_114146.jpg",
+          "alt": "smart",
+          "caption": "",
+          "credit": "",
+          "width": 4160,
+          "height": 3120
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2022/09/img_20210404_141640.jpg",
+          "localPath": "/media/via-ferrata/img_20210404_141640.jpg",
+          "alt": "smart",
+          "caption": "",
+          "credit": "",
+          "width": 3120,
+          "height": 4160
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2022/09/307371107_127948763337221_5185995331652298235_n.jpg",
+          "localPath": "/media/via-ferrata/307371107_127948763337221_5185995331652298235_n.jpg",
+          "alt": "307371107_127948763337221_5185995331652298235_n",
+          "caption": "",
+          "credit": "",
+          "width": 1200,
+          "height": 1600
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2024/02/306191029_124614147009698_1981693849645096031_n-2.jpg",
+          "localPath": "/media/cave-diving/306191029_124614147009698_1981693849645096031_n.jpg",
+          "alt": "306191029_124614147009698_1981693849645096031_n-2",
+          "caption": "",
+          "credit": "",
+          "width": 2000,
+          "height": 1125
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2024/02/img_20230428_151738668_hdr.jpg",
+          "localPath": "/media/via-ferrata/img_20230428_151738668_hdr.jpg",
+          "alt": "img_20230428_151738668_hdr",
+          "caption": "",
+          "credit": "",
+          "width": 4000,
+          "height": 2250
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2024/02/whatsapp-image-2023-04-30-at-10.28.49.jpeg",
+          "localPath": "/media/via-ferrata/whatsapp-image-2023-04-30-at-10.28.49.jpeg",
+          "alt": "whatsapp-image-2023-04-30-at-10.28.49",
+          "caption": "",
+          "credit": "",
+          "width": 1200,
+          "height": 1600
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2024/02/dsc1142.jpg",
+          "localPath": "/media/via-ferrata/dsc1142.jpg",
+          "alt": "dsc1142",
+          "caption": "",
+          "credit": "",
+          "width": 6000,
+          "height": 4000
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2024/02/dsc1148.jpg",
+          "localPath": "/media/via-ferrata/dsc1148.jpg",
+          "alt": "dsc1148",
+          "caption": "",
+          "credit": "",
+          "width": 6000,
+          "height": 4000
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2024/02/img_20230801_131419-1.jpg",
+          "localPath": "/media/via-ferrata/img_20230801_131419-1.jpg",
+          "alt": "img_20230801_131419-1",
+          "caption": "",
+          "credit": "",
+          "width": 3280,
+          "height": 1848
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2024/02/img_20230801_123118-1.jpg",
+          "localPath": "/media/via-ferrata/img_20230801_123118-1.jpg",
+          "alt": "img_20230801_123118-1",
+          "caption": "",
+          "credit": "",
+          "width": 2252,
+          "height": 4000
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2022/07/294753617_103095145828265_2577910481877483943_n.jpg",
+          "localPath": "/media/via-ferrata/294753617_103095145828265_2577910481877483943_n.jpg",
+          "alt": "294753617_103095145828265_2577910481877483943_n",
+          "caption": "",
+          "credit": "",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2022/07/295093268_103095315828248_9107141605654321996_n.jpg",
+          "localPath": "/media/via-ferrata/295093268_103095315828248_9107141605654321996_n.jpg",
+          "alt": "295093268_103095315828248_9107141605654321996_n",
+          "caption": "",
+          "credit": "",
+          "width": 2000,
+          "height": 1125
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2022/07/294814586_103095299161583_1135674530342633675_n.jpg",
+          "localPath": "/media/via-ferrata/294814586_103095299161583_1135674530342633675_n.jpg",
+          "alt": "294814586_103095299161583_1135674530342633675_n",
+          "caption": "",
+          "credit": "",
+          "width": 2000,
+          "height": 1125
+        },
+        {
+          "sourceUrl": "https://transilvaniacavedivingcom.wordpress.com/wp-content/uploads/2024/02/img-20221022-wa0003.jpg",
+          "localPath": "/media/via-ferrata/img-20221022-wa0003.jpg",
+          "alt": "img-20221022-wa0003",
+          "caption": "",
+          "credit": "",
+          "width": 1600,
+          "height": 720
+        },
+        {
+          "sourceUrl": "https://transilvaniacavedivingcom.wordpress.com/wp-content/uploads/2024/02/img-20230430-wa0025.jpg",
+          "localPath": "/media/via-ferrata/img-20230430-wa0025.jpg",
+          "alt": "img-20230430-wa0025",
+          "caption": "",
+          "credit": "",
+          "width": 1200,
+          "height": 1600
+        },
+        {
+          "sourceUrl": "https://transilvaniacavedivingcom.wordpress.com/wp-content/uploads/2024/02/img-20230509-wa0011.jpg",
+          "localPath": "/media/via-ferrata/img-20230509-wa0011.jpg",
+          "alt": "img-20230509-wa0011",
+          "caption": "",
+          "credit": "",
+          "width": 1600,
+          "height": 720
+        },
+        {
+          "sourceUrl": "https://transilvaniacavedivingcom.wordpress.com/wp-content/uploads/2024/02/img-20230509-wa0012.jpg",
+          "localPath": "/media/via-ferrata/img-20230509-wa0012.jpg",
+          "alt": "img-20230509-wa0012",
+          "caption": "",
+          "credit": "",
+          "width": 720,
+          "height": 1600
+        },
+        {
+          "sourceUrl": "https://transilvaniacavedivingcom.wordpress.com/wp-content/uploads/2024/02/img_20230428_151327503_hdr.jpg",
+          "localPath": "/media/via-ferrata/img_20230428_151327503_hdr.jpg",
+          "alt": "img_20230428_151327503_hdr",
+          "caption": "",
+          "credit": "",
+          "width": 2240,
+          "height": 4000
+        },
+        {
+          "sourceUrl": "https://transilvaniacavedivingcom.wordpress.com/wp-content/uploads/2024/02/img-20220924-wa0018.jpg",
+          "localPath": "/media/via-ferrata/img-20220924-wa0018.jpg",
+          "alt": "img-20220924-wa0018",
+          "caption": "",
+          "credit": "",
+          "width": 1200,
+          "height": 1600
+        },
+        {
+          "sourceUrl": "https://transilvaniacavedivingcom.wordpress.com/wp-content/uploads/2024/02/whatsapp-image-2023-04-30-at-10.28.55-3.jpeg",
+          "localPath": "/media/via-ferrata/whatsapp-image-2023-04-30-at-10.28.55-3.jpeg",
+          "alt": "whatsapp-image-2023-04-30-at-10.28.55-3",
+          "caption": "",
+          "credit": "",
+          "width": 1200,
+          "height": 1600
+        },
+        {
+          "sourceUrl": "https://transilvaniacavedivingcom.wordpress.com/wp-content/uploads/2024/02/dsc1141.jpg",
+          "localPath": "/media/via-ferrata/dsc1141.jpg",
+          "alt": "dsc1141",
+          "caption": "",
+          "credit": "",
+          "width": 4000,
+          "height": 6000
+        }
+      ],
+      "videos": [],
+      "documents": [],
+      "headings": [
+        {
+          "level": 2,
+          "text": "Cetatea Dezna"
+        },
+        {
+          "level": 2,
+          "text": "Via Ferrata – Cetate Dezna"
+        },
+        {
+          "level": 4,
+          "text": "Vă invităm să vizitați Via Ferrata – Cetate Dezna!"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Introducere",
+          "level": 1,
+          "contentMarkdown": "![Via Ferrata](/media/via-ferrata/graphic1.jpg)\n\nVia Ferrata (tradus din italiană “Drumul de Fier”) este un traseu montan echipat cu cabluri, scări, poduri, trepte și scoabe metalice. Acest tip de trasee permit turiștilor mai puțin experimentați în alpinism să parcurgă trasee expuse, pereți verticali și să ajungă în siguranță pe vârfuri.\n\nDin punct de vedere istoric, primele căi de tipul Via Ferrata au fost amenajate în timpul primului Război Mondial, în Alpi (nordul Italiei, la granița cu Austria), când soldații montau ancore şi cabluri metalice, ca să facă trecerea accesibilă. Numele italienesc a rămas de atunci (Via Ferrata = drum de fier), iar din anii ‘60 traseele au fost valorificate turistic, mai ales cele din munții Dolomiţi.\n\nParcurgerea unui traseu de Via Ferrata este o activitate distractiva, cu un grad redus de periculozitate, iar echipamentul caracteristic asigură parcurgerea acestor trasee în condiții de siguranță.\n\n![Via Ferrata](/media/cave-diving/376792717_3254314148199576_6975361348299454362_n.jpg)\n\n![Via Ferrata](/media/cave-diving/img_20230223_135850799_mf_portrait.jpg)\n\n![Via Ferrata](/media/via-ferrata/whatsapp-image-2025-08-19-at-12.12.25-1.jpeg)\n\n![Via Ferrata](/media/via-ferrata/dezna.jpg)"
+        },
+        {
+          "heading": "Cetatea Dezna",
+          "level": 2,
+          "contentMarkdown": "Situate în extremitatea de NE a satului Dezna, județul Arad, la poalele munților Codru-Moma, pe dealul Osoiu (390m), ruinele cetății Dezna domină valea care îi poartă numele.\n\n![Via Ferrata](/media/via-ferrata/dezna-1900.jpg)\n\n![Via Ferrata](/media/via-ferrata/dezna-1900-odaliszk.jpg)\n\n![Via Ferrata](/media/via-ferrata/dezna-1903.jpg)\n\nInformațiile privind edificarea ei nu sunt foarte clare, fiind plasate undeva la finele secolului al XIII-lea sau la începutul secolului al XIV-lea. Oamenii și vremurile au pecetluit în cele din urmă destinul acestei cetăți, astăzi păstrându-se doar o linie de zid și urme care sugerează mai mult sau mai puțin planimetria vechi cetăți medievale.\n\nLa Cetatea Dezna se poate ajunge parcurgând unul din traseele turistice cu marcaj bandă galbenă (mai ușor) sau triunghi roșu (amenajat cu 6 porțiuni echipate cu cabluri). Poteca traseului marcat cu triunghi roșu este și punctul de plecare și final al traseului de Via Ferrata – Cetate Dezna.\n\n![Via Ferrata](/media/via-ferrata/vlcsnap-2023-03-05-14h44m12s820-1.jpg)\n\n![Via Ferrata](/media/via-ferrata/img_20220706_111844615_hdr.jpg)\n\n![Via Ferrata](/media/via-ferrata/img_20231010_150907859.jpg)\n\n![Via Ferrata](/media/via-ferrata/img_20231010_152118648.jpg)\n\n![Via Ferrata](/media/via-ferrata/img_20210514_114146.jpg)\n\n![Via Ferrata](/media/via-ferrata/img_20210404_141640.jpg)"
+        },
+        {
+          "heading": "Via Ferrata – Cetate Dezna",
+          "level": 2,
+          "contentMarkdown": "**Grad dificultate:** B (ușor). Gradele de dificultate sunt notate de la A (foarte usor) la E (extrem).\n\n**Lungime traseu:** ↔ 600m / ↑ 120m ( ↔ 150m sectoare Via Ferrata).\n\n**Durată parcurgere:** 1h urcare / 1h 30min total. Retragere pe traseul turistic Dezna – Cetatea Dezna (marcaj bandă galbenă sau triunghi roșu).\n\n**Acces:**Spre traseul de Via Ferrata-Cetate Dezna se pornește de la ieșirea din localitatea Dezna spre Moneasa, din DJ762, imediat după trecerea podului rutier peste Valea Moneasa, unde se află un loc de popas și locuri pentru parcare. Tot acolo este instalat un panou informativ cu harta zonei și un scurt istoric al Cetății Dezna cât și indicatoare direcționale spre cetate și traseu.\n\nPornind pe drumul care urcă prin pădure, pe traseele turistice Dezna – Ruinele Cetății Dezna, marcate cu triunghi roșu și bandă galbenă, se ajunge la o intersecție unde, spre traseul de Via Ferrata se urmează poteca marcată cu triunghi roșu. După parcurgerea a 4 secțiuni amenajate cu cabluri, un indicator direcțional, montat pe un copac, semnalizează direcția spre intrarea în primul sector al traseului de via ferrata, spre stânga.\n\n[https://goo.gl/maps/6HGauXw3VuyMQuVn7](https://goo.gl/maps/6HGauXw3VuyMQuVn7)\n\n![Via Ferrata](/media/via-ferrata/307371107_127948763337221_5185995331652298235_n.jpg)\n\n![Via Ferrata](/media/cave-diving/306191029_124614147009698_1981693849645096031_n.jpg)\n\n![Via Ferrata](/media/via-ferrata/img_20230428_151738668_hdr.jpg)\n\n![Via Ferrata](/media/via-ferrata/whatsapp-image-2023-04-30-at-10.28.49.jpeg)\n\n![Via Ferrata](/media/via-ferrata/dsc1142.jpg)\n\n![Via Ferrata](/media/via-ferrata/dsc1148.jpg)\n\n![Via Ferrata](/media/via-ferrata/img_20230801_131419-1.jpg)\n\n![Via Ferrata](/media/via-ferrata/img_20230801_123118-1.jpg)\n\n**Descrierea traseului:** Traseul de Via Ferrata – Cetate Dezna are două sectoare amenajate pe stâncile din aglomerate vulcanice localizate pe versantul de sub Cetatea Dezna.\n\nPrimul sector, o creastă îngustă, începe cu o verticală de cca. 12m echipată cu scoabe metalice (trepte) și cablu de asigurare, fiind urmată de o balustradă din cablu cu o lungime de cca. 25m.\n\nContinuarea spre cel de al doilea sector al traseului se realizează prin urcarea unui versant abrupt, înierbat, până la baza peretelui unde începe următoarea secțiune a traseului.\n\nCel de al doilea sector, localizat sub platoul unde este instalat un catarg cu drapelul României, începe cu verticală de cca. 15m echipată cu scoabe metalice și cablu de asigurare. Verticala este urmată de o balustradă echipată cu un cablu de asigurare cu o lungime de cca. 20m și câteva scoabe metalice. După parcurgerea balustradei, printr-o verticală de cca. 7m, echipată cu scoabe metalice și cablu de asigurare se poate ieși din traseu chiar la catargul cu drapel sau se poate continua traseul traversând pe un ”pod indian” cu lungime de cca. 25m. Podul este echipat cu 3 cabluri, 1 cablu la picioare și 2 cabluri pe lateral la mâni și 1 cablu suplimentar pentru asigurare.\n\nOpțional, se poate parcurge numai cel de al doilea sector al traseului de via ferrata. Accesul spre acest sector se face tot din poteca turistică marcată cu triunghi roșu. După parcurgerea a 5 secțiuni amenajate cu cabluri de pe poteca turistică, un indicator direcțional, montat pe o stâncă, semnalizează direcția spre intrarea în cel de al doilea sector al traseului de via ferrata, spre stânga. La traseu se ajunge urmând baza peretelui.\n\n**Echipament** **obligatoriu**: cască, ham și lonja specială pentru via ferrata, prevăzută cu absorbitor de șoc. Opțional se pot utiliza mănuși de protecție.\n\n**Tarife acces:** gratuit pentru cei care dețin echipament propriu.\n\n**Pentru închiriere de echipamente sau tururi ghidate vă rugăm să ne [contactați](/contact)!**\n\n**Condiții meteo:**\n\n[https://www.meteoblue.com/ro/vreme/s%C4%83pt%C4%83m%C3%A2na/dezna_romania_679443](https://www.meteoblue.com/ro/vreme/s%C4%83pt%C4%83m%C3%A2na/dezna_romania_679443)\n\n**Apeluri de urgență:** [0-SALVAMONT](tel:+40725826668), sau numărul de urgente [112](tel:112).\n\n**Amenajare:** Traseul a fost amenajat de Primăria Comunei Dezna prin SC Transilvania Cave Diving SRL cu sprijinul [Makita Romania](https://www.facebook.com/MakitaRomaniaSRL/?__cft__%5B0%5D=AZX56I__XMPvmx72h66G8dTQ-Aw1D9KtgEFbnbl2WPxtdieXsi0fLBCHdwvtNxdR3cLEMFXeB912LyAlWpJK3EwtkERqrOD70sJefy9X3h9-W5HA81PJrTUP-Qj7zQWwYc1grvI7BWzO5GGBZ04Qxm_Xaaq31VE3DWb-JbuCS3_ka3ue1G8odi6vW43e6HMHYCqBUh-6sWGjtaNhxosJknF4&__tn__=kK-R).\n\n![Via Ferrata](/media/via-ferrata/294753617_103095145828265_2577910481877483943_n.jpg)\n\n![Via Ferrata](/media/via-ferrata/295093268_103095315828248_9107141605654321996_n.jpg)\n\n![Via Ferrata](/media/via-ferrata/294814586_103095299161583_1135674530342633675_n.jpg)"
+        },
+        {
+          "heading": "Vă invităm să vizitați Via Ferrata – Cetate Dezna!",
+          "level": 4,
+          "contentMarkdown": "[https://www.facebook.com/profile.php?id=100083662944867](https://www.facebook.com/profile.php?id=100083662944867)"
+        }
+      ],
+      "bodyMarkdown": "![Via Ferrata](/media/via-ferrata/graphic1.jpg)\n\nVia Ferrata (tradus din italiană “Drumul de Fier”) este un traseu montan echipat cu cabluri, scări, poduri, trepte și scoabe metalice. Acest tip de trasee permit turiștilor mai puțin experimentați în alpinism să parcurgă trasee expuse, pereți verticali și să ajungă în siguranță pe vârfuri.\n\nDin punct de vedere istoric, primele căi de tipul Via Ferrata au fost amenajate în timpul primului Război Mondial, în Alpi (nordul Italiei, la granița cu Austria), când soldații montau ancore şi cabluri metalice, ca să facă trecerea accesibilă. Numele italienesc a rămas de atunci (Via Ferrata = drum de fier), iar din anii ‘60 traseele au fost valorificate turistic, mai ales cele din munții Dolomiţi.\n\nParcurgerea unui traseu de Via Ferrata este o activitate distractiva, cu un grad redus de periculozitate, iar echipamentul caracteristic asigură parcurgerea acestor trasee în condiții de siguranță.\n\n![Via Ferrata](/media/cave-diving/376792717_3254314148199576_6975361348299454362_n.jpg)\n\n![Via Ferrata](/media/cave-diving/img_20230223_135850799_mf_portrait.jpg)\n\n![Via Ferrata](/media/via-ferrata/whatsapp-image-2025-08-19-at-12.12.25-1.jpeg)\n\n![Via Ferrata](/media/via-ferrata/dezna.jpg)\n\n## Cetatea Dezna\n\nSituate în extremitatea de NE a satului Dezna, județul Arad, la poalele munților Codru-Moma, pe dealul Osoiu (390m), ruinele cetății Dezna domină valea care îi poartă numele.\n\n![Via Ferrata](/media/via-ferrata/dezna-1900.jpg)\n\n![Via Ferrata](/media/via-ferrata/dezna-1900-odaliszk.jpg)\n\n![Via Ferrata](/media/via-ferrata/dezna-1903.jpg)\n\nInformațiile privind edificarea ei nu sunt foarte clare, fiind plasate undeva la finele secolului al XIII-lea sau la începutul secolului al XIV-lea. Oamenii și vremurile au pecetluit în cele din urmă destinul acestei cetăți, astăzi păstrându-se doar o linie de zid și urme care sugerează mai mult sau mai puțin planimetria vechi cetăți medievale.\n\nLa Cetatea Dezna se poate ajunge parcurgând unul din traseele turistice cu marcaj bandă galbenă (mai ușor) sau triunghi roșu (amenajat cu 6 porțiuni echipate cu cabluri). Poteca traseului marcat cu triunghi roșu este și punctul de plecare și final al traseului de Via Ferrata – Cetate Dezna.\n\n![Via Ferrata](/media/via-ferrata/vlcsnap-2023-03-05-14h44m12s820-1.jpg)\n\n![Via Ferrata](/media/via-ferrata/img_20220706_111844615_hdr.jpg)\n\n![Via Ferrata](/media/via-ferrata/img_20231010_150907859.jpg)\n\n![Via Ferrata](/media/via-ferrata/img_20231010_152118648.jpg)\n\n![Via Ferrata](/media/via-ferrata/img_20210514_114146.jpg)\n\n![Via Ferrata](/media/via-ferrata/img_20210404_141640.jpg)\n\n## Via Ferrata – Cetate Dezna\n\n**Grad dificultate:** B (ușor). Gradele de dificultate sunt notate de la A (foarte usor) la E (extrem).\n\n**Lungime traseu:** ↔ 600m / ↑ 120m ( ↔ 150m sectoare Via Ferrata).\n\n**Durată parcurgere:** 1h urcare / 1h 30min total. Retragere pe traseul turistic Dezna – Cetatea Dezna (marcaj bandă galbenă sau triunghi roșu).\n\n**Acces:**Spre traseul de Via Ferrata-Cetate Dezna se pornește de la ieșirea din localitatea Dezna spre Moneasa, din DJ762, imediat după trecerea podului rutier peste Valea Moneasa, unde se află un loc de popas și locuri pentru parcare. Tot acolo este instalat un panou informativ cu harta zonei și un scurt istoric al Cetății Dezna cât și indicatoare direcționale spre cetate și traseu.\n\nPornind pe drumul care urcă prin pădure, pe traseele turistice Dezna – Ruinele Cetății Dezna, marcate cu triunghi roșu și bandă galbenă, se ajunge la o intersecție unde, spre traseul de Via Ferrata se urmează poteca marcată cu triunghi roșu. După parcurgerea a 4 secțiuni amenajate cu cabluri, un indicator direcțional, montat pe un copac, semnalizează direcția spre intrarea în primul sector al traseului de via ferrata, spre stânga.\n\n[https://goo.gl/maps/6HGauXw3VuyMQuVn7](https://goo.gl/maps/6HGauXw3VuyMQuVn7)\n\n![Via Ferrata](/media/via-ferrata/307371107_127948763337221_5185995331652298235_n.jpg)\n\n![Via Ferrata](/media/cave-diving/306191029_124614147009698_1981693849645096031_n.jpg)\n\n![Via Ferrata](/media/via-ferrata/img_20230428_151738668_hdr.jpg)\n\n![Via Ferrata](/media/via-ferrata/whatsapp-image-2023-04-30-at-10.28.49.jpeg)\n\n![Via Ferrata](/media/via-ferrata/dsc1142.jpg)\n\n![Via Ferrata](/media/via-ferrata/dsc1148.jpg)\n\n![Via Ferrata](/media/via-ferrata/img_20230801_131419-1.jpg)\n\n![Via Ferrata](/media/via-ferrata/img_20230801_123118-1.jpg)\n\n**Descrierea traseului:** Traseul de Via Ferrata – Cetate Dezna are două sectoare amenajate pe stâncile din aglomerate vulcanice localizate pe versantul de sub Cetatea Dezna.\n\nPrimul sector, o creastă îngustă, începe cu o verticală de cca. 12m echipată cu scoabe metalice (trepte) și cablu de asigurare, fiind urmată de o balustradă din cablu cu o lungime de cca. 25m.\n\nContinuarea spre cel de al doilea sector al traseului se realizează prin urcarea unui versant abrupt, înierbat, până la baza peretelui unde începe următoarea secțiune a traseului.\n\nCel de al doilea sector, localizat sub platoul unde este instalat un catarg cu drapelul României, începe cu verticală de cca. 15m echipată cu scoabe metalice și cablu de asigurare. Verticala este urmată de o balustradă echipată cu un cablu de asigurare cu o lungime de cca. 20m și câteva scoabe metalice. După parcurgerea balustradei, printr-o verticală de cca. 7m, echipată cu scoabe metalice și cablu de asigurare se poate ieși din traseu chiar la catargul cu drapel sau se poate continua traseul traversând pe un ”pod indian” cu lungime de cca. 25m. Podul este echipat cu 3 cabluri, 1 cablu la picioare și 2 cabluri pe lateral la mâni și 1 cablu suplimentar pentru asigurare.\n\nOpțional, se poate parcurge numai cel de al doilea sector al traseului de via ferrata. Accesul spre acest sector se face tot din poteca turistică marcată cu triunghi roșu. După parcurgerea a 5 secțiuni amenajate cu cabluri de pe poteca turistică, un indicator direcțional, montat pe o stâncă, semnalizează direcția spre intrarea în cel de al doilea sector al traseului de via ferrata, spre stânga. La traseu se ajunge urmând baza peretelui.\n\n**Echipament** **obligatoriu**: cască, ham și lonja specială pentru via ferrata, prevăzută cu absorbitor de șoc. Opțional se pot utiliza mănuși de protecție.\n\n**Tarife acces:** gratuit pentru cei care dețin echipament propriu.\n\n**Pentru închiriere de echipamente sau tururi ghidate vă rugăm să ne [contactați](/contact)!**\n\n**Condiții meteo:**\n\n[https://www.meteoblue.com/ro/vreme/s%C4%83pt%C4%83m%C3%A2na/dezna_romania_679443](https://www.meteoblue.com/ro/vreme/s%C4%83pt%C4%83m%C3%A2na/dezna_romania_679443)\n\n**Apeluri de urgență:** [0-SALVAMONT](tel:+40725826668), sau numărul de urgente [112](tel:112).\n\n**Amenajare:** Traseul a fost amenajat de Primăria Comunei Dezna prin SC Transilvania Cave Diving SRL cu sprijinul [Makita Romania](https://www.facebook.com/MakitaRomaniaSRL/?__cft__%5B0%5D=AZX56I__XMPvmx72h66G8dTQ-Aw1D9KtgEFbnbl2WPxtdieXsi0fLBCHdwvtNxdR3cLEMFXeB912LyAlWpJK3EwtkERqrOD70sJefy9X3h9-W5HA81PJrTUP-Qj7zQWwYc1grvI7BWzO5GGBZ04Qxm_Xaaq31VE3DWb-JbuCS3_ka3ue1G8odi6vW43e6HMHYCqBUh-6sWGjtaNhxosJknF4&__tn__=kK-R).\n\n![Via Ferrata](/media/via-ferrata/294753617_103095145828265_2577910481877483943_n.jpg)\n\n![Via Ferrata](/media/via-ferrata/295093268_103095315828248_9107141605654321996_n.jpg)\n\n![Via Ferrata](/media/via-ferrata/294814586_103095299161583_1135674530342633675_n.jpg)\n\n#### Vă invităm să vizitați Via Ferrata – Cetate Dezna!\n\n[https://www.facebook.com/profile.php?id=100083662944867](https://www.facebook.com/profile.php?id=100083662944867)",
+      "contactInformation": [
+        "Telefon: +407258266 (**Apeluri de urgență:** [0-SALVAMONT](tel:+40725826668), sau numărul de urgente [112](tel:112).)",
+        "Telefon: 03095145828 (![](https://transilvaniacavediving.com/wp-content/uploads/2022/07/294753617_103095145828265_2577910481877483943_n.jpg))",
+        "Telefon: 03095315828 (![](https://transilvaniacavediving.com/wp-content/uploads/2022/07/295093268_103095315828248_9107141605654321996_n.jpg))",
+        "Telefon: 07141605654 (![](https://transilvaniacavediving.com/wp-content/uploads/2022/07/295093268_103095315828248_9107141605654321996_n.jpg))",
+        "Telefon: 03095299161 (![](https://transilvaniacavediving.com/wp-content/uploads/2022/07/294814586_103095299161583_1135674530342633675_n.jpg))",
+        "Telefon: 0342633675 (![](https://transilvaniacavediving.com/wp-content/uploads/2022/07/294814586_103095299161583_1135674530342633675_n.jpg))"
+      ],
+      "prices": [],
+      "schedules": [],
+      "historicalDates": [
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2022/09/graphic1.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2024/02/376792717_3254314148199576_6975361348299454362_n-1.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2024/02/img_20230223_135850799_mf_portrait-1.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2025/09/whatsapp-image-2025-08-19-at-12.12.25-1.jpeg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2022/09/dezna.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2025/09/dezna-1900.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2025/09/dezna-1900-odaliszk.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2025/09/dezna-1903.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2024/02/vlcsnap-2023-03-05-14h44m12s820-1.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2022/09/img_20220706_111844615_hdr.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2024/02/img_20231010_150907859.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2024/02/img_20231010_152118648.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2022/09/img_20210514_114146.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2022/09/img_20210404_141640.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2022/09/307371107_127948763337221_5185995331652298235_n.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2024/02/306191029_124614147009698_1981693849645096031_n-2.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2024/02/img_20230428_151738668_hdr.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2024/02/whatsapp-image-2023-04-30-at-10.28.49.jpeg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2024/02/dsc1142.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2024/02/dsc1148.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2024/02/img_20230801_131419-1.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2024/02/img_20230801_123118-1.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2022/07/294753617_103095145828265_2577910481877483943_n.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2022/07/295093268_103095315828248_9107141605654321996_n.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2022/07/294814586_103095299161583_1135674530342633675_n.jpg)"
+      ],
+      "safetyWarnings": [
+        "Echipament individual obligatoriu omologat UIAA/CE: cască de protecție, ham de escaladă, lonjă de via ferrata cu absorbitor de șoc și două carabiniere speciale, mănuși și încălțăminte cu talpă aderentă.",
+        "Pe o secțiune de cablu dintre două pitoane nu trebuie să se afle simultan mai mult de o singură persoană.",
+        "Copiii și persoanele sub 50 kg sau fără experiență trebuie asigurate suplimentar cu coardă dinamică de către o persoană competentă.",
+        "Nu parcurgeți traseul în caz de ploaie, furtună sau descărcări electrice (cablul metalic prezintă risc major de trăsnet)."
+      ],
+      "technicalSpecs": [
+        {
+          "label": "Obiectiv istoric",
+          "value": "Cetatea Medievală Dezna (sec. XIII–XIV, atestată 1318, înălțime Dealul Osoiu 390 m)"
+        },
+        {
+          "label": "Grad de dificultate",
+          "value": "B (Ușor / Mediu)"
+        },
+        {
+          "label": "Lungime totală traseu",
+          "value": "600 m (din care 150 m sectoare echipate cu cablu și trepte metalice)"
+        },
+        {
+          "label": "Diferență de nivel",
+          "value": "+120 m (Altitudine plecare: 230 m → Sosire: 350 m)"
+        },
+        {
+          "label": "Structură traseu",
+          "value": "Sector 1 (100 m + punte indiană de 25 m) + Sector 2 (50 m până în incinta cetății)"
+        },
+        {
+          "label": "Timp parcurgere",
+          "value": "Urcare ~1 oră | Coborâre pe poteca marcată cu punct roșu ~25 minute"
+        },
+        {
+          "label": "Perioadă optimă",
+          "value": "Tot timpul anului, exclusiv în condiții meteo favorabile (interzis pe furtună/descărcări electrice)"
+        },
+        {
+          "label": "Urgențe montane",
+          "value": "0-SALVAMONT (0725 826 668) sau 112 (Serviciul Județean Salvamont-Salvaspeo Arad)"
+        }
+      ],
+      "scheduleSummary": "Open year-round, strictly subject to favorable weather conditions",
+      "pricingSummary": "Free access with certified personal equipment. Complete certified gear rental and mountain guide available on request.",
+      "publicationDate": "2022-07-30T05:35:32+00:00",
+      "lastModified": "2025-09-04T19:29:35+00:00",
+      "validationStatus": "verified_source_and_historical",
+      "migrationStatus": "migrated_complete"
+    },
+    {
+      "sourceUrl": "https://transilvaniacavediving.com/via-ferrata-dezna-hu/",
+      "finalUrl": "https://transilvaniacavediving.com/via-ferrata-dezna-hu/",
+      "canonicalUrl": "https://transilvaniacavediving.com/via-ferrata-dezna-hu/",
+      "path": "/via-ferrata-dezna-hu",
+      "slug": "via-ferrata-dezna-hu",
+      "title": "Déznai Vár Via Ferrata – Transilvania Cave Diving",
+      "cleanTitle": "Déznai Vár Via Ferrata",
+      "metaDescription": "Kalandos via ferrata hegyi túraútvonal a déznai Osoiu-dombon (Arad megye). Teljes hossz 600 m, B nehézségi fok, 25 méteres függőhíd.",
+      "language": "hu",
+      "pageType": "destination",
+      "iaSection": "Aventuri și experiențe",
+      "categoryLabel": "Hegytúra és Via Ferrata",
+      "region": "Dézna, Béli-hegység",
+      "translations": [
+        {
+          "lang": "ro",
+          "path": "/via-ferrata-cetate-dezna",
+          "label": "Română"
+        },
+        {
+          "lang": "en",
+          "path": "/via-ferrata-dezna-en",
+          "label": "English"
+        },
+        {
+          "lang": "hu",
+          "path": "/via-ferrata-dezna-hu",
+          "label": "Magyar"
+        }
+      ],
+      "heroImage": "/media/via-ferrata/graphic1.jpg",
+      "images": [
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2022/09/graphic1.jpg",
+          "localPath": "/media/via-ferrata/graphic1.jpg",
+          "alt": "graphic1",
+          "caption": "",
+          "credit": "",
+          "width": 10000,
+          "height": 3529
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2024/02/376792717_3254314148199576_6975361348299454362_n-1.jpg",
+          "localPath": "/media/cave-diving/376792717_3254314148199576_6975361348299454362_n.jpg",
+          "alt": "376792717_3254314148199576_6975361348299454362_n-1",
+          "caption": "",
+          "credit": "Picasa",
+          "width": 1600,
+          "height": 1140
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2024/02/img_20230223_135850799_mf_portrait-1.jpg",
+          "localPath": "/media/cave-diving/img_20230223_135850799_mf_portrait.jpg",
+          "alt": "img_20230223_135850799_mf_portrait-1",
+          "caption": "",
+          "credit": "",
+          "width": 4000,
+          "height": 2250
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2025/09/whatsapp-image-2025-08-19-at-12.12.25-1.jpeg",
+          "localPath": "/media/via-ferrata/whatsapp-image-2025-08-19-at-12.12.25-1.jpeg",
+          "alt": "WhatsApp Image 2025-08-19 at 12.12.25 (1)",
+          "caption": "",
+          "credit": "",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2022/09/dezna.jpg",
+          "localPath": "/media/via-ferrata/dezna.jpg",
+          "alt": "dezna",
+          "caption": "",
+          "credit": "",
+          "width": 10000,
+          "height": 8888
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2025/09/dezna-1900.jpg",
+          "localPath": "/media/via-ferrata/dezna-1900.jpg",
+          "alt": "Dezna-1900",
+          "caption": "",
+          "credit": "",
+          "width": 800,
+          "height": 800
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2025/09/dezna-1900-odaliszk.jpg",
+          "localPath": "/media/via-ferrata/dezna-1900-odaliszk.jpg",
+          "alt": "Dezna-1900-odaliszk",
+          "caption": "",
+          "credit": "",
+          "width": 800,
+          "height": 800
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2025/09/dezna-1903.jpg",
+          "localPath": "/media/via-ferrata/dezna-1903.jpg",
+          "alt": "Dezna-1903",
+          "caption": "",
+          "credit": "",
+          "width": 361,
+          "height": 246
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2024/02/vlcsnap-2023-03-05-14h44m12s820-1.jpg",
+          "localPath": "/media/via-ferrata/vlcsnap-2023-03-05-14h44m12s820-1.jpg",
+          "alt": "vlcsnap-2023-03-05-14h44m12s820-1",
+          "caption": "",
+          "credit": "",
+          "width": 3840,
+          "height": 2160
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2022/09/img_20220706_111844615_hdr.jpg",
+          "localPath": "/media/via-ferrata/img_20220706_111844615_hdr.jpg",
+          "alt": "img_20220706_111844615_hdr",
+          "caption": "",
+          "credit": "",
+          "width": 4000,
+          "height": 3000
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2024/02/img_20231010_150907859.jpg",
+          "localPath": "/media/via-ferrata/img_20231010_150907859.jpg",
+          "alt": "img_20231010_150907859",
+          "caption": "",
+          "credit": "",
+          "width": 1744,
+          "height": 4000
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2024/02/img_20231010_152118648.jpg",
+          "localPath": "/media/via-ferrata/img_20231010_152118648.jpg",
+          "alt": "img_20231010_152118648",
+          "caption": "",
+          "credit": "",
+          "width": 4000,
+          "height": 1756
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2022/09/img_20210514_114146.jpg",
+          "localPath": "/media/via-ferrata/img_20210514_114146.jpg",
+          "alt": "smart",
+          "caption": "",
+          "credit": "",
+          "width": 4160,
+          "height": 3120
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2022/09/img_20210404_141640.jpg",
+          "localPath": "/media/via-ferrata/img_20210404_141640.jpg",
+          "alt": "smart",
+          "caption": "",
+          "credit": "",
+          "width": 3120,
+          "height": 4160
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2022/09/307371107_127948763337221_5185995331652298235_n.jpg",
+          "localPath": "/media/via-ferrata/307371107_127948763337221_5185995331652298235_n.jpg",
+          "alt": "307371107_127948763337221_5185995331652298235_n",
+          "caption": "",
+          "credit": "",
+          "width": 1200,
+          "height": 1600
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2024/02/306191029_124614147009698_1981693849645096031_n-2.jpg",
+          "localPath": "/media/cave-diving/306191029_124614147009698_1981693849645096031_n.jpg",
+          "alt": "306191029_124614147009698_1981693849645096031_n-2",
+          "caption": "",
+          "credit": "",
+          "width": 2000,
+          "height": 1125
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2024/02/img_20230428_151738668_hdr.jpg",
+          "localPath": "/media/via-ferrata/img_20230428_151738668_hdr.jpg",
+          "alt": "img_20230428_151738668_hdr",
+          "caption": "",
+          "credit": "",
+          "width": 4000,
+          "height": 2250
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2024/02/whatsapp-image-2023-04-30-at-10.28.49.jpeg",
+          "localPath": "/media/via-ferrata/whatsapp-image-2023-04-30-at-10.28.49.jpeg",
+          "alt": "whatsapp-image-2023-04-30-at-10.28.49",
+          "caption": "",
+          "credit": "",
+          "width": 1200,
+          "height": 1600
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2024/02/dsc1142.jpg",
+          "localPath": "/media/via-ferrata/dsc1142.jpg",
+          "alt": "dsc1142",
+          "caption": "",
+          "credit": "",
+          "width": 6000,
+          "height": 4000
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2024/02/dsc1148.jpg",
+          "localPath": "/media/via-ferrata/dsc1148.jpg",
+          "alt": "dsc1148",
+          "caption": "",
+          "credit": "",
+          "width": 6000,
+          "height": 4000
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2024/02/img_20230801_131419-1.jpg",
+          "localPath": "/media/via-ferrata/img_20230801_131419-1.jpg",
+          "alt": "img_20230801_131419-1",
+          "caption": "",
+          "credit": "",
+          "width": 3280,
+          "height": 1848
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2024/02/img_20230801_123118-1.jpg",
+          "localPath": "/media/via-ferrata/img_20230801_123118-1.jpg",
+          "alt": "img_20230801_123118-1",
+          "caption": "",
+          "credit": "",
+          "width": 2252,
+          "height": 4000
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2022/07/294753617_103095145828265_2577910481877483943_n.jpg",
+          "localPath": "/media/via-ferrata/294753617_103095145828265_2577910481877483943_n.jpg",
+          "alt": "294753617_103095145828265_2577910481877483943_n",
+          "caption": "",
+          "credit": "",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2022/07/295093268_103095315828248_9107141605654321996_n.jpg",
+          "localPath": "/media/via-ferrata/295093268_103095315828248_9107141605654321996_n.jpg",
+          "alt": "295093268_103095315828248_9107141605654321996_n",
+          "caption": "",
+          "credit": "",
+          "width": 2000,
+          "height": 1125
+        },
+        {
+          "sourceUrl": "https://transilvaniacavediving.com/wp-content/uploads/2022/07/294814586_103095299161583_1135674530342633675_n.jpg",
+          "localPath": "/media/via-ferrata/294814586_103095299161583_1135674530342633675_n.jpg",
+          "alt": "294814586_103095299161583_1135674530342633675_n",
+          "caption": "",
+          "credit": "",
+          "width": 2000,
+          "height": 1125
+        },
+        {
+          "sourceUrl": "https://transilvaniacavedivingcom.wordpress.com/wp-content/uploads/2024/02/img-20221022-wa0003.jpg",
+          "localPath": "/media/via-ferrata/img-20221022-wa0003.jpg",
+          "alt": "img-20221022-wa0003",
+          "caption": "",
+          "credit": "",
+          "width": 1600,
+          "height": 720
+        },
+        {
+          "sourceUrl": "https://transilvaniacavedivingcom.wordpress.com/wp-content/uploads/2024/02/img-20230430-wa0025.jpg",
+          "localPath": "/media/via-ferrata/img-20230430-wa0025.jpg",
+          "alt": "img-20230430-wa0025",
+          "caption": "",
+          "credit": "",
+          "width": 1200,
+          "height": 1600
+        },
+        {
+          "sourceUrl": "https://transilvaniacavedivingcom.wordpress.com/wp-content/uploads/2024/02/img-20230509-wa0011.jpg",
+          "localPath": "/media/via-ferrata/img-20230509-wa0011.jpg",
+          "alt": "img-20230509-wa0011",
+          "caption": "",
+          "credit": "",
+          "width": 1600,
+          "height": 720
+        },
+        {
+          "sourceUrl": "https://transilvaniacavedivingcom.wordpress.com/wp-content/uploads/2024/02/img-20230509-wa0012.jpg",
+          "localPath": "/media/via-ferrata/img-20230509-wa0012.jpg",
+          "alt": "img-20230509-wa0012",
+          "caption": "",
+          "credit": "",
+          "width": 720,
+          "height": 1600
+        },
+        {
+          "sourceUrl": "https://transilvaniacavedivingcom.wordpress.com/wp-content/uploads/2024/02/img_20230428_151327503_hdr.jpg",
+          "localPath": "/media/via-ferrata/img_20230428_151327503_hdr.jpg",
+          "alt": "img_20230428_151327503_hdr",
+          "caption": "",
+          "credit": "",
+          "width": 2240,
+          "height": 4000
+        },
+        {
+          "sourceUrl": "https://transilvaniacavedivingcom.wordpress.com/wp-content/uploads/2024/02/img-20220924-wa0018.jpg",
+          "localPath": "/media/via-ferrata/img-20220924-wa0018.jpg",
+          "alt": "img-20220924-wa0018",
+          "caption": "",
+          "credit": "",
+          "width": 1200,
+          "height": 1600
+        },
+        {
+          "sourceUrl": "https://transilvaniacavedivingcom.wordpress.com/wp-content/uploads/2024/02/whatsapp-image-2023-04-30-at-10.28.55-3.jpeg",
+          "localPath": "/media/via-ferrata/whatsapp-image-2023-04-30-at-10.28.55-3.jpeg",
+          "alt": "whatsapp-image-2023-04-30-at-10.28.55-3",
+          "caption": "",
+          "credit": "",
+          "width": 1200,
+          "height": 1600
+        },
+        {
+          "sourceUrl": "https://transilvaniacavedivingcom.wordpress.com/wp-content/uploads/2024/02/dsc1141.jpg",
+          "localPath": "/media/via-ferrata/dsc1141.jpg",
+          "alt": "dsc1141",
+          "caption": "",
+          "credit": "",
+          "width": 4000,
+          "height": 6000
+        }
+      ],
+      "videos": [],
+      "documents": [],
+      "headings": [
+        {
+          "level": 2,
+          "text": "Cetatea Dezna"
+        },
+        {
+          "level": 2,
+          "text": "Via Ferrata – Cetate Dezna"
+        },
+        {
+          "level": 4,
+          "text": "Vă invităm să vizitați Via Ferrata – Cetate Dezna!"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Introducere",
+          "level": 1,
+          "contentMarkdown": "![Via Ferrata](/media/via-ferrata/graphic1.jpg)\n\nVia Ferrata (tradus din italiană “Drumul de Fier”) este un traseu montan echipat cu cabluri, scări, poduri, trepte și scoabe metalice. Acest tip de trasee permit turiștilor mai puțin experimentați în alpinism să parcurgă trasee expuse, pereți verticali și să ajungă în siguranță pe vârfuri.\n\nDin punct de vedere istoric, primele căi de tipul Via Ferrata au fost amenajate în timpul primului Război Mondial, în Alpi (nordul Italiei, la granița cu Austria), când soldații montau ancore şi cabluri metalice, ca să facă trecerea accesibilă. Numele italienesc a rămas de atunci (Via Ferrata = drum de fier), iar din anii ‘60 traseele au fost valorificate turistic, mai ales cele din munții Dolomiţi.\n\nParcurgerea unui traseu de Via Ferrata este o activitate distractiva, cu un grad redus de periculozitate, iar echipamentul caracteristic asigură parcurgerea acestor trasee în condiții de siguranță.\n\n![Via Ferrata](/media/cave-diving/376792717_3254314148199576_6975361348299454362_n.jpg)\n\n![Via Ferrata](/media/cave-diving/img_20230223_135850799_mf_portrait.jpg)\n\n![Via Ferrata](/media/via-ferrata/whatsapp-image-2025-08-19-at-12.12.25-1.jpeg)\n\n![Via Ferrata](/media/via-ferrata/dezna.jpg)"
+        },
+        {
+          "heading": "Cetatea Dezna",
+          "level": 2,
+          "contentMarkdown": "Situate în extremitatea de NE a satului Dezna, județul Arad, la poalele munților Codru-Moma, pe dealul Osoiu (390m), ruinele cetății Dezna domină valea care îi poartă numele.\n\n![Via Ferrata](/media/via-ferrata/dezna-1900.jpg)\n\n![Via Ferrata](/media/via-ferrata/dezna-1900-odaliszk.jpg)\n\n![Via Ferrata](/media/via-ferrata/dezna-1903.jpg)\n\nInformațiile privind edificarea ei nu sunt foarte clare, fiind plasate undeva la finele secolului al XIII-lea sau la începutul secolului al XIV-lea. Oamenii și vremurile au pecetluit în cele din urmă destinul acestei cetăți, astăzi păstrându-se doar o linie de zid și urme care sugerează mai mult sau mai puțin planimetria vechi cetăți medievale.\n\nLa Cetatea Dezna se poate ajunge parcurgând unul din traseele turistice cu marcaj bandă galbenă (mai ușor) sau triunghi roșu (amenajat cu 6 porțiuni echipate cu cabluri). Poteca traseului marcat cu triunghi roșu este și punctul de plecare și final al traseului de Via Ferrata – Cetate Dezna.\n\n![Via Ferrata](/media/via-ferrata/vlcsnap-2023-03-05-14h44m12s820-1.jpg)\n\n![Via Ferrata](/media/via-ferrata/img_20220706_111844615_hdr.jpg)\n\n![Via Ferrata](/media/via-ferrata/img_20231010_150907859.jpg)\n\n![Via Ferrata](/media/via-ferrata/img_20231010_152118648.jpg)\n\n![Via Ferrata](/media/via-ferrata/img_20210514_114146.jpg)\n\n![Via Ferrata](/media/via-ferrata/img_20210404_141640.jpg)"
+        },
+        {
+          "heading": "Via Ferrata – Cetate Dezna",
+          "level": 2,
+          "contentMarkdown": "**Grad dificultate:** B (ușor). Gradele de dificultate sunt notate de la A (foarte usor) la E (extrem).\n\n**Lungime traseu:** ↔ 600m / ↑ 120m ( ↔ 150m sectoare Via Ferrata).\n\n**Durată parcurgere:** 1h urcare / 1h 30min total. Retragere pe traseul turistic Dezna – Cetatea Dezna (marcaj bandă galbenă sau triunghi roșu).\n\n**Acces:**Spre traseul de Via Ferrata-Cetate Dezna se pornește de la ieșirea din localitatea Dezna spre Moneasa, din DJ762, imediat după trecerea podului rutier peste Valea Moneasa, unde se află un loc de popas și locuri pentru parcare. Tot acolo este instalat un panou informativ cu harta zonei și un scurt istoric al Cetății Dezna cât și indicatoare direcționale spre cetate și traseu.\n\nPornind pe drumul care urcă prin pădure, pe traseele turistice Dezna – Ruinele Cetății Dezna, marcate cu triunghi roșu și bandă galbenă, se ajunge la o intersecție unde, spre traseul de Via Ferrata se urmează poteca marcată cu triunghi roșu. După parcurgerea a 4 secțiuni amenajate cu cabluri, un indicator direcțional, montat pe un copac, semnalizează direcția spre intrarea în primul sector al traseului de via ferrata, spre stânga.\n\n[https://goo.gl/maps/6HGauXw3VuyMQuVn7](https://goo.gl/maps/6HGauXw3VuyMQuVn7)\n\n![Via Ferrata](/media/via-ferrata/307371107_127948763337221_5185995331652298235_n.jpg)\n\n![Via Ferrata](/media/cave-diving/306191029_124614147009698_1981693849645096031_n.jpg)\n\n![Via Ferrata](/media/via-ferrata/img_20230428_151738668_hdr.jpg)\n\n![Via Ferrata](/media/via-ferrata/whatsapp-image-2023-04-30-at-10.28.49.jpeg)\n\n![Via Ferrata](/media/via-ferrata/dsc1142.jpg)\n\n![Via Ferrata](/media/via-ferrata/dsc1148.jpg)\n\n![Via Ferrata](/media/via-ferrata/img_20230801_131419-1.jpg)\n\n![Via Ferrata](/media/via-ferrata/img_20230801_123118-1.jpg)\n\n**Descrierea traseului:** Traseul de Via Ferrata – Cetate Dezna are două sectoare amenajate pe stâncile din aglomerate vulcanice localizate pe versantul de sub Cetatea Dezna.\n\nPrimul sector, o creastă îngustă, începe cu o verticală de cca. 12m echipată cu scoabe metalice (trepte) și cablu de asigurare, fiind urmată de o balustradă din cablu cu o lungime de cca. 25m.\n\nContinuarea spre cel de al doilea sector al traseului se realizează prin urcarea unui versant abrupt, înierbat, până la baza peretelui unde începe următoarea secțiune a traseului.\n\nCel de al doilea sector, localizat sub platoul unde este instalat un catarg cu drapelul României, începe cu verticală de cca. 15m echipată cu scoabe metalice și cablu de asigurare. Verticala este urmată de o balustradă echipată cu un cablu de asigurare cu o lungime de cca. 20m și câteva scoabe metalice. După parcurgerea balustradei, printr-o verticală de cca. 7m, echipată cu scoabe metalice și cablu de asigurare se poate ieși din traseu chiar la catargul cu drapel sau se poate continua traseul traversând pe un ”pod indian” cu lungime de cca. 25m. Podul este echipat cu 3 cabluri, 1 cablu la picioare și 2 cabluri pe lateral la mâni și 1 cablu suplimentar pentru asigurare.\n\nOpțional, se poate parcurge numai cel de al doilea sector al traseului de via ferrata. Accesul spre acest sector se face tot din poteca turistică marcată cu triunghi roșu. După parcurgerea a 5 secțiuni amenajate cu cabluri de pe poteca turistică, un indicator direcțional, montat pe o stâncă, semnalizează direcția spre intrarea în cel de al doilea sector al traseului de via ferrata, spre stânga. La traseu se ajunge urmând baza peretelui.\n\n**Echipament** **obligatoriu**: cască, ham și lonja specială pentru via ferrata, prevăzută cu absorbitor de șoc. Opțional se pot utiliza mănuși de protecție.\n\n**Tarife acces:** gratuit pentru cei care dețin echipament propriu.\n\n**Pentru închiriere de echipamente sau tururi ghidate vă rugăm să ne [contactați](/contact)!**\n\n**Condiții meteo:**\n\n[https://www.meteoblue.com/ro/vreme/s%C4%83pt%C4%83m%C3%A2na/dezna_romania_679443](https://www.meteoblue.com/ro/vreme/s%C4%83pt%C4%83m%C3%A2na/dezna_romania_679443)\n\n**Apeluri de urgență:** [0-SALVAMONT](tel:+40725826668), sau numărul de urgente [112](tel:112).\n\n**Amenajare:** Traseul a fost amenajat de Primăria Comunei Dezna prin SC Transilvania Cave Diving SRL cu sprijinul [Makita Romania](https://www.facebook.com/MakitaRomaniaSRL/?__cft__%5B0%5D=AZX56I__XMPvmx72h66G8dTQ-Aw1D9KtgEFbnbl2WPxtdieXsi0fLBCHdwvtNxdR3cLEMFXeB912LyAlWpJK3EwtkERqrOD70sJefy9X3h9-W5HA81PJrTUP-Qj7zQWwYc1grvI7BWzO5GGBZ04Qxm_Xaaq31VE3DWb-JbuCS3_ka3ue1G8odi6vW43e6HMHYCqBUh-6sWGjtaNhxosJknF4&__tn__=kK-R).\n\n![Via Ferrata](/media/via-ferrata/294753617_103095145828265_2577910481877483943_n.jpg)\n\n![Via Ferrata](/media/via-ferrata/295093268_103095315828248_9107141605654321996_n.jpg)\n\n![Via Ferrata](/media/via-ferrata/294814586_103095299161583_1135674530342633675_n.jpg)"
+        },
+        {
+          "heading": "Vă invităm să vizitați Via Ferrata – Cetate Dezna!",
+          "level": 4,
+          "contentMarkdown": "[https://www.facebook.com/profile.php?id=100083662944867](https://www.facebook.com/profile.php?id=100083662944867)"
+        }
+      ],
+      "bodyMarkdown": "![Via Ferrata](/media/via-ferrata/graphic1.jpg)\n\nVia Ferrata (tradus din italiană “Drumul de Fier”) este un traseu montan echipat cu cabluri, scări, poduri, trepte și scoabe metalice. Acest tip de trasee permit turiștilor mai puțin experimentați în alpinism să parcurgă trasee expuse, pereți verticali și să ajungă în siguranță pe vârfuri.\n\nDin punct de vedere istoric, primele căi de tipul Via Ferrata au fost amenajate în timpul primului Război Mondial, în Alpi (nordul Italiei, la granița cu Austria), când soldații montau ancore şi cabluri metalice, ca să facă trecerea accesibilă. Numele italienesc a rămas de atunci (Via Ferrata = drum de fier), iar din anii ‘60 traseele au fost valorificate turistic, mai ales cele din munții Dolomiţi.\n\nParcurgerea unui traseu de Via Ferrata este o activitate distractiva, cu un grad redus de periculozitate, iar echipamentul caracteristic asigură parcurgerea acestor trasee în condiții de siguranță.\n\n![Via Ferrata](/media/cave-diving/376792717_3254314148199576_6975361348299454362_n.jpg)\n\n![Via Ferrata](/media/cave-diving/img_20230223_135850799_mf_portrait.jpg)\n\n![Via Ferrata](/media/via-ferrata/whatsapp-image-2025-08-19-at-12.12.25-1.jpeg)\n\n![Via Ferrata](/media/via-ferrata/dezna.jpg)\n\n## Cetatea Dezna\n\nSituate în extremitatea de NE a satului Dezna, județul Arad, la poalele munților Codru-Moma, pe dealul Osoiu (390m), ruinele cetății Dezna domină valea care îi poartă numele.\n\n![Via Ferrata](/media/via-ferrata/dezna-1900.jpg)\n\n![Via Ferrata](/media/via-ferrata/dezna-1900-odaliszk.jpg)\n\n![Via Ferrata](/media/via-ferrata/dezna-1903.jpg)\n\nInformațiile privind edificarea ei nu sunt foarte clare, fiind plasate undeva la finele secolului al XIII-lea sau la începutul secolului al XIV-lea. Oamenii și vremurile au pecetluit în cele din urmă destinul acestei cetăți, astăzi păstrându-se doar o linie de zid și urme care sugerează mai mult sau mai puțin planimetria vechi cetăți medievale.\n\nLa Cetatea Dezna se poate ajunge parcurgând unul din traseele turistice cu marcaj bandă galbenă (mai ușor) sau triunghi roșu (amenajat cu 6 porțiuni echipate cu cabluri). Poteca traseului marcat cu triunghi roșu este și punctul de plecare și final al traseului de Via Ferrata – Cetate Dezna.\n\n![Via Ferrata](/media/via-ferrata/vlcsnap-2023-03-05-14h44m12s820-1.jpg)\n\n![Via Ferrata](/media/via-ferrata/img_20220706_111844615_hdr.jpg)\n\n![Via Ferrata](/media/via-ferrata/img_20231010_150907859.jpg)\n\n![Via Ferrata](/media/via-ferrata/img_20231010_152118648.jpg)\n\n![Via Ferrata](/media/via-ferrata/img_20210514_114146.jpg)\n\n![Via Ferrata](/media/via-ferrata/img_20210404_141640.jpg)\n\n## Via Ferrata – Cetate Dezna\n\n**Grad dificultate:** B (ușor). Gradele de dificultate sunt notate de la A (foarte usor) la E (extrem).\n\n**Lungime traseu:** ↔ 600m / ↑ 120m ( ↔ 150m sectoare Via Ferrata).\n\n**Durată parcurgere:** 1h urcare / 1h 30min total. Retragere pe traseul turistic Dezna – Cetatea Dezna (marcaj bandă galbenă sau triunghi roșu).\n\n**Acces:**Spre traseul de Via Ferrata-Cetate Dezna se pornește de la ieșirea din localitatea Dezna spre Moneasa, din DJ762, imediat după trecerea podului rutier peste Valea Moneasa, unde se află un loc de popas și locuri pentru parcare. Tot acolo este instalat un panou informativ cu harta zonei și un scurt istoric al Cetății Dezna cât și indicatoare direcționale spre cetate și traseu.\n\nPornind pe drumul care urcă prin pădure, pe traseele turistice Dezna – Ruinele Cetății Dezna, marcate cu triunghi roșu și bandă galbenă, se ajunge la o intersecție unde, spre traseul de Via Ferrata se urmează poteca marcată cu triunghi roșu. După parcurgerea a 4 secțiuni amenajate cu cabluri, un indicator direcțional, montat pe un copac, semnalizează direcția spre intrarea în primul sector al traseului de via ferrata, spre stânga.\n\n[https://goo.gl/maps/6HGauXw3VuyMQuVn7](https://goo.gl/maps/6HGauXw3VuyMQuVn7)\n\n![Via Ferrata](/media/via-ferrata/307371107_127948763337221_5185995331652298235_n.jpg)\n\n![Via Ferrata](/media/cave-diving/306191029_124614147009698_1981693849645096031_n.jpg)\n\n![Via Ferrata](/media/via-ferrata/img_20230428_151738668_hdr.jpg)\n\n![Via Ferrata](/media/via-ferrata/whatsapp-image-2023-04-30-at-10.28.49.jpeg)\n\n![Via Ferrata](/media/via-ferrata/dsc1142.jpg)\n\n![Via Ferrata](/media/via-ferrata/dsc1148.jpg)\n\n![Via Ferrata](/media/via-ferrata/img_20230801_131419-1.jpg)\n\n![Via Ferrata](/media/via-ferrata/img_20230801_123118-1.jpg)\n\n**Descrierea traseului:** Traseul de Via Ferrata – Cetate Dezna are două sectoare amenajate pe stâncile din aglomerate vulcanice localizate pe versantul de sub Cetatea Dezna.\n\nPrimul sector, o creastă îngustă, începe cu o verticală de cca. 12m echipată cu scoabe metalice (trepte) și cablu de asigurare, fiind urmată de o balustradă din cablu cu o lungime de cca. 25m.\n\nContinuarea spre cel de al doilea sector al traseului se realizează prin urcarea unui versant abrupt, înierbat, până la baza peretelui unde începe următoarea secțiune a traseului.\n\nCel de al doilea sector, localizat sub platoul unde este instalat un catarg cu drapelul României, începe cu verticală de cca. 15m echipată cu scoabe metalice și cablu de asigurare. Verticala este urmată de o balustradă echipată cu un cablu de asigurare cu o lungime de cca. 20m și câteva scoabe metalice. După parcurgerea balustradei, printr-o verticală de cca. 7m, echipată cu scoabe metalice și cablu de asigurare se poate ieși din traseu chiar la catargul cu drapel sau se poate continua traseul traversând pe un ”pod indian” cu lungime de cca. 25m. Podul este echipat cu 3 cabluri, 1 cablu la picioare și 2 cabluri pe lateral la mâni și 1 cablu suplimentar pentru asigurare.\n\nOpțional, se poate parcurge numai cel de al doilea sector al traseului de via ferrata. Accesul spre acest sector se face tot din poteca turistică marcată cu triunghi roșu. După parcurgerea a 5 secțiuni amenajate cu cabluri de pe poteca turistică, un indicator direcțional, montat pe o stâncă, semnalizează direcția spre intrarea în cel de al doilea sector al traseului de via ferrata, spre stânga. La traseu se ajunge urmând baza peretelui.\n\n**Echipament** **obligatoriu**: cască, ham și lonja specială pentru via ferrata, prevăzută cu absorbitor de șoc. Opțional se pot utiliza mănuși de protecție.\n\n**Tarife acces:** gratuit pentru cei care dețin echipament propriu.\n\n**Pentru închiriere de echipamente sau tururi ghidate vă rugăm să ne [contactați](/contact)!**\n\n**Condiții meteo:**\n\n[https://www.meteoblue.com/ro/vreme/s%C4%83pt%C4%83m%C3%A2na/dezna_romania_679443](https://www.meteoblue.com/ro/vreme/s%C4%83pt%C4%83m%C3%A2na/dezna_romania_679443)\n\n**Apeluri de urgență:** [0-SALVAMONT](tel:+40725826668), sau numărul de urgente [112](tel:112).\n\n**Amenajare:** Traseul a fost amenajat de Primăria Comunei Dezna prin SC Transilvania Cave Diving SRL cu sprijinul [Makita Romania](https://www.facebook.com/MakitaRomaniaSRL/?__cft__%5B0%5D=AZX56I__XMPvmx72h66G8dTQ-Aw1D9KtgEFbnbl2WPxtdieXsi0fLBCHdwvtNxdR3cLEMFXeB912LyAlWpJK3EwtkERqrOD70sJefy9X3h9-W5HA81PJrTUP-Qj7zQWwYc1grvI7BWzO5GGBZ04Qxm_Xaaq31VE3DWb-JbuCS3_ka3ue1G8odi6vW43e6HMHYCqBUh-6sWGjtaNhxosJknF4&__tn__=kK-R).\n\n![Via Ferrata](/media/via-ferrata/294753617_103095145828265_2577910481877483943_n.jpg)\n\n![Via Ferrata](/media/via-ferrata/295093268_103095315828248_9107141605654321996_n.jpg)\n\n![Via Ferrata](/media/via-ferrata/294814586_103095299161583_1135674530342633675_n.jpg)\n\n#### Vă invităm să vizitați Via Ferrata – Cetate Dezna!\n\n[https://www.facebook.com/profile.php?id=100083662944867](https://www.facebook.com/profile.php?id=100083662944867)",
+      "contactInformation": [
+        "Telefon: +407258266 (**Apeluri de urgență:** [0-SALVAMONT](tel:+40725826668), sau numărul de urgente [112](tel:112).)",
+        "Telefon: 03095145828 (![](https://transilvaniacavediving.com/wp-content/uploads/2022/07/294753617_103095145828265_2577910481877483943_n.jpg))",
+        "Telefon: 03095315828 (![](https://transilvaniacavediving.com/wp-content/uploads/2022/07/295093268_103095315828248_9107141605654321996_n.jpg))",
+        "Telefon: 07141605654 (![](https://transilvaniacavediving.com/wp-content/uploads/2022/07/295093268_103095315828248_9107141605654321996_n.jpg))",
+        "Telefon: 03095299161 (![](https://transilvaniacavediving.com/wp-content/uploads/2022/07/294814586_103095299161583_1135674530342633675_n.jpg))",
+        "Telefon: 0342633675 (![](https://transilvaniacavediving.com/wp-content/uploads/2022/07/294814586_103095299161583_1135674530342633675_n.jpg))"
+      ],
+      "prices": [],
+      "schedules": [],
+      "historicalDates": [
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2022/09/graphic1.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2024/02/376792717_3254314148199576_6975361348299454362_n-1.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2024/02/img_20230223_135850799_mf_portrait-1.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2025/09/whatsapp-image-2025-08-19-at-12.12.25-1.jpeg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2022/09/dezna.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2025/09/dezna-1900.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2025/09/dezna-1900-odaliszk.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2025/09/dezna-1903.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2024/02/vlcsnap-2023-03-05-14h44m12s820-1.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2022/09/img_20220706_111844615_hdr.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2024/02/img_20231010_150907859.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2024/02/img_20231010_152118648.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2022/09/img_20210514_114146.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2022/09/img_20210404_141640.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2022/09/307371107_127948763337221_5185995331652298235_n.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2024/02/306191029_124614147009698_1981693849645096031_n-2.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2024/02/img_20230428_151738668_hdr.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2024/02/whatsapp-image-2023-04-30-at-10.28.49.jpeg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2024/02/dsc1142.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2024/02/dsc1148.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2024/02/img_20230801_131419-1.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2024/02/img_20230801_123118-1.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2022/07/294753617_103095145828265_2577910481877483943_n.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2022/07/295093268_103095315828248_9107141605654321996_n.jpg)",
+        "![](https://transilvaniacavediving.com/wp-content/uploads/2022/07/294814586_103095299161583_1135674530342633675_n.jpg)"
+      ],
+      "safetyWarnings": [
+        "Echipament individual obligatoriu omologat UIAA/CE: cască de protecție, ham de escaladă, lonjă de via ferrata cu absorbitor de șoc și două carabiniere speciale, mănuși și încălțăminte cu talpă aderentă.",
+        "Pe o secțiune de cablu dintre două pitoane nu trebuie să se afle simultan mai mult de o singură persoană.",
+        "Copiii și persoanele sub 50 kg sau fără experiență trebuie asigurate suplimentar cu coardă dinamică de către o persoană competentă.",
+        "Nu parcurgeți traseul în caz de ploaie, furtună sau descărcări electrice (cablul metalic prezintă risc major de trăsnet)."
+      ],
+      "technicalSpecs": [
+        {
+          "label": "Obiectiv istoric",
+          "value": "Cetatea Medievală Dezna (sec. XIII–XIV, atestată 1318, înălțime Dealul Osoiu 390 m)"
+        },
+        {
+          "label": "Grad de dificultate",
+          "value": "B (Ușor / Mediu)"
+        },
+        {
+          "label": "Lungime totală traseu",
+          "value": "600 m (din care 150 m sectoare echipate cu cablu și trepte metalice)"
+        },
+        {
+          "label": "Diferență de nivel",
+          "value": "+120 m (Altitudine plecare: 230 m → Sosire: 350 m)"
+        },
+        {
+          "label": "Structură traseu",
+          "value": "Sector 1 (100 m + punte indiană de 25 m) + Sector 2 (50 m până în incinta cetății)"
+        },
+        {
+          "label": "Timp parcurgere",
+          "value": "Urcare ~1 oră | Coborâre pe poteca marcată cu punct roșu ~25 minute"
+        },
+        {
+          "label": "Perioadă optimă",
+          "value": "Tot timpul anului, exclusiv în condiții meteo favorabile (interzis pe furtună/descărcări electrice)"
+        },
+        {
+          "label": "Urgențe montane",
+          "value": "0-SALVAMONT (0725 826 668) sau 112 (Serviciul Județean Salvamont-Salvaspeo Arad)"
+        }
+      ],
+      "scheduleSummary": "Egész évben látogatható, kizárólag kedvező időjárási viszonyok mellett",
+      "pricingSummary": "Ingyenesen bejárható saját minősített felszereléssel. Teljes felszerelésbérlés és hegyi túravezetés kérésre elérhető.",
+      "publicationDate": "2022-07-30T05:35:32+00:00",
+      "lastModified": "2025-09-04T19:29:35+00:00",
+      "validationStatus": "verified_source_and_historical",
       "migrationStatus": "migrated_complete"
     }
   ],

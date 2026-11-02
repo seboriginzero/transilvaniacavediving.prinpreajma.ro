@@ -164,6 +164,12 @@ export function Footer({ company }: FooterProps) {
               <li className="pt-2 border-t border-cavern-700 text-xs text-limestone-400">
                 Ghiduri Trasee QR (EN / HU):
                 <div className="mt-1.5 flex flex-wrap gap-2">
+                  <Link href="/bear-cave" className="rounded bg-cavern-900 px-2 py-1 text-limestone-200 hover:text-karst-400">
+                    Bear's Cave (EN)
+                  </Link>
+                  <Link href="/medve-barlang" className="rounded bg-cavern-900 px-2 py-1 text-limestone-200 hover:text-karst-400">
+                    Medve-barlang (HU)
+                  </Link>
                   <Link href="/bat-cave" className="rounded bg-cavern-900 px-2 py-1 text-limestone-200 hover:text-karst-400">
                     Bat Cave (EN)
                   </Link>
