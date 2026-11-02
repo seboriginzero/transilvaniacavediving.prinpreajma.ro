@@ -6,6 +6,7 @@ import { getDynamicSettings } from '@/lib/settings';
 import { buildPageMetadata } from '@/lib/seo';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { ContactForm } from '@/components/ContactForm';
+import { TransilvaniaMissionCard } from '@/components/TransilvaniaMissionCard';
 
 export const dynamic = 'force-dynamic';
 
@@ -41,36 +42,13 @@ export default function ContactPage() {
         </p>
       </div>
 
-      {/* Prezentare Proiect Transilvania & Logo */}
-      <div className="rounded-2xl border border-cavern-700 bg-cavern-800/80 p-6 sm:p-8 shadow-xl backdrop-blur-sm">
-        <div className="flex flex-col sm:flex-row items-center sm:items-start gap-6 sm:gap-8">
-          <div className="relative h-28 w-28 sm:h-36 sm:w-36 shrink-0 overflow-hidden rounded-2xl border border-cavern-700 bg-black p-2.5 shadow-lg">
-            <img
-              src="/media/logos/transilvania-logo-full.jpg"
-              alt="Logo oficial Transilvania"
-              className="h-full w-full object-contain"
-              width={828}
-              height={934}
-            />
-          </div>
-          <div className="flex-1 text-center sm:text-left space-y-2.5">
-            <span className="font-mono text-xs font-bold uppercase tracking-wider text-karst-400">
-              Misiune și Patrimoniu
-            </span>
-            <h2 className="font-display text-2xl sm:text-3xl font-bold text-limestone-50">
-              Proiectul „Transilvania”
-            </h2>
-            <p className="text-base sm:text-lg leading-relaxed text-limestone-200 max-w-3xl font-medium">
-              „Transilvania” este un proiect dedicat promovării activităților de turism speologic, a scufundărilor, precum și pentru amenajarea și promovarea altor destinații turistice.
-            </p>
-          </div>
-        </div>
-      </div>
+      {/* Prezentare Proiect Transilvania & Logo cu acțiune Ecran Complet */}
+      <TransilvaniaMissionCard />
 
-      <div className="grid grid-cols-1 gap-10 lg:grid-cols-12">
+      <div className="grid grid-cols-1 items-stretch gap-10 lg:grid-cols-12">
         {/* Left Column: Official Fiscal & Contact Data */}
-        <div className="space-y-6 lg:col-span-5">
-          <div className="rounded-2xl border border-cavern-700 bg-cavern-800/90 p-6 shadow-xl space-y-5">
+        <div className="flex flex-col space-y-6 lg:col-span-5">
+          <div className="flex flex-1 flex-col justify-between space-y-5 rounded-2xl border border-cavern-700 bg-cavern-800/90 p-6 shadow-xl">
             <div className="flex items-center gap-3 border-b border-cavern-700 pb-4">
               <div className="rounded-xl bg-karst-500/15 p-3 text-karst-400">
                 <Building2 className="h-6 w-6" aria-hidden="true" />
@@ -210,7 +188,7 @@ export default function ContactPage() {
         </div>
 
         {/* Right Column: Interactive Contact Form */}
-        <div className="lg:col-span-7">
+        <div className="flex flex-col lg:col-span-7">
           <ContactForm />
         </div>
       </div>
