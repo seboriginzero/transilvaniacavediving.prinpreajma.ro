@@ -31,7 +31,7 @@ export default function ContactPage() {
       <div>
         <Breadcrumbs items={[{ name: 'Contact', path: '/contact' }]} />
         <span className="text-xs font-bold uppercase tracking-wider text-karst-400">
-          Date Oficiale de Identificare · Programări Ture · Comenzi Echipamente
+          Date Oficiale de Identificare · Programări Ture · Obiective Moneasa
         </span>
         <h1 className="mt-2 text-3xl font-extrabold text-limestone-50 sm:text-5xl">
           Contactează Transilvania Cave Diving
@@ -39,6 +39,32 @@ export default function ContactPage() {
         <p className="mt-4 max-w-3xl text-base leading-relaxed text-limestone-200">
           Pentru programarea grupurilor la Peștera Grota Ursului din Moneasa, ture de speoturism, excursii școlare Moneasa Adventure, traseul Via Ferrata Cetatea Dezna și activități în Munții Codru-Moma:
         </p>
+      </div>
+
+      {/* Prezentare Proiect Transilvania & Logo */}
+      <div className="rounded-2xl border border-cavern-700 bg-cavern-800/80 p-6 sm:p-8 shadow-xl backdrop-blur-sm">
+        <div className="flex flex-col sm:flex-row items-center sm:items-start gap-6 sm:gap-8">
+          <div className="relative h-28 w-28 sm:h-36 sm:w-36 shrink-0 overflow-hidden rounded-2xl border border-cavern-700 bg-black p-2.5 shadow-lg">
+            <img
+              src="/media/logos/transilvania-logo-full.jpg"
+              alt="Logo oficial Transilvania"
+              className="h-full w-full object-contain"
+              width={828}
+              height={934}
+            />
+          </div>
+          <div className="flex-1 text-center sm:text-left space-y-2.5">
+            <span className="font-mono text-xs font-bold uppercase tracking-wider text-karst-400">
+              Misiune și Patrimoniu
+            </span>
+            <h2 className="font-display text-2xl sm:text-3xl font-bold text-limestone-50">
+              Proiectul „Transilvania”
+            </h2>
+            <p className="text-base sm:text-lg leading-relaxed text-limestone-200 max-w-3xl font-medium">
+              „Transilvania” este un proiect dedicat promovării activităților de turism speologic, a scufundărilor, precum și pentru amenajarea și promovarea altor destinații turistice.
+            </p>
+          </div>
+        </div>
       </div>
 
       <div className="grid grid-cols-1 gap-10 lg:grid-cols-12">

@@ -140,6 +140,20 @@ export function updateDynamicSettings(newSettings: Partial<DynamicSiteSettings>)
       if (grotaPage) {
         grotaPage.scheduleSummary = `${merged.grotaUrsului.days}: ${merged.grotaUrsului.hours} (sau în afara programului pentru grupuri organizate, pe bază de programare)`;
         grotaPage.pricingSummary = `Adulți și copii peste 14 ani: ${merged.grotaUrsului.adultPrice} lei | Copii până la 14 ani: ${merged.grotaUrsului.childPrice} lei | Sub 5 ani, speologi, salvamontiști și salvaspeo legitimați: Gratuit (valabil în programul de vizitare; necesită confirmare curentă)`;
+        if (grotaPage.sections) {
+          grotaPage.sections = grotaPage.sections.map((sec: any) => ({
+            ...sec,
+            contentMarkdown: sec.contentMarkdown
+              ?.replace(
+                /Copii de peste 14 ani și adulții –\*\*[0-9]+\s*lei\*\*/gi,
+                `Copii de peste 14 ani și adulții –**${merged.grotaUrsului.adultPrice} lei**`
+              )
+              ?.replace(
+                /Copii de până la 14 ani –\*\*[0-9]+\s*lei\*\*/gi,
+                `Copii de până la 14 ani –**${merged.grotaUrsului.childPrice} lei**`
+              ),
+          }));
+        }
       }
       const vfPage = db.pages?.find((p: any) => p.path === '/via-ferrata-cetate-dezna');
       if (vfPage) {

@@ -151,11 +151,25 @@ function applyDynamicSettingsToPage(page: PageRecord): PageRecord {
           `Copii de până la 14 ani –**${g.childPrice} lei**`
         );
 
+      const dynamicSections = (page.sections || []).map((sec) => ({
+        ...sec,
+        contentMarkdown: sec.contentMarkdown
+          .replace(
+            /Copii de peste 14 ani și adulții –\*\*[0-9]+\s*lei\*\*/gi,
+            `Copii de peste 14 ani și adulții –**${g.adultPrice} lei**`
+          )
+          .replace(
+            /Copii de până la 14 ani –\*\*[0-9]+\s*lei\*\*/gi,
+            `Copii de până la 14 ani –**${g.childPrice} lei**`
+          ),
+      }));
+
       return {
         ...page,
         scheduleSummary: dynamicSchedule,
         pricingSummary: dynamicPricing,
         bodyMarkdown: dynamicBody,
+        sections: dynamicSections,
       };
     }
 
