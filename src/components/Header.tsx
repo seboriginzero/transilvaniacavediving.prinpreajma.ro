@@ -75,10 +75,32 @@ export function Header({ navigation, phonePrimary }: HeaderProps) {
     <>
       <header className="sticky top-0 z-50 h-16 w-full border-b border-cavern-700/70 bg-cavern-950/90 backdrop-blur-xl">
         <div className="mx-auto flex h-full max-w-[1440px] items-center justify-between gap-6 px-5 sm:px-8 lg:px-12">
-          <Link href="/" className="flex shrink-0 items-center" aria-label="Transilvania Cave Diving — Acasă">
-            <img src="/media/logos/tcd-logo.svg" alt="Transilvania Cave Diving" className="logo-dark-mode h-9 w-auto" width={160} height={38} />
-            <img src="/media/logos/tcd-logo-light.svg" alt="Transilvania Cave Diving" className="logo-light-mode h-9 w-auto" width={160} height={38} />
-          </Link>
+          <div className="relative group/logo shrink-0">
+            <Link href="/" className="flex shrink-0 items-center py-2" aria-label="Transilvania Cave Diving — Acasă">
+              <img src="/media/logos/tcd-logo.svg" alt="Transilvania Cave Diving" className="logo-dark-mode h-9 w-auto" width={160} height={38} />
+              <img src="/media/logos/tcd-logo-light.svg" alt="Transilvania Cave Diving" className="logo-light-mode h-9 w-auto" width={160} height={38} />
+            </Link>
+
+            {/* Emblemă Transilvania extinsă la hover */}
+            <div className="pointer-events-none absolute left-0 top-full z-50 pt-2 opacity-0 transition-all duration-200 ease-out group-hover/logo:pointer-events-auto group-hover/logo:opacity-100 group-focus-within/logo:pointer-events-auto group-focus-within/logo:opacity-100">
+              <div className="w-72 sm:w-80 overflow-hidden rounded-2xl border border-cavern-700/80 bg-cavern-950 p-3 shadow-[0_24px_60px_-15px_rgba(0,0,0,0.7)] backdrop-blur-xl">
+                <div className="relative aspect-[828/934] w-full overflow-hidden rounded-xl bg-black">
+                  <img
+                    src="/media/logos/transilvania-logo-full.jpg"
+                    alt="Transilvania Cave Diving — Emblemă oficială"
+                    className="h-full w-full object-contain"
+                    width={828}
+                    height={934}
+                    loading="eager"
+                  />
+                </div>
+                <div className="mt-2.5 flex items-center justify-between px-1 text-[11px] font-medium text-limestone-400">
+                  <span>Emblemă oficială Transilvania</span>
+                  <span className="font-mono text-karst-400">TCD</span>
+                </div>
+              </div>
+            </div>
+          </div>
 
           <nav aria-label="Navigare principală" className="hidden items-center gap-1 lg:flex">
             {navigation.map((item) => {
