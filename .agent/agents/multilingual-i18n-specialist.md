@@ -79,3 +79,4 @@ La orice modificare a conținutului sau a rutelor multilingve:
    npm run lint && npm run build
    ```
 3. Verifică răspunsul `HTTP 200 OK` pentru toate rutele traduse după livrarea GitOps pe Proxmox VM1.
+
