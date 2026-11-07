@@ -9,12 +9,12 @@ export function TransilvaniaMissionCard() {
 
   return (
     <>
-      <div className="rounded-2xl border border-cavern-700 bg-cavern-800/80 p-6 sm:p-8 shadow-xl backdrop-blur-sm">
+      <div className="rounded-none skeuo-glass p-6 sm:p-8">
         <div className="flex flex-col sm:flex-row items-center sm:items-start gap-6 sm:gap-8">
           <button
             type="button"
             onClick={() => setIsModalOpen(true)}
-            className="group relative h-28 w-28 sm:h-36 sm:w-36 shrink-0 overflow-hidden rounded-2xl border border-cavern-700 bg-black p-2.5 shadow-lg transition hover:border-karst-400 hover:shadow-karst-500/20 focus:outline-none focus:ring-2 focus:ring-karst-400"
+            className="group relative h-28 w-28 sm:h-36 sm:w-36 shrink-0 overflow-hidden rounded-none border border-cavern-700 bg-black p-2.5 shadow-lg transition hover:border-karst-400 hover:shadow-karst-500/20 focus:outline-none focus:ring-2 focus:ring-karst-400 active:scale-95"
             title="Apasă pentru vizualizare pe tot ecranul"
             aria-label="Apasă pentru vizualizare completă siglă Transilvania"
           >

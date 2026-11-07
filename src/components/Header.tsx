@@ -241,8 +241,8 @@ export function Header({ navigation, phonePrimary }: HeaderProps) {
                 style={{ position: 'absolute', top: '100%', left: 0, zIndex: 60 }}
                 className="pt-2 animate-lightbox-content pointer-events-auto"
               >
-                <div className="w-72 sm:w-80 overflow-hidden rounded-2xl border border-cavern-700/80 bg-black p-2 shadow-[0_24px_60px_-15px_rgba(0,0,0,0.8)] backdrop-blur-xl">
-                  <div className="relative aspect-[828/934] w-full overflow-hidden rounded-xl bg-black">
+                <div className="w-72 sm:w-80 overflow-hidden rounded-none skeuo-glass p-2">
+                  <div className="relative aspect-[828/934] w-full overflow-hidden rounded-none bg-black border border-white/10">
                     <img
                       src="/media/logos/transilvania-logo-full.jpg"
                       alt="Transilvania Cave Diving"
@@ -289,13 +289,13 @@ export function Header({ navigation, phonePrimary }: HeaderProps) {
                     </button>
                     {isOpen && (
                       <div className="absolute left-0 top-full w-72 pt-1">
-                        <div className="rounded-2xl border border-cavern-700 bg-cavern-900/95 p-2 shadow-[0_24px_60px_-15px_rgba(0,0,0,0.5)] backdrop-blur-xl animate-fade-in">
+                        <div className="rounded-none skeuo-glass p-1.5 animate-fade-in">
                           {item.children.map((child) => (
                             <Link
                               key={child.href}
                               href={child.href}
-                              className={`group flex items-start justify-between rounded-xl px-3.5 py-2.5 transition ${
-                                pathname === child.href ? 'bg-cavern-800 text-limestone-50' : 'text-limestone-200 hover:bg-cavern-800 hover:text-limestone-50'
+                              className={`group flex items-start justify-between rounded-none px-3.5 py-2.5 transition ${
+                                pathname === child.href ? 'bg-cavern-800 text-limestone-50 border-l-2 border-karst-500' : 'text-limestone-200 hover:bg-cavern-800/80 hover:text-limestone-50'
                               }`}
                             >
                               <div className="space-y-0.5">
@@ -323,14 +323,14 @@ export function Header({ navigation, phonePrimary }: HeaderProps) {
           <div className="flex items-center gap-2 sm:gap-3">
             <Link
               href="/contact"
-              className="inline-flex h-9 items-center rounded-full bg-karst-600 px-4 text-xs font-bold text-white shadow-sm transition hover:bg-karst-500 active:scale-95"
+              className="inline-flex h-9 items-center rounded-none skeuo-button-primary px-4 text-xs font-bold text-white shadow-sm transition"
             >
               {currentLang === 'en' ? 'Contact' : currentLang === 'hu' ? 'Kapcsolat' : 'Contact'}
             </Link>
             <button
               onClick={toggleTheme}
               aria-label="Schimbă tema"
-              className="flex h-9 w-9 items-center justify-center rounded-full text-limestone-300 transition hover:bg-cavern-800 hover:text-limestone-50 active:scale-90"
+              className="flex h-9 w-9 items-center justify-center rounded-none skeuo-button-secondary text-limestone-300 transition hover:text-limestone-50"
             >
               {theme === 'dark' ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
             </button>
@@ -341,7 +341,7 @@ export function Header({ navigation, phonePrimary }: HeaderProps) {
                 type="button"
                 onClick={() => setLangDropdownOpen(!langDropdownOpen)}
                 aria-expanded={langDropdownOpen}
-                className="inline-flex h-9 items-center gap-1.5 rounded-full border border-cavern-700 bg-cavern-900/80 px-3 text-xs font-semibold text-limestone-200 transition hover:border-karst-400 hover:text-limestone-50 active:scale-95"
+                className="inline-flex h-9 items-center gap-1.5 rounded-none skeuo-button-secondary px-3 text-xs font-semibold text-limestone-200 transition hover:border-karst-400 hover:text-limestone-50"
                 title="Selectează limba / Select language / Nyelvválasztás"
               >
                 <Globe className="h-3.5 w-3.5 text-karst-400" />
@@ -349,7 +349,7 @@ export function Header({ navigation, phonePrimary }: HeaderProps) {
                 <ChevronDown className={`h-3 w-3 transition-transform ${langDropdownOpen ? 'rotate-180' : ''}`} />
               </button>
               {langDropdownOpen && (
-                <div className="absolute right-0 top-full mt-2 w-64 rounded-2xl border border-cavern-700 bg-cavern-900 p-2 shadow-[0_24px_60px_-20px_rgba(0,0,0,0.6)] backdrop-blur-xl z-50">
+                <div className="absolute right-0 top-full mt-2 w-64 rounded-none skeuo-glass p-2 z-50">
                   <div className="px-2.5 py-1.5 text-[11px] font-mono font-bold uppercase tracking-wider text-karst-400 border-b border-cavern-700/70">
                     Limbă / Language / Nyelv
                   </div>
@@ -364,9 +364,9 @@ export function Header({ navigation, phonePrimary }: HeaderProps) {
                           key={lang.code}
                           type="button"
                           onClick={() => handleSelectLang(lang.code)}
-                          className={`flex w-full items-center justify-between rounded-xl px-3 py-2 text-left text-sm transition ${
+                          className={`flex w-full items-center justify-between rounded-none px-3 py-2 text-left text-sm transition ${
                             isActive
-                              ? 'bg-karst-600/20 text-karst-300 font-bold border border-karst-500/40'
+                              ? 'bg-karst-600/20 text-karst-300 font-bold border-l-2 border-karst-500'
                               : 'text-limestone-200 hover:bg-cavern-800'
                           }`}
                         >
@@ -392,7 +392,7 @@ export function Header({ navigation, phonePrimary }: HeaderProps) {
                       <Link
                         href="/bear-cave"
                         onClick={() => setLangDropdownOpen(false)}
-                        className="flex items-center justify-between rounded-lg px-2 py-1 text-xs text-limestone-300 hover:bg-cavern-800 hover:text-white"
+                        className="flex items-center justify-between rounded-none px-2 py-1 text-xs text-limestone-300 hover:bg-cavern-800 hover:text-white"
                       >
                         <span>🇬🇧 Bear's Cave (Moneasa)</span>
                         <ExternalLink className="h-3 w-3 text-karst-400" />
@@ -400,7 +400,7 @@ export function Header({ navigation, phonePrimary }: HeaderProps) {
                       <Link
                         href="/bat-cave"
                         onClick={() => setLangDropdownOpen(false)}
-                        className="flex items-center justify-between rounded-lg px-2 py-1 text-xs text-limestone-300 hover:bg-cavern-800 hover:text-white"
+                        className="flex items-center justify-between rounded-none px-2 py-1 text-xs text-limestone-300 hover:bg-cavern-800 hover:text-white"
                       >
                         <span>🇬🇧 Bat Cave (Moneasa)</span>
                         <ExternalLink className="h-3 w-3 text-karst-400" />
@@ -408,7 +408,7 @@ export function Header({ navigation, phonePrimary }: HeaderProps) {
                       <Link
                         href="/the-mill-karst-system"
                         onClick={() => setLangDropdownOpen(false)}
-                        className="flex items-center justify-between rounded-lg px-2 py-1 text-xs text-limestone-300 hover:bg-cavern-800 hover:text-white"
+                        className="flex items-center justify-between rounded-none px-2 py-1 text-xs text-limestone-300 hover:bg-cavern-800 hover:text-white"
                       >
                         <span>🇬🇧 Mill Karst (Natura 2000)</span>
                         <ExternalLink className="h-3 w-3 text-karst-400" />
@@ -416,7 +416,7 @@ export function Header({ navigation, phonePrimary }: HeaderProps) {
                       <Link
                         href="/medve-barlang"
                         onClick={() => setLangDropdownOpen(false)}
-                        className="flex items-center justify-between rounded-lg px-2 py-1 text-xs text-limestone-300 hover:bg-cavern-800 hover:text-white"
+                        className="flex items-center justify-between rounded-none px-2 py-1 text-xs text-limestone-300 hover:bg-cavern-800 hover:text-white"
                       >
                         <span>🇭🇺 Medve-barlang (Menyháza)</span>
                         <ExternalLink className="h-3 w-3 text-karst-400" />
@@ -424,7 +424,7 @@ export function Header({ navigation, phonePrimary }: HeaderProps) {
                       <Link
                         href="/denever-barlang"
                         onClick={() => setLangDropdownOpen(false)}
-                        className="flex items-center justify-between rounded-lg px-2 py-1 text-xs text-limestone-300 hover:bg-cavern-800 hover:text-white"
+                        className="flex items-center justify-between rounded-none px-2 py-1 text-xs text-limestone-300 hover:bg-cavern-800 hover:text-white"
                       >
                         <span>🇭🇺 Denevér-barlang (Menyháza)</span>
                         <ExternalLink className="h-3 w-3 text-karst-400" />
@@ -432,7 +432,7 @@ export function Header({ navigation, phonePrimary }: HeaderProps) {
                       <Link
                         href="/a-malom-karsztrendszere"
                         onClick={() => setLangDropdownOpen(false)}
-                        className="flex items-center justify-between rounded-lg px-2 py-1 text-xs text-limestone-300 hover:bg-cavern-800 hover:text-white"
+                        className="flex items-center justify-between rounded-none px-2 py-1 text-xs text-limestone-300 hover:bg-cavern-800 hover:text-white"
                       >
                         <span>🇭🇺 Malom Karsztrendszer</span>
                         <ExternalLink className="h-3 w-3 text-karst-400" />
@@ -445,7 +445,7 @@ export function Header({ navigation, phonePrimary }: HeaderProps) {
 
             <button
               onClick={() => setMobileOpen(!mobileOpen)}
-              className="flex h-9 w-9 items-center justify-center rounded-full text-limestone-200 hover:bg-cavern-800 active:scale-90 lg:hidden"
+              className="flex h-9 w-9 items-center justify-center rounded-none skeuo-button-secondary text-limestone-200 lg:hidden"
               aria-label={mobileOpen ? 'Închide meniul' : 'Deschide meniul'}
             >
               {mobileOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
@@ -457,7 +457,7 @@ export function Header({ navigation, phonePrimary }: HeaderProps) {
       {mobileOpen && (
         <div className="fixed inset-x-0 bottom-0 top-16 z-40 overflow-y-auto bg-cavern-950 px-5 pb-10 pt-4 lg:hidden">
           {/* Mobile Language Switcher */}
-          <div className="mb-6 rounded-2xl border border-cavern-700 bg-cavern-900/90 p-4">
+          <div className="mb-6 rounded-none skeuo-glass p-4">
             <span className="block text-xs font-mono uppercase tracking-wider text-karst-400 mb-2">
               Selectează limba / Language / Nyelv:
             </span>
@@ -472,10 +472,10 @@ export function Header({ navigation, phonePrimary }: HeaderProps) {
                       setMobileOpen(false);
                       handleSelectLang(lang.code);
                     }}
-                    className={`flex items-center justify-center gap-1.5 rounded-xl py-2 px-2 text-xs font-semibold transition ${
+                    className={`flex items-center justify-center gap-1.5 rounded-none py-2 px-2 text-xs font-semibold transition ${
                       isActive
-                        ? 'bg-karst-600 text-white shadow-md'
-                        : 'border border-cavern-700 bg-cavern-950 text-limestone-200'
+                        ? 'skeuo-button-primary text-white'
+                        : 'skeuo-button-secondary text-limestone-200'
                     }`}
                   >
                     <span>{lang.flagEmoji}</span>
@@ -506,7 +506,7 @@ export function Header({ navigation, phonePrimary }: HeaderProps) {
           </nav>
           <a
             href={`tel:${phonePrimary.replace(/\s+/g, '')}`}
-            className="mt-6 flex items-center justify-center gap-2 rounded-full bg-limestone-50 py-3.5 text-sm font-semibold text-cavern-950"
+            className="mt-6 flex items-center justify-center gap-2 rounded-none skeuo-button-primary py-3.5 text-sm font-semibold text-white"
           >
             <Phone className="h-4 w-4" />
             {phonePrimary}

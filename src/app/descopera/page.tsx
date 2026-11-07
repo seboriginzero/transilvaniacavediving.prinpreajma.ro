@@ -54,11 +54,11 @@ export default function DescoperaHubPage() {
           return (
             <article
               key={dest.path}
-              className="group flex flex-col overflow-hidden rounded-2xl border border-cavern-700 bg-cavern-800/80 shadow-xl transition hover:border-karst-500"
+              className="group flex flex-col overflow-hidden rounded-none skeuo-glass transition hover:border-karst-500"
             >
               <Link href={dest.path} className="relative block w-full">
                 <CardMediaThumb src={dest.heroImage} alt={dest.cleanTitle} />
-                <span className="absolute left-3 top-3 z-20 rounded-full border border-white/15 bg-black/70 px-3 py-1 text-[11px] font-bold text-white">
+                <span className="absolute left-3 top-3 z-20 rounded-none border border-white/20 bg-black/80 px-2.5 py-1 text-[11px] font-bold text-white">
                   {dest.categoryLabel}
                 </span>
               </Link>
@@ -107,7 +107,7 @@ export default function DescoperaHubPage() {
       </div>
 
       {/* Multilingual QR Trail Pages Section */}
-      <section className="rounded-2xl border border-cavern-700 bg-cavern-800/90 p-6 sm:p-8">
+      <section className="rounded-none skeuo-glass p-6 sm:p-8">
         <div className="flex items-start gap-3">
           <Globe className="mt-1 h-6 w-6 shrink-0 text-karst-400" aria-hidden="true" />
           <div>
@@ -118,52 +118,52 @@ export default function DescoperaHubPage() {
               Pentru turiștii internaționali care scanează codurile QR amplasate pe panourile tematice de la Peștera Liliecilor și Sistemul Carstic de la Moară, documentația completă este disponibilă și în limbile engleză și maghiară:
             </p>
             <div className="mt-5 grid grid-cols-1 gap-4 sm:grid-cols-2">
-              <div className="rounded-xl border border-cavern-700 bg-cavern-900 p-4">
+              <div className="rounded-none border border-cavern-700 bg-cavern-950 p-4">
                 <h3 className="text-sm font-bold text-karst-400">
                   Peștera Liliecilor / Citramontán Barlang (Cod RAN 11487.01)
                 </h3>
                 <div className="mt-3 flex flex-wrap gap-2">
                   <Link
                     href="/pestera-liliecilor"
-                    className="rounded-lg bg-cavern-800 px-3 py-1.5 text-xs font-semibold text-limestone-100 hover:text-karst-400 border border-cavern-600"
+                    className="rounded-none skeuo-button-secondary px-3 py-1.5 text-xs font-semibold text-limestone-100 hover:text-karst-400"
                   >
                     Română (/pestera-liliecilor)
                   </Link>
                   <Link
                     href="/bat-cave"
-                    className="rounded-lg bg-cavern-800 px-3 py-1.5 text-xs font-semibold text-limestone-100 hover:text-karst-400 border border-cavern-600"
+                    className="rounded-none skeuo-button-secondary px-3 py-1.5 text-xs font-semibold text-limestone-100 hover:text-karst-400"
                   >
                     English (/bat-cave)
                   </Link>
                   <Link
                     href="/denever-barlang"
-                    className="rounded-lg bg-cavern-800 px-3 py-1.5 text-xs font-semibold text-limestone-100 hover:text-karst-400 border border-cavern-600"
+                    className="rounded-none skeuo-button-secondary px-3 py-1.5 text-xs font-semibold text-limestone-100 hover:text-karst-400"
                   >
                     Magyar (/denever-barlang)
                   </Link>
                 </div>
               </div>
 
-              <div className="rounded-xl border border-cavern-700 bg-cavern-900 p-4">
+              <div className="rounded-none border border-cavern-700 bg-cavern-950 p-4">
                 <h3 className="text-sm font-bold text-karst-400">
                   Sistemul Carstic de la Moară (Natura 2000 ROSCI0042)
                 </h3>
                 <div className="mt-3 flex flex-wrap gap-2">
                   <Link
                     href="/pestera-uscata-de-la-moara"
-                    className="rounded-lg bg-cavern-800 px-3 py-1.5 text-xs font-semibold text-limestone-100 hover:text-karst-400 border border-cavern-600"
+                    className="rounded-none skeuo-button-secondary px-3 py-1.5 text-xs font-semibold text-limestone-100 hover:text-karst-400"
                   >
                     Română (/pestera-uscata-de-la-moara)
                   </Link>
                   <Link
                     href="/the-mill-karst-system"
-                    className="rounded-lg bg-cavern-800 px-3 py-1.5 text-xs font-semibold text-limestone-100 hover:text-karst-400 border border-cavern-600"
+                    className="rounded-none skeuo-button-secondary px-3 py-1.5 text-xs font-semibold text-limestone-100 hover:text-karst-400"
                   >
                     English (/the-mill-karst-system)
                   </Link>
                   <Link
                     href="/a-malom-karsztrendszere"
-                    className="rounded-lg bg-cavern-800 px-3 py-1.5 text-xs font-semibold text-limestone-100 hover:text-karst-400 border border-cavern-600"
+                    className="rounded-none skeuo-button-secondary px-3 py-1.5 text-xs font-semibold text-limestone-100 hover:text-karst-400"
                   >
                     Magyar (/a-malom-karsztrendszere)
                   </Link>

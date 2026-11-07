@@ -130,9 +130,9 @@ export default function AdministratorPage() {
   if (!isAuthenticated) {
     return (
       <div className="min-h-[75vh] flex items-center justify-center px-4 py-12">
-        <div className="w-full max-w-md editorial-card rounded-2xl p-8 border border-cavern-700 shadow-2xl backdrop-blur-xl">
+        <div className="w-full max-w-md editorial-card rounded-none skeuo-glass p-8">
           <div className="text-center space-y-3">
-            <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl bg-cavern-950 border border-cavern-700 text-karst-400 shadow-inner">
+            <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-none bg-cavern-950 border border-cavern-700 text-karst-400 shadow-inner">
               <Lock className="h-7 w-7" />
             </div>
             <h1 className="font-display text-2xl font-bold text-limestone-50">
@@ -160,14 +160,14 @@ export default function AdministratorPage() {
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
                   placeholder="Introduceți parola configurată..."
-                  className="w-full rounded-xl border border-cavern-700 bg-cavern-950 px-4 py-3 pl-11 text-sm text-limestone-50 placeholder-limestone-400 focus:border-karst-500 focus:outline-none focus:ring-1 focus:ring-karst-500 transition"
+                  className="w-full rounded-none skeuo-input px-4 py-3 pl-11 text-sm text-limestone-50 placeholder-limestone-400 focus:border-karst-500 focus:outline-none"
                 />
                 <KeyRound className="absolute left-3.5 top-3.5 h-4 w-4 text-limestone-400" />
               </div>
             </div>
 
             {saveStatus && saveStatus.type === 'error' && (
-              <div className="flex items-center gap-2 rounded-lg border border-red-500/40 bg-red-950/40 p-3 text-xs text-red-200">
+              <div className="flex items-center gap-2 rounded-none border border-red-500/40 bg-red-950/40 p-3 text-xs text-red-200">
                 <AlertCircle className="h-4 w-4 shrink-0 text-red-400" />
                 <span>{saveStatus.message}</span>
               </div>
@@ -176,7 +176,7 @@ export default function AdministratorPage() {
             <button
               type="submit"
               disabled={isSubmitting}
-              className="w-full inline-flex items-center justify-center gap-2 rounded-xl bg-karst-600 px-5 py-3 font-semibold text-white shadow-lg transition hover:bg-karst-500 disabled:opacity-50"
+              className="w-full inline-flex items-center justify-center gap-2 rounded-none skeuo-button-primary px-5 py-3 font-semibold text-white shadow-lg disabled:opacity-50"
             >
               {isSubmitting ? (
                 <>
@@ -229,14 +229,14 @@ export default function AdministratorPage() {
           <Link
             href="/"
             target="_blank"
-            className="inline-flex items-center gap-1.5 rounded-lg border border-cavern-700 bg-cavern-900 px-3.5 py-2 text-xs font-semibold text-limestone-200 hover:text-limestone-50 hover:border-cavern-600 transition"
+            className="inline-flex items-center gap-1.5 rounded-none skeuo-button-secondary px-3.5 py-2 text-xs font-semibold text-limestone-200 hover:text-limestone-50"
           >
             <span>Vezi Site Live</span>
             <ExternalLink className="h-3.5 w-3.5" />
           </Link>
           <button
             onClick={handleLogout}
-            className="inline-flex items-center gap-1.5 rounded-lg border border-cavern-700 bg-cavern-950 px-3.5 py-2 text-xs font-semibold text-red-400 hover:bg-red-950/30 transition"
+            className="inline-flex items-center gap-1.5 rounded-none skeuo-button-secondary px-3.5 py-2 text-xs font-semibold text-red-400 hover:bg-red-950/30"
           >
             <LogOut className="h-3.5 w-3.5" />
             <span>Deconectare</span>
@@ -244,12 +244,9 @@ export default function AdministratorPage() {
         </div>
       </div>
 
-
-
-
       {saveStatus && (
         <div
-          className={`flex items-center gap-3 rounded-xl border p-4 text-sm ${
+          className={`flex items-center gap-3 rounded-none border p-4 text-sm ${
             saveStatus.type === 'success'
               ? 'border-karst-500/50 bg-karst-950/60 text-karst-200'
               : 'border-red-500/50 bg-red-950/60 text-red-200'
@@ -266,10 +263,10 @@ export default function AdministratorPage() {
 
       <form onSubmit={handleSave} className="space-y-8">
         {/* SECTION 1: GROTA URSULUI MONEASA */}
-        <div className="editorial-card rounded-2xl p-6 sm:p-8 space-y-6">
+        <div className="editorial-card rounded-none skeuo-glass p-6 sm:p-8 space-y-6">
           <div className="flex flex-wrap items-center justify-between gap-3 border-b border-cavern-700 pb-4">
             <div className="flex items-center gap-3">
-              <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-cavern-950 border border-cavern-700 text-safety-400">
+              <div className="flex h-10 w-10 items-center justify-center rounded-none bg-cavern-950 border border-cavern-700 text-safety-400">
                 <MapPin className="h-5 w-5" />
               </div>
               <div>
@@ -281,7 +278,7 @@ export default function AdministratorPage() {
                 </p>
               </div>
             </div>
-            <span className="font-mono text-xs rounded-full border border-cavern-700 bg-cavern-950 px-3 py-1 text-limestone-300">
+            <span className="font-mono text-xs rounded-none border border-cavern-700 bg-cavern-950 px-3 py-1 text-limestone-300">
               Ultima actualizare: {settings.grotaUrsului.lastUpdated}
             </span>
           </div>
@@ -301,7 +298,7 @@ export default function AdministratorPage() {
                     grotaUrsului: { ...settings.grotaUrsului, status: e.target.value },
                   })
                 }
-                className="w-full rounded-xl border border-cavern-700 bg-cavern-950 px-3.5 py-2.5 text-sm text-limestone-50 focus:border-karst-500 focus:outline-none"
+                className="w-full rounded-none skeuo-input px-3.5 py-2.5 text-sm text-limestone-50 focus:border-karst-500 focus:outline-none"
               />
             </div>
 
@@ -319,7 +316,7 @@ export default function AdministratorPage() {
                     grotaUrsului: { ...settings.grotaUrsului, days: e.target.value },
                   })
                 }
-                className="w-full rounded-xl border border-cavern-700 bg-cavern-950 px-3.5 py-2.5 text-sm text-limestone-50 focus:border-karst-500 focus:outline-none"
+                className="w-full rounded-none skeuo-input px-3.5 py-2.5 text-sm text-limestone-50 focus:border-karst-500 focus:outline-none"
               />
             </div>
 
@@ -337,7 +334,7 @@ export default function AdministratorPage() {
                     grotaUrsului: { ...settings.grotaUrsului, hours: e.target.value },
                   })
                 }
-                className="w-full rounded-xl border border-cavern-700 bg-cavern-950 px-3.5 py-2.5 text-sm text-limestone-50 focus:border-karst-500 focus:outline-none"
+                className="w-full rounded-none skeuo-input px-3.5 py-2.5 text-sm text-limestone-50 focus:border-karst-500 focus:outline-none"
               />
             </div>
 
@@ -357,7 +354,7 @@ export default function AdministratorPage() {
                       grotaUrsului: { ...settings.grotaUrsului, adultPrice: Number(e.target.value) },
                     })
                   }
-                  className="w-full rounded-xl border border-cavern-700 bg-cavern-950 px-3.5 py-2.5 text-sm text-limestone-50 focus:border-karst-500 focus:outline-none"
+                  className="w-full rounded-none skeuo-input px-3.5 py-2.5 text-sm text-limestone-50 focus:border-karst-500 focus:outline-none"
                 />
                 <span className="absolute right-3.5 top-2.5 text-xs font-mono text-limestone-400">LEI</span>
               </div>
@@ -379,7 +376,7 @@ export default function AdministratorPage() {
                       grotaUrsului: { ...settings.grotaUrsului, childPrice: Number(e.target.value) },
                     })
                   }
-                  className="w-full rounded-xl border border-cavern-700 bg-cavern-950 px-3.5 py-2.5 text-sm text-limestone-50 focus:border-karst-500 focus:outline-none"
+                  className="w-full rounded-none skeuo-input px-3.5 py-2.5 text-sm text-limestone-50 focus:border-karst-500 focus:outline-none"
                 />
                 <span className="absolute right-3.5 top-2.5 text-xs font-mono text-limestone-400">LEI</span>
               </div>
@@ -399,7 +396,7 @@ export default function AdministratorPage() {
                     grotaUrsului: { ...settings.grotaUrsului, phoneContact: e.target.value },
                   })
                 }
-                className="w-full rounded-xl border border-cavern-700 bg-cavern-950 px-3.5 py-2.5 text-sm text-limestone-50 focus:border-karst-500 focus:outline-none"
+                className="w-full rounded-none skeuo-input px-3.5 py-2.5 text-sm text-limestone-50 focus:border-karst-500 focus:outline-none"
               />
             </div>
           </div>
@@ -418,16 +415,16 @@ export default function AdministratorPage() {
                   grotaUrsului: { ...settings.grotaUrsului, specialNote: e.target.value },
                 })
               }
-              className="w-full rounded-xl border border-cavern-700 bg-cavern-950 px-3.5 py-2.5 text-sm text-limestone-50 focus:border-karst-500 focus:outline-none"
+              className="w-full rounded-none skeuo-input px-3.5 py-2.5 text-sm text-limestone-50 focus:border-karst-500 focus:outline-none"
             />
           </div>
         </div>
 
         {/* SECTION 2: VIA FERRATA CETATEA DEZNA */}
-        <div className="editorial-card rounded-2xl p-6 sm:p-8 space-y-6">
+        <div className="editorial-card rounded-none skeuo-glass p-6 sm:p-8 space-y-6">
           <div className="flex flex-wrap items-center justify-between gap-3 border-b border-cavern-700 pb-4">
             <div className="flex items-center gap-3">
-              <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-cavern-950 border border-cavern-700 text-karst-400">
+              <div className="flex h-10 w-10 items-center justify-center rounded-none bg-cavern-950 border border-cavern-700 text-karst-400">
                 <Calendar className="h-5 w-5" />
               </div>
               <div>
@@ -455,7 +452,7 @@ export default function AdministratorPage() {
                     viaFerrata: { ...settings.viaFerrata, status: e.target.value },
                   })
                 }
-                className="w-full rounded-xl border border-cavern-700 bg-cavern-950 px-3.5 py-2.5 text-sm text-limestone-50 focus:border-karst-500 focus:outline-none"
+                className="w-full rounded-none skeuo-input px-3.5 py-2.5 text-sm text-limestone-50 focus:border-karst-500 focus:outline-none"
               />
             </div>
 
@@ -472,7 +469,7 @@ export default function AdministratorPage() {
                     viaFerrata: { ...settings.viaFerrata, schedule: e.target.value },
                   })
                 }
-                className="w-full rounded-xl border border-cavern-700 bg-cavern-950 px-3.5 py-2.5 text-sm text-limestone-50 focus:border-karst-500 focus:outline-none"
+                className="w-full rounded-none skeuo-input px-3.5 py-2.5 text-sm text-limestone-50 focus:border-karst-500 focus:outline-none"
               />
             </div>
 
@@ -489,7 +486,7 @@ export default function AdministratorPage() {
                     viaFerrata: { ...settings.viaFerrata, priceNote: e.target.value },
                   })
                 }
-                className="w-full rounded-xl border border-cavern-700 bg-cavern-950 px-3.5 py-2.5 text-sm text-limestone-50 focus:border-karst-500 focus:outline-none"
+                className="w-full rounded-none skeuo-input px-3.5 py-2.5 text-sm text-limestone-50 focus:border-karst-500 focus:outline-none"
               />
             </div>
 
@@ -506,14 +503,14 @@ export default function AdministratorPage() {
                     viaFerrata: { ...settings.viaFerrata, equipmentRentalPrice: e.target.value },
                   })
                 }
-                className="w-full rounded-xl border border-cavern-700 bg-cavern-950 px-3.5 py-2.5 text-sm text-limestone-50 focus:border-karst-500 focus:outline-none"
+                className="w-full rounded-none skeuo-input px-3.5 py-2.5 text-sm text-limestone-50 focus:border-karst-500 focus:outline-none"
               />
             </div>
           </div>
         </div>
 
         {/* SAVE BUTTON BAR */}
-        <div className="sticky bottom-6 z-30 flex items-center justify-between gap-4 rounded-2xl border border-cavern-600 bg-cavern-950/90 p-4 shadow-2xl backdrop-blur-xl">
+        <div className="sticky bottom-6 z-30 flex items-center justify-between gap-4 rounded-none skeuo-glass p-4 shadow-2xl">
           <div className="flex items-center gap-2 text-xs text-limestone-300">
             <Clock className="h-4 w-4 text-karst-400" />
             <span>Verificați datele înainte de salvare. Salvarea actualizează direct baza de date dinamică.</span>
@@ -522,7 +519,7 @@ export default function AdministratorPage() {
           <button
             type="submit"
             disabled={isSubmitting}
-            className="inline-flex items-center gap-2 rounded-xl bg-karst-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-karst-500 disabled:opacity-50 shrink-0"
+            className="inline-flex items-center gap-2 rounded-none skeuo-button-primary px-6 py-3 font-semibold text-white shadow-lg disabled:opacity-50 shrink-0"
           >
             {isSubmitting ? (
               <>

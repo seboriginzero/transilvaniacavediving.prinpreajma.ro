@@ -53,17 +53,17 @@ export function DocumentPageView({
           <Breadcrumbs items={breadcrumbs} />
 
           <div className="mb-4 flex flex-wrap items-center gap-2.5">
-            <span className="rounded-full border border-karst-500/40 bg-karst-500/20 px-3 py-1 text-xs font-bold uppercase tracking-wider text-karst-400">
+            <span className="rounded-none border border-karst-500/40 bg-karst-500/20 px-3 py-1 text-xs font-bold uppercase tracking-wider text-karst-400">
               {page.categoryLabel}
             </span>
             {page.region && (
-              <span className="inline-flex items-center gap-1.5 rounded-full border border-cavern-700 bg-cavern-800/90 px-3 py-1 text-xs text-limestone-200">
+              <span className="inline-flex items-center gap-1.5 rounded-none border border-cavern-700 bg-cavern-800/90 px-3 py-1 text-xs text-limestone-200">
                 <MapPin className="h-3.5 w-3.5 text-karst-400" aria-hidden="true" />
                 {page.region}
               </span>
             )}
             {page.publicationDate && (
-              <span className="inline-flex items-center gap-1.5 rounded-full border border-cavern-700 bg-cavern-800/90 px-3 py-1 font-mono text-xs text-limestone-300">
+              <span className="inline-flex items-center gap-1.5 rounded-none border border-cavern-700 bg-cavern-800/90 px-3 py-1 font-mono text-xs text-limestone-300">
                 <Calendar className="h-3.5 w-3.5 text-safety-400" aria-hidden="true" />
                 Publicat: {page.publicationDate.slice(0, 10)}
               </span>
@@ -88,7 +88,7 @@ export function DocumentPageView({
 
         {/* Historical Context Notice for dated archive posts */}
         {(showHistoricalNotice || page.pageType === 'article') && (
-          <div className="mb-6 flex items-start gap-3 rounded-xl border border-safety-500/40 bg-cavern-800/90 p-4 text-xs leading-relaxed text-limestone-200">
+          <div className="mb-6 flex items-start gap-3 rounded-none border border-safety-500/40 bg-cavern-800/90 p-4 text-xs leading-relaxed text-limestone-200">
             <History className="mt-0.5 h-5 w-5 shrink-0 text-safety-400" aria-hidden="true" />
             <div>
               <strong className="text-safety-400">Notă de Context Istoric și Arhivă:</strong> Acest articol face parte din arhiva documentară Transilvania Cave Diving
@@ -117,7 +117,7 @@ export function DocumentPageView({
           <div className="lg:col-span-8">
             {/* Mobile & Tablet Collapsible Table of Contents (visible below 1024px) */}
             {tocHeadings.length > 1 && (
-              <details className="mb-6 rounded-2xl border border-cavern-700 bg-cavern-800/90 p-4 shadow-md lg:hidden">
+              <details className="mb-6 rounded-none skeuo-glass p-4 lg:hidden">
                 <summary className="flex cursor-pointer items-center justify-between text-xs font-bold uppercase tracking-wider text-limestone-100">
                   <span className="inline-flex items-center gap-2">
                     <BookOpen className="h-4 w-4 text-karst-400" aria-hidden="true" />
@@ -130,7 +130,7 @@ export function DocumentPageView({
                     <li key={i}>
                       <a
                         href={`#${slugifyHeading(h.text)}`}
-                        className="block rounded-lg px-2.5 py-1.5 text-limestone-200 transition hover:bg-cavern-700 hover:text-karst-400"
+                        className="block rounded-none px-2.5 py-1.5 text-limestone-200 transition hover:bg-cavern-700 hover:text-karst-400"
                       >
                         {h.text}
                       </a>
@@ -140,7 +140,7 @@ export function DocumentPageView({
               </details>
             )}
 
-            <div className="editorial-card rounded-2xl p-5 sm:p-8">
+            <div className="editorial-card rounded-none p-5 sm:p-8">
               <MarkdownContent markdown={page.bodyMarkdown} />
             </div>
 
@@ -157,7 +157,7 @@ export function DocumentPageView({
                   {page.videos.map((vUrl, idx) => (
                     <div
                       key={idx}
-                      className="aspect-video w-full overflow-hidden rounded-2xl border border-cavern-700 bg-cavern-950 shadow-lg"
+                      className="aspect-video w-full overflow-hidden rounded-none border border-cavern-700 bg-cavern-950 shadow-lg"
                     >
                       <iframe
                         src={vUrl}
@@ -178,7 +178,7 @@ export function DocumentPageView({
           <aside className="space-y-6 lg:col-span-4">
             <div className="sticky top-24 space-y-6">
               {tocHeadings.length > 1 && (
-                <div className="hidden rounded-2xl border border-cavern-700 bg-cavern-800/90 p-5 shadow-lg lg:block">
+                <div className="hidden rounded-none skeuo-glass p-5 lg:block">
                   <div className="mb-3 flex items-center gap-2 border-b border-cavern-700 pb-3">
                     <BookOpen className="h-4 w-4 text-karst-400" aria-hidden="true" />
                     <h2 className="text-sm font-bold uppercase tracking-wider text-limestone-100">
@@ -190,7 +190,7 @@ export function DocumentPageView({
                       <li key={i}>
                         <a
                           href={`#${slugifyHeading(h.text)}`}
-                          className="block rounded-lg px-2.5 py-1.5 text-limestone-300 transition hover:bg-cavern-700 hover:text-karst-400"
+                          className="block rounded-none px-2.5 py-1.5 text-limestone-300 transition hover:bg-cavern-700 hover:text-karst-400"
                         >
                           {h.text}
                         </a>
@@ -201,7 +201,7 @@ export function DocumentPageView({
               )}
 
               {/* Quick Contact / Reservation Card (always visible on both mobile and desktop) */}
-              <div className="editorial-card rounded-2xl p-5">
+              <div className="editorial-card rounded-none p-5">
                 <h3 className="font-serif text-base font-bold text-limestone-50">
                   Programări Ghidaj, Ture și Informații
                 </h3>
@@ -211,14 +211,14 @@ export function DocumentPageView({
                 <div className="mt-4 space-y-2.5">
                   <a
                     href={`tel:${phoneClean}`}
-                    className="flex w-full items-center justify-center gap-2 rounded-xl bg-karst-600 px-4 py-2.5 text-sm font-bold text-white shadow-md transition hover:bg-karst-500"
+                    className="flex w-full items-center justify-center gap-2 rounded-none skeuo-button-primary px-4 py-2.5 text-sm font-bold text-white shadow-md"
                   >
                     <Phone className="h-4 w-4 text-white" aria-hidden="true" />
                     <span className="text-white font-mono tracking-wide">{phone}</span>
                   </a>
                   <Link
                     href="/contact"
-                    className="flex w-full items-center justify-center gap-2 rounded-xl border border-cavern-600 bg-cavern-900 px-4 py-2.5 text-sm font-semibold text-limestone-100 transition hover:border-karst-400 hover:text-karst-400"
+                    className="flex w-full items-center justify-center gap-2 rounded-none skeuo-button-secondary px-4 py-2.5 text-sm font-semibold text-limestone-100"
                   >
                     Formular de Contact <ArrowRight className="h-4 w-4" />
                   </Link>
@@ -235,7 +235,7 @@ export function DocumentPageView({
                         href="https://www.facebook.com/Pe%C8%99tera-Grota-Ursului-Moneasa-108508321317590"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-flex items-center justify-between rounded-lg border border-cavern-700 bg-cavern-900/90 px-3 py-2 font-semibold text-limestone-100 transition hover:border-[#1877F2] hover:text-karst-400"
+                        className="inline-flex items-center justify-between rounded-none border border-cavern-700 bg-cavern-900/90 px-3 py-2 font-semibold text-limestone-100 transition hover:border-[#1877F2] hover:text-karst-400"
                       >
                         <span>Facebook: Peștera Grota Ursului</span>
                         <ArrowRight className="h-3.5 w-3.5 text-[#1877F2]" />
@@ -246,7 +246,7 @@ export function DocumentPageView({
                         href="https://www.facebook.com/Belvedere-Moneasa-105856912164648"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-flex items-center justify-between rounded-lg border border-cavern-700 bg-cavern-900/90 px-3 py-2 font-semibold text-limestone-100 transition hover:border-[#1877F2] hover:text-karst-400"
+                        className="inline-flex items-center justify-between rounded-none border border-cavern-700 bg-cavern-900/90 px-3 py-2 font-semibold text-limestone-100 transition hover:border-[#1877F2] hover:text-karst-400"
                       >
                         <span>Facebook: Belvedere Moneasa</span>
                         <ArrowRight className="h-3.5 w-3.5 text-[#1877F2]" />
@@ -257,7 +257,7 @@ export function DocumentPageView({
                         href="https://www.facebook.com/profile.php?id=100083662944867"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-flex items-center justify-between rounded-lg border border-cavern-700 bg-cavern-900/90 px-3 py-2 font-semibold text-limestone-100 transition hover:border-[#1877F2] hover:text-karst-400"
+                        className="inline-flex items-center justify-between rounded-none border border-cavern-700 bg-cavern-900/90 px-3 py-2 font-semibold text-limestone-100 transition hover:border-[#1877F2] hover:text-karst-400"
                       >
                         <span>Facebook: Via Ferrata Cetatea Dezna</span>
                         <ArrowRight className="h-3.5 w-3.5 text-[#1877F2]" />
@@ -268,7 +268,7 @@ export function DocumentPageView({
                         href="https://www.facebook.com/profile.php?id=61575535798320"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-flex items-center justify-between rounded-lg border border-cavern-700 bg-cavern-900/90 px-3 py-2 font-semibold text-limestone-100 transition hover:border-[#1877F2] hover:text-karst-400"
+                        className="inline-flex items-center justify-between rounded-none border border-cavern-700 bg-cavern-900/90 px-3 py-2 font-semibold text-limestone-100 transition hover:border-[#1877F2] hover:text-karst-400"
                       >
                         <span>Facebook: Czárán Gyula – Moneasa</span>
                         <ArrowRight className="h-3.5 w-3.5 text-[#1877F2]" />
@@ -278,7 +278,7 @@ export function DocumentPageView({
                       href="https://www.facebook.com/cavedivingromania"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center justify-between rounded-lg border border-cavern-700 bg-cavern-900/90 px-3 py-2 font-semibold text-limestone-100 transition hover:border-[#1877F2] hover:text-karst-400"
+                      className="inline-flex items-center justify-between rounded-none border border-cavern-700 bg-cavern-900/90 px-3 py-2 font-semibold text-limestone-100 transition hover:border-[#1877F2] hover:text-karst-400"
                     >
                       <span>Facebook: Transilvania Cave Diving</span>
                       <ArrowRight className="h-3.5 w-3.5 text-[#1877F2]" />
@@ -301,7 +301,7 @@ export function DocumentPageView({
                 <Link
                   key={rel.path}
                   href={rel.path}
-                  className="group flex flex-col overflow-hidden rounded-2xl border border-cavern-700 bg-cavern-800/80 transition hover:border-karst-500"
+                  className="group flex flex-col overflow-hidden rounded-none skeuo-glass transition hover:border-karst-500"
                 >
                   <CardMediaThumb src={rel.heroImage} alt={rel.cleanTitle} />
                   <div className="flex flex-1 flex-col justify-between p-5">

@@ -48,9 +48,9 @@ export default function ContactPage() {
       <div className="grid grid-cols-1 items-stretch gap-10 lg:grid-cols-12">
         {/* Left Column: Official Fiscal & Contact Data */}
         <div className="flex flex-col space-y-6 lg:col-span-5">
-          <div className="flex flex-1 flex-col justify-between space-y-5 rounded-2xl border border-cavern-700 bg-cavern-800/90 p-6 shadow-xl">
+          <div className="flex flex-1 flex-col justify-between space-y-5 rounded-none skeuo-glass p-6">
             <div className="flex items-center gap-3 border-b border-cavern-700 pb-4">
-              <div className="rounded-xl bg-karst-500/15 p-3 text-karst-400">
+              <div className="rounded-none border border-karst-500/30 bg-karst-500/15 p-3 text-karst-400">
                 <Building2 className="h-6 w-6" aria-hidden="true" />
               </div>
               <div>

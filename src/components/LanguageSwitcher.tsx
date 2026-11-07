@@ -22,7 +22,7 @@ export function LanguageSwitcher({ currentLang, translations }: LanguageSwitcher
       ];
 
   return (
-    <div className="mb-6 flex flex-wrap items-center justify-between gap-3 rounded-xl border border-cavern-700 bg-cavern-800/90 px-4 py-2.5 text-xs shadow-sm">
+    <div className="mb-6 flex flex-wrap items-center justify-between gap-3 rounded-none skeuo-glass px-4 py-2.5 text-xs">
       <span className="inline-flex items-center gap-1.5 font-medium text-limestone-200">
         <Globe className="h-4 w-4 text-karst-400" aria-hidden="true" />
         {hasDirectTranslations
@@ -37,7 +37,7 @@ export function LanguageSwitcher({ currentLang, translations }: LanguageSwitcher
               <span
                 key={`${t.lang}-${t.label}`}
                 aria-current="page"
-                className="rounded-lg bg-karst-600 px-3 py-1 font-semibold text-white shadow-sm"
+                className="rounded-none skeuo-button-primary px-3 py-1 font-semibold text-white"
               >
                 {t.label} ({t.lang.toUpperCase()})
               </span>
@@ -48,10 +48,10 @@ export function LanguageSwitcher({ currentLang, translations }: LanguageSwitcher
               key={`${t.lang}-${t.path}`}
               href={t.path}
               aria-current={active ? 'page' : undefined}
-              className={`rounded-lg px-3 py-1 font-semibold transition ${
+              className={`rounded-none px-3 py-1 font-semibold transition ${
                 active
-                  ? 'bg-karst-600 text-white shadow-sm'
-                  : 'border border-cavern-700 bg-cavern-900 text-limestone-200 hover:border-karst-400 hover:text-karst-400'
+                  ? 'skeuo-button-primary text-white'
+                  : 'skeuo-button-secondary text-limestone-200 hover:text-white'
               }`}
             >
               {hasDirectTranslations ? `${t.label} (${t.lang.toUpperCase()})` : t.label}

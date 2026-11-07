@@ -23,7 +23,7 @@ export function TechnicalSpecsCard({
   return (
     <section
       aria-label="Fișă tehnică și informații practice"
-      className="my-8 rounded-2xl border border-cavern-700 bg-cavern-800/80 p-6 shadow-xl"
+      className="my-8 rounded-none skeuo-glass p-6"
     >
       <div className="flex flex-wrap items-center justify-between gap-2 border-b border-cavern-700 pb-4 mb-5">
         <div className="flex items-center gap-2.5">
@@ -33,7 +33,7 @@ export function TechnicalSpecsCard({
           </h2>
         </div>
         {validationStatus && (
-          <span className="rounded-full border border-karst-500/40 bg-karst-500/10 px-3 py-1 text-xs font-mono font-medium text-karst-400">
+          <span className="rounded-none border border-karst-500/40 bg-karst-500/10 px-3 py-1 text-xs font-mono font-medium text-karst-400">
             Date validate din sursa oficială
           </span>
         )}
@@ -43,7 +43,7 @@ export function TechnicalSpecsCard({
       {(scheduleSummary || pricingSummary) && (
         <div className="mb-6 grid grid-cols-1 gap-4 md:grid-cols-2">
           {scheduleSummary && (
-            <div className="rounded-xl border border-cavern-600 bg-cavern-900/90 p-4">
+            <div className="rounded-none border border-cavern-700 bg-cavern-950 p-4">
               <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-karst-400">
                 <Clock className="h-4 w-4" aria-hidden="true" />
                 <span>Program de Vizitare / Acces</span>
@@ -55,7 +55,7 @@ export function TechnicalSpecsCard({
           )}
 
           {pricingSummary && (
-            <div className="rounded-xl border border-cavern-600 bg-cavern-900/90 p-4">
+            <div className="rounded-none border border-cavern-700 bg-cavern-950 p-4">
               <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-safety-400">
                 <Coins className="h-4 w-4" aria-hidden="true" />
                 <span>Tarife și Condiții Financiare (Conform Sursă)</span>
@@ -84,7 +84,7 @@ export function TechnicalSpecsCard({
           {specs.map((spec, idx) => (
             <div
               key={idx}
-              className="rounded-xl border border-cavern-700/80 bg-cavern-900/60 p-3.5 transition hover:border-cavern-600"
+              className="rounded-none border border-cavern-700/80 bg-cavern-950/70 p-3.5 transition hover:border-cavern-600"
             >
               <dt className="text-xs font-semibold uppercase tracking-wide text-limestone-400">
                 {spec.label}

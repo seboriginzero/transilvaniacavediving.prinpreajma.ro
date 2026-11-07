@@ -63,7 +63,7 @@ export function ContactForm() {
     <>
       <form
         onSubmit={handleSubmit}
-        className="flex h-full flex-col justify-between rounded-2xl border border-cavern-700 bg-cavern-800/90 p-6 sm:p-8 shadow-xl"
+        className="flex h-full flex-col justify-between rounded-none skeuo-glass p-6 sm:p-8"
         noValidate
       >
         <div className="space-y-5 flex-1 flex flex-col">
@@ -85,7 +85,7 @@ export function ContactForm() {
             <button
               type="button"
               onClick={() => setIsLogoModalOpen(true)}
-              className="group relative shrink-0 overflow-hidden rounded-xl border border-cavern-700 bg-black p-1.5 shadow-md transition hover:border-karst-400 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-karst-400"
+              className="group relative shrink-0 overflow-hidden rounded-none border border-cavern-700 bg-black p-1.5 shadow-md transition hover:border-karst-400 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-karst-400"
               title="Apasă pentru vizualizare pe tot ecranul"
               aria-label="Apasă pentru vizualizare completă siglă Transilvania"
             >
@@ -130,7 +130,7 @@ export function ContactForm() {
                 value={name}
                 onChange={(e) => setName(e.target.value)}
                 placeholder="Ex: Andrei Popescu"
-                className="mt-1.5 w-full rounded-xl border border-cavern-600 bg-cavern-950 px-3.5 py-2.5 text-sm text-limestone-100 placeholder-limestone-400 focus:border-karst-400 focus:outline-none focus:ring-1 focus:ring-karst-400"
+                className="mt-1.5 w-full rounded-none skeuo-input px-3.5 py-2.5 text-sm text-limestone-100 placeholder-limestone-400 focus:border-karst-400 focus:outline-none"
               />
             </div>
 
@@ -147,7 +147,7 @@ export function ContactForm() {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 placeholder="nume@exemplu.ro"
-                className="mt-1.5 w-full rounded-xl border border-cavern-600 bg-cavern-950 px-3.5 py-2.5 text-sm text-limestone-100 placeholder-limestone-400 focus:border-karst-400 focus:outline-none focus:ring-1 focus:ring-karst-400"
+                className="mt-1.5 w-full rounded-none skeuo-input px-3.5 py-2.5 text-sm text-limestone-100 placeholder-limestone-400 focus:border-karst-400 focus:outline-none"
               />
             </div>
           </div>
@@ -165,7 +165,7 @@ export function ContactForm() {
                 value={phone}
                 onChange={(e) => setPhone(e.target.value)}
                 placeholder="+40 7xx xxx xxx"
-                className="mt-1.5 w-full rounded-xl border border-cavern-600 bg-cavern-950 px-3.5 py-2.5 text-sm text-limestone-100 placeholder-limestone-400 focus:border-karst-400 focus:outline-none focus:ring-1 focus:ring-karst-400"
+                className="mt-1.5 w-full rounded-none skeuo-input px-3.5 py-2.5 text-sm text-limestone-100 placeholder-limestone-400 focus:border-karst-400 focus:outline-none"
               />
             </div>
 
@@ -178,7 +178,7 @@ export function ContactForm() {
                 name="subject"
                 value={subject}
                 onChange={(e) => setSubject(e.target.value)}
-                className="mt-1.5 w-full rounded-xl border border-cavern-600 bg-cavern-950 px-3.5 py-2.5 text-sm text-limestone-100 focus:border-karst-400 focus:outline-none focus:ring-1 focus:ring-karst-400"
+                className="mt-1.5 w-full rounded-none skeuo-input px-3.5 py-2.5 text-sm text-limestone-100 focus:border-karst-400 focus:outline-none"
               >
                 <option value="Programare vizită Grota Ursului / Speoturism">
                   Programare vizită Grota Ursului / Speoturism
@@ -210,14 +210,14 @@ export function ContactForm() {
               value={message}
               onChange={(e) => setMessage(e.target.value)}
               placeholder="Specificați numărul de persoane, perioada dorită sau detaliile solicitării..."
-              className="mt-1.5 w-full flex-1 min-h-[140px] resize-none rounded-xl border border-cavern-600 bg-cavern-950 px-3.5 py-2.5 text-sm text-limestone-100 placeholder-limestone-400 focus:border-karst-400 focus:outline-none focus:ring-1 focus:ring-karst-400"
+              className="mt-1.5 w-full flex-1 min-h-[140px] resize-none rounded-none skeuo-input px-3.5 py-2.5 text-sm text-limestone-100 placeholder-limestone-400 focus:border-karst-400 focus:outline-none"
             />
           </div>
 
           {status === 'error' && (
             <div
               role="alert"
-              className="flex items-center gap-2.5 rounded-xl border border-red-500/50 bg-red-950/60 px-4 py-3 text-xs text-red-200"
+              className="flex items-center gap-2.5 rounded-none border border-red-500/50 bg-red-950/60 px-4 py-3 text-xs text-red-200"
             >
               <AlertCircle className="h-4 w-4 shrink-0 text-red-400" />
               <span>{feedback}</span>
@@ -227,7 +227,7 @@ export function ContactForm() {
           {status === 'success' && (
             <div
               role="status"
-              className="flex items-center gap-2.5 rounded-xl border border-karst-500/50 bg-karst-950/50 px-4 py-3 text-xs text-karst-300"
+              className="flex items-center gap-2.5 rounded-none border border-karst-500/50 bg-karst-950/50 px-4 py-3 text-xs text-karst-300"
             >
               <CheckCircle2 className="h-4 w-4 shrink-0 text-karst-400" />
               <span>{feedback}</span>
@@ -239,7 +239,7 @@ export function ContactForm() {
           <button
             type="submit"
             disabled={status === 'submitting'}
-            className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-karst-600 px-6 py-3 text-sm font-bold text-cavern-950 shadow-lg transition hover:bg-karst-500 disabled:opacity-50 sm:w-auto"
+            className="inline-flex w-full items-center justify-center gap-2 rounded-none skeuo-button-primary px-6 py-3 text-sm font-bold text-white shadow-lg disabled:opacity-50 sm:w-auto"
           >
             <Send className="h-4 w-4" aria-hidden="true" />
             <span>{status === 'submitting' ? 'Se trimite solicitarea...' : 'Trimite Mesajul'}</span>

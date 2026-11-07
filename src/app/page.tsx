@@ -114,13 +114,15 @@ export default function HomePage() {
       {/* ───────────── Grota Ursului feature ───────────── */}
       <section className="mx-auto max-w-[1440px] px-5 py-20 sm:px-8 lg:px-12 lg:py-28">
         <div className="grid grid-cols-1 items-center gap-10 lg:grid-cols-12 lg:gap-16">
-          <div className="overflow-hidden rounded-3xl bg-white shadow-xl lg:col-span-7">
-            <img
-              src="/media/logos/logo-grota-ursului-2025.jpg"
-              alt="Grota Ursului Moneasa"
-              loading="lazy"
-              className="aspect-[3/2] w-full object-cover"
-            />
+          <div className="overflow-hidden rounded-none skeuo-glass p-1.5 lg:col-span-7">
+            <div className="overflow-hidden rounded-none border border-black/20 bg-white">
+              <img
+                src="/media/logos/logo-grota-ursului-2025.jpg"
+                alt="Grota Ursului Moneasa"
+                loading="lazy"
+                className="aspect-[3/2] w-full object-cover"
+              />
+            </div>
           </div>
 
           <div className="lg:col-span-5">
@@ -190,13 +192,15 @@ export default function HomePage() {
           <div className="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:grid-cols-4">
             {DESTINATIONS.map((d) => (
               <Link key={d.href} href={d.href} className="group block">
-                <div className="overflow-hidden rounded-2xl bg-black">
-                  <img
-                    src={d.img}
-                    alt={d.title}
-                    loading="lazy"
-                    className="aspect-[4/5] w-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.04]"
-                  />
+                <div className="overflow-hidden rounded-none skeuo-glass p-1">
+                  <div className="overflow-hidden rounded-none bg-black">
+                    <img
+                      src={d.img}
+                      alt={d.title}
+                      loading="lazy"
+                      className="aspect-[4/5] w-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.04]"
+                    />
+                  </div>
                 </div>
                 <p className="mt-5 text-[11px] font-semibold uppercase tracking-[0.18em] text-limestone-400">
                   {d.kicker}
@@ -230,18 +234,22 @@ export default function HomePage() {
               </p>
 
               <figure className="mt-10 grid grid-cols-2 gap-4">
-                <img
-                  src="/media/pestera-liliecilor/p1040534.jpg"
-                  alt="Portretul lui Czárán Gyula"
-                  loading="lazy"
-                  className="aspect-[4/5] w-full rounded-2xl object-cover"
-                />
-                <img
-                  src="/media/cave-diving/menyhaza1904.webp"
-                  alt="Lacul cu pești din Moneasa, carte poștală din 1904"
-                  loading="lazy"
-                  className="aspect-[4/5] w-full rounded-2xl object-cover"
-                />
+                <div className="overflow-hidden rounded-none skeuo-glass p-1">
+                  <img
+                    src="/media/pestera-liliecilor/p1040534.jpg"
+                    alt="Portretul lui Czárán Gyula"
+                    loading="lazy"
+                    className="aspect-[4/5] w-full rounded-none object-cover"
+                  />
+                </div>
+                <div className="overflow-hidden rounded-none skeuo-glass p-1">
+                  <img
+                    src="/media/cave-diving/menyhaza1904.webp"
+                    alt="Lacul cu pești din Moneasa, carte poștală din 1904"
+                    loading="lazy"
+                    className="aspect-[4/5] w-full rounded-none object-cover"
+                  />
+                </div>
                 <figcaption className="col-span-2 text-xs text-limestone-400">
                   Czárán Gyula · „Halastó” (Lacul cu pești), Menyháza, carte poștală din 1904.
                 </figcaption>
@@ -252,7 +260,7 @@ export default function HomePage() {
               <ol className="relative border-l border-cavern-700">
                 {TIMELINE.map((t) => (
                   <li key={t.year} className="relative pb-10 pl-8 last:pb-0">
-                    <span className="absolute -left-[5px] top-2 h-2.5 w-2.5 rounded-full bg-karst-400" />
+                    <span className="absolute -left-[5px] top-2 h-2.5 w-2.5 rounded-none bg-karst-400" />
                     <p className="font-display text-3xl font-semibold tabular-nums text-limestone-50">{t.year}</p>
                     <p className="mt-2 max-w-xl text-base leading-relaxed text-limestone-300">{t.text}</p>
                   </li>
@@ -262,13 +270,13 @@ export default function HomePage() {
               <div className="mt-12 flex flex-wrap gap-3 pl-8">
                 <Link
                   href="/statiunea-moneasa"
-                  className="inline-flex items-center gap-2 rounded-full bg-limestone-50 px-6 py-3 text-sm font-semibold text-cavern-950 transition hover:opacity-90"
+                  className="inline-flex items-center gap-2 rounded-none skeuo-button-primary px-6 py-3 text-sm font-semibold text-white"
                 >
                   Monografia stațiunii <ArrowRight className="h-4 w-4" />
                 </Link>
                 <Link
                   href="/czaran-gyula"
-                  className="inline-flex items-center gap-2 rounded-full border border-cavern-600 px-6 py-3 text-sm font-semibold text-limestone-50 transition hover:bg-cavern-800"
+                  className="inline-flex items-center gap-2 rounded-none skeuo-button-secondary px-6 py-3 text-sm font-semibold text-limestone-50"
                 >
                   Biografia Czárán Gyula
                 </Link>
@@ -279,7 +287,7 @@ export default function HomePage() {
       </section>
 
       {/* ───────────── Școala Altfel ───────────── */}
-      <section className="theme-hero-dark bg-[#0f2a1c] text-white">
+      <section className="theme-hero-dark bg-[#0f2a1c] text-white border-t border-cavern-700">
         <div className="mx-auto flex max-w-[1440px] flex-col gap-8 px-5 py-16 sm:px-8 lg:flex-row lg:items-center lg:justify-between lg:px-12 lg:py-20">
           <div className="max-w-2xl">
             <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-white/60">
@@ -295,7 +303,7 @@ export default function HomePage() {
           </div>
           <Link
             href="/moneasa-adventure"
-            className="inline-flex shrink-0 items-center gap-2 self-start rounded-full bg-white px-6 py-3 text-sm font-semibold text-neutral-950 transition hover:bg-white/90 lg:self-auto"
+            className="inline-flex shrink-0 items-center gap-2 self-start rounded-none bg-white px-6 py-3 text-sm font-semibold text-neutral-950 transition hover:bg-white/90 lg:self-auto shadow-[0_4px_14px_rgba(0,0,0,0.4)]"
           >
             Vezi programele <ArrowRight className="h-4 w-4" />
           </Link>

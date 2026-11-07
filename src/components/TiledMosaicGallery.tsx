@@ -268,7 +268,7 @@ export function TiledMosaicGallery({
             type="button"
             onClick={() => setActiveIndex(index)}
             aria-label={`Mărește imaginea: ${img.alt || `Logo ${index + 1}`}`}
-            className="overflow-hidden rounded-xl border border-cavern-600 bg-white p-3 shadow-md transition hover:scale-[1.02] focus:outline-none focus:ring-2 focus:ring-karst-400"
+            className="overflow-hidden rounded-none border border-cavern-600 bg-white p-3 shadow-md transition hover:scale-[1.02] focus:outline-none focus:ring-2 focus:ring-karst-400"
           >
             <img
               src={img.src}
@@ -289,7 +289,7 @@ export function TiledMosaicGallery({
         style={{
           transitionDelay: `${Math.min(delayMs, 350)}ms`,
         }}
-        className={`tiled-mosaic-item group relative w-full overflow-hidden rounded-xl border border-cavern-700/90 bg-cavern-950 shadow-md ${
+        className={`tiled-mosaic-item group relative w-full overflow-hidden rounded-none skeuo-glass ${
           isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-3'
         }`}
       >
@@ -310,7 +310,7 @@ export function TiledMosaicGallery({
           />
 
           {/* Clean hover expand icon */}
-          <span className="absolute right-2.5 top-2.5 flex h-7 w-7 items-center justify-center rounded-lg border border-white/20 bg-black/70 text-white opacity-0 backdrop-blur-sm transition-all duration-300 group-hover:scale-100 group-hover:opacity-100 scale-90">
+          <span className="absolute right-2.5 top-2.5 flex h-7 w-7 items-center justify-center rounded-none border border-white/20 bg-black/70 text-white opacity-0 backdrop-blur-sm transition-all duration-300 group-hover:scale-100 group-hover:opacity-100 scale-90">
             <Maximize2 className="h-3.5 w-3.5" aria-hidden="true" />
           </span>
 
@@ -388,7 +388,7 @@ export function TiledMosaicGallery({
           >
             {/* Top Bar */}
             <div className="mb-2.5 flex w-full items-center justify-between text-xs text-limestone-300">
-              <span className="inline-flex items-center gap-2 rounded-full border border-cavern-700 bg-cavern-900/90 px-3.5 py-1.5 font-mono">
+              <span className="inline-flex items-center gap-2 rounded-none border border-cavern-700 bg-cavern-900/90 px-3.5 py-1.5 font-mono">
                 <Camera className="h-3.5 w-3.5 text-karst-400" />
                 Fotografia {activeIndex + 1} din {enriched.length}
               </span>
@@ -396,7 +396,7 @@ export function TiledMosaicGallery({
                 type="button"
                 onClick={() => setActiveIndex(null)}
                 aria-label="Închide galeria foto"
-                className="inline-flex items-center gap-1.5 rounded-lg border border-cavern-700 bg-cavern-800 px-3.5 py-1.5 text-limestone-100 transition hover:border-karst-400 hover:text-karst-400"
+                className="inline-flex items-center gap-1.5 rounded-none skeuo-button-secondary px-3.5 py-1.5 text-limestone-100 transition hover:border-karst-400 hover:text-karst-400"
               >
                 <span>Închide (Esc)</span>
                 <X className="h-4 w-4" />
@@ -404,13 +404,13 @@ export function TiledMosaicGallery({
             </div>
 
             {/* Main Image Stage */}
-            <div className="relative flex w-full items-center justify-center overflow-hidden rounded-2xl border border-cavern-700 bg-cavern-900/90 p-2 shadow-2xl">
+            <div className="relative flex w-full items-center justify-center overflow-hidden rounded-none skeuo-glass p-2 shadow-2xl">
               {enriched.length > 1 && (
                 <button
                   type="button"
                   onClick={handlePrev}
                   aria-label="Fotografia anterioară"
-                  className="absolute left-3 z-10 rounded-full border border-cavern-600 bg-cavern-950/85 p-2.5 text-limestone-100 transition hover:scale-105 hover:border-karst-400 hover:text-karst-400"
+                  className="absolute left-3 z-10 rounded-none skeuo-button-secondary p-2.5 text-limestone-100 transition hover:scale-105 hover:border-karst-400 hover:text-karst-400"
                 >
                   <ChevronLeft className="h-6 w-6" />
                 </button>
@@ -422,7 +422,7 @@ export function TiledMosaicGallery({
                 alt={activeItem.img.alt || 'Imagine mărită'}
                 width={activeItem.dims.width}
                 height={activeItem.dims.height}
-                className="max-h-[70vh] w-auto max-w-full rounded-lg object-contain transition-all duration-300"
+                className="max-h-[70vh] w-auto max-w-full rounded-none object-contain transition-all duration-300"
               />
 
               {enriched.length > 1 && (
@@ -430,7 +430,7 @@ export function TiledMosaicGallery({
                   type="button"
                   onClick={handleNext}
                   aria-label="Fotografia următoare"
-                  className="absolute right-3 z-10 rounded-full border border-cavern-600 bg-cavern-950/85 p-2.5 text-limestone-100 transition hover:scale-105 hover:border-karst-400 hover:text-karst-400"
+                  className="absolute right-3 z-10 rounded-none skeuo-button-secondary p-2.5 text-limestone-100 transition hover:scale-105 hover:border-karst-400 hover:text-karst-400"
                 >
                   <ChevronRight className="h-6 w-6" />
                 </button>
@@ -441,7 +441,7 @@ export function TiledMosaicGallery({
             <div className="mt-2.5 w-full space-y-2.5">
               {(isMeaningfulCaption(activeItem.img.caption) ||
                 activeItem.img.credit) && (
-                <div className="w-full rounded-xl border border-cavern-800 bg-cavern-900/90 px-4 py-2.5 text-center text-sm text-limestone-100">
+                <div className="w-full rounded-none skeuo-glass px-4 py-2.5 text-center text-sm text-limestone-100">
                   {isMeaningfulCaption(activeItem.img.caption) && (
                     <p className="font-medium">{activeItem.img.caption}</p>
                   )}
@@ -461,7 +461,7 @@ export function TiledMosaicGallery({
                       type="button"
                       onClick={() => setActiveIndex(tIdx)}
                       aria-label={`Selectează fotografia ${tIdx + 1}`}
-                      className={`relative h-12 w-16 shrink-0 overflow-hidden rounded-md border bg-cavern-950 transition-all ${
+                      className={`relative h-12 w-16 shrink-0 overflow-hidden rounded-none border bg-cavern-950 transition-all ${
                         tIdx === activeIndex
                           ? 'border-karst-400 ring-2 ring-karst-400/50 scale-105'
                           : 'border-cavern-700 opacity-55 hover:opacity-90'

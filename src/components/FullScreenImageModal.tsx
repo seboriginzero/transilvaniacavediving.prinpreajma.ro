@@ -54,14 +54,14 @@ export function FullScreenImageModal({
         <button
           type="button"
           onClick={onClose}
-          className="absolute -top-12 right-0 inline-flex items-center gap-1.5 rounded-full border border-cavern-600 bg-cavern-900/90 px-4 py-1.5 text-xs font-semibold text-limestone-100 shadow-xl transition hover:border-karst-400 hover:text-white"
+          className="absolute -top-12 right-0 inline-flex items-center gap-1.5 rounded-none skeuo-button-secondary px-4 py-1.5 text-xs font-semibold text-limestone-100 shadow-xl transition hover:border-karst-400 hover:text-white"
           aria-label="Închide vizualizarea ecran complet"
         >
           <X className="h-4 w-4" />
           <span>Închide (ESC)</span>
         </button>
 
-        <div className="overflow-hidden rounded-2xl border border-cavern-700 bg-black p-3 shadow-2xl">
+        <div className="overflow-hidden rounded-none skeuo-glass p-2 shadow-2xl">
           <img
             src={src}
             alt={alt}

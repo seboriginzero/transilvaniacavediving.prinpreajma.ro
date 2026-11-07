@@ -36,7 +36,7 @@ export function MediaGallery({
           <Camera className="h-5 w-5 text-karst-400" aria-hidden="true" />
           <h2 className="font-serif text-2xl font-bold text-limestone-100">{title}</h2>
         </div>
-        <span className="rounded-full border border-cavern-700 bg-cavern-800 px-3.5 py-1 font-mono text-xs text-limestone-300">
+        <span className="rounded-none border border-cavern-700 bg-cavern-900 px-3 py-1 font-mono text-xs text-limestone-300">
           {validImages.length} {validImages.length === 1 ? 'fotografie' : 'fotografii'} în galerie (click pentru mărire)
         </span>
       </div>
