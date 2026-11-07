@@ -70,6 +70,12 @@ export default function RootLayout({
         />
       </head>
       <body className="flex min-h-screen flex-col bg-cavern-950 font-sans text-limestone-100 antialiased selection:bg-karst-600 selection:text-white">
+        <a
+          href="#main-content"
+          className="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-[150] focus:rounded-full focus:bg-karst-600 focus:px-4 focus:py-2 focus:text-xs focus:font-bold focus:uppercase focus:tracking-wider focus:text-white focus:shadow-2xl focus:outline-none focus:ring-2 focus:ring-white"
+        >
+          Sari la conținutul principal
+        </a>
         <Header navigation={navigation} phonePrimary={company.phonePrimary} />
         <main id="main-content" className="flex-1">
           {children}

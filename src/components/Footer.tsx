@@ -71,7 +71,7 @@ export function Footer({ company }: FooterProps) {
             </p>
           </div>
           <div className="flex shrink-0 items-center gap-3 text-xs">
-            <span className="rounded-md border border-safety-500/40 bg-safety-500/10 px-2.5 py-1 text-safety-400 font-semibold">
+            <span className="rounded-md border border-safety-500/40 bg-safety-500/10 px-2.5 py-1 text-safety-400 font-semibold shadow-[0_0_15px_rgba(240,165,60,0.18)]">
               Urgențe: 112
             </span>
             <span className="rounded-md border border-cavern-700 bg-cavern-800 px-2.5 py-1 text-limestone-200">

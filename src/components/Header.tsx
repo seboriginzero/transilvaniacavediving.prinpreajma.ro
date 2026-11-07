@@ -163,6 +163,22 @@ export function Header({ navigation, phonePrimary }: HeaderProps) {
     };
   }, []);
 
+  // Close dropdowns & modals on Escape key
+  useEffect(() => {
+    function handleKeyDown(event: KeyboardEvent) {
+      if (event.key === 'Escape') {
+        setMobileOpen(false);
+        setOpenDropdown(null);
+        setLangDropdownOpen(false);
+        setLogoHovered(false);
+      }
+    }
+    document.addEventListener('keydown', handleKeyDown);
+    return () => {
+      document.removeEventListener('keydown', handleKeyDown);
+    };
+  }, []);
+
   const toggleTheme = () => {
     const nextTheme: ThemeMode = theme === 'dark' ? 'light' : 'dark';
     setTheme(nextTheme);
@@ -307,14 +323,14 @@ export function Header({ navigation, phonePrimary }: HeaderProps) {
           <div className="flex items-center gap-2 sm:gap-3">
             <Link
               href="/contact"
-              className="inline-flex h-9 items-center rounded-full bg-karst-600 px-4 text-xs font-bold text-white shadow-sm transition hover:bg-karst-500"
+              className="inline-flex h-9 items-center rounded-full bg-karst-600 px-4 text-xs font-bold text-white shadow-sm transition hover:bg-karst-500 active:scale-95"
             >
               {currentLang === 'en' ? 'Contact' : currentLang === 'hu' ? 'Kapcsolat' : 'Contact'}
             </Link>
             <button
               onClick={toggleTheme}
               aria-label="Schimbă tema"
-              className="flex h-9 w-9 items-center justify-center rounded-full text-limestone-300 transition hover:bg-cavern-800 hover:text-limestone-50"
+              className="flex h-9 w-9 items-center justify-center rounded-full text-limestone-300 transition hover:bg-cavern-800 hover:text-limestone-50 active:scale-90"
             >
               {theme === 'dark' ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
             </button>
@@ -325,7 +341,7 @@ export function Header({ navigation, phonePrimary }: HeaderProps) {
                 type="button"
                 onClick={() => setLangDropdownOpen(!langDropdownOpen)}
                 aria-expanded={langDropdownOpen}
-                className="inline-flex h-9 items-center gap-1.5 rounded-full border border-cavern-700 bg-cavern-900/80 px-3 text-xs font-semibold text-limestone-200 transition hover:border-karst-400 hover:text-limestone-50"
+                className="inline-flex h-9 items-center gap-1.5 rounded-full border border-cavern-700 bg-cavern-900/80 px-3 text-xs font-semibold text-limestone-200 transition hover:border-karst-400 hover:text-limestone-50 active:scale-95"
                 title="Selectează limba / Select language / Nyelvválasztás"
               >
                 <Globe className="h-3.5 w-3.5 text-karst-400" />
@@ -429,7 +445,7 @@ export function Header({ navigation, phonePrimary }: HeaderProps) {
 
             <button
               onClick={() => setMobileOpen(!mobileOpen)}
-              className="flex h-9 w-9 items-center justify-center rounded-full text-limestone-200 hover:bg-cavern-800 lg:hidden"
+              className="flex h-9 w-9 items-center justify-center rounded-full text-limestone-200 hover:bg-cavern-800 active:scale-90 lg:hidden"
               aria-label={mobileOpen ? 'Închide meniul' : 'Deschide meniul'}
             >
               {mobileOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}

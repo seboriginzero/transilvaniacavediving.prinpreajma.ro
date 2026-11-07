@@ -150,6 +150,11 @@ export function HeroCarousel({ settings }: HeroCarouselProps) {
       onMouseLeave={() => setPaused(false)}
       className="theme-hero-dark relative isolate h-[calc(100svh-4rem)] min-h-[620px] max-h-[1000px] w-full overflow-hidden bg-black text-white"
     >
+      {/* Screen-reader announcement for active slide */}
+      <div className="sr-only" aria-live="polite" aria-atomic="true">
+        {`Diapozitivul ${index + 1} din ${slides.length}: ${slide.title} — ${slide.eyebrow}`}
+      </div>
+
       {/* Photography — full bleed, untouched colours */}
       {slides.map((s, i) => (
         <div
@@ -238,14 +243,14 @@ export function HeroCarousel({ settings }: HeroCarouselProps) {
           <div className="mt-8 flex flex-wrap items-center gap-3">
             <Link
               href={slide.linkHref}
-              className="group inline-flex items-center gap-2 rounded-full bg-white px-6 py-3 text-sm font-semibold text-neutral-950 transition hover:bg-white/90"
+              className="group inline-flex items-center gap-2 rounded-full bg-white px-6 py-3 text-sm font-semibold text-neutral-950 transition hover:bg-white/90 active:scale-[0.97]"
             >
               {slide.linkLabel}
               <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
             </Link>
             <Link
               href="/contact"
-              className="inline-flex items-center gap-2 rounded-full border border-white/35 px-6 py-3 text-sm font-semibold text-white transition hover:border-white/60 hover:bg-white/10"
+              className="inline-flex items-center gap-2 rounded-full border border-white/35 px-6 py-3 text-sm font-semibold text-white transition hover:border-white/60 hover:bg-white/10 active:scale-[0.97]"
             >
               Programează o vizită
             </Link>
@@ -298,7 +303,7 @@ export function HeroCarousel({ settings }: HeroCarouselProps) {
               type="button"
               onClick={prev}
               aria-label="Diapozitiv anterior"
-              className="flex h-10 w-10 items-center justify-center rounded-full border border-white/30 text-white transition hover:bg-white/10"
+              className="flex h-11 w-11 items-center justify-center rounded-full border border-white/30 text-white transition hover:bg-white/10 active:scale-95"
             >
               <ChevronLeft className="h-4 w-4" />
             </button>
@@ -306,7 +311,7 @@ export function HeroCarousel({ settings }: HeroCarouselProps) {
               type="button"
               onClick={next}
               aria-label="Diapozitiv următor"
-              className="flex h-10 w-10 items-center justify-center rounded-full border border-white/30 text-white transition hover:bg-white/10"
+              className="flex h-11 w-11 items-center justify-center rounded-full border border-white/30 text-white transition hover:bg-white/10 active:scale-95"
             >
               <ChevronRight className="h-4 w-4" />
             </button>
