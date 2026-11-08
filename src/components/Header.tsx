@@ -221,7 +221,7 @@ export function Header({ navigation, phonePrimary }: HeaderProps) {
 
   return (
     <>
-      <header className="sticky top-0 z-50 h-16 max-h-16 w-full border-b border-cavern-700/70 bg-cavern-950/90 backdrop-blur-xl" style={{ height: '4rem', maxHeight: '4rem' }}>
+      <header className="sticky top-0 z-50 h-16 max-h-16 w-full border-b border-cavern-700 bg-cavern-950 shadow-md" style={{ height: '4rem', maxHeight: '4rem' }}>
         <div className="mx-auto flex h-full max-w-[1440px] items-center justify-between gap-6 px-5 sm:px-8 lg:px-12">
           <div
             className="relative shrink-0"
@@ -241,7 +241,7 @@ export function Header({ navigation, phonePrimary }: HeaderProps) {
                 style={{ position: 'absolute', top: '100%', left: 0, zIndex: 60 }}
                 className="pt-2 animate-lightbox-content pointer-events-auto"
               >
-                <div className="w-72 sm:w-80 overflow-hidden rounded-none skeuo-glass p-2">
+                <div className="w-72 sm:w-80 overflow-hidden rounded-none border border-cavern-700 bg-cavern-900 p-2 shadow-2xl">
                   <div className="relative aspect-[828/934] w-full overflow-hidden rounded-none bg-black border border-white/10">
                     <img
                       src="/media/logos/transilvania-logo-full.jpg"
@@ -289,7 +289,7 @@ export function Header({ navigation, phonePrimary }: HeaderProps) {
                     </button>
                     {isOpen && (
                       <div className="absolute left-0 top-full w-72 pt-1">
-                        <div className="rounded-none skeuo-glass p-1.5 animate-fade-in">
+                        <div className="rounded-none border border-cavern-700 bg-cavern-900 p-1.5 shadow-2xl animate-fade-in">
                           {item.children.map((child) => (
                             <Link
                               key={child.href}
@@ -349,7 +349,7 @@ export function Header({ navigation, phonePrimary }: HeaderProps) {
                 <ChevronDown className={`h-3 w-3 transition-transform ${langDropdownOpen ? 'rotate-180' : ''}`} />
               </button>
               {langDropdownOpen && (
-                <div className="absolute right-0 top-full mt-2 w-64 rounded-none skeuo-glass p-2 z-50">
+                <div className="absolute right-0 top-full mt-2 w-64 rounded-none border border-cavern-700 bg-cavern-900 p-2 z-50 shadow-2xl">
                   <div className="px-2.5 py-1.5 text-[11px] font-mono font-bold uppercase tracking-wider text-karst-400 border-b border-cavern-700/70">
                     Limbă / Language / Nyelv
                   </div>
@@ -457,7 +457,7 @@ export function Header({ navigation, phonePrimary }: HeaderProps) {
       {mobileOpen && (
         <div className="fixed inset-x-0 bottom-0 top-16 z-40 overflow-y-auto bg-cavern-950 px-5 pb-10 pt-4 lg:hidden">
           {/* Mobile Language Switcher */}
-          <div className="mb-6 rounded-none skeuo-glass p-4">
+          <div className="mb-6 rounded-none border border-cavern-700 bg-cavern-900 p-4 shadow-xl">
             <span className="block text-xs font-mono uppercase tracking-wider text-karst-400 mb-2">
               Selectează limba / Language / Nyelv:
             </span>

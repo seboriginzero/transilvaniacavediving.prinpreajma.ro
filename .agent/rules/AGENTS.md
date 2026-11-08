@@ -28,7 +28,7 @@ Acest depozit găzduiește platforma web modernă **Transilvania Cave Diving** (
 - **Integritatea subiectelor foto**:
   - Slide-ul 4 din carusel (*Peștera Liliecilor*) trebuie să afișeze liliacul în întregime, inclusiv capul poziționat la baza fotografiei (`fit: 'contain-right'` pe desktop, mască superioară pe mobil).
   - Secțiunea Grota Ursului de pe prima pagină folosește schița originală `logo-grota-ursului-2025.jpg` cu raportul de aspect complet `aspect-[3/2]`, fără nicio decupare a desenului sau textului.
-- **Header minimalist**: Înălțime fixă 64px, fundal translucid cu blur (`backdrop-blur-md`), meniu structurat: *Acasă*, *Obiective și Trasee* (dropdown), *Istorie și Patrimoniu* (dropdown), *Contact* (buton pill accentuat), selector limbă și comutator temă dark/light.
+- **Header minimalist și opac (non-transparent)**: Înălțime fixă 64px, fundal 100% opac (`bg-cavern-950`), fără transparență sau efecte de blur care să suprapună sau să întrepătrundă conținutul derulat, meniuri dropdown opace (`bg-cavern-900`), meniu structurat: *Acasă*, *Obiective și Trasee* (dropdown), *Istorie și Patrimoniu* (dropdown), *Contact*, selector limbă și comutator temă dark/light.
 
 ---
 
